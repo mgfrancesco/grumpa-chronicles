@@ -11,7 +11,7 @@
     "war",
     "law"
   ],
-  "status": "checked",
+  "status": "draft",
   "verified": {
     "by": "checker agent, two passes",
     "date": "2026-11-13",
@@ -41,6 +41,18 @@
     "Musei Capitolini": {
       "label": "Musei Capitolini, Portrait of Cicero, inv. MC0589",
       "url": "https://museicapitolini.org/en/node/2670"
+    },
+    "Carroll 2025": {
+      "label": "M. Carroll, 'Blood-Splattered Tunics: Textile Trophies in the Funerary Iconography of Campania and Lucania, Italy, in the 4th Century BC', in L. Iancu and F. Meo (eds.), Textiles and War in Europe and the Mediterranean from Prehistory to Late Antiquity (Oxford: Archaeopress, 2025) 132–149 (repository title 'Blood-spattered tunics'), doi:10.32028/9781805830801",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/236547/"
+    },
+    "Getty 96.AC.232.b": {
+      "label": "J. Paul Getty Museum, Back Panel of a Three-Disk Cuirass, 96.AC.232.b (collection record)",
+      "url": "https://www.getty.edu/art/collection/object/107VVS"
+    },
+    "Daniele 1778": {
+      "label": "F. Daniele, Le Forche Caudine illustrate (Caserta, 1778), engraved plates",
+      "url": "https://commons.wikimedia.org/wiki/File:Pianta_delle_Forche_Caudine_-_Daniele1778.jpg"
     }
   },
   "steps": [
@@ -56,6 +68,23 @@
             "Livy 9.1.2"
           ],
           "confidence": "attested"
+        },
+        {
+          "id": "b1-nola",
+          "text": "Victors coming home, painted in a tomb at Nola about 330–320 BC, the years of Caudium. The leader carries a dead enemy's tunic on his spear. Nola sided with the Samnites: Livy has 2,000 Nolans let into Palaepolis with 4,000 Samnites in 327, at Nola's insistence.",
+          "cites": [
+            "Carroll 2025, 136 fig. 4, 143",
+            "Livy 8.22.8",
+            "Livy 8.23.1"
+          ],
+          "confidence": "inferred",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/nola-cimitile-warriors.jpg",
+            "alt": "Wall painting with rosette and meander borders above and a wave border below. From left: a figure in a long robe holding out a bowl; a warrior in a helmet with two tall curving plumes, cuirass and bronze belt with a white, red and blue patterned tunic hung from his spear; a warrior in a plumed helmet resting his hand on a round shield; a helmeted horseman; a man in a white cloak.",
+            "credit": "Naples, Museo Archeologico Nazionale, inv. 9363. Photo: Shonagon, 2022, public domain (PD-Art), via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Sc%C3%A8ne_du_retour_du_guerrier_-_Carafa_di_Noja,_Nola_-_Mus%C3%A9e_arch%C3%A9ologique_national_de_Naples_-_inv_9364.jpg"
+          }
         },
         {
           "id": "b1-2",
@@ -510,7 +539,8 @@
         "card-revenge-doubted",
         "card-livy-doubts",
         "card-where",
-        "card-yoke"
+        "card-yoke",
+        "card-trophies"
       ]
     }
   ],
@@ -562,9 +592,9 @@
           "confidence": "attested",
           "figure": {
             "kind": "photo",
-            "src": "https://commons.wikimedia.org/wiki/Special:FilePath/M._Tullius_Cicero,_Capitoline_Museum,_Rome.jpg?width=640",
+            "src": "art/photos/cicero-capitoline.jpg",
             "alt": "Marble bust of Cicero in the Capitoline Museums",
-            "credit": "Photo: Wilfredo Rafael Rodriguez Hernandez, CC0, via Wikimedia Commons",
+            "credit": "Photo: Wilfredo Rafael Rodriguez Hernandez, CC0, via Wikimedia Commons; resized.",
             "credit_url": "https://commons.wikimedia.org/wiki/File:M._Tullius_Cicero,_Capitoline_Museum,_Rome.jpg"
           }
         },
@@ -665,6 +695,54 @@
             "Salmon 1929, p. 12 nn. 3, 6"
           ],
           "confidence": "inferred"
+        },
+        {
+          "id": "card-where-plan",
+          "text": "Daniele's 1778 plan puts the Forks between Arienzo and Arpaia, with Livy's description lettered A to E onto the ground. Among his fifteen modern names is a monastery of S. Maria del Giogo; giogo is both yoke and ridge.",
+          "cites": [
+            "Daniele 1778, plate Pianta delle Forche Caudine",
+            "Livy 9.2.7–8"
+          ],
+          "confidence": "attested",
+          "figure": {
+            "kind": "map",
+            "src": "art/photos/daniele-1778-plan.jpg",
+            "alt": "Engraved plan titled Pianta delle Forche Caudine: a long valley between wooded mountains, the road running along it, letters A to E and numbers 1 to 15 on the ground, with two legends below headed Testo di T. Livio and Nomi moderni.",
+            "credit": "F. Daniele, Le Forche Caudine illustrate (Caserta, 1778); drawing attributed on Commons to D. de Laurentiis. Public domain, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Pianta_delle_Forche_Caudine_-_Daniele1778.jpg"
+          }
+        },
+        {
+          "id": "card-where-view",
+          "text": "Daniele's Tav. II: the valley from the Campanian side, the end the consuls would have entered coming from Calatia.",
+          "cites": [
+            "Daniele 1778, Tav. II",
+            "Livy 9.2.2"
+          ],
+          "confidence": "inferred",
+          "figure": {
+            "kind": "drawing",
+            "src": "art/photos/daniele-1778-view-campania.jpg",
+            "alt": "Engraving titled Tav. II, Prospetto della Valle Caudina dalla parte della Campania: a road leading between trees, past a small hut, towards a gap between two ranges of hills, under a cloudy sky.",
+            "credit": "F. Daniele, Le Forche Caudine illustrate (Caserta, 1778), Tav. II; drawn by D. de Laurentiis, engraved by Progeni. Public domain, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Prospetto_della_Valle_Caudina_dalla_parte_della_Campania_-_Daniele1778.jpg"
+          }
+        },
+        {
+          "id": "card-where-photo",
+          "text": "The narrows at Arpaia, from near Forchia, in 2015. Both places are on Daniele's plan (nos. 9 and 6).",
+          "cites": [
+            "Daniele 1778, plate Pianta delle Forche Caudine",
+            "Salmon 1929, p. 12 n. 3"
+          ],
+          "confidence": "inferred",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/arpaia-narrows.jpg",
+            "alt": "View down a green valley between a bare limestone mountain on the left and a wooded ridge on the right, with houses in the distance.",
+            "credit": "Photo: Decan, 2015, CC BY-SA 4.0, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Stretta_di_Arpaia_da_Forchia.jpg"
+          }
         }
       ]
     },
@@ -701,6 +779,56 @@
             "it_src": "ours",
             "cite": "Livy 3.28.11"
           }
+        }
+      ]
+    },
+    {
+      "id": "card-trophies",
+      "title": "Proof of the kill",
+      "tier": 3,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-trophies-fig",
+          "text": "Back panel of a Samnite three-disk cuirass, 4th century BC, with Hermes incised at the top. The Getty record gives no findspot; the first owner it names is Robin Symes, London, who sold it in 1988.",
+          "cites": [
+            "Getty 96.AC.232.b"
+          ],
+          "confidence": "attested",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/getty-three-disk-cuirass.jpg",
+            "alt": "Bronze plate with patches of green corrosion, shaped to three raised circular disks, two above and one below, with a faint incised figure at the top between the upper disks.",
+            "credit": "The J. Paul Getty Museum, Villa Collection, Malibu, gift of Barbara and Lawrence Fleischman. Image CC0 (Getty Open Content); resized.",
+            "credit_url": "https://www.getty.edu/art/collection/object/107VVS"
+          }
+        },
+        {
+          "id": "card-trophies-1",
+          "text": "In these paintings the victor brings home the dead man's tunic and bronze belt, the marks of an elite warrior, as proof of the kill. Carroll finds the tunic on a spear 16 times and on the horse's neck 14 times.",
+          "cites": [
+            "Carroll 2025, 140–143"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-trophies-2",
+          "text": "At the Samnite sanctuary of Pietrabbondante, armour of the 4th and 3rd centuries BC, three-disk cuirasses among it, had been nailed up for display.",
+          "cites": [
+            "Carroll 2025, 145"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-trophies-3",
+          "text": "Livy uses the same formula, one garment each, when Fabius sends the Samnites at Allifae under the yoke in 307. Carroll reads it as leaving a plain garment of little value, the costly battle dress taken. At Caudium the consuls lost even their paludamenta.",
+          "cites": [
+            "Livy 9.4.3",
+            "Livy 9.42.7",
+            "Livy 9.5.13",
+            "Carroll 2025, 147"
+          ],
+          "confidence": "inferred"
         }
       ]
     }
