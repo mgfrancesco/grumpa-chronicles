@@ -11,11 +11,11 @@
     "war",
     "law"
   ],
-  "status": "draft",
+  "status": "checked",
   "verified": {
     "by": "checker agent, two passes",
     "date": "2026-11-13",
-    "notes": "First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only. Figures (roads map, trap diagram, yoke, Cicero photo) checked in two further passes: Beneventum relabelled Maleventum (Livy 9.27.14); no road drawn beyond the Forks; rear barrier drawn generically per 9.2.10; Cicero date follows the museum (mid-1st c. BC), CC0 photo licence confirmed via a Commons mirror."
+    "notes": "First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only. Figures (roads map, trap diagram, yoke, Cicero photo) checked in two further passes: Beneventum relabelled Maleventum (Livy 9.27.14); no road drawn beyond the Forks; rear barrier drawn generically per 9.2.10; Cicero date follows the museum (mid-1st c. BC), CC0 photo licence confirmed via a Commons mirror. Photo pass (13 Nov 2026, two checker passes): Nola-Cimitile painting, Getty cuirass 96.AC.232.b, Daniele 1778 plan and Tav. II, Arpaia photo, and Cicero now served from art/photos/. Checked against Carroll 2025 (pp. 136, 140–147), the Getty linked-data record, Livy 8.22.8, 8.23.1, 9.2.2–8, 9.4.3, 9.5.12–13, 9.42.6–7, the plate legends and the Commons licence pages. Fixed: Palaepolis garrison 327 not 326; Carroll's p. 147 reading of 'singulis vestimentis' replaces a comparison wrongly called ours; Symes not called a dealer; Pietrabbondante 'some of the pieces'; de Laurentiis credited as a Commons attribution (plate unsigned). Nola inventory given as 9363 on Matthew's decision (Wikidata and Commons categories 9363, one Commons filename 9364; MANN catalogue not reachable). Daniele's title and date rest on Commons metadata; the Heidelberg copy was not reachable. Cicero licence now confirmed on Commons directly."
   },
   "sources": {
     "Livy": {
@@ -698,7 +698,7 @@
         },
         {
           "id": "card-where-plan",
-          "text": "Daniele's 1778 plan puts the Forks between Arienzo and Arpaia, with Livy's description lettered A to E onto the ground. Among his fifteen modern names is a monastery of S. Maria del Giogo; giogo is both yoke and ridge.",
+          "text": "Daniele's 1778 plan puts the Forks between Arienzo and Arpaia, with Livy's description lettered A to E onto the ground. Among his fifteen modern names is a monastery of S. Maria del Giogo.",
           "cites": [
             "Daniele 1778, plate Pianta delle Forche Caudine",
             "Livy 9.2.7–8"
@@ -714,10 +714,11 @@
         },
         {
           "id": "card-where-view",
-          "text": "Daniele's Tav. II: the valley from the Campanian side, the end the consuls would have entered coming from Calatia.",
+          "text": "Daniele's Tav. II: the valley from the Campanian side, the end the consuls would have entered coming from Calatia, if Daniele is right.",
           "cites": [
             "Daniele 1778, Tav. II",
-            "Livy 9.2.2"
+            "Livy 9.2.2",
+            "Livy 9.2.6"
           ],
           "confidence": "inferred",
           "figure": {
@@ -732,8 +733,7 @@
           "id": "card-where-photo",
           "text": "The narrows at Arpaia, from near Forchia, in 2015. Both places are on Daniele's plan (nos. 9 and 6).",
           "cites": [
-            "Daniele 1778, plate Pianta delle Forche Caudine",
-            "Salmon 1929, p. 12 n. 3"
+            "Daniele 1778, plate Pianta delle Forche Caudine"
           ],
           "confidence": "inferred",
           "figure": {
@@ -805,7 +805,7 @@
         },
         {
           "id": "card-trophies-1",
-          "text": "In these paintings the victor brings home the dead man's tunic and bronze belt, the marks of an elite warrior, as proof of the kill. Carroll finds the tunic on a spear 16 times and on the horse's neck 14 times.",
+          "text": "In the tomb paintings of Campania and Lucania the victor brings home the dead man's tunic and bronze belt, the marks of an elite warrior, as proof of the kill. Carroll finds the tunic on a spear 16 times and on the horse's neck 14 times.",
           "cites": [
             "Carroll 2025, 140–143"
           ],
@@ -813,7 +813,7 @@
         },
         {
           "id": "card-trophies-2",
-          "text": "At the Samnite sanctuary of Pietrabbondante, armour of the 4th and 3rd centuries BC, three-disk cuirasses among it, had been nailed up for display.",
+          "text": "At the Samnite sanctuary of Pietrabbondante, armour of the 4th and 3rd centuries BC was found, some of it, three-disk cuirasses among it, nailed up for display.",
           "cites": [
             "Carroll 2025, 145"
           ],
