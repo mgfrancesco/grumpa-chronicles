@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="The yoke: two spears fixed upright in the ground, a third tied across their tops">
+  <rect width="520" height="320" fill="#f1e7cf"/>
+  <path d="M0 268 Q130 258 260 266 Q390 274 520 264 V320 H0Z" fill="#d9c08f"/>
+  <g stroke="#6b4a2e" stroke-width="7" stroke-linecap="round">
+    <path d="M150 278 V112"/><path d="M370 278 V112"/>
+  </g>
+  <path d="M96 106 L424 106" stroke="#6b4a2e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M424 106 L446 100 L470 106 L446 112 Z" fill="#5d6166" stroke="#3a3d40" stroke-width="1.5"/>
+  <g stroke="#c9a96b" stroke-width="3">
+    <path d="M141 96 L159 116 M141 116 L159 96"/><path d="M361 96 L379 116 M361 116 L379 96"/>
+  </g>
+  <text x="260" y="304" text-anchor="middle" font-size="26" font-style="italic" fill="#3a2a1e">tribus hastis iugum fit</text>
+</svg>

@@ -16,6 +16,10 @@ for w in idx['wings']:
                 ids.add(b['id'])
                 if b.get('confidence') not in CONF: problems.append(f"{sc['id']}:{b['id']} bad confidence")
                 if b.get('confidence') != 'counterfactual' and not b.get('cites'): problems.append(f"{sc['id']}:{b['id']} no cites")
+                f = b.get('figure')
+                if f and not f.get('alt'): problems.append(f"{sc['id']}:{b['id']} figure without alt text")
+                if f and f.get('src', '').startswith('http') and not f.get('credit'): problems.append(f"{sc['id']}:{b['id']} external figure without credit")
+                if f and not f.get('src', '').startswith('http') and not (root.parent / f['src']).exists(): problems.append(f"{sc['id']}:{b['id']} missing file {f['src']}")
                 q = b.get('quote')
                 if q and not all(q.get(k) for k in ('la', 'en', 'en_src', 'it', 'cite')): problems.append(f"{sc['id']}:{b['id']} incomplete quote")
             card_ids = {c['id'] for c in sc.get('cards', [])}

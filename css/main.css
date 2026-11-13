@@ -152,6 +152,19 @@ h2 { font-size: 1.15em; margin: 1.6em 0 .5em; font-variant: small-caps; letter-s
 .scene-foot { margin-top: 24px; }
 .done { text-align: center; padding: 16px 0; }
 
+/* Figures: maps, drawings, photographs */
+.art { margin: 6px 0 6px; }
+.art img { display: block; width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--rule); background: var(--paper-2); }
+.art.photo img { max-height: 70vh; object-fit: contain; }
+.art .credit { display: block; font-size: .7em; color: var(--ink-soft); margin-top: 3px; }
+.art .credit a { color: var(--ink-soft); }
+.block p.caption { font-size: .88em; color: var(--ink-soft); }
+
+.art img { cursor: zoom-in; }
+.viewer { position: fixed; inset: 0; z-index: 20; background: rgba(20,14,10,.92); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 12px; }
+.viewer img { max-width: 100%; max-height: 82vh; object-fit: contain; background: var(--paper); border-radius: 6px; }
+.viewer .quiet { color: #d9c9ab; }
+
 /* Sheet */
 .sheet-wrap { position: fixed; inset: 0; background: rgba(20,14,10,.45); display: flex; align-items: flex-end; justify-content: center; z-index: 10; }
 .sheet {

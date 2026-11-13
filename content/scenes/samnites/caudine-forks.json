@@ -15,7 +15,7 @@
   "verified": {
     "by": "checker agent, two passes",
     "date": "2026-11-13",
-    "notes": "First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only."
+    "notes": "First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only. Figures (roads map, trap diagram, yoke, Cicero photo) checked in two further passes: Beneventum relabelled Maleventum (Livy 9.27.14); no road drawn beyond the Forks; rear barrier drawn generically per 9.2.10; Cicero date follows the museum (mid-1st c. BC), CC0 photo licence confirmed via a Commons mirror."
   },
   "sources": {
     "Livy": {
@@ -33,6 +33,14 @@
     "Horsfall 1982": {
       "label": "N. Horsfall, 'The Caudine Forks: Topography and Illusion', Papers of the British School at Rome 50 (1982) 45–52",
       "url": "https://www.cambridge.org/core/journals/papers-of-the-british-school-at-rome/article/caudine-forks-topography-and-illusion/CD9052F1C8DB2B4FAB7B1F5541507F9F"
+    },
+    "Pleiades": {
+      "label": "Pleiades gazetteer of ancient places (site coordinates)",
+      "url": "https://pleiades.stoa.org/"
+    },
+    "Musei Capitolini": {
+      "label": "Musei Capitolini, Portrait of Cicero, inv. MC0589",
+      "url": "https://museicapitolini.org/en/node/2670"
     }
   },
   "steps": [
@@ -70,12 +78,40 @@
           "confidence": "attested"
         },
         {
+          "id": "b1-map",
+          "text": "Calatia, the Forks and Luceria. Livy names only the short road through the Forks and the long one by the Adriatic coast, and traces neither, so the onward road is shown as a direction. The town later called Beneventum was still Maleventum (Livy 9.27.14). Sites placed from the Pleiades gazetteer.",
+          "cites": [
+            "Livy 9.2.6",
+            "Livy 9.27.14",
+            "Pleiades 432754, 432738, 432856, 432773, 432721, 442640"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "src": "art/scenes/caudine-roads.svg",
+            "alt": "Map of Campania, Samnium and Apulia: Capua and Calatia, the Caudine Forks near Caudium, Maleventum, Luceria, an arrow for the short road on to Luceria, and a note on the longer road by the Adriatic coast.",
+            "credit": "Coastline: Natural Earth. Sites: Pleiades (CC BY).",
+            "credit_url": "https://pleiades.stoa.org/"
+          }
+        },
+        {
           "id": "b1-4",
           "text": "They crossed the grassy, well-watered plain between the two defiles and found the far exit blocked with felled trees and heaped rock, your men on the heights. Turning back, they found the entrance closed as well. They have dug a camp beside the water and wait.",
           "cites": [
             "Livy 9.2.7–13"
           ],
           "confidence": "attested"
+        },
+        {
+          "id": "b1-trap",
+          "text": "The trap as Livy tells it: in through the first defile, across the plain, the far exit barred with felled trees and rock under a guard on the height, the way back closed by its own barrier and armed men. A diagram of his words; where the water ran is our guess, and whether the ground matches him is disputed (see The deeper cut).",
+          "cites": [
+            "Livy 9.2.7–13"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "src": "art/scenes/caudine-trap.svg",
+            "alt": "Diagram: a grassy, watered plain ringed by mountains; on the right a narrower defile blocked with felled trees and rock under a Samnite guard; on the left the way in closed by a barrier and armed men; the Roman camp beside the water."
+          }
         }
       ]
     },
@@ -518,6 +554,21 @@
       "lens": "law",
       "blocks": [
         {
+          "id": "card-cicero-fig",
+          "text": "Portrait of Cicero, marble, dated by the museum to the mid-1st century BC. Rome, Musei Capitolini, inv. MC0589.",
+          "cites": [
+            "Musei Capitolini, inv. MC0589"
+          ],
+          "confidence": "attested",
+          "figure": {
+            "kind": "photo",
+            "src": "https://commons.wikimedia.org/wiki/Special:FilePath/M._Tullius_Cicero,_Capitoline_Museum,_Rome.jpg?width=640",
+            "alt": "Marble bust of Cicero in the Capitoline Museums",
+            "credit": "Photo: Wilfredo Rafael Rodriguez Hernandez, CC0, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:M._Tullius_Cicero,_Capitoline_Museum,_Rome.jpg"
+          }
+        },
+        {
           "id": "card-cicero-version-1",
           "text": "Cicero tells the story as a case of duty against expediency. He says the consuls were surrendered because they had made the peace without the people's order, and names the tribunes of the plebs surrendered with them, on whose authority the peace was made, as Ti. Numicius and Q. Maelius. In Livy the tribunes are L. Livius and Q. Maelius; they first protest that they cannot be surrendered, then resign office and are handed over with the rest.",
           "cites": [
@@ -623,6 +674,18 @@
       "tier": 2,
       "lens": "war",
       "blocks": [
+        {
+          "id": "card-yoke-fig",
+          "text": "Two spears fixed in the ground and one tied across: 'super eas' most naturally puts it on top. How high it stood, and which way the spearheads pointed, Livy does not say; the drawing is ours.",
+          "cites": [
+            "Livy 3.28.11"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "src": "art/cards/yoke.svg",
+            "alt": "Drawing of a yoke: two upright spears with a third spear lashed across their tops."
+          }
+        },
         {
           "id": "card-yoke-1",
           "text": "Livy describes the construction once, at the surrender of the Aequi in his third book: three spears, two fixed in the ground and a third tied across them.",

@@ -232,7 +232,8 @@ function renderBlock(sc, b) {
   const cites = (b.cites || []).join('; ');
   return `<div class="block ${cf ? 'counterfactual' : ''}" data-block="${b.id}">
     ${cf ? '<span class="cf-tag">Counterfactual</span>' : ''}
-    <p>${esc(b.text)}</p>
+    ${b.figure ? renderFigure(b.figure) : ''}
+    <p class="${b.figure ? 'caption' : ''}">${esc(b.text)}</p>
     ${b.quote ? renderQuote(b.quote) : ''}
     ${b.note ? `<p class="note">${esc(b.note)}</p>` : ''}
     <button class="about" data-about="${b.id}">
@@ -241,6 +242,24 @@ function renderBlock(sc, b) {
       ${st.disputes.some((d) => d.ref === b.id) ? '<span class="mark mark-dispute">Disputed</span>' : ''}
     </button>
   </div>`;
+}
+
+function renderFigure(f) {
+  const credit = f.credit ? `<span class="credit">${f.credit_url ? `<a href="${esc(f.credit_url)}" target="_blank" rel="noopener">${esc(f.credit)}</a>` : esc(f.credit)}</span>` : '';
+  return `<figure class="art ${f.kind === 'photo' ? 'photo' : ''}">
+    <img src="${esc(f.src)}" alt="${esc(f.alt)}" title="Tap to enlarge" loading="lazy" onerror="this.closest('figure').hidden=true">
+    ${credit}
+  </figure>`;
+}
+
+function openFigure(img) {
+  const wrap = document.createElement('div');
+  wrap.className = 'viewer';
+  wrap.innerHTML = `<img src="${img.getAttribute('src')}" alt="${esc(img.alt)}">
+    <p class="quiet">Turn the phone sideways for a larger view.</p>
+    <button class="btn primary" data-close>Close</button>`;
+  document.body.appendChild(wrap);
+  wrap.addEventListener('click', () => wrap.remove());
 }
 
 function renderQuote(q) {
@@ -283,6 +302,7 @@ function bindBlocks(sc) {
     btn.classList.toggle('on', show);
   }));
   app.querySelectorAll('[data-about]').forEach((btn) => btn.addEventListener('click', () => openAbout(sc, findBlock(sc, btn.dataset.about))));
+  app.querySelectorAll('.art img').forEach((img) => img.addEventListener('click', () => openFigure(img)));
 }
 
 // ---------- the "about this" sheet: sources and Grumpa's verdict ----------

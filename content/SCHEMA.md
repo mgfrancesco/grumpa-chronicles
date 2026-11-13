@@ -77,6 +77,20 @@ Played in order. Kinds:
 
 `quote` is optional and is shown in Latin first, with English and Italian on tap.
 
+`figure` is optional; the block's `text` becomes its caption, and the caption's `cites` and `confidence` cover what the picture shows.
+
+```json
+"figure": {
+  "kind": "drawing | map | photo",
+  "src": "art/scenes/caudine-roads.svg  (or a Wikimedia Commons Special:FilePath URL for photos)",
+  "alt": "What the picture shows, for screen readers.",
+  "credit": "Required for anything not drawn by us: author, licence, source.",
+  "credit_url": "The file's licence page."
+}
+```
+
+Drawings and maps live in `art/` as SVG; keep labels at 19 px or more in a 760-wide viewBox so they stay readable on a phone. Photos must be public domain or openly licensed (CC0, CC BY, CC BY-SA), with the licence confirmed on the file page and credited in `credit`. Maps take ancient site positions from Pleiades (`isawnyu/pleiades.datasets` on GitHub, `data/gis/places.csv`) and cite the Pleiades ids.
+
 ### Option
 
 ```json
