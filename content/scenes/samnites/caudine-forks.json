@@ -1,0 +1,645 @@
+{
+  "id": "samnites-01-caudine-forks",
+  "wing": "samnites",
+  "campaign": "caudium-sentinum",
+  "title": "The Caudine Forks",
+  "place": "Samnium",
+  "date": "321–320 BC",
+  "role": "Herennius Pontius",
+  "outfit": "samnite-elder",
+  "lenses": [
+    "war",
+    "law"
+  ],
+  "status": "checked",
+  "verified": {
+    "by": "checker agent, two passes",
+    "date": "2026-11-13",
+    "notes": "First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only."
+  },
+  "sources": {
+    "Livy": {
+      "label": "Livy, Ab urbe condita (Latin and Roberts 1912 English, Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0914/phi001"
+    },
+    "Cicero": {
+      "label": "Cicero, De officiis (Latin, Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0474/phi055"
+    },
+    "Salmon 1929": {
+      "label": "E. T. Salmon, 'The Pax Caudina', Journal of Roman Studies 19 (1929) 12–18",
+      "url": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/pax-caudina/88BA1B5572D3B4D67C4256F2A3A2CCA4"
+    },
+    "Horsfall 1982": {
+      "label": "N. Horsfall, 'The Caudine Forks: Topography and Illusion', Papers of the British School at Rome 50 (1982) 45–52",
+      "url": "https://www.cambridge.org/core/journals/papers-of-the-british-school-at-rome/article/caudine-forks-topography-and-illusion/CD9052F1C8DB2B4FAB7B1F5541507F9F"
+    }
+  },
+  "steps": [
+    {
+      "kind": "brief",
+      "id": "b1",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b1-1",
+          "text": "Samnium, 321 BC. Your son, C. Pontius, commands the Samnite army this year. Livy calls him the foremost soldier and general of his people, and says he had by far the wisest of fathers.",
+          "cites": [
+            "Livy 9.1.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-2",
+          "text": "Rome accepted only the prisoners and whatever booty it could recognise, and your envoys came home without peace. Your son hid the army near Caudium and sent ten soldiers dressed as shepherds to graze flocks close to the Roman posts at Calatia. Taken prisoner, each told the same story: the Samnite legions were in Apulia, besieging Luceria.",
+          "cites": [
+            "Livy 8.39.14–15",
+            "Livy 9.1.3",
+            "Livy 9.2.1–4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-3",
+          "text": "Two roads ran to Luceria: the long, open one along the Adriatic coast, and the short one through the Caudine Forks. The consuls, T. Veturius Calvinus and Sp. Postumius, took the short one.",
+          "cites": [
+            "Livy 9.1.1",
+            "Livy 9.2.6",
+            "Livy 9.2.9"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-4",
+          "text": "They crossed the grassy, well-watered plain between the two defiles and found the far exit blocked with felled trees and heaped rock, your men on the heights. Turning back, they found the entrance closed as well. They have dug a camp beside the water and wait.",
+          "cites": [
+            "Livy 9.2.7–13"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "brief",
+      "id": "b2",
+      "speaker": "A letter from your son",
+      "blocks": [
+        {
+          "id": "b2-1",
+          "text": "Father. Both consular armies are shut in between the passes. The council does not know what to do with them, and every man here wants your counsel. Write, and the courier will ride back tonight.",
+          "cites": [
+            "Livy 9.3.4"
+          ],
+          "confidence": "counterfactual",
+          "note": "The wording of the letter is ours. Livy reports that the Samnites, at a loss, all agreed to consult Herennius by letter."
+        },
+        {
+          "id": "b2-2",
+          "text": "You have long since withdrawn from military and civil office. Livy is precise about what age has and has not taken from you.",
+          "cites": [
+            "Livy 9.3.5"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "in corpore tamen adfecto vigebat vis animi consiliique.",
+            "en": "Though his physical powers were failing his intellect was as sound and clear as ever.",
+            "en_src": "Roberts 1912",
+            "it": "Nel corpo ormai fiaccato restava tuttavia intatto il vigore dell'animo e del giudizio.",
+            "it_src": "ours",
+            "cite": "Livy 9.3.5"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d1",
+      "prompt": "What do you write back to your son?",
+      "options": [
+        {
+          "id": "release",
+          "label": "Let them all go at once, unharmed.",
+          "kind": "attested-advice",
+          "kind_note": "Herennius's first answer (Livy 9.3.6)",
+          "consequence": [
+            {
+              "id": "d1-release-1",
+              "text": "This was your first answer. The council rejected it and sent the courier back to you.",
+              "cites": [
+                "Livy 9.3.6–7"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-release-2",
+              "text": "Your reasoning, as you later gave it to the council: an extraordinary kindness to a most powerful people would fix a lasting peace and friendship.",
+              "cites": [
+                "Livy 9.3.10"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-release-3",
+              "text": "Whether Rome would have repaid that kindness, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        },
+        {
+          "id": "kill",
+          "label": "Kill every one of them.",
+          "kind": "attested-advice",
+          "kind_note": "Herennius's second answer (Livy 9.3.7)",
+          "consequence": [
+            {
+              "id": "d1-kill-1",
+              "text": "This was your second answer, given when the courier came back. The two replies contradicted each other like an ambiguous oracle, and your son thought your mind had aged with your body.",
+              "cites": [
+                "Livy 9.3.7–8"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-kill-2",
+              "text": "Your reasoning: with two armies lost, Rome would need many generations to recover its strength, and the war would be put off for as long.",
+              "cites": [
+                "Livy 9.3.10"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-kill-3",
+              "text": "What a Samnium that had destroyed two consular armies would have faced afterwards, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        },
+        {
+          "id": "yoke",
+          "label": "Spare their lives, but disarm them, send them under the yoke, and dictate terms.",
+          "kind": "historical",
+          "kind_note": "The course Pontius took (Livy 9.4.3–5)",
+          "consequence": [
+            {
+              "id": "d1-yoke-1",
+              "text": "This is the middle course. In Livy, when the council put it to you, you rejected it at once.",
+              "cites": [
+                "Livy 9.3.11–12"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "ista quidem sententia ea est, quae neque amicos parat nec inimicos tollit.",
+                "en": "That is just the policy which neither procures friends nor rids us of enemies.",
+                "en_src": "Roberts 1912",
+                "it": "Codesta proposta è proprio quella che non procura amici né toglie di mezzo i nemici.",
+                "it_src": "ours",
+                "cite": "Livy 9.3.12"
+              }
+            },
+            {
+              "id": "d1-yoke-2",
+              "text": "Your son took it anyway.",
+              "cites": [
+                "Livy 9.4.1–5"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "envoys",
+          "label": "Hold them in the valley under truce, and send envoys to Rome to make a treaty with the Senate and people.",
+          "kind": "counterfactual",
+          "kind_note": "Not proposed by anyone at Caudium",
+          "consequence": [
+            {
+              "id": "d1-envoys-1",
+              "text": "Livy records no one proposing this at Caudium. But Postumius later told the Senate it was what the Samnites should have done: while they were fetching old men from home for advice, they could have sent envoys to Rome, three days away for men travelling light, and a sponsio made by the people's order would have bound Rome.",
+              "cites": [
+                "Livy 9.9.12–13"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-envoys-2",
+              "text": "What the Senate would have answered, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "reveal",
+      "id": "r1",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r1-1",
+          "text": "Your son suspected age had weakened your judgement, but the council insisted you be brought to the camp. You came by wagon, held to both answers and gave your reasons. Asked about a middle course, you warned them what kind of people they were dealing with.",
+          "cites": [
+            "Livy 9.3.8–13"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ea est Romana gens, quae victa quiescere nesciat.",
+            "en": "The Romans are a nation who know not how to remain quiet under defeat.",
+            "en_src": "Roberts 1912",
+            "it": "Tale è la gente romana: vinta, non sa starsene quieta.",
+            "it_src": "ours",
+            "cite": "Livy 9.3.12"
+          }
+        },
+        {
+          "id": "r1-2",
+          "text": "Neither answer was taken, and you were carried home. The Romans, short of everything, sent envoys. Pontius replied that the war was over: they would pass under the yoke unarmed with one garment each; Rome would leave Samnite land and withdraw its colonists, and the two peoples would live under their own laws by an equal treaty.",
+          "cites": [
+            "Livy 9.4.1–5"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-3",
+          "text": "L. Lentulus, the senior legate, persuaded the consuls to accept. His father, he said, had been the only man on the Capitol who would not advise ransoming the city from the Gauls with gold; but here the army was all of Rome that could be saved.",
+          "cites": [
+            "Livy 9.4.7–16"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-4",
+          "text": "The consuls told Pontius that no foedus could be made without the people's order and the fetiales. So the consuls, legates, quaestors and military tribunes gave a sponsio, and 600 equites were demanded as hostages and handed over first.",
+          "cites": [
+            "Livy 9.5.1–5",
+            "Livy 9.5.12"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-5",
+          "text": "The lictors were sent away and the consuls stripped of their paludamenta. They went under the yoke first, half-naked, then each officer by rank, then the legions one after another. Men whose faces showed too much anger were wounded or killed.",
+          "cites": [
+            "Livy 9.5.12–9.6.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-6",
+          "text": "Capua sent the consuls their own insignia of office, and the soldiers arms, horses, clothing and provisions. At Rome, without any public order, the city went into mourning: the shops round the Forum shut, business in the Forum stopped before it was proclaimed, and the broad stripe and gold rings were laid aside.",
+          "cites": [
+            "Livy 9.6.6",
+            "Livy 9.7.7–8"
+          ],
+          "confidence": "attested",
+          "note": "Livy 9.6.6 is uncertain here. The manuscripts read 'fasces lictores' (fasces, lictors), which Roberts translates; Weissenborn–Müller print 'fasces lictoribus'; Conway–Walters, following Hertz, delete the words."
+        }
+      ]
+    },
+    {
+      "kind": "brief",
+      "id": "b3",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b3-1",
+          "text": "320 BC. Rome has new consuls, Q. Publilius Philo, consul for the third time, and L. Papirius Cursor, for the second. In the Senate, Postumius argued that a sponsio given without the people's order binds no one but the sponsors: let them be handed over to the Samnites, naked and bound, and let the war begin again. The Senate agreed.",
+          "cites": [
+            "Livy 9.7.15",
+            "Livy 9.8.4–7",
+            "Livy 9.9.15",
+            "Livy 9.10.1–2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b3-2",
+          "text": "Now the fetial A. Cornelius Arvina stands before your son's tribunal with the sponsors stripped and bound, and pronounces their surrender. As he speaks, Postumius drives his knee into the fetial's thigh and shouts that he is a Samnite citizen who has struck a Roman envoy against the law of nations, so Rome's war will be all the more just.",
+          "cites": [
+            "Livy 9.10.7–10"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b3-4",
+          "text": "Livy has Herennius carried home after the council and does not mention him at this tribunal.",
+          "cites": [
+            "Livy 9.4.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b3-3",
+          "text": "The game keeps you at your son's side.",
+          "cites": [],
+          "confidence": "counterfactual"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d2",
+      "prompt": "Your son turns to you. What should he answer?",
+      "options": [
+        {
+          "id": "accept",
+          "label": "Accept the surrender and keep these men as prisoners.",
+          "kind": "counterfactual",
+          "kind_note": "Not what Pontius did",
+          "consequence": [
+            {
+              "id": "d2-accept-1",
+              "text": "Livy's Pontius saw the trap in this. Rome would keep the army it had saved by the sponsio and pay for it with a few sponsors; the peace that bought the army's release would be gone.",
+              "cites": [
+                "Livy 9.11.3–9"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-accept-2",
+              "text": "How Rome would have used the acceptance, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        },
+        {
+          "id": "refuse",
+          "label": "Refuse it. Rome must put its legions back in the valley or keep the peace. Let these men go.",
+          "kind": "historical",
+          "kind_note": "Pontius's answer (Livy 9.11)",
+          "consequence": [
+            {
+              "id": "d2-refuse-1",
+              "text": "This is what your son did.",
+              "cites": [
+                "Livy 9.11.1–13"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "execute",
+          "label": "Accept it, and put the sponsors to death as oath-breakers.",
+          "kind": "counterfactual",
+          "kind_note": "Not what Pontius did",
+          "consequence": [
+            {
+              "id": "d2-execute-1",
+              "text": "Postumius had invited this. He told the Senate the sponsors' bodies were all the Samnites were owed: let them turn their swords and their anger on those.",
+              "cites": [
+                "Livy 9.8.5",
+                "Livy 9.9.18"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-execute-2",
+              "text": "What would have followed, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "reveal",
+      "id": "r2",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r2-1",
+          "text": "Pontius refused the surrender. Either Rome put the legions back between the passes, or it kept its word.",
+          "cites": [
+            "Livy 9.11.1–5"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "nec ego istam deditionem accipiam, nec Samnites ratam habebunt.",
+            "en": "I shall not accept this surrender of yours nor will the Samnites regard it as valid.",
+            "en_src": "Roberts 1912",
+            "it": "Io non accetterò codesta resa, né i Sanniti la riterranno valida.",
+            "it_src": "ours",
+            "cite": "Livy 9.11.1"
+          }
+        },
+        {
+          "id": "r2-2",
+          "text": "He listed Rome's habit of finding a legal pretext after defeat: hostages given to Porsenna and stolen back, the Gauls cut down while they were still taking the gold. Then he had the lictor untie the Romans and let them go.",
+          "cites": [
+            "Livy 9.11.6–7",
+            "Livy 9.11.13"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-3",
+          "text": "Only then did the Samnites see what they had done. They had fallen between your two counsels and exchanged the secure possession of victory for an uncertain peace. Postumius won more glory at Rome by his surrender than Pontius won in Samnium by a bloodless victory.",
+          "cites": [
+            "Livy 9.12.1–3"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "sero ac nequiquam laudare senis Ponti utraque consilia",
+            "en": "Now when it was too late they began to view with approval the two alternatives which the elder Pontius had suggested.",
+            "en_src": "Roberts 1912",
+            "it": "Tardi e invano lodavano entrambi i consigli del vecchio Ponzio.",
+            "it_src": "ours",
+            "cite": "Livy 9.12.2"
+          }
+        },
+        {
+          "id": "r2-4",
+          "text": "In Livy's main version, Papirius starved out Luceria, sent 7,000 Samnites under the yoke and recovered the arms and standards lost at Caudium and the 600 equites held there as hostages.",
+          "cites": [
+            "Livy 9.12.9",
+            "Livy 9.15.1–7",
+            "Livy 9.5.5"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "cards",
+      "id": "c1",
+      "title": "The deeper cut",
+      "cards": [
+        "card-sponsio-foedus",
+        "card-cicero-version",
+        "card-revenge-doubted",
+        "card-livy-doubts",
+        "card-where",
+        "card-yoke"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-sponsio-foedus",
+      "title": "Sponsio, not foedus",
+      "tier": 2,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-sponsio-foedus-1",
+          "text": "Livy corrects the common belief, and an earlier historian, Claudius, who called the Caudine peace a foedus. It was a sponsio, a personal guarantee.",
+          "cites": [
+            "Livy 9.5.2"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "non, ut vulgo credunt Claudiusque etiam scribit, foedere pax Caudina, sed per sponsionem facta est.",
+            "en": "So that the convention of Caudium did not, as is commonly believed and as even Claudius asserts, take the form of a regular treaty. It was concluded through a sponsio.",
+            "en_src": "Roberts 1912",
+            "it": "La pace caudina non fu conclusa con un trattato, come comunemente si crede e come scrive anche Claudio, ma mediante una sponsio.",
+            "it_src": "ours",
+            "cite": "Livy 9.5.2"
+          }
+        },
+        {
+          "id": "card-sponsio-foedus-2",
+          "text": "His proof is documentary. A foedus is sworn by fetiales with the curse on the people that breaks it, and needs neither sponsors nor hostages; under a foedus only the two fetiales' names would survive. For Caudium the names of every sponsor, consuls, legates, quaestors and military tribunes, were still on record in his day.",
+          "cites": [
+            "Livy 9.5.3–4"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-cicero-version",
+      "title": "Cicero's version",
+      "tier": 2,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-cicero-version-1",
+          "text": "Cicero tells the story as a case of duty against expediency. He says the consuls were surrendered because they had made the peace without the people's order, and names the tribunes of the plebs surrendered with them, on whose authority the peace was made, as Ti. Numicius and Q. Maelius. In Livy the tribunes are L. Livius and Q. Maelius; they first protest that they cannot be surrendered, then resign office and are handed over with the rest.",
+          "cites": [
+            "Cicero, De officiis 3.109",
+            "Livy 9.8.13–15",
+            "Livy 9.10.1–2"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "dediti sunt iis; iniussu enim populi senatusque fecerant.",
+            "en": "They were surrendered to them, for they had made it without the order of the people and the Senate.",
+            "en_src": "ours",
+            "it": "Furono consegnati a loro: l'avevano infatti conclusa senza l'ordine del popolo e del senato.",
+            "it_src": "ours",
+            "cite": "Cicero, De officiis 3.109"
+          }
+        },
+        {
+          "id": "card-cicero-version-2",
+          "text": "Cicero sets beside it a later case: C. Mancinus, who had made a foedus with the Numantines without the Senate's authority, himself urged the bill by which he was surrendered to them.",
+          "cites": [
+            "Cicero, De officiis 3.109"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-revenge-doubted",
+      "title": "A revenge written backwards?",
+      "tier": 3,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-revenge-doubted-1",
+          "text": "E. T. Salmon called the Roman revenge expedition after Caudium fictitious, and found traces of it already in the older, pre-Gracchan tradition preserved by Diodorus (19.10).",
+          "cites": [
+            "Salmon 1929, p. 12 n. 8"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-revenge-doubted-2",
+          "text": "He also records that Nissen, while admitting that many details of the story of Roman treachery after Caudium anticipate what happened after the Numantine disaster of 137 BC, still did not reject Livy's account.",
+          "cites": [
+            "Salmon 1929, p. 13 n. 1"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-revenge-doubted-3",
+          "text": "The Numantine affair is the Mancinus case that Cicero sets beside Caudium. Connecting Salmon's note to Cicero's pairing is our observation, not Salmon's.",
+          "cites": [
+            "Cicero, De officiis 3.109"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-livy-doubts",
+      "title": "Livy doubts himself",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-livy-doubts-1",
+          "text": "Livy reports that some annals had Pontius himself sent under the yoke at Luceria. He finds it less surprising that this is uncertain than that his sources could not agree who took Luceria: the consuls, Papirius above all, or a dictator, L. Cornelius, with Papirius as master of horse.",
+          "cites": [
+            "Livy 9.15.8–10"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-where",
+      "title": "Where were the Forks?",
+      "tier": 3,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-where-1",
+          "text": "Nicholas Horsfall argued that the site itself is not seriously in doubt; the doubt lies in Livy's account, whose tactical moves do not fit the ground. He read the narrative as formulaic, shaped to minimise the defeat and perhaps coloured by accounts of Alexander's campaigns.",
+          "cites": [
+            "Horsfall 1982, 45–52 (abstract)"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-where-2",
+          "text": "Salmon, after visiting the ground, was inclined to agree with Kromayer that the valley between Arienzo and Arpaia fits Livy best, while noting obstacles. He also thought it improbable, citing De Sanctis, that the two consular armies there amounted to four legions.",
+          "cites": [
+            "Salmon 1929, p. 12 nn. 3, 6"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-yoke",
+      "title": "How a yoke was made",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-yoke-1",
+          "text": "Livy describes the construction once, at the surrender of the Aequi in his third book: three spears, two fixed in the ground and a third tied across them.",
+          "cites": [
+            "Livy 3.28.11"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "tribus hastis iugum fit humi fixis duabus superque eas transversa una deligata.",
+            "en": "This was made of three spears, two fixed upright in the ground, and the third tied to them across the top.",
+            "en_src": "Roberts 1912",
+            "it": "Il giogo si fa con tre aste: due piantate in terra e una legata di traverso sopra di esse.",
+            "it_src": "ours",
+            "cite": "Livy 3.28.11"
+          }
+        }
+      ]
+    }
+  ]
+}

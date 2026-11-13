@@ -1,0 +1,204 @@
+{
+  "wings": [
+    {
+      "id": "republic",
+      "title": "Roman Republic",
+      "dates": "509–27 BC",
+      "blurb": "The Senate, the legions and the long war with Hannibal.",
+      "palette": "pompeian",
+      "campaigns": [
+        {
+          "id": "second-punic",
+          "title": "The Second Punic War from the Senate",
+          "release": "launch",
+          "scenes": [
+            {
+              "id": "republic-01",
+              "title": "In preparation",
+              "planned": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "samnites",
+      "title": "Samnites and Italic peoples",
+      "dates": "c. 600–82 BC",
+      "blurb": "Pentri, Caraceni, Caudini and Hirpini against Rome.",
+      "palette": "samnite",
+      "campaigns": [
+        {
+          "id": "caudium-sentinum",
+          "title": "From the Caudine Forks to Sentinum",
+          "release": "launch",
+          "scenes": [
+            {
+              "id": "samnites-01-caudine-forks",
+              "file": "scenes/samnites/caudine-forks.json",
+              "title": "The Caudine Forks",
+              "date": "321–320 BC"
+            },
+            {
+              "id": "samnites-02",
+              "title": "In preparation",
+              "planned": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empire",
+      "title": "Roman Empire",
+      "dates": "27 BC–AD 476",
+      "blurb": "Frontiers, the treasury, and the men who held them.",
+      "palette": "imperial",
+      "campaigns": [
+        {
+          "id": "varus",
+          "title": "Varus and the German frontier",
+          "release": "launch",
+          "scenes": [
+            {
+              "id": "empire-01",
+              "title": "In preparation",
+              "planned": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greece",
+      "title": "Greece",
+      "dates": "c. 800–31 BC",
+      "blurb": "Silver, ships and the councils of old men.",
+      "palette": "greek",
+      "campaigns": [
+        {
+          "id": "themistocles",
+          "title": "Themistocles, from Laurion to Salamis",
+          "release": "launch",
+          "scenes": [
+            {
+              "id": "greece-01",
+              "title": "In preparation",
+              "planned": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "egypt",
+      "title": "Egypt",
+      "dates": "c. 3100–30 BC",
+      "blurb": "Scribes, rations, chariots and treaties.",
+      "palette": "egyptian",
+      "campaigns": [
+        {
+          "id": "kadesh",
+          "title": "Kadesh and the treaty",
+          "release": "launch",
+          "scenes": [
+            {
+              "id": "egypt-01",
+              "title": "In preparation",
+              "planned": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "byzantium",
+      "title": "Late Antiquity and Byzantium",
+      "dates": "284–1453",
+      "blurb": "Rome continued, from Constantinople.",
+      "palette": "byzantine",
+      "campaigns": [
+        {
+          "id": "belisarius",
+          "title": "Belisarius and the Gothic War in Italy",
+          "release": "launch",
+          "scenes": [
+            {
+              "id": "byzantium-01",
+              "title": "In preparation",
+              "planned": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "middle-ages",
+      "title": "Middle Ages",
+      "dates": "c. 500–1450",
+      "blurb": "The city of Rome without an empire.",
+      "palette": "medieval",
+      "campaigns": [
+        {
+          "id": "commune",
+          "title": "The Commune of Rome to Cola di Rienzo",
+          "release": "launch",
+          "scenes": [
+            {
+              "id": "middle-ages-01",
+              "title": "In preparation",
+              "planned": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renaissance",
+      "title": "Renaissance",
+      "dates": "c. 1350–1550",
+      "blurb": "Livy read again, by men who meant to use him.",
+      "palette": "renaissance",
+      "campaigns": [
+        {
+          "id": "machiavelli",
+          "title": "Machiavelli and the Florentine militia",
+          "release": "launch",
+          "scenes": [
+            {
+              "id": "renaissance-01",
+              "title": "In preparation",
+              "planned": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lenses": [
+    {
+      "id": "war",
+      "title": "War and strategy"
+    },
+    {
+      "id": "arms",
+      "title": "Arms and armour"
+    },
+    {
+      "id": "dress",
+      "title": "Dress"
+    },
+    {
+      "id": "tech",
+      "title": "Technology"
+    },
+    {
+      "id": "econ",
+      "title": "Economics"
+    },
+    {
+      "id": "law",
+      "title": "Law and religion"
+    }
+  ]
+}
