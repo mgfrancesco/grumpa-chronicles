@@ -218,7 +218,7 @@ function renderStep(sc, s, prog) {
     return `<section class="step decision chosen" id="step-${s.id}">
         <h3 class="prompt">${esc(s.prompt)}</h3>
         <div class="your-choice"><span class="eyebrow">Your counsel</span><p>${esc(o.label)}</p>
-        <p class="kind kind-${o.kind}">${esc(o.kind_note || '')}</p></div>
+        <p class="kind kind-${o.kind}">${o.kind === 'counterfactual' ? '<span class="cf-tag">Counterfactual</span> ' : ''}${esc(o.kind_note || '')}</p></div>
         ${o.consequence.map((b) => renderBlock(sc, b)).join('')}
         <button class="link-btn" data-reconsider="${s.id}">Reconsider this choice</button></section>`;
   }
@@ -264,7 +264,7 @@ function openFigure(img) {
 
 function renderQuote(q) {
   return `<figure class="quote">
-    <blockquote lang="la">${esc(q.la)}</blockquote>
+    <blockquote lang="${q.lang === 'grc' ? 'grc' : 'la'}">${esc(q.la)}</blockquote>
     <figcaption>${esc(q.cite)}</figcaption>
     <div class="q-tabs"><button class="q-btn" data-q="en">English</button><button class="q-btn" data-q="it">Italiano</button></div>
     <p class="q-trans" data-lang="en" hidden>${esc(q.en)} <span class="quiet">(${q.en_src === 'ours' ? 'our translation' : esc(q.en_src)})</span></p>

@@ -1,0 +1,910 @@
+{
+  "id": "samnites-02-lautulae",
+  "wing": "samnites",
+  "campaign": "caudium-sentinum",
+  "title": "Lautulae",
+  "place": "Saticula, Sora, Lautulae and the Campanian plain",
+  "date": "316–314 BC",
+  "role": "an elder of the touto",
+  "outfit": "samnite-elder",
+  "lenses": [
+    "war",
+    "law"
+  ],
+  "status": "checked",
+  "verified": {
+    "by": "checker agent, three passes",
+    "date": "2026-11-14",
+    "notes": "First pass found 2 factual errors (Livy's era dating; years Livy spans), a mislabelled option, unlabelled counterfactual options, and about 20 details beyond the sources; second pass found 3 more (Roberts prints only 321 and 312 here; Diodorus does mention Sora at 19.72.3; 'wait' is counterfactual, not historical) and 5 minor; third pass confirmed all fixes and removed an uncited 'Varronian' sentence. Checked against Perseus Livy lat2/lat3/lat4 and eng3, Diodorus grc6, Strabo grc2, Pleiades 432903, 433126, 433143. d2 has two counterfactual options (wait, latium), both tagged on screen. Engine now tags counterfactual options and sets lang=grc for Greek quotations. Researcher's notes: Researcher's draft notes (2026-11-14). Livy cited by the Conway–Walters (OCT) section numbers in Perseus lat3, cross-checked against lat4 and Weissenborn–Müller (lat2). Roberts 1912 (Perseus eng3) numbers sections differently in 9.23–9.26 (his 9.23.6 is OCT 9.23.5; his 9.26.7 is OCT 9.26.6); quotations are attributed by OCT numbers. Weissenborn–Müller put Maenius' appointment at 9.26.7 (OCT 9.26.6) and divide 9.25.4–5 at 'docent suos iam'; cites use ranges that cover both. Perseus OCR errors ignored: lat3 'Rornanorum' (9.21.3), 'supplement' (9.22.1), 'multitude' (9.22.7, 9.23.16), 'baud' (9.23.14, 9.26.8), 'piano' for plano (9.26.2), 'hosted' (9.27.9), 'memorial' (9.29.5), 'lunium' (9.29.3), 'eos cos' (10.47.4); lat2 'saltur', 'maria', 'Romanurn' (22.15.11), 'equitur' (9.23.6); lat4 'imminent' for imminet (22.15.11). Orthography follows OCT (cottidie; W–M cotidie at 9.27.6; W–M 'montis' for montes at 7.39.7); 22.15.11 normalised from 'peruenire' to 'pervenire' to match Book 9. Roberts' English corrected where he is wrong: 'Lantulae' for Lautulae (9.23.4, 7.39.7), 'Antium' for Anxur (7.39.7; our own English used there), 'Menturnae' (not quoted). At 9.23.4 Roberts begins 'The consul marched to meet the enemy'; Livy's 'obviam itum hosti' names no one and the commander was the dictator, so the quotation starts at 'ad Lautulas'. Diodorus from Perseus grc6 (Bekker–Dindorf–Fischer, Teubner 1903–06), no apparatus in the file; English and Italian ours. Strabo from Perseus grc2 (Meineke 1877). Greek quotations are stored in the 'la' field with 'lang': 'grc', which the engine sets as the blockquote's lang. Oakley, Commentary on Livy VI–X vol. III (2005), and Salmon, Samnium and the Samnites (1967), could not be opened (BMCR, Cambridge Core, Project MUSE and uhu.es blocked in this session), so neither is cited. Years BC are the conventional ones, counted by consular years from the two Roberts prints in Book 9 (321 at 9.1.1, 312 at 9.29.5); no modern chronological study was opened."
+  },
+  "sources": {
+    "Livy": {
+      "label": "Livy, Ab urbe condita (Latin and Roberts 1912 English, Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0914/phi001"
+    },
+    "Diodorus": {
+      "label": "Diodorus Siculus, Bibliotheca historica, books 18–20 (Greek, ed. Bekker, Dindorf and Fischer, Teubner 1903–1906; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0060/tlg001"
+    },
+    "Strabo": {
+      "label": "Strabo, Geographica (Greek, ed. A. Meineke, Teubner 1877; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0099/tlg001"
+    },
+    "Pleiades": {
+      "label": "Pleiades gazetteer of ancient places (place records, via isawnyu/pleiades.datasets)",
+      "url": "https://pleiades.stoa.org/"
+    }
+  },
+  "steps": [
+    {
+      "kind": "brief",
+      "id": "b1",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b1-1",
+          "text": "Samnium, 316 BC. Two years ago envoys from many Samnite peoples lay on the ground before the Senate and asked to renew the foedus. The Senate sent them to the people, who refused it. After days of pleading with citizens one by one, the envoys obtained a truce of two years.",
+          "cites": [
+            "Livy 9.20.1–3"
+          ],
+          "confidence": "attested",
+          "note": "Years are the conventional ones, counted from those Roberts prints; see the card Two calendars, one sequence."
+        },
+        {
+          "id": "b1-2",
+          "text": "Rome used the time. In Apulia, Teanum and Canusium gave hostages and surrendered; the Apulian Teates (Livy's Teates Apuli) got a foedus, but on terms that left it under Rome's authority; Forentum was taken, and in Lucania Nerulum. At the Campanians' own request, as a cure for their civil discord, Capua received laws from the praetor L. Furius and, for the first time, prefects.",
+          "cites": [
+            "Livy 9.20.4–9"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-3",
+          "text": "At the turn of the year the outgoing consuls handed their legions to a dictator, L. Aemilius, instead of to their successors, Sp. Nautius and M. Popilius, and he has laid siege to Saticula. Livy says the siege gave the Samnites their cause to renew the war.",
+          "cites": [
+            "Livy 9.21.1–2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-4",
+          "text": "Saticula is your ally. Plistica is Rome's; Diodorus says it holds a Roman garrison.",
+          "cites": [
+            "Livy 9.21.3",
+            "Livy 9.21.6",
+            "Diodorus 19.72.3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-5",
+          "text": "Far to the north-west, in the Liris valley, lies Sora. Rome took it in a Volscian war, and Romans now live there.",
+          "cites": [
+            "Livy 7.28.6",
+            "Livy 9.23.2",
+            "Diodorus 19.72.3",
+            "Pleiades 433126"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-6",
+          "text": "Neither Livy nor Diodorus names a Samnite commander in these years. Livy speaks only of the Samnite imperator and the Samnite leaders.",
+          "cites": [
+            "Livy 9.22.6",
+            "Livy 9.27.6",
+            "Diodorus 19.72.3–8",
+            "Diodorus 19.76.1–5"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-7",
+          "text": "The game seats you among the elders of the touto, whose counsel the commander asks.",
+          "cites": [],
+          "confidence": "counterfactual"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d1",
+      "prompt": "Saticula is under siege. Where should the Samnites put their weight?",
+      "options": [
+        {
+          "id": "relieve",
+          "label": "Bring a large army to Saticula, camp beside the Romans, and break the siege together with a sortie from the town.",
+          "kind": "historical",
+          "kind_note": "Tried in 316 in Livy (9.21.3–6); Diodorus puts it in his Lautulae year (19.72.4).",
+          "consequence": [
+            {
+              "id": "d1-relieve-1",
+              "text": "This was tried. The Samnites camped close to the Roman camp while the Saticulans threw open their gates and rushed the Roman posts. The dictator held ground that was hard to surround and faced both ways. He drove the townsmen back inside their walls without much trouble, then turned on the Samnites. That fight was harder, but the victory, late as it came, was not in doubt. The Samnites put out their fires and left in silence by night.",
+              "cites": [
+                "Livy 9.21.3–6"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-relieve-2",
+              "text": "Diodorus tells it as a hard battle with many dead on both sides, which the Romans won in the end. They then took the town by siege and went on to bring over the smaller towns nearby.",
+              "cites": [
+                "Diodorus 19.72.4"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "plistica",
+          "label": "Leave Saticula. Besiege Plistica, Rome's ally, and give Rome the same pain.",
+          "kind": "historical",
+          "kind_note": "Tried in 316–315 (Livy 9.21.6, 9.22.10; Diodorus 19.72.3)",
+          "consequence": [
+            {
+              "id": "d1-plistica-1",
+              "text": "This was tried, and Livy gives the reason: to pay the enemy back with equal grief. Plistica fell to the Samnites by force. Within the same few days Saticula surrendered to Rome.",
+              "cites": [
+                "Livy 9.21.6",
+                "Livy 9.22.10"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-plistica-2",
+              "text": "Diodorus puts the fall of Plistica, with its Roman garrison, before the battle at Saticula.",
+              "cites": [
+                "Diodorus 19.72.3–4"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "harass",
+          "label": "Camp again where we camped last year, and ride at their rampart every day until they give up the siege.",
+          "kind": "historical",
+          "kind_note": "Tried in 315 (Livy 9.22.1–10)",
+          "consequence": [
+            {
+              "id": "d1-harass-1",
+              "text": "This was tried. The new dictator, Q. Fabius, took over the army at Saticula and paid you little attention. He pressed the siege and merely posted pickets on your side. Your horsemen rode up to the rampart until they were almost in the gates. Then the master of horse, Q. Aulius Cerretanus, charged out with all his turmae without consulting the dictator and drove them off.",
+              "cites": [
+                "Livy 9.22.1–4"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-harass-2",
+              "text": "Your commander rallied the horse and came back. Aulius killed him with one thrust of his lance. The commander's brother pulled Aulius from his horse and killed him. Both sides dismounted to fight over the bodies; the Romans had the better of it and carried Aulius back. With their commander dead, the Samnites gave up Saticula as beyond saving.",
+              "cites": [
+                "Livy 9.22.6–10"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "sora",
+          "label": "Leave Saticula to its fate. Raise Sora, far behind the Roman lines.",
+          "kind": "historical",
+          "kind_note": "Diodorus 19.72.3 has the Samnites persuade the Sorani; in Livy 9.23.2 Sora simply defects. Neither gives a purpose.",
+          "consequence": [
+            {
+              "id": "d1-sora-1",
+              "text": "Diodorus says the Samnites persuaded the Sorani to kill the Romans living among them and to make an alliance with the Samnites.",
+              "cites": [
+                "Diodorus 19.72.3"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-sora-2",
+              "text": "In Livy, Sora went over to the Samnites after killing the Roman colonists, and the seat of the war moved. The legions were brought from Samnium and Apulia to Sora by forced marches.",
+              "cites": [
+                "Livy 9.23.1–2"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "reveal",
+      "id": "r1",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r1-1",
+          "text": "The Samnites tried all four. The relief of Saticula failed, the cavalry raids cost both armies a commander, Plistica fell to the Samnites and Saticula to Rome. The revolt of Sora moved the war.",
+          "cites": [
+            "Livy 9.21.3–9.23.2",
+            "Diodorus 19.72.3–4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-2",
+          "text": "Roman scouts on the roads near Sora reported, one after another, that the Samnite legions were following and close. The Romans turned to meet them at Lautulae. What happened there depends on whom you read.",
+          "cites": [
+            "Livy 9.23.2–4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-3",
+          "text": "Livy's main version: a drawn battle, ended by nightfall.",
+          "cites": [
+            "Livy 9.23.4"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ad Lautulas ancipiti proelio dimicatum est. non caedes non fuga alterius partis sed nox incertos victi victoresne essent diremit.",
+            "en": "An indecisive action was fought at Lautulae. The battle was put a stop to, not by the losses or flight of either side but by night, which overtook the combatants while still uncertain whether they were victors or vanquished.",
+            "en_src": "Roberts 1912",
+            "it": "A Lautule si combatté con esito incerto: non la strage né la fuga di una delle due parti, ma la notte li separò, ancora incerti se fossero vinti o vincitori.",
+            "it_src": "ours",
+            "cite": "Livy 9.23.4"
+          },
+          "note": "Roberts prints 'Lantulae'; corrected. His sentence opens 'The consul marched to meet the enemy, and'; Livy's 'obviam itum hosti' names no one, and the Roman commander was the dictator, so that clause is left out."
+        },
+        {
+          "id": "r1-4",
+          "text": "Livy's other authorities: a Roman defeat, in which the master of horse, Q. Aulius, was killed.",
+          "cites": [
+            "Livy 9.23.5"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "invenio apud quosdam adversam eam pugnam Romanis fuisse atque in ea cecidisse Q. Aulium magistrum equitum.",
+            "en": "I find in some authorities that this battle was unfavourable to the Romans, and that Q. Aulius, the Master of the Horse, fell there.",
+            "en_src": "Roberts 1912",
+            "it": "Trovo presso alcuni autori che quella battaglia fu sfavorevole ai Romani e che vi cadde Q. Aulio, il maestro della cavalleria.",
+            "it_src": "ours",
+            "cite": "Livy 9.23.5"
+          }
+        },
+        {
+          "id": "r1-5",
+          "text": "Diodorus sets it while the war was centred on the cities of Apulia (19.72.5), and does not connect it with Sora. The Samnites had enrolled every man of military age and camped near the enemy to decide the whole war. Rome, alarmed, named Q. Fabius dictator with Q. Aulius as master of horse. At the place Diodorus calls Laustolae the Romans lost many men and the whole army was routed. Aulius, ashamed of the flight, stood alone against the enemy and died.",
+          "cites": [
+            "Diodorus 19.72.5–8"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "οὗτοι δὲ τὰς δυνάμεις παραλαβόντες παρετάξαντο πρὸς τοὺς Σαμνίτας περὶ τὰς καλουμένας Λαυστόλας καὶ πολλοὺς τῶν στρατιωτῶν ἀπέβαλον.",
+            "lang": "grc",
+            "en": "These two took over the forces, gave battle to the Samnites near the place called Laustolae, and lost many of their soldiers.",
+            "en_src": "ours",
+            "it": "Costoro, preso il comando delle forze, si schierarono contro i Sanniti presso le cosiddette Laustole e persero molti dei loro soldati.",
+            "it_src": "ours",
+            "cite": "Diodorus 19.72.7"
+          }
+        },
+        {
+          "id": "r1-6",
+          "text": "In Livy the story goes on. A new master of horse, C. Fabius, came from Rome with a fresh army and waited out of sight. The dictator kept his men behind the rampart for some days, more like the besieged than the besiegers. Then, without telling them of the second army, he said the country around had defected and there was no way out but victory, had the nearest part of the camp set alight, and attacked. When C. Fabius saw the fire he fell on the Samnite rear. The Samnite army broke and its camp was taken.",
+          "cites": [
+            "Livy 9.23.6–17"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-7",
+          "text": "Diodorus has no second battle. After the rout he turns to Apulia: fearing to lose it, Rome sent a colony to Luceria, which it used as a base against its neighbours from then down to his own day.",
+          "cites": [
+            "Diodorus 19.72.8–9"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "brief",
+      "id": "b2",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b2-1",
+          "text": "314 BC. Whatever happened in the pass, the country moved. Livy says the coming of the Samnites, when the battle at Lautulae was fought, had stirred everything. Conspiracies were formed all round Campania, Capua itself was not free of the charge, and the inquiry reached some leading men at Rome.",
+          "cites": [
+            "Livy 9.25.2–3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-3",
+          "text": "The new consuls, M. Poetelius and C. Sulpicius, took over Fabius' army before Sora. A Soran deserter led ten picked Romans by night up a steep path to the citadel, then ran down through the town shouting that it had fallen. In the panic the gates were broken open from inside and the Roman cohorts got in. Two hundred and twenty-five men named as authors of the massacre and the revolt were taken to Rome in chains, scourged and beheaded in the Forum.",
+          "cites": [
+            "Livy 9.24.1–15"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-2",
+          "text": "The Ausones of Ausona, Minturnae and Vescia had long wanted you. Twelve of their young nobles later told the Roman consuls what their towns did when the news came.",
+          "cites": [
+            "Livy 9.25.4–5"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "simul ad Lautulas pugnatum audierint, pro victis Romanos habuisse, iuventute armis Samnitem iuvisse",
+            "en": "As soon as they heard that a battle had been fought at Lautulae, they had treated the Romans as beaten and had helped the Samnite with their young men and with arms.",
+            "en_src": "ours",
+            "it": "Non appena seppero che si era combattuto a Lautule, avevano considerato i Romani come vinti e avevano aiutato il Sannita con i loro giovani e con le armi.",
+            "it_src": "ours",
+            "cite": "Livy 9.25.5"
+          },
+          "note": "Weissenborn–Müller punctuate 'iuventute, armis' and divide 9.25.4–5 differently."
+        },
+        {
+          "id": "b2-4",
+          "text": "On the advice of the twelve, Roman soldiers were sent to the three towns: some armed, hidden near the walls; others in togas with swords under their clothes, who entered when the gates opened at dawn, killed the guards and signalled the rest. The towns fell in the same hour. Because the attack was made without the commanders present, there was no limit to the killing.",
+          "cites": [
+            "Livy 9.25.6–9"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "deletaque Ausonum gens vix certo defectionis crimine perinde ac si internecivo bello certasset.",
+            "en": "The nation of the Ausonians was exterminated, just as if they had been engaged in an internecine war, though there was no certain proof of their having revolted.",
+            "en_src": "Roberts 1912",
+            "it": "E il popolo degli Ausoni fu annientato, benché l'accusa di defezione fosse a malapena provata, come se avesse combattuto una guerra di sterminio.",
+            "it_src": "ours",
+            "cite": "Livy 9.25.9"
+          }
+        },
+        {
+          "id": "b2-5",
+          "text": "In Apulia the Roman garrison of Luceria was betrayed to the Samnites. A Roman army close by retook the town, which lies in a plain, at the first assault, and Lucerini and Samnites were killed to the last man. Many senators wanted the town destroyed; instead Rome sent 2,500 colonists.",
+          "cites": [
+            "Livy 9.26.1–5"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-6",
+          "text": "At Capua the leading men were conspiring in secret. The Senate ordered an inquiry and a dictator to conduct it, C. Maenius, with M. Folius as master of horse. Before they could be denounced to the dictator, the heads of the conspiracy, Ovius and Novius Calavius, killed themselves.",
+          "cites": [
+            "Livy 9.26.5–7"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-7",
+          "text": "Your army had turned to Apulia. The news, and still more the hope of a Campanian revolt, has brought it back to Caudium, close enough to take Capua from Rome if a rising gives the chance. The consuls came with a strong army. At first they hung back about the passes, the way to the enemy being bad from either side. Then your army came down by a short way through open country into the Campanian plain. The camps are in sight of each other, and the horse skirmish more than the foot.",
+          "cites": [
+            "Livy 9.27.1–5"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-8",
+          "text": "Livy says the Romans were content with the skirmishes and the delay. Your leaders are not.",
+          "cites": [
+            "Livy 9.27.5–6"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Samnitium contra ducibus et carpi parvis cottidie damnis et senescere dilatione belli vires suae videbantur.",
+            "en": "The Samnite generals, on the other hand, saw that these daily encounters involved daily losses, and that the prolongation of the war was sapping their strength.",
+            "en_src": "Roberts 1912",
+            "it": "Ai comandanti sanniti, invece, sembrava che le loro forze venissero erose ogni giorno da piccole perdite e si consumassero col protrarsi della guerra.",
+            "it_src": "ours",
+            "cite": "Livy 9.27.6"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d2",
+      "prompt": "The leaders want battle in the plain. What do you advise?",
+      "options": [
+        {
+          "id": "fight",
+          "label": "Fight now, in the plain, before the small daily losses use us up.",
+          "kind": "historical",
+          "kind_note": "The Samnite leaders' decision (Livy 9.27.6–7)",
+          "consequence": [
+            {
+              "id": "d2-fight-1",
+              "text": "This is what your leaders did.",
+              "cites": [
+                "Livy 9.27.7"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "wait",
+          "label": "Stay where we are. Keep to skirmishes, lose a little each day, and let Capua move first.",
+          "kind": "counterfactual",
+          "kind_note": "The course the army had held until its leaders chose battle (Livy 9.27.1–6). No one is recorded advising it, and no source tests it.",
+          "consequence": [
+            {
+              "id": "d2-wait-1",
+              "text": "Livy says the army came to Caudium to be near enough to take Capua if a rising gave the chance; skirmishing and delay were the course it held until its leaders chose battle. Rome was content with the delay. In Livy's order, the men who led the Capuan conspiracy were already dead.",
+              "cites": [
+                "Livy 9.27.2",
+                "Livy 9.27.5–6",
+                "Livy 9.26.6"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-wait-2",
+              "text": "Diodorus has the Campanians revolt, in contempt of Rome, while the result of the battle was still unknown. When they learned of the Samnite defeat they gave in.",
+              "cites": [
+                "Diodorus 19.76.3–4"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-wait-3",
+              "text": "Whether Capua would have risen with a Samnite army still whole on its border, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        },
+        {
+          "id": "latium",
+          "label": "Leave the consuls in the plain. Take the army back through the pass at Lautulae and up the coast into Latium.",
+          "kind": "counterfactual",
+          "kind_note": "No source has the Samnites attempt this in these years.",
+          "consequence": [
+            {
+              "id": "d2-latium-1",
+              "text": "Strabo says the Samnites once laid waste the coastal district of Lavinium, Laurentum and Ardea, so that only traces of its towns remained. He gives no date, and no source we have opened connects the raid with these years.",
+              "cites": [
+                "Strabo 5.3.5"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "Σαυνῖται δʼ ἐπόρθησαν τοὺς τόπους καὶ λείπεται μὲν ἴχνη πόλεων",
+                "lang": "grc",
+                "en": "The Samnites laid these places waste, and traces of towns remain.",
+                "en_src": "ours",
+                "it": "I Sanniti devastarono questi luoghi, e restano tracce di città.",
+                "it_src": "ours",
+                "cite": "Strabo 5.3.5"
+              }
+            },
+            {
+              "id": "d2-latium-2",
+              "text": "In 217 Rome guarded the coastal pass above Tarracina so that Hannibal could not reach Roman territory from Sinuessa by the Appian road.",
+              "cites": [
+                "Livy 22.15.11"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-latium-3",
+              "text": "What a Samnite army loose in Latium would have done to Rome's hold on Campania, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "reveal",
+      "id": "r2",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r2-1",
+          "text": "Your leaders offered battle, with the horse on the wings told to watch the camp rather than the fight. On the Roman left Poetelius threw his reserve cohorts into the front line at once and drove your infantry back. Your horse, riding across between the lines to help, was broken by the Roman cavalry, and that whole wing gave way.",
+          "cites": [
+            "Livy 9.27.7–10"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-2",
+          "text": "On the other wing your men were winning until Sulpicius came back with 1,200 men. Then the whole line broke. Those who did not reach Maleventum were killed or taken.",
+          "cites": [
+            "Livy 9.27.11–14"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ad triginta milia caesa aut capta Samnitium proditum memoriae est.",
+            "en": "Their loss in prisoners and slain is stated by the chroniclers to have amounted to 30,000.",
+            "en_src": "Roberts 1912",
+            "it": "Si tramanda che circa trentamila Sanniti furono uccisi o fatti prigionieri.",
+            "it_src": "ours",
+            "cite": "Livy 9.27.14"
+          }
+        },
+        {
+          "id": "r2-3",
+          "text": "Diodorus places the battle near a town he calls Kinna, after the consuls had come out to help allies the Samnites were ravaging. He too has a hard fight and a Roman victory. He gives more than 10,000 killed in a long pursuit; Livy's 30,000 counts the killed and the captured.",
+          "cites": [
+            "Diodorus 19.76.1–2"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ἐπὶ πολὺν δὲ χρόνον χρησάμενοι τῷ διωγμῷ πλείους τῶν μυρίων ἀνεῖλον.",
+            "lang": "grc",
+            "en": "And keeping up the pursuit for a long time, they killed more than ten thousand.",
+            "en_src": "ours",
+            "it": "E, protratto a lungo l'inseguimento, ne uccisero più di diecimila.",
+            "it_src": "ours",
+            "cite": "Diodorus 19.76.2"
+          }
+        },
+        {
+          "id": "r2-4",
+          "text": "On Capua the two differ in order and detail. In Livy the conspiracy is uncovered and its heads are dead before Livy brings your army back to Caudium. In Diodorus the Campanians revolt before news of the battle reaches them; Rome sends a dictator, whom his text calls Gaius Manius, with a Manius Fulvius as master of horse, where Livy has M. Folius; the Campanians at first offer resistance, then on hearing of the Samnite defeat hand over the men responsible, who kill themselves before the verdict, and the cities are pardoned.",
+          "cites": [
+            "Livy 9.26.5–7",
+            "Livy 9.27.1",
+            "Diodorus 19.76.3–5"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-5",
+          "text": "In Livy the inquiry then turned on Rome. The Senate's decree was read as covering any combination against the state, including combinations to win office. The nobles said that was a crime of new men. Maenius resigned to stand trial, and his master of horse with him; both were acquitted, and so was Publilius Philo.",
+          "cites": [
+            "Livy 9.26.7–21"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "inde labi coepit ad viliora capita, donec coitionibus factionibusque adversus quas comparata erat oppressa est.",
+            "en": "It soon began to stoop to humbler victims, until it was at length stifled by the very cabals and factions which it had been instituted to suppress.",
+            "en_src": "Roberts 1912",
+            "it": "Poi cominciò a scivolare verso persone di minor conto, finché fu soffocata da quelle stesse consorterie e fazioni contro cui era stata istituita.",
+            "it_src": "ours",
+            "cite": "Livy 9.26.21"
+          }
+        },
+        {
+          "id": "r2-6",
+          "text": "The consuls marched on to besiege Bovianum and wintered there. Two years later Livy can call the Samnite war almost finished, as Rome's attention turned to Etruria.",
+          "cites": [
+            "Livy 9.28.1–2",
+            "Livy 9.29.1"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "profligato fere Samnitium bello",
+            "en": "The Samnite war was now drawing to a close.",
+            "en_src": "Roberts 1912",
+            "it": "Quando ormai la guerra sannitica era quasi conclusa.",
+            "it_src": "ours",
+            "cite": "Livy 9.29.1"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "cards",
+      "id": "c1",
+      "title": "The deeper cut",
+      "cards": [
+        "card-lautulae-gate",
+        "card-two-calendars",
+        "card-aulius",
+        "card-sora-colonists",
+        "card-two-hundred"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-lautulae-gate",
+      "title": "The gate above Tarracina",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-lautulae-gate-1",
+          "text": "Livy places Lautulae near Anxur, in a narrow pass between the sea and the mountains. Anxur, he says elsewhere, is what is now Tarracina.",
+          "cites": [
+            "Livy 7.39.7",
+            "Livy 4.59.4"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "cohors una, cum haud procul Anxure esset, ad Lautulas saltu angusto inter mare ac montes consedit",
+            "en": "One cohort, being not far from Anxur, took up a position at Lautulae, in a narrow pass between the sea and the mountains.",
+            "en_src": "ours",
+            "it": "Una coorte, trovandosi non lontano da Anxur, si attestò a Lautule, in una gola stretta tra il mare e i monti.",
+            "it_src": "ours",
+            "cite": "Livy 7.39.7"
+          },
+          "note": "Roberts translates 'Anxure' as 'Antium' and prints 'Lantulae', so the English here is ours."
+        },
+        {
+          "id": "card-lautulae-gate-2",
+          "text": "Pleiades describes Lautulae as a narrow pass above Terracina (Barrington Atlas map 44 D3, 'near Tarracina').",
+          "cites": [
+            "Pleiades 432903",
+            "Pleiades 433143"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-lautulae-gate-3",
+          "text": "In 217 Minucius was sent to hold the pass above Tarracina, so that Hannibal could not come from Sinuessa along the Appian road into Roman territory.",
+          "cites": [
+            "Livy 22.15.11"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "missus ad firmandum praesidio saltum, qui super Tarracinam in artas coactus fauces imminet mari, ne ab Sinuessa Poenus Appiae limite pervenire in agrum Romanum posset.",
+            "en": "He had been sent to secure with a garrison the pass which, narrowing into a tight defile above Tarracina, overhangs the sea, so that the Carthaginian could not come from Sinuessa by the Appian road into Roman territory.",
+            "en_src": "ours",
+            "it": "Era stato mandato a presidiare la gola che sopra Terracina, stretta in un passaggio angusto, sovrasta il mare, perché il Cartaginese non potesse giungere da Sinuessa nel territorio romano lungo la via Appia.",
+            "it_src": "ours",
+            "cite": "Livy 22.15.11"
+          }
+        },
+        {
+          "id": "card-lautulae-gate-4",
+          "text": "Strabo describes the same coast: at Tarracina the Appian Way first reaches the sea, and runs on past Formiae, Minturnae and Sinuessa.",
+          "cites": [
+            "Strabo 5.3.6"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ἐνταῦθα δὲ συνάπτει τῇ θαλάττῃ πρῶτον ἡ Ἀππία ὁδός",
+            "lang": "grc",
+            "en": "Here the Appian Way first reaches the sea.",
+            "en_src": "ours",
+            "it": "Qui la via Appia raggiunge per la prima volta il mare.",
+            "it_src": "ours",
+            "cite": "Strabo 5.3.6"
+          }
+        },
+        {
+          "id": "card-lautulae-gate-5",
+          "text": "Appius Claudius built the road as censor in the year Roberts dates 312, three years after Lautulae. Diodorus says he paved the greater part of it with solid stone from Rome to Capua, more than a thousand stades, cutting through high ground and filling hollows with embankments. He tells it under the consuls Q. Fabius and C. Marcius, whom Livy puts two years after the censorship.",
+          "cites": [
+            "Livy 9.29.5–6",
+            "Diodorus 20.27.1",
+            "Diodorus 20.36.2",
+            "Livy 9.30.1",
+            "Livy 9.33.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-lautulae-gate-6",
+          "text": "Livy's own record of paving is piecemeal and later. In Book 10 the curule aediles Cn. and Q. Ogulnius pave a footway with squared stone from the Porta Capena to the temple of Mars, and in another year the road from the temple of Mars to Bovillae is paved from fines on graziers.",
+          "cites": [
+            "Livy 10.23.11–12",
+            "Livy 10.47.4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-lautulae-gate-7",
+          "text": "That Appius' road, in the year Roberts dates 312, crossed the ground where the Samnites had fought three years before is our inference from these passages. No source we have opened links the road to the battle.",
+          "cites": [
+            "Livy 7.39.7",
+            "Livy 22.15.11",
+            "Strabo 5.3.6"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-two-calendars",
+      "title": "Two calendars, one sequence",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-two-calendars-1",
+          "text": "In these books Livy dates by consuls and dictators. He gives a year from the foundation only occasionally (4.7.1, 7.18.1), and none for these years. The years BC in this scene are the conventional ones, counted by consular years from the two that Roberts prints in Book 9, 321 (9.1.1) and 312 (9.29.5).",
+          "cites": [
+            "Livy 4.7.1",
+            "Livy 7.18.1",
+            "Livy 9.1.1",
+            "Livy 9.29.5"
+          ],
+          "confidence": "attested",
+          "note": "We have not opened a modern study of the chronology of this decade, so the scene does not say how far they may differ from the true years."
+        },
+        {
+          "id": "card-two-calendars-2",
+          "text": "Diodorus pairs each Athenian archon with two Roman consuls. Where Livy names the consuls, the pairs agree: Sp. Nautius and M. Popilius (Livy 9.21.1); M. Poetelius and C. Sulpicius (9.24.1); L. Papirius for the fifth time and C. Iunius (9.28.2). For the year in which he puts Lautulae Diodorus has L. Papirius for the fourth time and a Quintus Poplius for the second; Livy does not name that year's consuls. Diodorus' text spells Popilius and Poetelius alike as Poplius.",
+          "cites": [
+            "Diodorus 19.55.1",
+            "Diodorus 19.66.1",
+            "Diodorus 19.73.1",
+            "Diodorus 19.77.1",
+            "Livy 9.21.1",
+            "Livy 9.24.1",
+            "Livy 9.28.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-two-calendars-3",
+          "text": "At 9.22.1, for the year of Fabius' dictatorship, Livy says only that the new consuls stayed in Rome like their predecessors, and does not name them there.",
+          "cites": [
+            "Livy 9.22.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-two-calendars-4",
+          "text": "Diodorus puts into his Lautulae year what Livy spreads over three years: Plistica, Sora and the battle at Saticula, as well as Lautulae itself and the colony at Luceria. Livy has the Luceria colony a year later, after the town was betrayed and retaken.",
+          "cites": [
+            "Diodorus 19.72.3–8",
+            "Livy 9.21–9.23",
+            "Livy 9.26.1–5"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-aulius",
+      "title": "Aulius dies twice",
+      "tier": 1,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-aulius-1",
+          "text": "In Livy's main narrative Q. Aulius Cerretanus dies before Saticula, killed by the brother of the Samnite commander he had just killed.",
+          "cites": [
+            "Livy 9.22.4–8"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-aulius-2",
+          "text": "One chapter later Livy reports authorities who had him fall at Lautulae, and Diodorus agrees: Aulius stood alone when the army fled.",
+          "cites": [
+            "Livy 9.23.5",
+            "Diodorus 19.72.7–8"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-aulius-3",
+          "text": "Livy then brings in C. Fabius as master of horse in Aulius' place, in a sentence that serves either version. That it serves both is our observation.",
+          "cites": [
+            "Livy 9.23.6"
+          ],
+          "confidence": "inferred",
+          "quote": {
+            "la": "suffectus in locum Auli C. Fabius magister equitum cum exercitu novo ab Roma advenit",
+            "en": "C. Fabius was appointed Master of the Horse in his place and came with a fresh army from Rome.",
+            "en_src": "Roberts 1912",
+            "it": "Nominato maestro della cavalleria al posto di Aulio, C. Fabio giunse da Roma con un nuovo esercito.",
+            "it_src": "ours",
+            "cite": "Livy 9.23.6"
+          }
+        },
+        {
+          "id": "card-aulius-4",
+          "text": "In both authors Aulius serves as master of horse under Q. Fabius as dictator.",
+          "cites": [
+            "Livy 9.22.1–4",
+            "Diodorus 19.72.6"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-sora-colonists",
+      "title": "Colonists before the colony",
+      "tier": 1,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-sora-colonists-1",
+          "text": "Livy says Sora killed Roman colonists, that the army came to recover the colony, and that the 225 men executed at Rome were authors of the massacre of the colonists.",
+          "cites": [
+            "Livy 9.23.2",
+            "Livy 9.24.14"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-sora-colonists-2",
+          "text": "Yet early in Book 10, under the consuls L. Genucius and Ser. Cornelius, he records the foundation of a colony at Sora.",
+          "cites": [
+            "Livy 10.1.1–2"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Sora agri Volsci fuerat, sed possederant Samnites; eo quattuor milia hominum missa.",
+            "en": "Sora had been a Volscian town, but the Samnites had occupied it; 4000 men were sent there.",
+            "en_src": "Roberts 1912",
+            "it": "Sora era stata territorio volsco, ma l'avevano occupata i Sanniti; vi furono mandati quattromila uomini.",
+            "it_src": "ours",
+            "cite": "Livy 10.1.2"
+          }
+        },
+        {
+          "id": "card-sora-colonists-3",
+          "text": "Diodorus speaks only of the Romans living among the Sorani.",
+          "cites": [
+            "Diodorus 19.72.3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-sora-colonists-4",
+          "text": "Pleiades dates the Roman capture of Sora to 345 BC and the colony to 303 BC.",
+          "cites": [
+            "Pleiades 433126",
+            "Livy 7.28.6"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-sora-colonists-5",
+          "text": "The two passages in Livy are hard to square. We have not opened a modern discussion of the problem.",
+          "cites": [
+            "Livy 9.23.2",
+            "Livy 10.1.1–2"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-two-hundred",
+      "title": "Two hundred in the Forum",
+      "tier": 1,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-two-hundred-1",
+          "text": "Livy: after Sora fell in 314, 225 Sorani were taken to Rome, scourged and beheaded in the Forum, to the delight of the plebs, who wanted colonists safe wherever they were sent.",
+          "cites": [
+            "Livy 9.24.14–15"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-two-hundred-2",
+          "text": "Diodorus, in the year of L. Papirius' fifth consulship and C. Iunius: Q. Fabius, chosen dictator, took Fregellae and seized the leading men hostile to Rome, then took Calatia and the citadel of Nola.",
+          "cites": [
+            "Diodorus 19.77.1",
+            "Diodorus 19.101.3"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "τούτους δὲ τὸν ἀριθμὸν ὄντας πλείους τῶν διακοσίων ἀπήγαγεν εἰς Ῥώμην καὶ προαγαγὼν εἰς τὴν ἀγορὰν ῥαβδίσας ἐπελέκησε κατὰ τὸ πάτριον ἔθος.",
+            "lang": "grc",
+            "en": "These men, more than two hundred in number, he took to Rome, led them out into the Forum, and had them scourged and beheaded according to ancestral custom.",
+            "en_src": "ours",
+            "it": "Costoro, più di duecento, li condusse a Roma e, portatili nel foro, li fece fustigare e decapitare secondo l'uso patrio.",
+            "it_src": "ours",
+            "cite": "Diodorus 19.101.3"
+          }
+        },
+        {
+          "id": "card-two-hundred-3",
+          "text": "Livy, for the same consuls: the dictator is C. Poetelius, who recovers Fregellae without a fight and takes Nola; some of his authorities gave Nola, with Atina and Calatia, to the consul C. Iunius instead.",
+          "cites": [
+            "Livy 9.28.2–6"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-two-hundred-4",
+          "text": "The same punishment and a similar number, with a different town, year and commander. Whether the two notices go back to one event, neither text can tell us; the resemblance is our observation.",
+          "cites": [
+            "Livy 9.24.14–15",
+            "Diodorus 19.101.3"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    }
+  ]
+}

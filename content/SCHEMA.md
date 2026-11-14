@@ -75,7 +75,7 @@ Played in order. Kinds:
 }
 ```
 
-`quote` is optional and is shown in Latin first, with English and Italian on tap.
+`quote` is optional and is shown in the original first, with English and Italian on tap. The original goes in `la`; for Greek add `"lang": "grc"`.
 
 `figure` is optional; the block's `text` becomes its caption, and the caption's `cites` and `confidence` cover what the picture shows.
 

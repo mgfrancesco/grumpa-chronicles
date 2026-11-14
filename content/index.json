@@ -40,7 +40,13 @@
               "date": "321–320 BC"
             },
             {
-              "id": "samnites-02",
+              "id": "samnites-02-lautulae",
+              "file": "scenes/samnites/lautulae.json",
+              "title": "Lautulae",
+              "date": "316–314 BC"
+            },
+            {
+              "id": "samnites-03",
               "title": "In preparation",
               "planned": true
             }
