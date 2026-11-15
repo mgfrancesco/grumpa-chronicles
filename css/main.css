@@ -31,6 +31,14 @@ body {
   font-family: var(--serif);
   font-size: var(--fs);
   line-height: 1.55;
+  /* Launched from the Home Screen the page runs under the status bar
+     (black-translucent in index.html), so keep content below it. */
+  padding-top: env(safe-area-inset-top);
+}
+/* A solid strip behind the clock and battery, so text never scrolls under them. */
+body::before {
+  content: ""; position: fixed; top: 0; left: 0; right: 0; height: env(safe-area-inset-top);
+  background: var(--paper); z-index: 30; pointer-events: none;
 }
 a { color: var(--accent); }
 h1, h2, h3, h4 { font-weight: 600; line-height: 1.2; }
@@ -40,7 +48,10 @@ h2 { font-size: 1.15em; margin: 1.6em 0 .5em; font-variant: small-caps; letter-s
 .quiet { color: var(--ink-soft); font-size: .9em; }
 .eyebrow { display: block; font-size: .72em; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
 
-.page { max-width: 760px; margin: 0 auto; padding: 16px 20px 72px; }
+.page {
+  max-width: 760px; margin: 0 auto;
+  padding: 16px max(20px, env(safe-area-inset-right)) calc(72px + env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+}
 
 /* Buttons: every tap target is at least 48px */
 .btn, .option, .link-btn, .back, .q-btn {
@@ -166,7 +177,7 @@ h2 { font-size: 1.15em; margin: 1.6em 0 .5em; font-variant: small-caps; letter-s
 .block p.caption { font-size: .88em; color: var(--ink-soft); }
 
 .art img { cursor: zoom-in; }
-.viewer { position: fixed; inset: 0; z-index: 20; background: rgba(20,14,10,.92); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 12px; }
+.viewer { position: fixed; inset: 0; z-index: 40; background: rgba(20,14,10,.92); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: calc(12px + env(safe-area-inset-top)) 12px calc(12px + env(safe-area-inset-bottom)); }
 .viewer img { max-width: 100%; max-height: 82vh; object-fit: contain; background: var(--paper); border-radius: 6px; }
 .viewer .quiet { color: #d9c9ab; }
 
