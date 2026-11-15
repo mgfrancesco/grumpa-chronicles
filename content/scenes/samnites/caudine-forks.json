@@ -53,6 +53,10 @@
     "Daniele 1778": {
       "label": "F. Daniele, Le Forche Caudine illustrate (Caserta, 1778), engraved plates",
       "url": "https://commons.wikimedia.org/wiki/File:Pianta_delle_Forche_Caudine_-_Daniele1778.jpg"
+    },
+    "Appian": {
+      "label": "Appian, Samnite History (Greek, ed. L. Mendelssohn, Teubner 1879; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0551/tlg004"
     }
   },
   "steps": [
@@ -194,7 +198,7 @@
             },
             {
               "id": "d1-kill-2",
-              "text": "Your reasoning, as you are said to have given it: with two armies lost, Rome would need many generations to recover its strength, and the war would be put off for as long.",
+              "text": "Your reasoning, as you are said to have given it later to the council: with two armies lost, Rome would need many generations to recover its strength, and the war would be put off for as long.",
               "cites": [
                 "Livy 9.3.10"
               ],
@@ -216,7 +220,7 @@
           "consequence": [
             {
               "id": "d1-yoke-1",
-              "text": "This is the middle course. When the council puts it to you, you reject it at once.",
+              "text": "This is the middle course. It is said that later, when you are brought to the camp and the council puts it to you, you reject it at once.",
               "cites": [
                 "Livy 9.3.11–12"
               ],
@@ -248,15 +252,16 @@
           "consequence": [
             {
               "id": "d1-envoys-1",
-              "text": "Postumius will later tell the Senate this is what the Samnites should have done: while they were fetching old men from home for advice, they could have sent envoys to Rome, three days away for men travelling light, and a sponsio made by the people's order would have bound Rome.",
+              "text": "Postumius will later tell the Senate this is what the Samnites should have done: while they were fetching old men from home for advice, they could have sent envoys to Rome, three days away for men travelling light, and a sponsio made by the people's order would have bound Rome. In the next breath he adds that the Senate would not have stood for it, nor would the consuls have given the pledge.",
               "cites": [
-                "Livy 9.9.12–13"
+                "Livy 9.9.12–13",
+                "Livy 9.9.14"
               ],
               "confidence": "attested"
             },
             {
               "id": "d1-envoys-2",
-              "text": "What the Senate would have answered, no source can tell us.",
+              "text": "Whether he was right, no source can tell us.",
               "cites": [],
               "confidence": "counterfactual"
             }
@@ -495,6 +500,7 @@
       "cards": [
         "card-sponsio-foedus",
         "card-cicero-version",
+        "card-appian-herennius",
         "card-revenge-doubted",
         "card-livy-doubts",
         "card-where",
@@ -583,6 +589,47 @@
           "text": "Cicero sets beside it a later case: C. Mancinus, who had made a foedus with the Numantines without the Senate's authority, himself urged the bill by which he was surrendered to them.",
           "cites": [
             "Cicero, De officiis 3.109"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-appian-herennius",
+      "title": "Appian's Herennius",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-appian-herennius-1",
+          "text": "Appian tells the council differently. There are no letters. Pontius sends to Caudium for his father, who is brought in a carriage because of his age, and the old man gives both counsels at once: release them all unharmed, or else kill every one. He says he prefers the first and offers the second as a necessity.",
+          "cites": [
+            "Appian, Samn. 4.3"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ἓν ἔστιν, ὦ παῖ, μεγάλης ἔχθρας φάρμακον, εὐεργεσίας ἢ κολάσεως ὑπερβολή.",
+            "lang": "grc",
+            "en": "There is one cure for a great enmity, my son: an excess of kindness or of punishment.",
+            "en_src": "ours",
+            "it": "Per una grande inimicizia, figlio mio, c'è un solo rimedio: l'eccesso del beneficio o del castigo.",
+            "it_src": "ours",
+            "cite": "Appian, Samn. 4.3"
+          }
+        },
+        {
+          "id": "card-appian-herennius-2",
+          "text": "In Appian the middle course is the son's own. Pontius rejects both counsels and proposes to take the Romans' arms and money, send them under the yoke unharmed, make peace, and hold the most illustrious of their equites as hostages until the whole people ratifies it.",
+          "cites": [
+            "Appian, Samn. 4.4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-appian-herennius-3",
+          "text": "Herennius does not argue. While his son is speaking he weeps, then mounts his carriage and drives back to Caudium.",
+          "cites": [
+            "Appian, Samn. 4.5"
           ],
           "confidence": "attested"
         }
