@@ -52,7 +52,7 @@
         },
         {
           "id": "b1-3",
-          "text": "At the turn of the year the outgoing consuls handed their legions to a dictator, L. Aemilius, instead of to their successors, Sp. Nautius and M. Popilius, and he has laid siege to Saticula. Livy says the siege gave the Samnites their cause to renew the war.",
+          "text": "At the turn of the year the outgoing consuls handed their legions to a dictator, L. Aemilius, instead of to their successors, Sp. Nautius and M. Popilius, and he has laid siege to Saticula. That siege gives the Samnites their cause to renew the war.",
           "cites": [
             "Livy 9.21.1–2"
           ],
@@ -60,7 +60,7 @@
         },
         {
           "id": "b1-4",
-          "text": "Saticula is your ally. Plistica is Rome's; Diodorus says it holds a Roman garrison.",
+          "text": "Saticula is your ally. Plistica is Rome's, and holds a Roman garrison.",
           "cites": [
             "Livy 9.21.3",
             "Livy 9.21.6",
@@ -112,11 +112,11 @@
           "id": "relieve",
           "label": "Bring a large army to Saticula, camp beside the Romans, and break the siege together with a sortie from the town.",
           "kind": "historical",
-          "kind_note": "Tried in 316 in Livy (9.21.3–6); Diodorus puts it in his Lautulae year (19.72.4).",
+          "kind_note": "What the Samnites did. Diodorus puts it in the year of Lautulae.",
           "consequence": [
             {
               "id": "d1-relieve-1",
-              "text": "This was tried. The Samnites camped close to the Roman camp while the Saticulans threw open their gates and rushed the Roman posts. The dictator held ground that was hard to surround and faced both ways. He drove the townsmen back inside their walls without much trouble, then turned on the Samnites. That fight was harder, but the victory, late as it came, was not in doubt. The Samnites put out their fires and left in silence by night.",
+              "text": "The army camps close to the Roman camp while the Saticulans throw open their gates and rush the Roman posts. The dictator holds ground that is hard to surround and faces both ways. He drives the townsmen back inside their walls without much trouble, then turns on the Samnites. That fight is harder, but the victory, late as it comes, is not in doubt. The Samnites put out their fires and leave in silence by night.",
               "cites": [
                 "Livy 9.21.3–6"
               ],
@@ -124,7 +124,7 @@
             },
             {
               "id": "d1-relieve-2",
-              "text": "Diodorus tells it as a hard battle with many dead on both sides, which the Romans won in the end. They then took the town by siege and went on to bring over the smaller towns nearby.",
+              "text": "In another account the battle is hard, with many dead on both sides, and the Romans win in the end. They then take the town by siege and go on to bring over the smaller towns nearby.",
               "cites": [
                 "Diodorus 19.72.4"
               ],
@@ -152,11 +152,11 @@
           "id": "plistica",
           "label": "Leave Saticula. Besiege Plistica, Rome's ally, and give Rome the same pain.",
           "kind": "historical",
-          "kind_note": "Tried in 316–315 (Livy 9.21.6, 9.22.10; Diodorus 19.72.3)",
+          "kind_note": "What the Samnites did",
           "consequence": [
             {
               "id": "d1-plistica-1",
-              "text": "This was tried, and Livy gives the reason: to pay the enemy back with equal grief. Plistica fell to the Samnites by force. Within the same few days Saticula surrendered to Rome.",
+              "text": "The aim is to pay the enemy back with equal grief. Plistica falls to the Samnites by force. Within the same few days Saticula surrenders to Rome.",
               "cites": [
                 "Livy 9.21.6",
                 "Livy 9.22.10"
@@ -165,7 +165,7 @@
             },
             {
               "id": "d1-plistica-2",
-              "text": "Diodorus puts the fall of Plistica, with its Roman garrison, before the battle at Saticula.",
+              "text": "In another account Plistica, with its Roman garrison, falls before the battle at Saticula.",
               "cites": [
                 "Diodorus 19.72.3–4"
               ],
@@ -178,11 +178,11 @@
           "id": "harass",
           "label": "Camp again where we camped last year, and ride at their rampart every day until they give up the siege.",
           "kind": "historical",
-          "kind_note": "Tried in 315 (Livy 9.22.1–10)",
+          "kind_note": "What the Samnites did the next year, in Livy's main version",
           "consequence": [
             {
               "id": "d1-harass-1",
-              "text": "This was tried. The new dictator, Q. Fabius, took over the army at Saticula and paid you little attention. He pressed the siege and merely posted pickets on your side. Your horsemen rode up to the rampart until they were almost in the gates. Then the master of horse, Q. Aulius Cerretanus, charged out with all his turmae without consulting the dictator and drove them off.",
+              "text": "A year on, the new dictator, Q. Fabius, takes over the army at Saticula and pays you little attention. He presses the siege and merely posts pickets on your side. Your horsemen ride up to the rampart until they are almost in the gates. Then the master of horse, Q. Aulius Cerretanus, charges out with all his turmae without consulting the dictator and drives them off.",
               "cites": [
                 "Livy 9.22.1–4"
               ],
@@ -190,7 +190,7 @@
             },
             {
               "id": "d1-harass-2",
-              "text": "Your commander rallied the horse and came back. Aulius killed him with one thrust of his lance. The commander's brother pulled Aulius from his horse and killed him. Both sides dismounted to fight over the bodies; the Romans had the better of it and carried Aulius back. With their commander dead, the Samnites gave up Saticula as beyond saving.",
+              "text": "Your commander rallies the horse and comes back. Aulius kills him with one thrust of his lance. The commander's brother pulls Aulius from his horse and kills him. Both sides dismount to fight over the bodies; the Romans have the better of it and carry Aulius back. With their commander dead, the Samnites give up Saticula as beyond saving.",
               "cites": [
                 "Livy 9.22.6–10"
               ],
@@ -203,11 +203,11 @@
           "id": "sora",
           "label": "Leave Saticula to its fate. Raise Sora, far behind the Roman lines.",
           "kind": "historical",
-          "kind_note": "Diodorus 19.72.3 has the Samnites persuade the Sorani; in Livy 9.23.2 Sora simply defects. Neither gives a purpose.",
+          "kind_note": "Diodorus' version. Neither source gives a purpose.",
           "consequence": [
             {
               "id": "d1-sora-1",
-              "text": "Diodorus says the Samnites persuaded the Sorani to kill the Romans living among them and to make an alliance with the Samnites.",
+              "text": "The Samnites persuade the Sorani to kill the Romans living among them and to make an alliance with the Samnites.",
               "cites": [
                 "Diodorus 19.72.3"
               ],
@@ -215,7 +215,7 @@
             },
             {
               "id": "d1-sora-2",
-              "text": "In Livy, Sora went over to the Samnites after killing the Roman colonists, and the seat of the war moved. The legions were brought from Samnium and Apulia to Sora by forced marches.",
+              "text": "In another account no persuasion is mentioned: Sora goes over to the Samnites after killing the Roman colonists. The seat of the war moves. The legions are brought from Samnium and Apulia to Sora by forced marches.",
               "cites": [
                 "Livy 9.23.1–2"
               ],
@@ -223,7 +223,7 @@
             },
             {
               "id": "d1-sora-photo",
-              "text": "Sora today, from the high ground above the town. Livy says its difficult position left no sure way to assault it, so that victory would be either slow or bought at great risk, and that a narrow, steep path led from the town up to the citadel.",
+              "text": "Sora today, from the high ground above the town. Its difficult position leaves the Romans no sure way to assault it, so that victory would be either slow or bought at great risk. A narrow, steep path leads from the town up to the citadel.",
               "cites": [
                 "Pleiades 433126",
                 "Livy 9.24.2",
@@ -397,7 +397,7 @@
       "blocks": [
         {
           "id": "b2-1",
-          "text": "314 BC. Whatever happened at Lautulae, the country moved. Livy says the coming of the Samnites, when the battle at Lautulae was fought, had stirred everything. Conspiracies were formed all round Campania, Capua itself was not free of the charge, and the inquiry reached some leading men at Rome.",
+          "text": "314 BC. Whatever the truth of Lautulae, the coming of the Samnites at the time of that battle has stirred everything. Conspiracies have formed all round Campania. Capua itself is not free of the charge, and the inquiry will reach some leading men at Rome.",
           "cites": [
             "Livy 9.25.2–3"
           ],
@@ -405,7 +405,7 @@
         },
         {
           "id": "b2-6",
-          "text": "At Capua the leading men were conspiring in secret. The Senate ordered an inquiry and a dictator to conduct it, C. Maenius, with M. Folius as master of horse. Before they could be denounced to the dictator, the heads of the conspiracy, Ovius and Novius Calavius, killed themselves.",
+          "text": "At Capua the leading men have been conspiring in secret. The Senate has ordered an inquiry and a dictator to conduct it, C. Maenius, with M. Folius as master of horse. Before they can be named to the dictator, the heads of the conspiracy, Ovius and Novius Calavius, take their own lives.",
           "cites": [
             "Livy 9.26.5–7"
           ],
@@ -422,7 +422,7 @@
         },
         {
           "id": "b2-8",
-          "text": "Livy says the Romans were content with the skirmishes and the delay. Your leaders are not.",
+          "text": "The Romans are content with the skirmishes and the delay. Your leaders are not.",
           "cites": [
             "Livy 9.27.5–6"
           ],
@@ -447,11 +447,11 @@
           "id": "fight",
           "label": "Fight now, in the plain, before the small daily losses use us up.",
           "kind": "historical",
-          "kind_note": "The Samnite leaders' decision (Livy 9.27.6–7)",
+          "kind_note": "What the Samnite leaders did",
           "consequence": [
             {
               "id": "d2-fight-1",
-              "text": "This is what your leaders did.",
+              "text": "Your leaders choose the same, and lead the army out to battle.",
               "cites": [
                 "Livy 9.27.7"
               ],
@@ -463,11 +463,11 @@
           "id": "wait",
           "label": "Stay where we are. Keep to skirmishes, lose a little each day, and let Capua move first.",
           "kind": "counterfactual",
-          "kind_note": "The course the army had held until its leaders chose battle (Livy 9.27.1–6). No one is recorded advising it, and no source tests it.",
+          "kind_note": "No Samnite is recorded proposing this",
           "consequence": [
             {
               "id": "d2-wait-1",
-              "text": "Livy says the army came to Caudium to be near enough to take Capua if a rising gave the chance; skirmishing and delay were the course it held until its leaders chose battle. Rome was content with the delay. In Livy's order, the men who led the Capuan conspiracy were already dead.",
+              "text": "The army came to Caudium to be near enough to take Capua if a rising gave the chance, and skirmishing and delay have been its course since. Rome is content with that. In one account the men who led the Capuan conspiracy are already dead.",
               "cites": [
                 "Livy 9.27.2",
                 "Livy 9.27.5–6",
@@ -477,7 +477,7 @@
             },
             {
               "id": "d2-wait-2",
-              "text": "Diodorus has the Campanians revolt, in contempt of Rome, while the result of the battle was still unknown. When they learned of the Samnite defeat they gave in.",
+              "text": "In another, the Campanians revolt in contempt of Rome while the result of the battle is still unknown, and give in when they learn of the Samnite defeat.",
               "cites": [
                 "Diodorus 19.76.3–4"
               ],
@@ -495,11 +495,11 @@
           "id": "latium",
           "label": "Leave the consuls in the plain. Take the army back through the pass at Lautulae and up the coast into Latium.",
           "kind": "counterfactual",
-          "kind_note": "No source has the Samnites attempt this in these years.",
+          "kind_note": "No source has the Samnites try this in these years",
           "consequence": [
             {
               "id": "d2-latium-1",
-              "text": "Strabo says the Samnites once laid waste the coastal district of Lavinium, Laurentum and Ardea, so that only traces of its towns remained. He gives no date, and no source we have opened connects the raid with these years.",
+              "text": "At some date the Samnites laid waste the coastal district of Lavinium, Laurentum and Ardea, and in time only traces of its towns were left. No date is given, and no source we have opened ties the raid to these years.",
               "cites": [
                 "Strabo 5.3.5"
               ],
