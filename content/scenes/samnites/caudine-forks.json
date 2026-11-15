@@ -63,7 +63,7 @@
       "blocks": [
         {
           "id": "b1-1",
-          "text": "Samnium, 321 BC. Your son, C. Pontius, commands the Samnite army this year. Livy calls him the foremost soldier and general of his people, and says he had by far the wisest of fathers.",
+          "text": "Samnium, 321 BC. Your son, C. Pontius, commands the Samnite army this year. He is the son of by far the wisest of fathers, and himself the foremost soldier and general of his people.",
           "cites": [
             "Livy 9.1.2"
           ],
@@ -127,7 +127,7 @@
         },
         {
           "id": "b2-2",
-          "text": "You have long since withdrawn from military and civil office. Livy is precise about what age has and has not taken from you.",
+          "text": "You have long since withdrawn from military and civil office. Age has weakened your body, but not the force of your mind and judgement.",
           "cites": [
             "Livy 9.3.5"
           ],
@@ -152,11 +152,11 @@
           "id": "release",
           "label": "Let them all go at once, unharmed.",
           "kind": "attested-advice",
-          "kind_note": "Herennius's first answer (Livy 9.3.6)",
+          "kind_note": "Your first answer",
           "consequence": [
             {
               "id": "d1-release-1",
-              "text": "This was your first answer. The council rejected it and sent the courier back to you.",
+              "text": "The council rejects it and sends the courier back to you.",
               "cites": [
                 "Livy 9.3.6–7"
               ],
@@ -164,7 +164,7 @@
             },
             {
               "id": "d1-release-2",
-              "text": "Your reasoning, as you later gave it to the council: an extraordinary kindness to a most powerful people would fix a lasting peace and friendship.",
+              "text": "Your reasoning, as you are said to have given it later to the council: an extraordinary kindness to a most powerful people would fix a lasting peace and friendship.",
               "cites": [
                 "Livy 9.3.10"
               ],
@@ -182,11 +182,11 @@
           "id": "kill",
           "label": "Kill every one of them.",
           "kind": "attested-advice",
-          "kind_note": "Herennius's second answer (Livy 9.3.7)",
+          "kind_note": "Your second answer",
           "consequence": [
             {
               "id": "d1-kill-1",
-              "text": "This was your second answer, given when the courier came back. The two replies contradicted each other like an ambiguous oracle, and your son thought your mind had aged with your body.",
+              "text": "You give it when the courier comes back. The two replies contradict each other like an ambiguous oracle, and your son thinks your mind has aged with your body.",
               "cites": [
                 "Livy 9.3.7–8"
               ],
@@ -194,7 +194,7 @@
             },
             {
               "id": "d1-kill-2",
-              "text": "Your reasoning: with two armies lost, Rome would need many generations to recover its strength, and the war would be put off for as long.",
+              "text": "Your reasoning, as you are said to have given it: with two armies lost, Rome would need many generations to recover its strength, and the war would be put off for as long.",
               "cites": [
                 "Livy 9.3.10"
               ],
@@ -212,11 +212,11 @@
           "id": "yoke",
           "label": "Spare their lives, but disarm them, send them under the yoke, and dictate terms.",
           "kind": "historical",
-          "kind_note": "The course Pontius took (Livy 9.4.3–5)",
+          "kind_note": "What your son did",
           "consequence": [
             {
               "id": "d1-yoke-1",
-              "text": "This is the middle course. In Livy, when the council put it to you, you rejected it at once.",
+              "text": "This is the middle course. When the council puts it to you, you reject it at once.",
               "cites": [
                 "Livy 9.3.11–12"
               ],
@@ -232,7 +232,7 @@
             },
             {
               "id": "d1-yoke-2",
-              "text": "Your son took it anyway.",
+              "text": "Your son takes it anyway.",
               "cites": [
                 "Livy 9.4.1–5"
               ],
@@ -244,11 +244,11 @@
           "id": "envoys",
           "label": "Hold them in the valley under truce, and send envoys to Rome to make a treaty with the Senate and people.",
           "kind": "counterfactual",
-          "kind_note": "Not proposed by anyone at Caudium",
+          "kind_note": "No one at Caudium is recorded proposing this",
           "consequence": [
             {
               "id": "d1-envoys-1",
-              "text": "Livy records no one proposing this at Caudium. But Postumius later told the Senate it was what the Samnites should have done: while they were fetching old men from home for advice, they could have sent envoys to Rome, three days away for men travelling light, and a sponsio made by the people's order would have bound Rome.",
+              "text": "Postumius will later tell the Senate this is what the Samnites should have done: while they were fetching old men from home for advice, they could have sent envoys to Rome, three days away for men travelling light, and a sponsio made by the people's order would have bound Rome.",
               "cites": [
                 "Livy 9.9.12–13"
               ],
@@ -281,7 +281,7 @@
       "blocks": [
         {
           "id": "r1-1",
-          "text": "Your son suspected age had weakened your judgement, but the council insisted you be brought to the camp. You came by wagon, held to both answers and gave your reasons. Asked about a middle course, you warned them what kind of people they were dealing with.",
+          "text": "Your son suspected age had weakened your judgement, but the council insisted you be brought to the camp. You came, it is said, by wagon, held to both answers and gave your reasons. Asked about a middle course, you warned them what kind of people they were dealing with.",
           "cites": [
             "Livy 9.3.8–13"
           ],
@@ -348,7 +348,7 @@
         },
         {
           "id": "b3-4",
-          "text": "Livy has Herennius carried home after the council and does not mention him at this tribunal.",
+          "text": "After the council you were carried home, and the account says nothing of you at this tribunal.",
           "cites": [
             "Livy 9.4.1"
           ],
@@ -371,11 +371,11 @@
           "id": "accept",
           "label": "Accept the surrender and keep these men as prisoners.",
           "kind": "counterfactual",
-          "kind_note": "Not what Pontius did",
+          "kind_note": "Not what your son did",
           "consequence": [
             {
               "id": "d2-accept-1",
-              "text": "Livy's Pontius saw the trap in this. Rome would keep the army it had saved by the sponsio and pay for it with a few sponsors; the peace that bought the army's release would be gone.",
+              "text": "Your son sees the trap in this. Rome would keep the army it had saved by the sponsio and pay for it with a few sponsors; the peace that bought the army's release would be gone.",
               "cites": [
                 "Livy 9.11.3–9"
               ],
@@ -393,11 +393,11 @@
           "id": "refuse",
           "label": "Refuse it. Rome must put its legions back in the valley or keep the peace. Let these men go.",
           "kind": "historical",
-          "kind_note": "Pontius's answer (Livy 9.11)",
+          "kind_note": "What your son did",
           "consequence": [
             {
               "id": "d2-refuse-1",
-              "text": "This is what your son did.",
+              "text": "Your son answers the same way.",
               "cites": [
                 "Livy 9.11.1–13"
               ],
@@ -409,7 +409,7 @@
           "id": "execute",
           "label": "Accept it, and put the sponsors to death as oath-breakers.",
           "kind": "counterfactual",
-          "kind_note": "Not what Pontius did",
+          "kind_note": "Not what your son did",
           "consequence": [
             {
               "id": "d2-execute-1",
