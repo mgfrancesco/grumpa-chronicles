@@ -572,6 +572,20 @@
           }
         },
         {
+          "id": "r2-battle",
+          "text": "The battle as Livy tells it, in three moments: the lines drawn up, the Roman left, Sulpicius' return. A diagram of his words. Ours: the Romans drawn below facing up, with no compass bearing; your camp's place behind the line; which wing your crossing horse came from and which way it rode; where the Roman horse started; the way the flight to Maleventum ran; all spacing and scale. The 1,200 is Livy's figure. He gives no ground, no distances and no strengths for the lines.",
+          "cites": [
+            "Livy 9.27.7–8",
+            "Livy 9.27.9–11",
+            "Livy 9.27.12–14"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "src": "art/scenes/campanian-plain-314.svg",
+            "alt": "Diagram in three panels. One: the Samnite line above with its horse on both wings looking back to the camp, in open ranks opposite the Roman right; the Roman line below, Sulpicius on the right in wider order, Poetelius on the left in closer order with reserve cohorts behind. Two: Poetelius' reserve cohorts move into the front line and the Samnite foot gives way; the Samnite horse rides across between the lines and the Roman horse breaks it; Sulpicius rides over from his wing, not yet engaged. Three: Sulpicius returns to the right with 1,200 men, Livy's figure, and finds it driven back; then the Samnites flee towards Maleventum."
+          }
+        },
+        {
           "id": "r2-3",
           "text": "Diodorus places the battle near a town he calls Kinna, after the consuls had come out to help allies the Samnites were ravaging. He too has a hard fight and a Roman victory. He gives more than 10,000 killed in a long pursuit; Livy's 30,000 counts the killed and the captured.",
           "cites": [

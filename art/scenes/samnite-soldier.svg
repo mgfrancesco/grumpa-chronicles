@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Diagram of the Samnite arms as Livy describes them: a gilded and a silvered soldier side by side">
+  <defs>
+    <!-- tunicae versicolores (9.40.3): the colours and the striping are ours -->
+    <pattern id="vc" width="27" height="10" patternUnits="userSpaceOnUse">
+      <rect width="9" height="10" fill="#9b2d20"/><rect x="9" width="9" height="10" fill="#b98a3e"/><rect x="18" width="9" height="10" fill="#4f6f6a"/>
+    </pattern>
+  </defs>
+  <rect width="760" height="620" fill="#f1e7cf"/>
+  <path d="M0 470 Q190 462 380 468 Q570 474 760 466 V500 H0Z" fill="#d9c08f"/>
+
+  <!-- ===== the gilded soldier (aurati), shield held in front ===== -->
+  <g stroke="#3a2a1e" stroke-width="1.6" stroke-linejoin="round">
+    <!-- legs: right leg bare, left leg greaved (sinistrum crus ocrea tectum) -->
+    <path d="M250 340 V462 H266 V340Z" fill="#e2bf98"/>
+    <path d="M274 340 V462 H290 V340Z" fill="#e2bf98"/>
+    <path d="M271 392 H293 V458 H271Z" fill="#8c6a3c"/>
+    <path d="M244 462 H268 V470 H244Z M272 462 H296 V470 H272Z" fill="#5b3d24"/>
+    <!-- right arm, hanging empty: Livy names no weapon -->
+    <path d="M224 168 L208 296 L222 298 L238 176Z" fill="#e2bf98"/>
+    <circle cx="214" cy="302" r="8" fill="#e2bf98"/>
+    <!-- tunic, many-coloured -->
+    <path d="M226 162 H314 L306 280 L326 350 H214 L234 280Z" fill="url(#vc)"/>
+    <!-- head and crested helmet (galeae cristatae); the helmet's form is ours -->
+    <rect x="263" y="144" width="14" height="18" fill="#e2bf98"/>
+    <circle cx="270" cy="130" r="21" fill="#e2bf98"/>
+    <path d="M247 128 Q247 100 270 100 Q293 100 293 128 Z" fill="#8c6a3c"/>
+    <path d="M263 102 Q257 74 270 52 Q283 74 277 102 Z" fill="#5b3d24"/>
+    <!-- the shield: broad and level at the top over chest and shoulders, narrowing below -->
+    <path d="M212 160 H328 L296 376 H244 Z" fill="#d6aa45" stroke="#6b4a1e" stroke-width="3"/>
+  </g>
+
+  <!-- ===== the silvered soldier (argentati), shield held aside ===== -->
+  <g stroke="#3a2a1e" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M480 340 V462 H496 V340Z" fill="#e2bf98"/>
+    <path d="M504 340 V462 H520 V340Z" fill="#e2bf98"/>
+    <path d="M501 392 H523 V458 H501Z" fill="#8c6a3c"/>
+    <path d="M474 462 H498 V470 H474Z M502 462 H526 V470 H502Z" fill="#5b3d24"/>
+    <path d="M454 168 L440 296 L454 298 L468 176Z" fill="#e2bf98"/>
+    <circle cx="446" cy="302" r="8" fill="#e2bf98"/>
+    <!-- left arm reaching out to the shield -->
+    <path d="M532 166 L590 250 L580 262 L524 182Z" fill="#e2bf98"/>
+    <!-- white linen tunic -->
+    <path d="M456 162 H544 L536 280 L556 350 H444 L464 280Z" fill="#fbf8ef"/>
+    <!-- spongia on the chest: its form is unknown; a plain patch -->
+    <rect x="481" y="178" width="38" height="58" rx="9" fill="#9c8a6e"/>
+    <rect x="493" y="144" width="14" height="18" fill="#e2bf98"/>
+    <circle cx="500" cy="130" r="21" fill="#e2bf98"/>
+    <path d="M477 128 Q477 100 500 100 Q523 100 523 128 Z" fill="#8c6a3c"/>
+    <path d="M493 102 Q487 74 500 52 Q513 74 507 102 Z" fill="#5b3d24"/>
+    <path d="M560 226 H676 L644 442 H592 Z" fill="#d3d6d8" stroke="#6e7377" stroke-width="3"/>
+  </g>
+
+  <!-- leader lines -->
+  <g stroke="#3a2a1e" stroke-width="1.4" fill="none">
+    <path d="M160 82 L258 72"/>
+    <path d="M170 156 L212 161"/>
+    <path d="M196 352 L240 352"/>
+    <path d="M412 206 L480 206"/>
+    <path d="M600 482 L524 430"/>
+  </g>
+
+  <g font-size="21" fill="#3a2a1e">
+    <text x="270" y="34" text-anchor="middle">scutum auro caelatum</text>
+    <text x="560" y="34" text-anchor="middle">scutum argento caelatum</text>
+
+    <text x="16" y="88" font-style="italic">galea cristata</text>
+    <text x="16" y="150" font-style="italic">summum latius,</text>
+    <text x="16" y="175" font-style="italic">fastigio aequali</text>
+    <text x="16" y="358" font-style="italic">ad imum</text>
+    <text x="16" y="383" font-style="italic">cuneatior</text>
+    <text x="340" y="213" font-style="italic">spongia</text>
+    <text x="604" y="490" font-style="italic">ocrea,</text>
+    <text x="604" y="515" font-style="italic">sinistrum crus</text>
+
+    <text x="270" y="534" text-anchor="middle">tunica versicolor</text>
+    <text x="500" y="534" text-anchor="middle">tunica lintea candida</text>
+  </g>
+  <text x="380" y="598" text-anchor="middle" font-size="19" font-style="italic" fill="#5b5047">A diagram of Livy 9.40.2–3, not a picture of surviving armour.</text>
+</svg>

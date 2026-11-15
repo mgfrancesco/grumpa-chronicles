@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1202" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Diagram in three panels of the battle in the Campanian plain in 314 BC as Livy describes it">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9b2d20"/></marker><marker id="ai" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3a2a1e"/></marker></defs>
+<rect width="760" height="1202" fill="#f1e7cf"/>
+<text x="14" y="36" font-size="23" fill="#3a2a1e" font-weight="bold">1. The lines</text>
+<text x="746" y="36" font-size="20" fill="#5b5047" text-anchor="end">Livy 9.27.7–8</text>
+<g transform="translate(0 48)">
+<rect x="8" y="0" width="744" height="330" rx="6" fill="#e3d2ad" stroke="#d9c08f" stroke-width="2"/>
+<!-- Samnite camp behind their line: the horse is to look back to it (respectum castrorum, 9.27.7); its place is ours -->
+<g><rect x="342" y="14" width="76" height="40" fill="#f6efe0" stroke="#9b2d20" stroke-width="2.5"/><path d="M342 34h76M380 14v40" stroke="#9b2d20" stroke-width="1"/></g>
+<text x="430" y="42" font-size="21" fill="#9b2d20">Samnite camp</text>
+<!-- Samnite horse on both wings, told to watch the camp (9.27.7) -->
+<path d="M40 83L49 92L40 101L31 92Z" fill="#9b2d20"/>
+<path d="M62 83L71 92L62 101L53 92Z" fill="#9b2d20"/>
+<path d="M84 83L93 92L84 101L75 92Z" fill="#9b2d20"/>
+<path d="M676 83L685 92L676 101L667 92Z" fill="#9b2d20"/>
+<path d="M698 83L707 92L698 101L689 92Z" fill="#9b2d20"/>
+<path d="M720 83L729 92L720 101L711 92Z" fill="#9b2d20"/>
+<path d="M84 78 Q200 30 338 34" fill="none" stroke="#9b2d20" stroke-width="2" stroke-dasharray="3 6"/>
+<path d="M676 78 Q560 74 422 52" fill="none" stroke="#9b2d20" stroke-width="2" stroke-dasharray="3 6"/>
+<text x="380" y="96" font-size="21" fill="#9b2d20" text-anchor="middle" font-style="italic">horse on the wings, watching the camp</text>
+<!-- Samnite foot; open ranks on the Roman right (raris ordinibus, 9.27.8) -->
+<rect x="60" y="120" width="38" height="16" fill="#9b2d20"/>
+<rect x="106" y="120" width="38" height="16" fill="#9b2d20"/>
+<rect x="152" y="120" width="38" height="16" fill="#9b2d20"/>
+<rect x="198" y="120" width="38" height="16" fill="#9b2d20"/>
+<rect x="244" y="120" width="38" height="16" fill="#9b2d20"/>
+<rect x="290" y="120" width="38" height="16" fill="#9b2d20"/>
+<rect x="336" y="120" width="38" height="16" fill="#9b2d20"/>
+<rect x="420" y="120" width="24" height="16" fill="#9b2d20"/>
+<rect x="478" y="120" width="24" height="16" fill="#9b2d20"/>
+<rect x="536" y="120" width="24" height="16" fill="#9b2d20"/>
+<rect x="594" y="120" width="24" height="16" fill="#9b2d20"/>
+<rect x="652" y="120" width="24" height="16" fill="#9b2d20"/>
+<text x="560" y="172" font-size="21" fill="#9b2d20" text-anchor="middle" font-style="italic">raris ordinibus</text>
+<!-- Roman foot: right wider (latius patefacta), left closer (confertiores), reserve cohorts behind (9.27.8-9) -->
+<rect x="60" y="196" width="40" height="16" fill="#3a2a1e"/>
+<rect x="106" y="196" width="40" height="16" fill="#3a2a1e"/>
+<rect x="152" y="196" width="40" height="16" fill="#3a2a1e"/>
+<rect x="198" y="196" width="40" height="16" fill="#3a2a1e"/>
+<rect x="244" y="196" width="40" height="16" fill="#3a2a1e"/>
+<rect x="290" y="196" width="40" height="16" fill="#3a2a1e"/>
+<rect x="336" y="196" width="40" height="16" fill="#3a2a1e"/>
+<rect x="420" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="478" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="536" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="594" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="652" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="83" y="228" width="30" height="12" fill="#3a2a1e"/>
+<rect x="139" y="228" width="30" height="12" fill="#3a2a1e"/>
+<rect x="195" y="228" width="30" height="12" fill="#3a2a1e"/>
+<rect x="251" y="228" width="30" height="12" fill="#3a2a1e"/>
+<rect x="307" y="228" width="30" height="12" fill="#3a2a1e"/>
+<text x="30" y="280" font-size="21" fill="#3a2a1e">Poetelius: closer order,</text>
+<text x="30" y="306" font-size="21" fill="#3a2a1e">reserve cohorts behind</text>
+<text x="730" y="280" font-size="21" fill="#3a2a1e" text-anchor="end">Sulpicius: line</text>
+<text x="730" y="306" font-size="21" fill="#3a2a1e" text-anchor="end">opened wider</text>
+</g>
+<text x="14" y="424" font-size="23" fill="#3a2a1e" font-weight="bold">2. The Roman left</text>
+<text x="746" y="424" font-size="20" fill="#5b5047" text-anchor="end">Livy 9.27.9–11</text>
+<g transform="translate(0 436)">
+<rect x="8" y="0" width="744" height="330" rx="6" fill="#e3d2ad" stroke="#d9c08f" stroke-width="2"/>
+<g opacity="0.55"><rect x="342" y="14" width="76" height="40" fill="#f6efe0" stroke="#9b2d20" stroke-width="2.5"/><path d="M342 34h76M380 14v40" stroke="#9b2d20" stroke-width="1"/></g>
+<!-- the Samnite foot opposite the Roman left, driven back and shaken (9.27.9-10) -->
+<rect x="60" y="66" width="38" height="16" fill="#9b2d20" transform="rotate(-14 79.0 74.0)"/>
+<rect x="106" y="66" width="38" height="16" fill="#9b2d20" transform="rotate(8 125.0 74.0)"/>
+<rect x="152" y="66" width="38" height="16" fill="#9b2d20" transform="rotate(-10 171.0 74.0)"/>
+<rect x="198" y="66" width="38" height="16" fill="#9b2d20" transform="rotate(16 217.0 74.0)"/>
+<rect x="244" y="66" width="38" height="16" fill="#9b2d20" transform="rotate(-6 263.0 74.0)"/>
+<rect x="290" y="66" width="38" height="16" fill="#9b2d20" transform="rotate(12 309.0 74.0)"/>
+<rect x="336" y="66" width="38" height="16" fill="#9b2d20" transform="rotate(-18 355.0 74.0)"/>
+<path d="M110 128 V100" fill="none" stroke="#3a2a1e" stroke-width="3" marker-end="url(#ai)"/>
+<path d="M250 128 V100" fill="none" stroke="#3a2a1e" stroke-width="3" marker-end="url(#ai)"/>
+<!-- Samnite horse crossing between the lines (transverso agmine inter duas acies), broken by the Roman horse (9.27.10); its direction and the Roman horse's starting place are ours -->
+<path d="M46 142L54 150L46 158L38 150Z" fill="#9b2d20"/>
+<path d="M72 142L80 150L72 158L64 150Z" fill="#9b2d20"/>
+<path d="M98 142L106 150L98 158L90 150Z" fill="#9b2d20"/>
+<path d="M124 142L132 150L124 158L116 150Z" fill="#9b2d20"/>
+<path d="M150 142L158 150L150 158L142 150Z" fill="#9b2d20"/>
+<path d="M164 150 H330" fill="none" stroke="#9b2d20" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M28 198L36 206L28 214L20 206Z" fill="#3a2a1e"/>
+<path d="M28 222L36 230L28 238L20 230Z" fill="#3a2a1e"/>
+<path d="M40 204 Q80 186 92 166" fill="none" stroke="#3a2a1e" stroke-width="2.5" marker-end="url(#ai)"/>
+<text x="352" y="146" font-size="21" fill="#9b2d20">Samnite horse rides across;</text>
+<text x="352" y="170" font-size="21" fill="#3a2a1e">the Roman horse breaks it</text>
+<!-- reserve cohorts sent at once into the front line (9.27.9): old places faint, now in the line -->
+<rect x="83" y="244" width="30" height="12" fill="none" stroke="#3a2a1e" stroke-width="1.5" stroke-dasharray="3 3"/>
+<path d="M98 242 V222" fill="none" stroke="#3a2a1e" stroke-width="2" marker-end="url(#ai)"/>
+<rect x="139" y="244" width="30" height="12" fill="none" stroke="#3a2a1e" stroke-width="1.5" stroke-dasharray="3 3"/>
+<path d="M154 242 V222" fill="none" stroke="#3a2a1e" stroke-width="2" marker-end="url(#ai)"/>
+<rect x="195" y="244" width="30" height="12" fill="none" stroke="#3a2a1e" stroke-width="1.5" stroke-dasharray="3 3"/>
+<path d="M210 242 V222" fill="none" stroke="#3a2a1e" stroke-width="2" marker-end="url(#ai)"/>
+<rect x="251" y="244" width="30" height="12" fill="none" stroke="#3a2a1e" stroke-width="1.5" stroke-dasharray="3 3"/>
+<path d="M266 242 V222" fill="none" stroke="#3a2a1e" stroke-width="2" marker-end="url(#ai)"/>
+<rect x="307" y="244" width="30" height="12" fill="none" stroke="#3a2a1e" stroke-width="1.5" stroke-dasharray="3 3"/>
+<path d="M322 242 V222" fill="none" stroke="#3a2a1e" stroke-width="2" marker-end="url(#ai)"/>
+<rect x="60" y="192" width="40" height="16" fill="#3a2a1e"/>
+<rect x="106" y="192" width="40" height="16" fill="#3a2a1e"/>
+<rect x="152" y="192" width="40" height="16" fill="#3a2a1e"/>
+<rect x="198" y="192" width="40" height="16" fill="#3a2a1e"/>
+<rect x="244" y="192" width="40" height="16" fill="#3a2a1e"/>
+<rect x="290" y="192" width="40" height="16" fill="#3a2a1e"/>
+<rect x="336" y="192" width="40" height="16" fill="#3a2a1e"/>
+<rect x="83" y="208" width="30" height="12" fill="#3a2a1e"/>
+<rect x="139" y="208" width="30" height="12" fill="#3a2a1e"/>
+<rect x="195" y="208" width="30" height="12" fill="#3a2a1e"/>
+<rect x="251" y="208" width="30" height="12" fill="#3a2a1e"/>
+<rect x="307" y="208" width="30" height="12" fill="#3a2a1e"/>
+<!-- the Roman right not yet engaged; Sulpicius rides over at the shout (9.27.11) -->
+<rect x="420" y="66" width="24" height="16" fill="#9b2d20"/>
+<rect x="478" y="66" width="24" height="16" fill="#9b2d20"/>
+<rect x="536" y="66" width="24" height="16" fill="#9b2d20"/>
+<rect x="594" y="66" width="24" height="16" fill="#9b2d20"/>
+<rect x="652" y="66" width="24" height="16" fill="#9b2d20"/>
+<rect x="420" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="478" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="536" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="594" y="196" width="30" height="16" fill="#3a2a1e"/>
+<rect x="652" y="196" width="30" height="16" fill="#3a2a1e"/>
+<path d="M600 230 Q500 262 410 236" fill="none" stroke="#3a2a1e" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ai)"/>
+<text x="30" y="290" font-size="21" fill="#3a2a1e">Poetelius sends the reserve cohorts</text>
+<text x="30" y="316" font-size="21" fill="#3a2a1e">into the line; the Samnites give way</text>
+<text x="730" y="290" font-size="21" fill="#3a2a1e" text-anchor="end">Right not yet engaged;</text>
+<text x="730" y="316" font-size="21" fill="#3a2a1e" text-anchor="end">Sulpicius rides to the shout</text>
+</g>
+<text x="14" y="812" font-size="23" fill="#3a2a1e" font-weight="bold">3. Sulpicius returns</text>
+<text x="746" y="812" font-size="20" fill="#5b5047" text-anchor="end">Livy 9.27.12–14</text>
+<g transform="translate(0 824)">
+<rect x="8" y="0" width="744" height="330" rx="6" fill="#e3d2ad" stroke="#d9c08f" stroke-width="2"/>
+<!-- left wing: victory not in doubt (9.27.12); the Samnites there in flight -->
+<rect x="106" y="74" width="38" height="16" fill="#9b2d20" transform="rotate(-20 125.0 82.0)"/>
+<rect x="198" y="74" width="38" height="16" fill="#9b2d20" transform="rotate(14 217.0 82.0)"/>
+<rect x="290" y="74" width="38" height="16" fill="#9b2d20" transform="rotate(-12 309.0 82.0)"/>
+<rect x="60" y="128" width="40" height="16" fill="#3a2a1e"/>
+<rect x="106" y="128" width="40" height="16" fill="#3a2a1e"/>
+<rect x="152" y="128" width="40" height="16" fill="#3a2a1e"/>
+<rect x="198" y="128" width="40" height="16" fill="#3a2a1e"/>
+<rect x="244" y="128" width="40" height="16" fill="#3a2a1e"/>
+<rect x="290" y="128" width="40" height="16" fill="#3a2a1e"/>
+<rect x="336" y="128" width="40" height="16" fill="#3a2a1e"/>
+<!-- right wing: Romans driven from their ground, the enemy pressing them (9.27.12) -->
+<rect x="420" y="230" width="30" height="16" fill="#3a2a1e" transform="rotate(10 435.0 238.0)"/>
+<rect x="478" y="230" width="30" height="16" fill="#3a2a1e" transform="rotate(-12 493.0 238.0)"/>
+<rect x="536" y="230" width="30" height="16" fill="#3a2a1e" transform="rotate(6 551.0 238.0)"/>
+<rect x="594" y="230" width="30" height="16" fill="#3a2a1e" transform="rotate(-8 609.0 238.0)"/>
+<rect x="652" y="230" width="30" height="16" fill="#3a2a1e" transform="rotate(14 667.0 238.0)"/>
+<rect x="420" y="170" width="24" height="16" fill="#9b2d20"/>
+<rect x="478" y="170" width="24" height="16" fill="#9b2d20"/>
+<rect x="536" y="170" width="24" height="16" fill="#9b2d20"/>
+<rect x="594" y="170" width="24" height="16" fill="#9b2d20"/>
+<rect x="652" y="170" width="24" height="16" fill="#9b2d20"/>
+<path d="M450 192 V214" fill="none" stroke="#9b2d20" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M624 192 V214" fill="none" stroke="#9b2d20" stroke-width="3" marker-end="url(#ar)"/>
+<!-- Sulpicius back to his own wing with 1,200 men (9.27.12-13) -->
+<path d="M210 156 Q300 214 400 236" fill="none" stroke="#3a2a1e" stroke-width="3" marker-end="url(#ai)"/>
+<text x="30" y="196" font-size="21" fill="#3a2a1e">Sulpicius returns</text>
+<text x="30" y="222" font-size="21" fill="#3a2a1e">with 1,200 men</text>
+<text x="30" y="248" font-size="21" fill="#5b5047">(Livy’s figure)</text>
+<!-- then the whole line wins; flight to Maleventum (9.27.14); direction ours -->
+<path d="M470 160 Q470 110 510 64" fill="none" stroke="#9b2d20" stroke-width="3.5" stroke-dasharray="10 6" marker-end="url(#ar)"/>
+<path d="M640 160 Q646 110 690 64" fill="none" stroke="#9b2d20" stroke-width="3.5" stroke-dasharray="10 6" marker-end="url(#ar)"/>
+<path d="M206 66 Q214 36 252 20" fill="none" stroke="#9b2d20" stroke-width="3.5" stroke-dasharray="10 6" marker-end="url(#ar)"/>
+<text x="470" y="40" font-size="21" fill="#9b2d20" text-anchor="middle">then: flight to Maleventum</text>
+<text x="30" y="290" font-size="21" fill="#3a2a1e">He finds his own wing driven back. His coming</text>
+<text x="30" y="316" font-size="21" fill="#3a2a1e">changes everything; the whole Roman line wins.</text>
+</g>
+<text x="380" y="1186" font-size="18" fill="#5b5047" text-anchor="middle" font-style="italic">A diagram of Livy 9.27.7–14, not a plan of the field.</text>
+</svg>

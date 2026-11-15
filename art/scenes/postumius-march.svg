@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Diagram of Postumius' night march of 305 BC in Livy's second account, Livy 9.44.6–12">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9b2d20"/></marker>
+    <marker id="ahk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3a2a1e"/></marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#e3d2ad"/><path d="M0 0V8" stroke="#3a2a1e" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="760" height="760" fill="#f1e7cf"/>
+
+  <!-- in montes (9.44.7): the only ground Livy gives; its shape is ours -->
+  <path d="M0 78 Q60 70 120 84 Q200 66 280 82 Q360 70 470 92 Q490 200 460 330 Q330 352 230 340 Q120 356 0 336Z" fill="#d9c08f"/>
+  <g fill="none" stroke="#b98a3e" stroke-width="1.6">
+    <path d="M220 140l22-32 22 32M266 130l20-28 20 28"/>
+    <path d="M150 312l20-28 20 28M196 304l18-26 18 26"/>
+  </g>
+  <text x="24" y="316" font-size="22" font-style="italic" fill="#3a2a1e">in montes</text>
+
+  <!-- start: after the drawn fight at Tifernum; no place is drawn -->
+  <text x="20" y="34" font-size="20" font-style="italic" fill="#3a2a1e">from the drawn fight at Tifernum</text>
+
+  <!-- 1. Postumius by night into the mountains; the Samnites follow (9.44.7) -->
+  <path d="M370 44 L370 168" fill="none" stroke="#9b2d20" stroke-width="3.5" marker-end="url(#ah)"/>
+  <path d="M160 44 L160 168" fill="none" stroke="#3a2a1e" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#ahk)"/>
+
+  <!-- Samnite camp, locis munitis, duo milia from Postumius (9.44.7) -->
+  <rect x="120" y="180" width="80" height="48" fill="url(#hatch)" stroke="#3a2a1e" stroke-width="2.5"/>
+  <!-- Postumius' camp: fortified, stocked, garrisoned (9.44.8) -->
+  <rect x="330" y="180" width="80" height="48" fill="#f6efe0" stroke="#3a2a1e" stroke-width="2.5"/>
+  <path d="M330 204h80M370 180v48" stroke="#3a2a1e" stroke-width="1"/>
+
+  <!-- duo milia -->
+  <g stroke="#3a2a1e" stroke-width="2">
+    <path d="M206 210H324"/><path d="M206 202v16M324 202v16"/>
+  </g>
+  <text x="265" y="198" text-anchor="middle" font-size="20" font-style="italic" fill="#3a2a1e">duo milia</text>
+  <text x="265" y="238" text-anchor="middle" font-size="20" fill="#3a2a1e">two miles</text>
+
+  <g font-size="20" fill="#3a2a1e">
+    <text x="112" y="211" text-anchor="end">Samnites</text>
+    <text x="370" y="256" text-anchor="middle">Postumius</text>
+  </g>
+
+  <!-- the other front: Minucius encamped facing a second Samnite army (9.44.9) -->
+  <rect x="610" y="60" width="80" height="48" fill="#f6efe0" stroke="#3a2a1e" stroke-width="2.5"/>
+  <path d="M610 84h80M650 60v48" stroke="#3a2a1e" stroke-width="1"/>
+  <text x="650" y="44" text-anchor="middle" font-size="20" fill="#3a2a1e">Minucius</text>
+  <rect x="610" y="292" width="80" height="48" fill="url(#hatch)" stroke="#3a2a1e" stroke-width="2.5"/>
+  <text x="740" y="366" text-anchor="end" font-size="20" fill="#3a2a1e">the other Samnite army</text>
+
+  <!-- the battle lines (9.44.10) -->
+  <rect x="580" y="168" width="150" height="12" fill="#9b2d20"/>
+  <rect x="580" y="200" width="150" height="12" fill="#3a2a1e"/>
+
+  <!-- 2. third watch, by the shortest way, to his colleague (9.44.8–9) -->
+  <path d="M416 196 Q480 150 548 132" fill="none" stroke="#9b2d20" stroke-width="3.5" marker-end="url(#ah)"/>
+  <!-- 3. fresh legions on the tired line; which side is ours (9.44.10) -->
+  <path d="M552 146 Q548 196 572 206" fill="none" stroke="#9b2d20" stroke-width="3.5" marker-end="url(#ah)"/>
+  <!-- 4. both armies on to Postumius' camp; the Samnites there routed (9.44.11–12) -->
+  <path d="M596 226 C520 380 240 380 182 240" fill="none" stroke="#9b2d20" stroke-width="3.5" marker-end="url(#ah)"/>
+  <path d="M612 228 C540 400 220 400 156 242" fill="none" stroke="#9b2d20" stroke-width="3.5" marker-end="url(#ah)"/>
+
+  <!-- step numbers -->
+  <g font-size="20" font-weight="700" fill="#f6efe0" text-anchor="middle">
+    <circle cx="394" cy="104" r="15" fill="#9b2d20"/><text x="394" y="111">1</text>
+    <circle cx="490" cy="186" r="15" fill="#9b2d20"/><text x="490" y="193">2</text>
+    <circle cx="534" cy="196" r="15" fill="#9b2d20"/><text x="534" y="203">3</text>
+    <circle cx="400" cy="378" r="15" fill="#9b2d20"/><text x="400" y="385">4</text>
+  </g>
+
+  <!-- key -->
+  <path d="M20 420H740" stroke="#b98a3e" stroke-width="1.5"/>
+  <g font-size="20" fill="#3a2a1e">
+    <circle cx="36" cy="451" r="14" fill="#9b2d20"/><text x="36" y="458" text-anchor="middle" font-weight="700" fill="#f6efe0">1</text>
+    <text x="62" y="458">By night, feigning fear, Postumius slips into the</text>
+    <text x="62" y="484">mountains. The Samnites follow and dig in two miles off.</text>
+
+    <circle cx="36" cy="517" r="14" fill="#9b2d20"/><text x="36" y="524" text-anchor="middle" font-weight="700" fill="#f6efe0">2</text>
+    <text x="62" y="524">He fortifies and stocks his camp as if to stay, leaves</text>
+    <text x="62" y="550">a strong garrison, and at the third watch leads his legions,</text>
+    <text x="62" y="576">lightly equipped, by the shortest way to Minucius.</text>
+
+    <circle cx="36" cy="609" r="14" fill="#9b2d20"/><text x="36" y="616" text-anchor="middle" font-weight="700" fill="#f6efe0">3</text>
+    <text x="62" y="616">Minucius engages. Far into the day Postumius falls without</text>
+    <text x="62" y="642">warning on the tired line with fresh legions; 21 standards taken.</text>
+
+    <circle cx="36" cy="675" r="14" fill="#9b2d20"/><text x="36" y="682" text-anchor="middle" font-weight="700" fill="#f6efe0">4</text>
+    <text x="62" y="682">Both armies go on to Postumius' camp and rout the Samnites</text>
+    <text x="62" y="708">there. 26 standards, Gellius and both camps taken.</text>
+  </g>
+  <text x="380" y="746" text-anchor="middle" font-size="18" font-style="italic" fill="#5b5047">A diagram of Livy 9.44.6–12, his second account, not a map.</text>
+</svg>
