@@ -1,0 +1,1010 @@
+{
+  "id": "samnites-03-shields",
+  "wing": "samnites",
+  "campaign": "caudium-sentinum",
+  "title": "The gilded shields",
+  "place": "Samnium and Longula",
+  "date": "310 BC",
+  "role": "an elder of the touto",
+  "outfit": "samnite-elder",
+  "lenses": [
+    "war",
+    "arms"
+  ],
+  "status": "checked",
+  "verified": {
+    "by": "checker agent, three passes",
+    "date": "2026-11-15",
+    "notes": "Checked 15 Nov 2026 (checker agent, three passes). First pass found five errors (Lake Vadimo deleted as a gloss in the OCT; 'later in the war' for 296; the belt's date gap; Ovius Paccius' role; the tribune's question at 9.34.12), a mislabelled option ('plain' is counterfactual: no Samnite proposed it), a misleading Diodorus label, file-title dates on the Paestum photos, and an unsourced hint at the dictator year; all fixed. Second and third passes confirmed the fixes; Strabo 5.4.13 added for Poseidonia = Paestus. The Varronian dictator year (309) is not asserted: the Fasti and Broughton were not opened. d2 has two counterfactual options beside the historical one, as in Lautulae d2. Researcher's draft notes (2026-11-15). Livy cited by the Conway–Walters (OCT, vol. II, 1919) section numbers in Perseus lat3, checked against lat4 (same text) and Weissenborn–Müller (lat2). Section numbers differ in 9.38–9.40: W–M and Roberts number Fabius' nomination of Papirius 9.38.14 (OCT 9.38.12), the Faucian curia 9.38.15–16 (OCT 9.38.13–14), the triumph 9.40.15 (OCT 9.40.14), the argentariae 9.40.16 (OCT 9.40.15) and the Campanian gladiators 9.40.17 (OCT 9.40.16); Roberts also renumbers 9.39 and 9.40.4–14. Quotations are attributed by OCT numbers. OCT 9.40.3 includes the words 'his vaginae argenteae, baltea argentea: auratae vaginae, aurea baltea illis erant, et equorum inaurata tapeta', which are not in the manuscripts (see card-lost-sentence); W–M and Roberts omit them. W–M read 'caelaverant' at 9.40.2, OCT 'caelaverunt'. Consul's name: OCT 'Rutulus' (Conway), W–M and Roberts 'Rutilus'. Perseus OCR errors ignored: lat3/lat4 'multitude' (9.38.3), 'earn' (9.38.14), 'tune' (9.39.9), 'cetoros' (9.40.1), 'speeiem' (9.40.3), 'lunius' (9.40.9), 'triumph' doubled (9.40.14), 'reliqniis' (9.40.17), 'baud' (9.32.5, 10.16.5), 'done' (10.16.2), 'oppulentissimam' (10.16.6), 'eventurn' (10.39.11); the marginal 'A.U.C. 464' at 9.40.6 is garbled and not used; lat2 'silvanr' (9.38.4), 'turn' (9.38.9, 9.40.13), 'certamiine' (9.39.6), 'incipereret' (9.40.8). Silius (Perseus lat2, Summers) prints 'exhilar<ar>e' with the added syllable marked and uses u for consonantal v; normalised to v here. Strabo 5.4.13 (Perseus grc2, Meineke 1877): Meineke deletes 'συν' in 'συνδείπνων', so the quotation stops before that clause. Roberts' English is not used where it misleads: 'at midnight' for 'nocte silentio' (9.38.12), 'coats of chain armour' for 'spongia' (9.40.3), 'silversmiths' shops' and the expanded tensae gloss (9.40.15), 'inspire dread' for 'horridum' (9.40.4); our English is used there. Years BC are conventional, counted by consular years from the one Roberts prints near here (312 at 9.29.5); no modern chronological study and no edition of the Fasti were opened. Oakley's commentary, Northwood's 1996 CQ article on Livy 9.40 and the Walters–Conway CQ 1918 article were not opened (Cambridge Core unreachable in this session); the 1918 article is cited only as the OCT apparatus cites it. Photos: Met 08.3a has a full museum record via its Commons file page; the dates in the two Paestum file titles (Carole Raddato's Flickr uploads) are not used; no source opened dates the paintings."
+  },
+  "sources": {
+    "Livy": {
+      "label": "Livy, Ab urbe condita (Latin, Conway–Walters and Weissenborn–Müller; Roberts 1912 English; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0914/phi001"
+    },
+    "Diodorus": {
+      "label": "Diodorus Siculus, Bibliotheca historica, books 18–20 (Greek, ed. Bekker, Dindorf and Fischer, Teubner 1903–1906; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0060/tlg001"
+    },
+    "Strabo": {
+      "label": "Strabo, Geographica (Greek, ed. A. Meineke, Teubner 1877; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0099/tlg001"
+    },
+    "Silius": {
+      "label": "Silius Italicus, Punica (Latin, ed. W. C. Summers, Corpus Poetarum Latinorum; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi1345/phi001"
+    },
+    "Horace": {
+      "label": "Horace, Epistulae (Latin, ed. H. R. Fairclough; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0893/phi005"
+    },
+    "Cicero": {
+      "label": "Cicero, De oratore (Latin, ed. A. S. Wilkins; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0474/phi037"
+    },
+    "Quintilian": {
+      "label": "Quintilian, Institutio oratoria (Latin, ed. H. E. Butler; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi1002/phi001"
+    },
+    "Met 08.3a": {
+      "label": "Metropolitan Museum of Art, Bronze belt and clasps, 08.3a (record as given on the Commons file page)",
+      "url": "https://commons.wikimedia.org/wiki/File:Bronze_belt_and_clasps_MET_DP219009.jpg"
+    },
+    "Pleiades": {
+      "label": "Pleiades gazetteer of ancient places (place records, via isawnyu/pleiades.datasets)",
+      "url": "https://pleiades.stoa.org/"
+    }
+  },
+  "steps": [
+    {
+      "kind": "brief",
+      "id": "b1",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b1-1",
+          "text": "Samnium, 310 BC. Four years ago your army was beaten in the Campanian plain and the consuls marched on Bovianum. Since then Rome has retaken Fregellae and taken Nola, and last year Cluviae and Bovianum itself, which Livy calls the chief town of the Pentri.",
+          "cites": [
+            "Livy 9.27.4–14",
+            "Livy 9.28.1–5",
+            "Livy 9.31.2–5"
+          ],
+          "confidence": "attested",
+          "note": "Years are the conventional ones; see the card Which year."
+        },
+        {
+          "id": "b1-2",
+          "text": "This year one consul, Q. Fabius, is in Etruria. The other, C. Marcius Rutulus, has taken Allifae from you, and many forts and villages besides.",
+          "cites": [
+            "Livy 9.33.1",
+            "Livy 9.38.1",
+            "Diodorus 20.35.2",
+            "Pleiades 432658"
+          ],
+          "confidence": "attested",
+          "note": "The Oxford text spells the cognomen Rutulus; Weissenborn–Müller and Roberts print Rutilus."
+        },
+        {
+          "id": "b1-3",
+          "text": "Now word reaches Samnium that Fabius has taken his army through the Ciminian forest and is cut off. Men speak of the Caudine Forks again.",
+          "cites": [
+            "Livy 9.38.4–5"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "interclusum Romanum exercitum obsideri, cladisque imaginem Furculas Caudinas memorabant",
+            "en": "They said that the Roman army was hemmed in; it was the Caudine disaster over again.",
+            "en_src": "Roberts 1912",
+            "it": "Dicevano che l'esercito romano era tagliato fuori e assediato, e ricordavano le Forche Caudine come immagine della disfatta.",
+            "it_src": "ours",
+            "cite": "Livy 9.38.4"
+          }
+        },
+        {
+          "id": "b1-4",
+          "text": "Livy says the joy was mixed with envy: fortune had turned the glory of the Roman war away from the Samnites to the Etruscans.",
+          "cites": [
+            "Livy 9.38.6"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-5",
+          "text": "The game seats you among the elders of the touto, whose counsel the commander asks.",
+          "cites": [],
+          "confidence": "counterfactual"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d1",
+      "prompt": "Fabius is said to be trapped in Etruria. Marcius is in Samnium. What should the Samnites do?",
+      "options": [
+        {
+          "id": "crush",
+          "label": "Gather every man and every weapon, and crush Marcius here.",
+          "kind": "historical",
+          "kind_note": "The Samnite decision in Livy (9.38.6)",
+          "consequence": [
+            {
+              "id": "d1-crush-1",
+              "text": "This is what your people did. They gathered their arms and men to overwhelm the consul, and Marcius came out to meet them.",
+              "cites": [
+                "Livy 9.38.6"
+              ],
+              "confidence": "attested",
+              "note": "The Oxford text prints 'ad opprimendum', the reading of the later manuscripts; the main family (W) has 'optinendum'."
+            },
+            {
+              "id": "d1-crush-2",
+              "text": "The battle was savage on both sides and its result uncertain. Neither side clearly lost more, but the Romans lost men of equestrian rank, military tribunes and a legate, and the consul himself was wounded. At Rome it was reported as a defeat.",
+              "cites": [
+                "Livy 9.38.7–8"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "etruria",
+          "label": "If Marcius will not fight, march north through the Marsi and the Sabines and join the Etruscans.",
+          "kind": "attested-advice",
+          "kind_note": "The Samnites' second plan, if Marcius refused battle (Livy 9.38.6). He did not refuse, so it was not tried this year.",
+          "consequence": [
+            {
+              "id": "d1-etruria-1",
+              "text": "Livy gives this as the plan if Marcius would not give battle. Marcius came out to meet you, so the march never began.",
+              "cites": [
+                "Livy 9.38.6"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "protinus inde Etruriam per Marsos ac Sabinos petituri, si Marcius dimicandi potestatem non faciat.",
+                "en": "Or, if he did not give them a chance of fighting, to march through the country of the Marsi and Sabines into Etruria.",
+                "en_src": "Roberts 1912",
+                "it": "Per poi dirigersi subito in Etruria attraverso i Marsi e i Sabini, se Marcio non avesse accettato battaglia.",
+                "it_src": "ours",
+                "cite": "Livy 9.38.6"
+              },
+              "note": "Roberts numbers this 9.38.7."
+            },
+            {
+              "id": "d1-etruria-2",
+              "text": "In the next war, under the consuls L. Volumnius and Ap. Claudius, a Samnite army driven out of its own country did go to Etruria and demanded a council of the Etruscan leaders.",
+              "cites": [
+                "Livy 10.16.2–3"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "allies",
+          "label": "Strike Rome's friends among the Iapygians while the consuls are far away.",
+          "kind": "historical",
+          "kind_note": "Diodorus' account of this year (20.35.2): in his order this came before Marcius marched south. Livy does not report it.",
+          "consequence": [
+            {
+              "id": "d1-allies-1",
+              "text": "Diodorus says the Samnites did this: with the Roman forces far away, they ravaged without fear those Iapygians who sided with Rome. The consuls had to divide their forces. Fabius stayed in Etruria; Marcius marched against the Samnites, took Allifae by storm and rescued the allies under siege.",
+              "cites": [
+                "Diodorus 20.35.2"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "οἱ δὲ Σαυνῖται κατὰ τοῦτον τὸν χρόνον μακρὰν ἀπηρτημένης τῆς Ῥωμαίων δυνάμεως ἀδεῶς ἐπόρθουν τῶν Ἰαπύγων τοὺς τὰ Ῥωμαίων φρονοῦντας.",
+                "lang": "grc",
+                "en": "At this time the Samnites, since the Roman forces were far away, were ravaging without fear those of the Iapygians who favoured Rome.",
+                "en_src": "ours",
+                "it": "In questo tempo i Sanniti, essendo lontane le forze romane, devastavano senza timore quegli Iapigi che parteggiavano per Roma.",
+                "it_src": "ours",
+                "cite": "Diodorus 20.35.2"
+              }
+            },
+            {
+              "id": "d1-allies-2",
+              "text": "Diodorus has no battle with Marcius, no wounded consul and no dictator in this year.",
+              "cites": [
+                "Diodorus 20.27.1",
+                "Diodorus 20.35.1–5"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d1-outcome",
+        "text": "In Livy the Samnites gathered their strength against Marcius; the battle was drawn, the consul was wounded, and Rome took it for a defeat. Diodorus has the Samnites raiding Rome's Iapygian allies until Marcius took Allifae and relieved them.",
+        "cites": [
+          "Livy 9.38.6–7",
+          "Diodorus 20.35.2"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r1",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r1-1",
+          "text": "Livy: a drawn battle that Rome counted as a defeat.",
+          "cites": [
+            "Livy 9.38.6–7"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "dimicatum proelio utrimque atroci atque incerto eventu est, et cum anceps caedes fuisset, adversae tamen rei fama in Romanos vertit ob amissos quosdam equestris ordinis tribunosque militum atque unum legatum, et quod insigne maxime fuit, consulis ipsius volnus.",
+            "en": "A desperate battle was fought with no decisive result. Which side lost most heavily was doubtful, but a rumour was spread that the Romans had been worsted, as they had lost some belonging to the equestrian order and some military tribunes, besides a staff officer, and, what was a signal disaster, the consul himself was wounded.",
+            "en_src": "Roberts 1912",
+            "it": "Si combatté una battaglia accanita da entrambe le parti e dall'esito incerto; e benché la strage fosse stata incerta, la voce di una sconfitta ricadde sui Romani, per la perdita di alcuni cavalieri, di tribuni militari e di un legato, e, cosa più grave di tutte, per la ferita del console stesso.",
+            "it_src": "ours",
+            "cite": "Livy 9.38.7"
+          },
+          "note": "Roberts numbers this 9.38.7–8 and marks the last clause with dashes."
+        },
+        {
+          "id": "r1-2",
+          "text": "At Rome the senators wanted a dictator, and no one doubted it should be L. Papirius Cursor. But no messenger could safely reach Samnium, and no one was sure Marcius was alive. The other consul, Fabius, was Papirius' private enemy. The Senate sent former consuls to ask him to put the feud aside. He heard them with his eyes on the ground and withdrew without a word.",
+          "cites": [
+            "Livy 9.38.8–12"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-3",
+          "text": "Then he named Papirius dictator, at night and in silence, and dismissed the envoys without mentioning what he had done.",
+          "cites": [
+            "Livy 9.38.12"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "nocte deinde silentio, ut mos est, L. Papirium dictatorem dixit.",
+            "en": "Then, at night and in silence, as the custom is, he named L. Papirius dictator.",
+            "en_src": "ours",
+            "it": "Poi, di notte e in silenzio, come vuole l'usanza, nominò dittatore L. Papirio.",
+            "it_src": "ours",
+            "cite": "Livy 9.38.12"
+          },
+          "note": "Roberts (his 9.38.14) has 'according to the traditional usage at midnight'; 'nocte silentio' says only at night, in silence, so the English is ours."
+        },
+        {
+          "id": "r1-4",
+          "text": "Papirius named C. Iunius Bubulcus master of horse. He marched with legions newly raised in the scare to Longula, took over Marcius' veterans and offered battle. Your army did not refuse it, but night fell before either side began, and the two armies settled into standing camps close together.",
+          "cites": [
+            "Livy 9.38.13",
+            "Livy 9.39.1–3"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "brief",
+      "id": "b2",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b2-1",
+          "text": "The dictator facing you is the man Livy calls the first soldier of his day. He held his fifth consulship in 313.",
+          "cites": [
+            "Livy 9.38.8",
+            "Livy 9.28.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-2",
+          "text": "For some time the two camps have stayed quiet. Livy says neither side distrusted its own strength or despised the enemy.",
+          "cites": [
+            "Livy 9.39.2–3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-3",
+          "text": "In Etruria, Livy says, the Etruscans raised an army under a lex sacrata, each man choosing another, fought Rome harder than ever before, and lost. The manuscripts put the battle at Lake Vadimo; the Oxford text removes the place-name as a gloss.",
+          "cites": [
+            "Livy 9.39.4–10"
+          ],
+          "confidence": "attested",
+          "note": "OCT 9.39.3 deletes the transmitted words 'nam et cum Umbrorum exercitu … et ad Vadimonis lacum' as a gloss (after Anderson) and prints Walters' conjecture 'interea Etrusci'; Weissenborn–Müller and Roberts (9.39.5) keep 'ad Vadimonis lacum'."
+        },
+        {
+          "id": "b2-photo",
+          "text": "A horseman in a plumed helmet and a three-disc cuirass, with a garment hung from his spears, is met by a woman holding a cup and a small jug. A tomb painting now in the museum at Paestum. Strabo says the Lucanians took the town, Poseidonia, which he says is now called Paestus, from its Greek founders before Rome took it from them, and that the Lucanians are Samnite by descent. We have opened no study that dates this painting.",
+          "cites": [
+            "Wikimedia Commons file record (Raddato 2014)",
+            "Strabo 5.4.13",
+            "Strabo 6.1.1",
+            "Strabo 6.1.3"
+          ],
+          "confidence": "attested",
+          "note": "The file page gives only 'Paestum Archaeological Museum' as description; the date in the file's title (375–370 BC) is not used, since no source we opened gives it.",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/paestum-returning-horseman.jpg",
+            "alt": "A painted stone slab with a pointed top: a horseman in a gold helmet with tall white plumes and a gold three-disc breastplate rides a red horse towards a standing woman who holds out a shallow cup and a small jug.",
+            "credit": "Photo: Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Lucanian_fresco_tomb_painting_depicting_the_return_of_the_warrior,_375-370_BC,_Paestum_Archaeological_Museum.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d2",
+      "prompt": "The dictator is camped in front of you. How should the army meet him?",
+      "options": [
+        {
+          "id": "splendour",
+          "label": "Arm two armies, one with gilded shields and one with silvered, and set the sworn men in white on the right. Let the line shine.",
+          "kind": "historical",
+          "kind_note": "What the Samnites did (Livy 9.40.1–3, 9.40.9)",
+          "consequence": [
+            {
+              "id": "d2-splendour-1",
+              "text": "This is what your people did. Besides their other preparations, Livy says, they made new arms so that their line would glitter. There were two armies; one had its shields chased with gold, the other with silver.",
+              "cites": [
+                "Livy 9.40.1–2"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "forma erat scuti: summum latius, qua pectus atque umeri teguntur, fastigio aequali; ad imum cuneatior mobilitatis causa.",
+                "en": "The shield was made straight and broad at the top to cover the chest and shoulders, then became narrower towards the bottom to allow of it being more easily moved about.",
+                "en_src": "Roberts 1912",
+                "it": "La forma dello scudo era questa: più largo in alto, dove copre il petto e le spalle, con il margine superiore diritto; più affusolato in basso, per essere più maneggevole.",
+                "it_src": "ours",
+                "cite": "Livy 9.40.2"
+              }
+            },
+            {
+              "id": "d2-splendour-2",
+              "text": "The gilded men wore tunics of many colours, the silvered men white linen. The silvered took the right wing, the gilded the left.",
+              "cites": [
+                "Livy 9.40.3"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "spongia pectori tegumentum et sinistrum crus ocrea tectum; galeae cristatae, quae speciem magnitudini corporum adderent.",
+                "en": "A spongia covered the chest and a greave the left leg; the helmets were crested, to make the men look taller.",
+                "en_src": "ours",
+                "it": "Una spongia copriva il petto e uno schiniere la gamba sinistra; gli elmi erano crestati, per dare maggiore imponenza alla statura.",
+                "it_src": "ours",
+                "cite": "Livy 9.40.3"
+              },
+              "note": "Roberts renders 'spongia' as 'coats of chain armour'; the English here keeps Livy's word. See the card A sentence from Nonius."
+            },
+            {
+              "id": "d2-splendour-3",
+              "text": "On your right stood men sworn after the Samnite custom, sacrati, conspicuous in white clothing and arms of matching brightness.",
+              "cites": [
+                "Livy 9.40.9"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-splendour-photo",
+              "text": "A bronze belt with two clasps, catalogued by the Metropolitan Museum as Italic, Samnite, late 5th to early 4th century BC, earlier than this battle. Height 10.2 cm. New York, Metropolitan Museum of Art, 08.3a (Rogers Fund, 1908).",
+              "cites": [
+                "Met 08.3a",
+                "Wikimedia Commons file record (Metropolitan Museum of Art)"
+              ],
+              "confidence": "attested",
+              "figure": {
+                "kind": "photo",
+                "src": "art/photos/met-samnite-belt-08-3a.jpg",
+                "alt": "A broad band of corroded bronze bent into a curve, with two engraved leaf-shaped clasps ending in hooks, and a ragged upper edge with rows of small holes.",
+                "credit": "Photo: Metropolitan Museum of Art, CC0, via Wikimedia Commons; resized.",
+                "credit_url": "https://commons.wikimedia.org/wiki/File:Bronze_belt_and_clasps_MET_DP219009.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "plain",
+          "label": "Leave the gold at home. A soldier should look rough and trust to iron and courage; gilding only makes him worth robbing.",
+          "kind": "counterfactual",
+          "kind_note": "No Samnite is recorded proposing this. Livy gives the argument to the Roman commanders, speaking to their own men before this battle (9.40.4–6).",
+          "consequence": [
+            {
+              "id": "d2-plain-1",
+              "text": "Livy puts this argument in the mouths of the Roman generals. The Romans already knew of your new arms. Their commanders told them such things were booty more than armour, bright before the fight and ugly among blood and wounds; that courage is a soldier's ornament; and that a rich enemy is the prize of the victor, however poor.",
+              "cites": [
+                "Livy 9.40.4–6"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "horridum militem esse debere, non caelatum auro et argento sed ferro et animis fretum",
+                "en": "That a soldier ought to be rough, not chased with gold and silver, but relying on iron and on courage.",
+                "en_src": "ours",
+                "it": "Che il soldato dev'essere ispido, non cesellato d'oro e d'argento, ma fidando nel ferro e nel coraggio.",
+                "it_src": "ours",
+                "cite": "Livy 9.40.4"
+              },
+              "note": "Roberts has 'to inspire dread' for 'horridum'; the English is ours."
+            },
+            {
+              "id": "d2-plain-2",
+              "text": "Years later the dictator's son, as consul, said the same to his army before facing another splendid Samnite army, and pointed to this battle.",
+              "cites": [
+                "Livy 10.39.11–13"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "auream olim atque argenteam Samnitium aciem a parente suo occidione occisam spoliaque ea honestiora victori hosti quam ipsis arma fuisse.",
+                "en": "A Samnite army all in gold and silver had once been annihilated by his father, and those trappings had brought more glory as spoils to the victors than they had brought as armour to the wearers.",
+                "en_src": "Roberts 1912",
+                "it": "Un tempo un esercito sannita tutto d'oro e d'argento era stato sterminato da suo padre, e quelle spoglie avevano dato più onore al nemico vincitore che non ai Sanniti come armi.",
+                "it_src": "ours",
+                "cite": "Livy 10.39.13"
+              },
+              "note": "Roberts numbers this 10.39.12."
+            },
+            {
+              "id": "d2-plain-3",
+              "text": "Whether plainer arms would have changed the day, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        },
+        {
+          "id": "wait",
+          "label": "Keep to the camp and refuse battle. A dictator holds office for six months; let his time run out.",
+          "kind": "counterfactual",
+          "kind_note": "No source has the Samnites try this. It rests on the six-month limit of the dictatorship.",
+          "consequence": [
+            {
+              "id": "d2-wait-1",
+              "text": "In this same year the tribune P. Sempronius, attacking the censor Ap. Claudius for holding on to office, asked whom one could expect to be content with a dictatorship of six months.",
+              "cites": [
+                "Livy 9.33.4–5",
+                "Livy 9.34.12"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "quem semestri dictatura, quem interregno quinque dierum contentum fore putes?",
+                "en": "Whom would you expect to be content with a dictatorship of six months, or an interregnum of five days?",
+                "en_src": "ours",
+                "it": "Chi crederesti che si accontenterebbe di una dittatura di sei mesi, di un interregno di cinque giorni?",
+                "it_src": "ours",
+                "cite": "Livy 9.34.12"
+              }
+            },
+            {
+              "id": "d2-wait-2",
+              "text": "Livy says the two armies had already sat quiet in their standing camps for some time.",
+              "cites": [
+                "Livy 9.39.2–3"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-wait-3",
+              "text": "Whether your army would have held together that long, or the dictator would have stormed the camp, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d2-outcome",
+        "text": "The Samnites put both armies in the field in their new arms and gave battle. Papirius broke them, then took their camp and burned it before nightfall.",
+        "cites": [
+          "Livy 9.40.1–13"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r2",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r2-1",
+          "text": "Papirius took the right wing and gave the left to his master of horse, C. Iunius. Iunius moved first, against your right, where the sacrati stood in white.",
+          "cites": [
+            "Livy 9.40.7–9"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "eos se Orco mactare Iunius dictitans",
+            "en": "He declared that he would sacrifice them to Orcus.",
+            "en_src": "Roberts 1912",
+            "it": "Giunio, dichiarando più volte che li immolava a Orco.",
+            "it_src": "ours",
+            "cite": "Livy 9.40.9"
+          },
+          "note": "Roberts numbers the quotation 9.40.10."
+        },
+        {
+          "id": "r2-2",
+          "text": "Unwilling to let the victory begin on the left, the dictator drove on his own wing. His legates, M. Valerius and P. Decius, both former consuls, rode to the horsemen on the wings and charged your flanks. The legions raised the shout again and your line broke. The camp was taken, plundered and burned before nightfall.",
+          "cites": [
+            "Livy 9.40.10–13"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "iam strage hominum armorumque insignium campi repleri.",
+            "en": "Soon the plain was filled with shining armour and heaps of bodies.",
+            "en_src": "Roberts 1912",
+            "it": "Presto la pianura si riempì di cadaveri e di armi splendide.",
+            "it_src": "ours",
+            "cite": "Livy 9.40.13"
+          },
+          "note": "Roberts numbers the quotation 9.40.14."
+        },
+        {
+          "id": "r2-3",
+          "text": "The dictator triumphed by decree of the Senate, and the captured arms were the finest sight in the procession.",
+          "cites": [
+            "Livy 9.40.14–15"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "tantum magnificentiae visum in iis, ut aurata scuta dominis argentariarum ad forum ornandum dividerentur. inde natum initium dicitur fori ornandi ab aedilibus cum tensae ducerentur.",
+            "en": "So much splendour was seen in them that the gilded shields were shared out among the owners of the argentariae to adorn the Forum. From this, it is said, began the aediles' custom of adorning the Forum when the tensae were led in procession.",
+            "en_src": "ours",
+            "it": "Vi si vide tanta magnificenza che gli scudi dorati furono distribuiti ai proprietari delle botteghe argentarie per ornare il foro. Di qui, si dice, nacque l'uso degli edili di ornare il foro quando si conducevano le tensae.",
+            "it_src": "ours",
+            "cite": "Livy 9.40.15"
+          },
+          "note": "Roberts (his 9.40.16–17) has 'silversmiths' shops' and expands the tensae into the symbols of the Capitoline gods at the Great Games; the English is ours."
+        },
+        {
+          "id": "r2-4",
+          "text": "Your enemies in Campania found another use for the arms.",
+          "cites": [
+            "Livy 9.40.16"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "et Romani quidem ad honorem deum insignibus armis hostium usi sunt: Campani ab superbia et odio Samnitium gladiatores, quod spectaculum inter epulas erat, eo ornatu armarunt Samnitiumque nomine compellarunt.",
+            "en": "Whilst the Romans made use of this armour to honour the gods, the Campanians, out of contempt and hatred towards the Samnites, made the gladiators who performed at their banquets wear it, and they then called them “Samnites.”",
+            "en_src": "Roberts 1912",
+            "it": "I Romani usarono le splendide armi dei nemici per onorare gli dèi; i Campani, per disprezzo e odio verso i Sanniti, armarono in quel modo i gladiatori che si esibivano durante i banchetti e li chiamarono col nome di Sanniti.",
+            "it_src": "ours",
+            "cite": "Livy 9.40.16"
+          },
+          "note": "Roberts numbers this 9.40.17."
+        }
+      ]
+    },
+    {
+      "kind": "cards",
+      "id": "c1",
+      "title": "The deeper cut",
+      "cards": [
+        "card-lost-sentence",
+        "card-samnis",
+        "card-shields-forum",
+        "card-sacrati",
+        "card-faucia",
+        "card-diodorus-310",
+        "card-which-year",
+        "card-where"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-lost-sentence",
+      "title": "A sentence from Nonius",
+      "tier": 2,
+      "lens": "arms",
+      "blocks": [
+        {
+          "id": "card-lost-sentence-1",
+          "text": "The manuscripts of Livy say nothing here of scabbards or belts. The apparatus of the Oxford text reports that Nonius quotes from Livy's ninth book 'auratae vaginae, aurata baltea illis erant', and that the Explanationes in Donatum and Probus ascribe to Livy 'erant et equorum inaurata tapeta', Probus hesitating between Livy and Virgil.",
+          "cites": [
+            "Livy 9.40.3 (Conway–Walters apparatus)"
+          ],
+          "confidence": "attested",
+          "note": "We have not opened Nonius or Keil's Grammatici Latini; the apparatus cites Nonius 194.20 and Keil, GL IV 542 and 129."
+        },
+        {
+          "id": "card-lost-sentence-2",
+          "text": "Walters and Conway put the words into the text after the tunics and prefix a clause for the silvered men, which they conjectured in 1918.",
+          "cites": [
+            "Livy 9.40.3 (Conway–Walters apparatus)"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "his vaginae argenteae, baltea argentea: auratae vaginae, aurea baltea illis erant, et equorum inaurata tapeta.",
+            "en": "These had silver scabbards and silver belts; the others had gilded scabbards and golden belts, and gilded cloths for their horses.",
+            "en_src": "ours",
+            "it": "Questi avevano foderi d'argento e baltei d'argento; quelli foderi dorati, baltei d'oro e gualdrappe dorate per i cavalli.",
+            "it_src": "ours",
+            "cite": "Livy 9.40.3 (OCT)"
+          },
+          "note": "The apparatus refers to their article in Classical Quarterly 12 (1918) p. 103, which we have not opened. The apparatus quotes Nonius as 'aurata baltea'; the text prints 'aurea baltea'."
+        },
+        {
+          "id": "card-lost-sentence-3",
+          "text": "Weissenborn and Müller print none of it, and Roberts translates without it.",
+          "cites": [
+            "Livy 9.40.2–3 (Weissenborn–Müller)",
+            "Livy 9.40.4 (Roberts 1912)"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-lost-sentence-4",
+          "text": "Livy's word for the chest covering is spongia. Roberts renders it 'coats of chain armour'. We have opened no study of what Livy meant by it.",
+          "cites": [
+            "Livy 9.40.3",
+            "Livy 9.40.3 (Roberts 1912)"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-samnis",
+      "title": "The Samnis in the arena",
+      "tier": 2,
+      "lens": "arms",
+      "blocks": [
+        {
+          "id": "card-samnis-1",
+          "text": "Livy ties the name of the gladiator called Samnis to the Campanians' use of these captured arms at their banquets. He is the only source we have opened that explains the name.",
+          "cites": [
+            "Livy 9.40.16"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-samnis-2",
+          "text": "Strabo, writing of the Campanians, says the richness of their land led them into such luxury that they invited guests to dinner to watch pairs of gladiators.",
+          "cites": [
+            "Strabo 5.4.13"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ἐπὶ τοσοῦτον γὰρ ἐξετρύφησαν ὥστʼ ἐπὶ δεῖπνον ἐκάλουν πρὸς ζεύγη μονομάχων",
+            "lang": "grc",
+            "en": "For they went so far in luxury that they invited people to dinner to watch pairs of gladiators.",
+            "en_src": "ours",
+            "it": "Giunsero infatti a tal punto di lusso da invitare a cena per assistere a coppie di gladiatori.",
+            "it_src": "ours",
+            "cite": "Strabo 5.4.13"
+          },
+          "note": "Strabo goes on to say they fixed the number of pairs by the rank of the guests (or, in Meineke's text, of the dinners); Meineke deletes the syllable that makes the word 'guests', so the quotation stops before it."
+        },
+        {
+          "id": "card-samnis-3",
+          "text": "Silius Italicus, describing Capua before it went over to Hannibal, calls it an old custom there.",
+          "cites": [
+            "Silius Italicus, Punica 11.28–32",
+            "Silius Italicus, Punica 11.51–54"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "quin etiam exhilarare viris convivia caede / mos olim et miscere epulis spectacula dira / certantum ferro, saepe et super ipsa cadentum / pocula, respersis non parco sanguine mensis.",
+            "en": "It was an old custom, too, to cheer their banquets with slaughter and to mix with the feasting the grim sight of men fighting with steel, often falling over the very cups, the tables spattered with blood unsparingly.",
+            "en_src": "ours",
+            "it": "Era anzi antica usanza rallegrare i banchetti con la strage e mescolare alle mense lo spettacolo atroce di uomini che lottavano col ferro, spesso cadendo sulle coppe stesse, con le tavole cosparse di sangue senza risparmio.",
+            "it_src": "ours",
+            "cite": "Silius Italicus, Punica 11.51–54"
+          },
+          "note": "Summers' text prints 'exhilar<ar>e' and u for consonantal v; normalised."
+        },
+        {
+          "id": "card-samnis-4",
+          "text": "Horace uses Samnites for a slow duel of even blows: two poets trading compliments, he says, fight like Samnites until the lamps are lit.",
+          "cites": [
+            "Horace, Epistles 2.2.97–98"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "caedimur et totidem plagis consumimus hostem / lento Samnites ad lumina prima duello.",
+            "en": "We take our blows and wear the enemy down with as many, like Samnites in a slow duel till the lamps are lit.",
+            "en_src": "ours",
+            "it": "Prendiamo colpi e logoriamo il nemico con altrettanti, come Sanniti in un lento duello fino all'accendersi dei lumi.",
+            "it_src": "ours",
+            "cite": "Horace, Epistles 2.2.97–98"
+          }
+        },
+        {
+          "id": "card-samnis-photo",
+          "text": "Two men with spears and round shields fight, both bleeding, in a tomb painting now in the museum at Paestum. Nothing in the painting names the fighters. We have opened no study that dates it or calls them gladiators.",
+          "cites": [
+            "Wikimedia Commons file record (Raddato 2014)"
+          ],
+          "confidence": "attested",
+          "note": "The file page gives only 'Paestum Archaeological Museum'; the date in the file's title is not used. The shields are round, unlike the shield Livy describes.",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/paestum-duel.jpg",
+            "alt": "A faded wall painting of two men in gold helmets and loincloths, each with a large round shield and a spear, lunging at each other; blood runs from wounds on both.",
+            "credit": "Photo: Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Lucanian_fresco_tomb_painting_of_2_warriors_fighting,_3rd_century_BC,_Paestum_Archaeological_Museum.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "card-shields-forum",
+      "title": "Shields over the shops",
+      "tier": 2,
+      "lens": "econ",
+      "blocks": [
+        {
+          "id": "card-shields-forum-1",
+          "text": "Whose shops got the shields depends on one letter. The manuscripts give 'argentariorum', of the bankers; the Oxford text prints Muretus' correction 'argentariarum', of the bankers' shops.",
+          "cites": [
+            "Livy 9.40.15 (Conway–Walters apparatus)"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-shields-forum-2",
+          "text": "Shields still hung by the Forum shops in Marius' time. In Cicero's dialogue C. Iulius tells how he pointed at a Gaul painted on a Cimbric shield of Marius below the New Shops, to show the man he was mocking what he looked like.",
+          "cites": [
+            "Cicero, De oratore 2.266",
+            "Quintilian 6.3.38"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "demonstravi digito pictum Gallum in Mariano scuto Cimbrico sub Novis distortum, eiecta lingua, buccis fluentibus",
+            "en": "I pointed with my finger at the Gaul painted on Marius' Cimbric shield below the New Shops, twisted, tongue thrust out, cheeks sagging.",
+            "en_src": "ours",
+            "it": "Indicai col dito il Gallo dipinto sullo scudo cimbrico di Mario sotto le Botteghe Nuove, contorto, con la lingua fuori e le guance cascanti.",
+            "it_src": "ours",
+            "cite": "Cicero, De oratore 2.266"
+          }
+        },
+        {
+          "id": "card-shields-forum-3",
+          "text": "Quintilian retells the joke and explains it for his readers.",
+          "cites": [
+            "Quintilian 6.3.38"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "tabernae autem erant circa forum, ac scutum illud signi gratia positum.",
+            "en": "There were shops around the Forum, and that shield had been put up as a sign.",
+            "en_src": "ours",
+            "it": "C'erano botteghe intorno al foro, e quello scudo vi era stato posto come insegna.",
+            "it_src": "ours",
+            "cite": "Quintilian 6.3.38"
+          }
+        },
+        {
+          "id": "card-shields-forum-4",
+          "text": "The dictator's son, in Livy, hoped to bring home Samnite spoils fine enough to adorn public places.",
+          "cites": [
+            "Livy 10.39.14"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "spoliaque ea referrent quae insignia publicis etiam locis decorandis essent",
+            "en": "The spoils which they brought back should be sufficiently splendid to serve as decorations for the public places in the City.",
+            "en_src": "Roberts 1912",
+            "it": "E riportassero spoglie tanto splendide da servire anche a ornare i luoghi pubblici.",
+            "it_src": "ours",
+            "cite": "Livy 10.39.14"
+          },
+          "note": "Roberts numbers this 10.39.13."
+        },
+        {
+          "id": "card-shields-forum-5",
+          "text": "That the custom Livy traces to this triumph still hung shields over the Forum shops in the time of Marius is our reading of these passages; neither Cicero nor Quintilian mentions the Samnite shields.",
+          "cites": [
+            "Livy 9.40.15",
+            "Cicero, De oratore 2.266",
+            "Quintilian 6.3.38"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-sacrati",
+      "title": "Sworn men",
+      "tier": 1,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-sacrati-1",
+          "text": "Livy calls the white-clad men on the Samnite right sacrati, sworn after the Samnite custom.",
+          "cites": [
+            "Livy 9.40.9"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "sacratos more Samnitium milites eoque candida veste et paribus candore armis insignes",
+            "en": "Soldiers sworn after the Samnite custom, and so conspicuous in white clothing and arms of equal brightness.",
+            "en_src": "ours",
+            "it": "Soldati consacrati secondo l'uso sannitico, e perciò riconoscibili per la veste bianca e per le armi di pari candore.",
+            "it_src": "ours",
+            "cite": "Livy 9.40.9"
+          }
+        },
+        {
+          "id": "card-sacrati-2",
+          "text": "He describes a Samnite oath of this kind later, for the army that met the dictator's son at Aquilonia: the same effort and splendour of arms, a levy under a new law that devoted to Jupiter any man who failed to come, a sacrifice performed by the aged priest Ovius Paccius from an old linen book, then an oath sworn by the leading men one by one in an enclosure covered with linen. Some who refused were cut down at the altars.",
+          "cites": [
+            "Livy 10.38.1–11"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-sacrati-3",
+          "text": "Ten men named by the commander each chose another, until 16,000 were enrolled. They were called the linen legion, after the enclosure, and given splendid arms and crested helmets.",
+          "cites": [
+            "Livy 10.38.12"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-sacrati-4",
+          "text": "Livy uses the same words for the Etruscan levy of this year (cum vir virum legisset) and the Samnite one (vir virum legerent). The echo is our observation.",
+          "cites": [
+            "Livy 9.39.4",
+            "Livy 10.38.12"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-faucia",
+      "title": "The Faucian curia",
+      "tier": 1,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-faucia-1",
+          "text": "When Papirius brought the lex curiata on his imperium, the Faucian curia voted first. It had voted first in the year Rome was taken and the year of the Caudine peace, so the omen put the business off for a day.",
+          "cites": [
+            "Livy 9.38.13",
+            "Livy 9.39.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-faucia-2",
+          "text": "Livy names one authority who added a third disaster.",
+          "cites": [
+            "Livy 9.38.14"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Macer Licinius tertia etiam clade, quae ad Cremeram accepta est, abominandam eam curiam facit.",
+            "en": "Licinius Macer adds a third disaster through which this cury became ill-omened, the massacre at the Cremera.",
+            "en_src": "Roberts 1912",
+            "it": "Licinio Macro rende quella curia di cattivo augurio anche per una terza sconfitta, quella subita al Cremera.",
+            "it_src": "ours",
+            "cite": "Livy 9.38.14"
+          },
+          "note": "Roberts numbers this 9.38.16."
+        }
+      ]
+    },
+    {
+      "id": "card-diodorus-310",
+      "title": "Diodorus' version",
+      "tier": 1,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-diodorus-310-1",
+          "text": "Diodorus names the same consuls, Q. Fabius for the second time and C. Marcius. In his year the Etruscans attack Sutrium, the Samnites raid Rome's Iapygian friends, Marcius takes Allifae, and Fabius crosses into upper Etruria, wins near Perusia and makes truces. There is no dictator.",
+          "cites": [
+            "Diodorus 20.27.1",
+            "Diodorus 20.35.1–5"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-diodorus-310-2",
+          "text": "The next year the authors part ways over the Marsi. Livy says the Marsi first fought Rome in that year's battle with the Samnites; Diodorus has the consuls come to the help of the Marsi against the Samnites.",
+          "cites": [
+            "Livy 9.41.4",
+            "Diodorus 20.44.8"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "οἱ τῶν Ῥωμαίων ὕπατοι, Μαρσοῖς πολεμουμένοις ὑπὸ Σαμνιτῶν βοηθήσαντες, τῇ τε μάχῃ προετέρησαν καὶ συχνοὺς τῶν πολεμίων ἀνεῖλον.",
+            "lang": "grc",
+            "en": "The Roman consuls, going to the help of the Marsi, who were being attacked by the Samnites, had the better of the battle and killed many of the enemy.",
+            "en_src": "ours",
+            "it": "I consoli romani, accorsi in aiuto dei Marsi attaccati dai Sanniti, ebbero la meglio in battaglia e uccisero molti nemici.",
+            "it_src": "ours",
+            "cite": "Diodorus 20.44.8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "card-which-year",
+      "title": "Which year",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-which-year-1",
+          "text": "Livy gives no years BC. The scene's 310 is the conventional date, counted by consular years from the one Roberts prints nearby: 312 at 9.29.5, then C. Iunius and Q. Aemilius (9.30.1), then Q. Fabius and C. Marcius (9.33.1).",
+          "cites": [
+            "Livy 9.29.5",
+            "Livy 9.30.1",
+            "Livy 9.33.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-which-year-1b",
+          "text": "Livy adds that much of the credit went to the legates Decius and Valerius, whom the people made consul and praetor at the next elections, and he calls Fabius' victory at Perusia in the same year more outstanding than the dictator's.",
+          "cites": [
+            "Livy 9.40.17–20",
+            "Livy 9.41.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-which-year-2",
+          "text": "Livy puts the dictator's victory in Fabius' consular year: in the same year, he says, Fabius fought at Perusia. Then Fabius' consulship was renewed, with P. Decius as colleague.",
+          "cites": [
+            "Livy 9.40.17",
+            "Livy 9.41.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-which-year-3",
+          "text": "Diodorus passes straight from Fabius and Marcius to Decius and Fabius.",
+          "cites": [
+            "Diodorus 20.27.1",
+            "Diodorus 20.37.1",
+            "Livy 9.33.1",
+            "Livy 9.41.1"
+          ],
+          "confidence": "attested",
+          "note": "We have not opened the Fasti or a modern study of this chronology, so the scene does not say how the conventional date relates to them, nor where the Fasti place this dictatorship."
+        }
+      ]
+    },
+    {
+      "id": "card-where",
+      "title": "Where was the battle?",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-where-1",
+          "text": "Livy names no place for the battle of the shields. The last place he names is Longula, where the dictator took over Marcius' veterans.",
+          "cites": [
+            "Livy 9.39.2",
+            "Livy 9.40.1–13"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-where-2",
+          "text": "Pleiades knows Longula as a Volscian town of Latium whose site is lost, probably between Ardea and Antium (Barrington Atlas). That would put it far from Samnium, where Livy has Marcius fighting.",
+          "cites": [
+            "Pleiades 438775",
+            "Livy 9.38.1",
+            "Livy 9.38.9"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-where-3",
+          "text": "We have opened no modern discussion of the problem.",
+          "cites": [
+            "Livy 9.39.2"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    }
+  ]
+}

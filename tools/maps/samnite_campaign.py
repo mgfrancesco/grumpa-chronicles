@@ -31,6 +31,7 @@ PLACES = {
     'Caudium': (432773, 14.636761, 41.062550),
     'Maleventum': (432721, 14.781161, 41.130437),
     'Luceria': (442640, 15.335475, 41.508648),
+    'Allifae': (432658, 14.330592, 41.328486),
     'Sora': (433126, 13.613958, 41.720336),
     'Fundi': (432855, 13.427922, 41.357429),
     'Tarracina': (433143, 13.248850, 41.291169),
@@ -90,7 +91,8 @@ def label(lon, lat, text, size=19, style='italic', fill=INK, anchor='middle', sp
 
 # Plistica: unlocated. A dashed box with a dashed leader towards Saticula, never a point.
 sx, sy = xy(*PLACES['Saticula'][1:])
-px, py = xy(14.15, 41.42)
+PLISTICA_BOX = (13.86, 41.47)   # label position only; Plistica has no known site
+px, py = xy(*PLISTICA_BOX)
 plistica = (f'<g><path d="M{px+60:.1f} {py+14:.1f}L{sx-4:.1f} {sy-16:.1f}" stroke="{INK}" stroke-width="1.5" stroke-dasharray="5 5" fill="none"/>'
             f'<rect x="{px-72:.1f}" y="{py-24:.1f}" width="210" height="52" rx="8" fill="{LAND}" stroke="{INK}" stroke-width="1.5" stroke-dasharray="6 4"/>'
             f'<text x="{px+33:.1f}" y="{py-2:.1f}" text-anchor="middle" font-size="20" font-weight="600" fill="{INK}">Plistica</text>'
@@ -114,6 +116,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 {cross('Lautulae', 22, -12, 'start', 'Lautulae')}
 {town('Capua', -10, -6, 'end')}
 {town('Saticula', 0, -16, 'middle')}
+{town('Allifae', 22, -6)}
 {town('Caudium', 10, 8, 'start')}
 {town('Maleventum', 10, -8)}
 {town('Luceria', -10, -6, 'end')}
@@ -123,3 +126,4 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 </svg>'''
 open('art/scenes/samnite-campaign.svg', 'w').write(svg)
 print('wrote', W, H, 'bounds', [LON0, LON1, LAT0, LAT1])
+print('plistica box centre %', round((px + 33) / W * 100, 1), round((py + 2) / H * 100, 1), 'size %', round(210 / W * 100, 1), round(52 / H * 100, 1))

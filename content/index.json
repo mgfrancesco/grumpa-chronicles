@@ -58,7 +58,19 @@
               }
             },
             {
-              "id": "samnites-03",
+              "id": "samnites-03-shields",
+              "file": "scenes/samnites/shields.json",
+              "title": "The gilded shields",
+              "date": "310 BC",
+              "site": {
+                "label": "Allifae",
+                "lon": 14.330592,
+                "lat": 41.328486,
+                "pleiades": 432658
+              }
+            },
+            {
+              "id": "samnites-04",
               "title": "In preparation",
               "planned": true
             }
@@ -230,7 +242,7 @@
         41.85
       ],
       "alt": "Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; Capua, Saticula, Caudium and the Caudine Forks in the centre; Maleventum and Luceria to the east. Plistica is marked only as unlocated, near Saticula.",
-      "credit": "Sites from the Pleiades gazetteer (CC BY): Sora 433126, Lautulae 432903, Tarracina 433143, Capua 432754, Saticula 433105, Caudium 432773, Furculae Caudinae 432856, Maleventum 432721, Luceria 442640; Plistica, Pleiades 438810, has no recorded position. Coastline: Natural Earth (public domain)."
+      "credit": "Sites from the Pleiades gazetteer (CC BY): Sora 433126, Lautulae 432903, Tarracina 433143, Capua 432754, Saticula 433105, Caudium 432773, Furculae Caudinae 432856, Allifae 432658, Maleventum 432721, Luceria 442640; Plistica, Pleiades 438810, has no recorded position. Coastline: Natural Earth (public domain)."
     }
   }
 }
