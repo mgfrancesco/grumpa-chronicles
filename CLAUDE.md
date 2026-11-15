@@ -49,6 +49,11 @@ Disputes arrive in Matthew's Google Sheet (see `docs/setup.md`). To process them
 
 Grumpa: white hair parted to the side, round dark-framed glasses, hook nose, fair skin, solid blocky build (squarer and less round than his avatar in Lucia's game, `mgfrancesco/lucia-adventures`). Dressed correctly for each wing and rank. Flat vector style in each wing's period idiom (see spec).
 
+Diagrams and maps: every scene carries at least one drawn diagram or map wherever a source describes ground, a route or march, a battle order, an object, or a procedure closely enough to draw (the trap at the Caudine Forks, Livy's Samnite shield, a night march, the fetial rite). Photos are welcome but do not replace a diagram where one is possible. Place it where every player sees it (a brief or reveal), unless it belongs to a card's subject.
+- Draw it as SVG in `art/scenes/` (or `art/cards/` for a card), by hand or with a script in `tools/maps/`, in the flat style and parchment palette of `art/scenes/caudine-trap.svg`: 760-wide viewBox, serif labels at 19 px or more, `role="img"` and an `aria-label`.
+- Draw only what the source says. Where it is silent (scale, direction, which side, numbers), leave it out or mark it as ours in the caption. The caption says it is a diagram of the source's words, names what is our guess, cites the passage, and gives alt text; confidence is `reconstructed`.
+- Real sites on maps come from Pleiades (ids in the cites); unlocated places are labelled boxes, never points. The checker verifies a drawing element by element against its passage, like any other claim, and it is looked at in an iPhone screenshot before it ships.
+
 ## Readability (hard rules)
 
 Body text ≥ 20 px with a size control to 28 px; serif for reading; high contrast; tap targets ≥ 48 px; no swipes, drags, double-taps or timers; autosave after every choice.
