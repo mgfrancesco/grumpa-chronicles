@@ -65,7 +65,7 @@
         },
         {
           "id": "b1-3",
-          "text": "Livy does not report the Senate's answer. This year's consuls at Rome are L. Postumius and Ti. Minucius.",
+          "text": "What the Senate answered is not recorded. This year's consuls at Rome are L. Postumius and Ti. Minucius.",
           "cites": [
             "Livy 9.43.21–26",
             "Livy 9.44.1–3",
@@ -129,11 +129,11 @@
           "label": "Raid the campus Stellas, in the Campanian plain.",
           "kind": "historical",
           "place": "campania",
-          "kind_note": "The Samnite decision in Livy (9.44.5)",
+          "kind_note": "What the Samnites did, in Livy's version",
           "consequence": [
             {
               "id": "d1-stellas-1",
-              "text": "This is what your people did, in Livy's account.",
+              "text": "Your people do just this.",
               "cites": [
                 "Livy 9.44.5"
               ],
@@ -150,7 +150,7 @@
             },
             {
               "id": "d1-stellas-2",
-              "text": "Rome answered by sending both consuls into Samnium. They took separate roads: Postumius made for Tifernum, Minucius for Bovianum.",
+              "text": "Rome answers by sending both consuls into Samnium. They take separate roads: Postumius makes for Tifernum, Minucius for Bovianum.",
               "cites": [
                 "Livy 9.44.6"
               ],
@@ -163,11 +163,11 @@
           "label": "Raid the Falernian land, under Mons Massicus.",
           "kind": "historical",
           "place": "campania",
-          "kind_note": "Diodorus' account of this year (20.90.3). Livy names the campus Stellas instead.",
+          "kind_note": "Diodorus' version",
           "consequence": [
             {
               "id": "d1-falernus-1",
-              "text": "Diodorus says the Romans first beat the Paeligni, took their land and gave citizenship to some who had favoured Rome. Then the Samnites plundered the Falernian territory.",
+              "text": "First the Romans beat the Paeligni, take their land and give citizenship to some who had favoured Rome. Then the Samnites plunder the Falernian territory.",
               "cites": [
                 "Diodorus 20.90.3"
               ],
@@ -184,7 +184,7 @@
             },
             {
               "id": "d1-falernus-2",
-              "text": "Diodorus adds that the Romans took twenty standards and more than two thousand prisoners.",
+              "text": "The Romans, it is said, take twenty standards and more than two thousand prisoners.",
               "cites": [
                 "Diodorus 20.90.4"
               ],
@@ -192,7 +192,7 @@
             },
             {
               "id": "d1-falernus-3",
-              "text": "The two authors put the raid in neighbouring districts. Pleiades describes the ager Falernus as the northern part of Campania from the Massican hills to the Volturnus, and the campus Stellas as the region next to it.",
+              "text": "The two accounts put the raid in neighbouring districts. Pleiades describes the ager Falernus as the northern part of Campania from the Massican hills to the Volturnus, and the campus Stellas as the region next to it.",
               "cites": [
                 "Pleiades 432828",
                 "Pleiades 432747",
@@ -225,11 +225,11 @@
           "label": "Keep the army in Samnium. Hold the roads and the passes, and let the consuls come to us, as we did last year.",
           "kind": "counterfactual",
           "place": "bovianum",
-          "kind_note": "No Samnite is recorded proposing this in 305. It rests on what the Samnites did against Cornelius the year before (Livy 9.43.8–9).",
+          "kind_note": "No Samnite is recorded proposing this in 305",
           "consequence": [
             {
               "id": "d1-home-1",
-              "text": "Last year your people had done just this against the consul Cornelius. They blocked every road and held the passes so that no supplies could reach him, and would not be drawn into battle. Livy says it was plain that the Samnites could not bear an immediate fight, nor the Romans a long war.",
+              "text": "Last year your people did just this against the consul Cornelius. They blocked every road and held the passes so that no supplies could reach him, and would not be drawn into battle. It was plain enough that the Samnites could not bear an immediate fight, nor the Romans a long war.",
               "cites": [
                 "Livy 9.43.2",
                 "Livy 9.43.8–9"
@@ -323,11 +323,11 @@
           "id": "follow",
           "label": "Follow Postumius into the mountains and dig in close by.",
           "kind": "historical",
-          "kind_note": "What the Samnites did in Livy's second account (9.44.7)",
+          "kind_note": "What the Samnites did, in Livy's second account",
           "consequence": [
             {
               "id": "d2-follow-1",
-              "text": "This is what your people did, in the second account Livy reports.",
+              "text": "Your army follows him and digs in two miles away.",
               "cites": [
                 "Livy 9.44.7"
               ],
@@ -344,7 +344,7 @@
             },
             {
               "id": "d2-follow-2",
-              "text": "Postumius fortified his camp and stocked it, so that it would look as though he meant to stay. Livy adds that it was in fact a safe and well-supplied position.",
+              "text": "Postumius fortifies his camp and stocks it, so that it will look as though he means to stay. It is in fact a safe and well-supplied position.",
               "cites": [
                 "Livy 9.44.8"
               ],
@@ -352,7 +352,7 @@
             },
             {
               "id": "d2-follow-photo",
-              "text": "The Matese seen from the summit of Monte Miletto, photographed in 2020. Pleiades identifies the Tifernus mons, where Livy says a Samnite army was routed in the next war, with the central Matese. Livy does not name the mountains to which Postumius withdrew, and the site of Tifernum is uncertain: the Barrington Atlas lists it as unlocated and suggests S. Pasquale di Faicchio with a query, where Pleiades plots it.",
+              "text": "The Matese seen from the summit of Monte Miletto, photographed in 2020. Pleiades identifies the Tifernus mons, where a Samnite army was routed in the next war, with the central Matese. The mountains to which Postumius withdrew are not named, and the site of Tifernum is uncertain: the Barrington Atlas lists it as unlocated and suggests S. Pasquale di Faicchio with a query, where Pleiades plots it.",
               "cites": [
                 "Wikimedia Commons file record (Vignone 2020)",
                 "Pleiades 433155",
@@ -375,11 +375,11 @@
           "id": "relieve",
           "label": "Bring the army against the consuls once they have taken a town.",
           "kind": "historical",
-          "kind_note": "Diodorus' account of this year (20.90.4): after the consuls had taken Bola, Gellius came up with 6,000 men. Diodorus' account has no withdrawal into the mountains; this is his version of the year's second battle.",
+          "kind_note": "Diodorus' version, with no withdrawal into the mountains",
           "consequence": [
             {
               "id": "d2-relieve-1",
-              "text": "In Diodorus the consuls at once took a town he calls Bola, and the Samnite leader came up to fight them.",
+              "text": "The consuls at once take a town this account calls Bola, and the Samnite leader comes up to fight them.",
               "cites": [
                 "Diodorus 20.90.4"
               ],
@@ -396,7 +396,7 @@
             },
             {
               "id": "d2-relieve-2",
-              "text": "There was a hard battle. Gellius himself was taken; most of his men were cut down and some captured alive.",
+              "text": "There is a hard battle. Gellius himself is taken; most of his men are cut down and some captured alive.",
               "cites": [
                 "Diodorus 20.90.4"
               ],
@@ -408,11 +408,11 @@
           "id": "join",
           "label": "Let him sit on his hill. Leave a screen to watch his camp and take the army to join ours against Minucius.",
           "kind": "counterfactual",
-          "kind_note": "No source has the Samnites try this. It is the move Postumius himself made, in the other direction (Livy 9.44.8–9).",
+          "kind_note": "No source has the Samnites try this",
           "consequence": [
             {
               "id": "d2-join-1",
-              "text": "This is what Postumius did. He left a strong garrison in his camp and at the third watch led his legions, lightly equipped, by the shortest way to his colleague.",
+              "text": "It is the move Postumius himself makes. He leaves a strong garrison in his camp and at the third watch leads his legions, lightly equipped, by the shortest way to his colleague.",
               "cites": [
                 "Livy 9.44.8–9"
               ],
@@ -548,11 +548,11 @@
           "id": "end",
           "label": "Send envoys to Rome and ask for peace.",
           "kind": "historical",
-          "kind_note": "What the Samnites did (Livy 9.45.1). Livy does not say whether they wanted an end to the war or only a delay.",
+          "kind_note": "What the Samnites did",
           "consequence": [
             {
               "id": "d3-end-1",
-              "text": "Your people sent envoys to Rome. Livy leaves their purpose open: an end of the war, or only its postponement.",
+              "text": "Your people send envoys to Rome to ask for peace. Whether they seek an end of the war or only its postponement is not known.",
               "cites": [
                 "Livy 9.45.1"
               ],
@@ -569,7 +569,7 @@
             },
             {
               "id": "d3-delay-1",
-              "text": "He gives no reason to prefer either.",
+              "text": "No reason is given to prefer either.",
               "cites": [
                 "Livy 9.45.1"
               ],
@@ -577,7 +577,7 @@
             },
             {
               "id": "d3-end-2",
-              "text": "Diodorus says only that the Romans and the Samnites exchanged embassies and made peace.",
+              "text": "Another account says only that the Romans and the Samnites exchange embassies and make peace.",
               "cites": [
                 "Diodorus 20.101.5"
               ],
@@ -593,7 +593,7 @@
           "consequence": [
             {
               "id": "d3-fight-1",
-              "text": "In this same year the Aequi refused Rome. Their army, with no fixed leaders, broke up so that each man could defend his own town. Livy says Rome took thirty-one towns in fifty days; Diodorus says forty towns in fifty days.",
+              "text": "Later this same year the Aequi refuse Rome. Their army, with no fixed leaders, breaks up so that each man can defend his own town, and Rome takes the towns one by one: thirty-one in fifty days by one account, forty by another.",
               "cites": [
                 "Livy 9.45.5–17",
                 "Diodorus 20.101.5"
