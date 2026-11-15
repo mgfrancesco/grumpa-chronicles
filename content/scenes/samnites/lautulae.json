@@ -60,7 +60,7 @@
         },
         {
           "id": "b1-4",
-          "text": "Saticula is your ally. Plistica is Rome's, and holds a Roman garrison.",
+          "text": "Saticula is your ally. Plistica is Rome's, and by one account holds a Roman garrison.",
           "cites": [
             "Livy 9.21.3",
             "Livy 9.21.6",
@@ -156,7 +156,7 @@
           "consequence": [
             {
               "id": "d1-plistica-1",
-              "text": "The aim is to pay the enemy back with equal grief. Plistica falls to the Samnites by force. Within the same few days Saticula surrenders to Rome.",
+              "text": "The aim is to pay the enemy back with equal grief. The siege is left and taken up again: a year later, within a few days of each other, Plistica falls to the Samnites by force and Saticula surrenders to Rome.",
               "cites": [
                 "Livy 9.21.6",
                 "Livy 9.22.10"
@@ -215,7 +215,7 @@
             },
             {
               "id": "d1-sora-2",
-              "text": "In another account no persuasion is mentioned: Sora goes over to the Samnites after killing the Roman colonists. The seat of the war moves. The legions are brought from Samnium and Apulia to Sora by forced marches.",
+              "text": "In another account no persuasion is mentioned, and it comes later, once Saticula has fallen: Sora goes over to the Samnites after killing the Roman colonists. The seat of the war moves, and the legions are brought from Samnium and Apulia to Sora by forced marches.",
               "cites": [
                 "Livy 9.23.1–2"
               ],
@@ -223,7 +223,7 @@
             },
             {
               "id": "d1-sora-photo",
-              "text": "Sora today, from the high ground above the town. Its difficult position leaves the Romans no sure way to assault it, so that victory would be either slow or bought at great risk. A narrow, steep path leads from the town up to the citadel.",
+              "text": "Sora today, from the high ground above the town. In 314 its difficult position left the Romans no sure way to assault it: victory would be either slow or bought at great risk. A narrow, steep path then led from the town up to the citadel.",
               "cites": [
                 "Pleiades 433126",
                 "Livy 9.24.2",
@@ -405,7 +405,7 @@
         },
         {
           "id": "b2-6",
-          "text": "At Capua the leading men have been conspiring in secret. The Senate has ordered an inquiry and a dictator to conduct it, C. Maenius, with M. Folius as master of horse. Before they can be named to the dictator, the heads of the conspiracy, Ovius and Novius Calavius, take their own lives.",
+          "text": "At Capua the leading men have been conspiring in secret. The Senate has ordered an inquiry and a dictator to conduct it, C. Maenius, with M. Folius as master of horse. The heads of the conspiracy, Ovius and Novius Calavius, take their own lives, by one account before they can be named to the dictator.",
           "cites": [
             "Livy 9.26.5–7"
           ],
