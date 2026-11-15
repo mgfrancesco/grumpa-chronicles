@@ -167,7 +167,7 @@
           "consequence": [
             {
               "id": "d1-falernus-1",
-              "text": "First the Romans beat the Paeligni, take their land and give citizenship to some who had favoured Rome. Then the Samnites plunder the Falernian territory.",
+              "text": "First the Romans beat the Paeligni, take their land and give citizenship to some thought to have favoured Rome. Then the Samnites plunder the Falernian territory.",
               "cites": [
                 "Diodorus 20.90.3"
               ],
@@ -229,7 +229,7 @@
           "consequence": [
             {
               "id": "d1-home-1",
-              "text": "Last year your people did just this against the consul Cornelius. They blocked every road and held the passes so that no supplies could reach him, and would not be drawn into battle. It was plain enough that the Samnites could not bear an immediate fight, nor the Romans a long war.",
+              "text": "Last year your people did just this against the consul Cornelius. They blocked every road and held the passes so that no supplies could reach him, and would not be drawn into battle. It was plain enough that the Samnites would not stand for an immediate fight, nor the Romans for a delay of the war.",
               "cites": [
                 "Livy 9.43.2",
                 "Livy 9.43.8–9"
@@ -352,7 +352,7 @@
             },
             {
               "id": "d2-follow-photo",
-              "text": "The Matese seen from the summit of Monte Miletto, photographed in 2020. Pleiades identifies the Tifernus mons, where a Samnite army was routed in the next war, with the central Matese. The mountains to which Postumius withdrew are not named, and the site of Tifernum is uncertain: the Barrington Atlas lists it as unlocated and suggests S. Pasquale di Faicchio with a query, where Pleiades plots it.",
+              "text": "The Matese seen from the summit of Monte Miletto, photographed in 2020. Pleiades identifies the Tifernus mons, where most annals have a Samnite army routed in the next war, with the central Matese. The mountains to which Postumius withdrew are not named, and the site of Tifernum is uncertain: the Barrington Atlas lists it as unlocated and suggests S. Pasquale di Faicchio with a query, where Pleiades plots it.",
               "cites": [
                 "Wikimedia Commons file record (Vignone 2020)",
                 "Pleiades 433155",
@@ -552,7 +552,7 @@
           "consequence": [
             {
               "id": "d3-end-1",
-              "text": "Your people send envoys to Rome to ask for peace. Whether they seek an end of the war or only its postponement is not known.",
+              "text": "Your people send envoys to Rome to ask for peace. It may be an end of the war they seek, or only its postponement.",
               "cites": [
                 "Livy 9.45.1"
               ],
@@ -569,7 +569,7 @@
             },
             {
               "id": "d3-delay-1",
-              "text": "No reason is given to prefer either.",
+              "text": "Nothing settles which.",
               "cites": [
                 "Livy 9.45.1"
               ],
