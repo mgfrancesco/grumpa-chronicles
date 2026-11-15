@@ -102,7 +102,7 @@
         },
         {
           "id": "b1-4",
-          "text": "The joy is mixed with a certain envy: fortune has turned the glory of the Roman war away from the Samnites to the Etruscans.",
+          "text": "The joy is mixed with a certain envy: fortune, as your people see it, has turned the glory of the Roman war away from the Samnites to the Etruscans.",
           "cites": [
             "Livy 9.38.6"
           ],
@@ -306,7 +306,7 @@
         },
         {
           "id": "b2-3",
-          "text": "In Etruria the Etruscans have raised an army under a lex sacrata, each man choosing another, fought Rome harder than ever before, and lost. The manuscripts put the battle at Lake Vadimo; the Oxford text removes the place-name as a gloss.",
+          "text": "In Etruria the Etruscans have raised an army under a lex sacrata, each man choosing another, fought Rome harder than ever before, and lost. Livy's manuscripts put the battle at Lake Vadimo; the Oxford text removes the place-name as a gloss.",
           "cites": [
             "Livy 9.39.4–10"
           ],
@@ -315,7 +315,7 @@
         },
         {
           "id": "b2-photo",
-          "text": "A horseman in a plumed helmet and a three-disc cuirass, with a garment hung from his spears, is met by a woman holding a cup and a small jug. A tomb painting now in the museum at Paestum. The Lucanians, a people of Samnite descent, took the town, Poseidonia, from its Greek founders before Rome took it from them. We have opened no study that dates this painting.",
+          "text": "A horseman in a plumed helmet and a three-disc cuirass, with a garment hung from his spears, is met by a woman holding a cup and a small jug. A tomb painting now in the museum at Paestum. The Lucanians, said to be Samnites by descent, took the town, then called Poseidonia, from the Greeks who held it, before Rome took it from them. We have opened no study that dates this painting.",
           "cites": [
             "Wikimedia Commons file record (Raddato 2014)",
             "Strabo 5.4.13",
@@ -343,7 +343,7 @@
           "id": "splendour",
           "label": "Arm two armies, one with gilded shields and one with silvered, and set the sworn men in white on the right. Let the line shine.",
           "kind": "historical",
-          "kind_note": "What the Samnites did",
+          "kind_note": "What the Samnites did, in Livy's version",
           "consequence": [
             {
               "id": "d2-splendour-1",
@@ -408,11 +408,11 @@
           "id": "plain",
           "label": "Leave the gold at home. A soldier should look rough and trust to iron and courage; gilding only makes him worth robbing.",
           "kind": "counterfactual",
-          "kind_note": "No Samnite is recorded proposing this. It is the Roman generals' argument.",
+          "kind_note": "No Samnite is recorded proposing this. The argument is given to the Roman generals.",
           "consequence": [
             {
               "id": "d2-plain-1",
-              "text": "The Romans already know of your new arms. Their commanders tell them such things are booty more than armour, bright before the fight and ugly among blood and wounds; that courage is a soldier's ornament; and that a rich enemy is the prize of the victor, however poor.",
+              "text": "The Romans already know of your new arms. Their commanders, it is said, tell them such things are booty more than armour, bright before the fight and ugly among blood and wounds; that courage is a soldier's ornament; and that a rich enemy is the prize of the victor, however poor.",
               "cites": [
                 "Livy 9.40.4–6"
               ],
