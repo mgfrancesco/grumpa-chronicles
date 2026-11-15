@@ -70,7 +70,19 @@
               }
             },
             {
-              "id": "samnites-04",
+              "id": "samnites-04-peace",
+              "file": "scenes/samnites/bovianum-peace.json",
+              "title": "Bovianum and the peace",
+              "date": "305–304 BC",
+              "site": {
+                "label": "Bovianum",
+                "lon": 14.473913,
+                "lat": 41.48673,
+                "pleiades": 432725
+              }
+            },
+            {
+              "id": "samnites-05",
               "title": "In preparation",
               "planned": true
             }
@@ -241,8 +253,8 @@
         40.72,
         41.85
       ],
-      "alt": "Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; Capua, Saticula, Caudium and the Caudine Forks in the centre; Maleventum and Luceria to the east. Plistica is marked only as unlocated, near Saticula.",
-      "credit": "Sites from the Pleiades gazetteer (CC BY): Sora 433126, Lautulae 432903, Tarracina 433143, Capua 432754, Saticula 433105, Caudium 432773, Furculae Caudinae 432856, Allifae 432658, Maleventum 432721, Luceria 442640; Plistica, Pleiades 438810, has no recorded position. Coastline: Natural Earth (public domain)."
+      "alt": "Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; the ager Falernus and campus Stellas in the Campanian plain; Capua, Saticula, Caudium and the Caudine Forks in the centre; Allifae and Bovianum in Samnium; Maleventum and Luceria to the east. Plistica is marked only as unlocated.",
+      "credit": "Sites from the Pleiades gazetteer (CC BY): Sora 433126, Lautulae 432903, Tarracina 433143, Capua 432754, Saticula 433105, Caudium 432773, Furculae Caudinae 432856, Allifae 432658, Bovianum 432725, campus Stellas 432747, ager Falernus 432828, Maleventum 432721, Luceria 442640; Plistica, Pleiades 438810, has no recorded position. Coastline: Natural Earth (public domain)."
     }
   }
 }

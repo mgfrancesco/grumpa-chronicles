@@ -32,6 +32,9 @@ PLACES = {
     'Maleventum': (432721, 14.781161, 41.130437),
     'Luceria': (442640, 15.335475, 41.508648),
     'Allifae': (432658, 14.330592, 41.328486),
+    'Bovianum': (432725, 14.473913, 41.48673),
+    'campus Stellas': (432747, 14.11017, 41.126147),
+    'ager Falernus': (432828, 13.984144, 41.194485),
     'Sora': (433126, 13.613958, 41.720336),
     'Fundi': (432855, 13.427922, 41.357429),
     'Tarracina': (433143, 13.248850, 41.291169),
@@ -85,6 +88,13 @@ def cross(name, dx, dy, anchor, text):
     return (f'<g><path d="M{x-6:.1f} {y-6:.1f}L{x+6:.1f} {y+6:.1f}M{x+6:.1f} {y-6:.1f}L{x-6:.1f} {y+6:.1f}" stroke="{RED}" stroke-width="3"/>'
             f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" text-anchor="{anchor}" font-size="21" font-weight="600" fill="{RED}">{text}</text></g>')
 
+def district(name, dx, dy, anchor):
+    # A tract of land, not a town: a small open ring and an italic label.
+    _, lon, lat = PLACES[name]
+    x, y = xy(lon, lat)
+    return (f'<g><circle cx="{x:.1f}" cy="{y:.1f}" r="5" fill="none" stroke="{INK}" stroke-width="1.8"/>'
+            f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" text-anchor="{anchor}" font-size="19" font-style="italic" fill="{INK}">{name}</text></g>')
+
 def label(lon, lat, text, size=19, style='italic', fill=INK, anchor='middle', spacing='.18em'):
     x, y = xy(lon, lat)
     return f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" font-size="{size}" font-style="{style}" letter-spacing="{spacing}" fill="{fill}">{text}</text>'
@@ -106,7 +116,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 <path d="{land_d}" fill="{LAND}" stroke="#7a5a3a" stroke-width="1.3" fill-rule="evenodd"/>
 {''.join(glyphs)}
 {label(*SEAS['MARE INFERVM'], 'MARE INFERVM', 19)}
-{label(14.62, 41.52, 'SAMNIVM', 25, 'normal', RED, spacing='.35em')}
+{label(14.86, 41.63, 'SAMNIVM', 25, 'normal', RED, spacing='.35em')}
 {label(15.30, 41.36, 'APVLIA', 21, 'normal', RED, spacing='.3em')}
 {label(14.45, 40.83, 'CAMPANIA', 20, 'normal', RED, spacing='.3em')}
 {label(13.08, 41.78, 'LATIVM', 20, 'normal', RED, 'start', spacing='.3em')}
@@ -114,7 +124,10 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 {town('Sora', 10, -6)}
 {town('Tarracina', 2, 28, 'start')}
 {cross('Lautulae', 22, -12, 'start', 'Lautulae')}
-{town('Capua', -10, -6, 'end')}
+{town('Capua', -8, 26, 'end')}
+{district('campus Stellas', -9, 6, 'end')}
+{district('ager Falernus', -9, -4, 'end')}
+{town('Bovianum', 22, -6)}
 {town('Saticula', 0, -16, 'middle')}
 {town('Allifae', 22, -6)}
 {town('Caudium', 10, 8, 'start')}

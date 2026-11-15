@@ -1,0 +1,1196 @@
+{
+  "id": "samnites-04-peace",
+  "wing": "samnites",
+  "campaign": "caudium-sentinum",
+  "title": "Bovianum and the peace",
+  "place": "Samnium and the Campanian plain",
+  "date": "305–304 BC",
+  "role": "an elder of the touto",
+  "outfit": "samnite-elder",
+  "lenses": [
+    "war",
+    "law",
+    "econ"
+  ],
+  "status": "checked",
+  "verified": {
+    "by": "checker agent, three passes",
+    "date": "2026-11-15",
+    "notes": "Checked 15 Nov 2026 (checker agent, three passes). First pass: Diodorus' 6,000 were not captured (20.90.4); Bola already taken when Gellius came up; the d1 prompt conflicted with Diodorus' order; the agreement on 'Gellius' rests on Sigonius' correction from Diodorus; Tifernum's site uncertain (Barrington: unlocated, 'S. Pasquale di Faicchio?'); Livy's 'seu finem seu dilationem' (9.45.1) had been split into two options, now one historical option with the either/or stated, and the war of 298 moved to card-next-war; Roberts' 8.2.1 and 9.45.2 replaced by our English; b2-1 attested; map: campus Stellas and ager Falernus share one tap area. Second pass: 'six years later' removed (Livy names five consular pairs between 304 and 298; the conventional count adds a dictator year, not asserted). Third pass: optional wording applied. Researcher's draft notes (2026-11-15). Not yet checked. Livy cited by the Conway–Walters (OCT, vol. II, 1919) section numbers in Perseus lat3, checked against lat4 (same text and apparatus) and Weissenborn–Müller (lat2). Section numbers differ in 9.44–9.45: W–M put 'creati consules L. Postumius, Ti. Minucius' in 9.44.2 (OCT 9.44.3), 'alii haud dubie … discessum' in 9.44.7 (OCT 9.44.6), Gellius' capture in 9.44.14 (OCT 9.44.12), the Fulvius variant in 9.44.15 (OCT 9.44.14), Sora–Arpinum–Cesennia in 9.44.16 (OCT 9.44.15), and the foedus antiquum in 9.45.4 together with the end of the Senate's answer (OCT 9.45.3–4). Roberts (Perseus eng3) numbers 9.44.6 = OCT 9.44.6 (first part), 9.44.7–8 = OCT 9.44.6–7, 9.44.13 = OCT 9.44.12, 9.44.14 = OCT 9.44.13, 9.44.15 = OCT 9.44.14, 9.44.16 = OCT 9.44.15; 9.45.3–4 = OCT 9.45.3; 9.45.5 = OCT 9.45.4–5; 9.45.17 = OCT 9.45.16–17; 7.19.3–4 = OCT 7.19.4; 9.43.5–6 = OCT 9.43.6–7; 9.43.20–21 = OCT 9.43.21. Quotations are attributed by OCT numbers. Roberts not used where wrong: at 9.44.6 he gives 24,000 prisoners for 'viginti milia' (our English); at 9.45.17 'within a fortnight' for 'intra dies quinquaginta'; at 9.43.6 'six months' pay' for 'bimestri stipendio'; at 22.13.6 'Callifae' for 'Caiatinum'; at 9.45.18 he follows the manuscripts' 'Feretrani'; at 9.31.4 he omits 'virisque' (our English); at 9.44.3 'I have inserted' for 'tradidimus' (our English); at 9.45.1 'at least' is his addition (our English); at 9.45.4 'therefore' is his addition (our English). Roberts prints 'T Aemilius' at 8.2.1; the stop is supplied. Perseus OCR errors corrected: 'transcendent' for 'transcenderit' at 9.44.4 (lat2, lat3 and lat4 alike; the indirect question needs the perfect subjunctive, parallel to 'fugerit'); lat3/lat4 'Roman' for 'Romam' (9.45.1), 'earn' (9.42.10, 9.43.7), 'hlabuerunt' (9.41.4), 'ones' (9.43.20); lat2 'baud' (9.44.7), 'tur' (9.44.11), 'parentes' for 'parantes' (9.45.2). The OCT apparatus notes are interleaved in the lat3 text and were read from there; the marginal A.U.C. years in lat3 are cited only as margins. lat3 Book 7 and 22 print consonantal u; Book 7 quotation has none. Pliny NH 3.107 from Perseus lat2 (Mayhoff, Teubner): 'coloniae' is Mommsen's correction (CIL IX p. 239, as cited by Mayhoff; not opened) for the manuscripts' 'colonia'; 'Vndecumanorum' normalised to 'Undecumanorum'. Diodorus from Perseus grc6 (books 18–20) and grc4 (books 11–17), Bekker–Dindorf–Fischer Teubner, no apparatus in the files; English and Italian ours. Diodorus' Roman narrative for these years: 20.80.1–4 (year of Marcius and Cornelius, 20.73.1), 20.90.3–4 (year of Postumius and Ti. Minucius, 20.81.1), 20.101.5 (year of Sempronius and Sulpicius, 20.91.1); there is no other Roman or Samnite passage in 20.73–20.101. Pleiades read from isawnyu/pleiades.datasets on GitHub (data/gis/places.csv and names.csv); pleiades.stoa.org itself was unreachable, so place pages were not opened. Not reachable this session and so not used or cited: Musei Molise and cultura.gov.it pages on Pietrabbondante, attalus.org (Fasti), Köln journal server, Wikipedia, JSTOR, Persée, OpenEdition. No Pietrabbondante photo is used because no source we could open dates the visible buildings. The Fasti Capitolini were not opened: the claim that they support the Ti. praenomen and Saverrio rests only on the OCT apparatus, cited as such. Oakley and Salmon not opened. Years BC are the conventional ones; the only chronological support opened is the OCT margins (A.U.C. 449 at 9.44, 450 at 9.45.1) and the consular sequence in Livy and Diodorus. Photos: licences confirmed on the three File: pages (CC BY-SA 3.0; CC BY-SA 4.0; CC BY-SA 4.0); the 2024 photo's description claims the spot as the site of a battle of 217 BC, which is not used. Decisions: d1 and d2 each have two historical options (Livy's and Diodorus' accounts, or Livy's second account and Diodorus) and one counterfactual; d3 has two historical options built on Livy's either/or of motive at 9.45.1 ('seu finem seu dilationem') and one counterfactual."
+  },
+  "sources": {
+    "Livy": {
+      "label": "Livy, Ab urbe condita (Latin, Conway–Walters and Weissenborn–Müller; Roberts 1912 English; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0914/phi001"
+    },
+    "Diodorus": {
+      "label": "Diodorus Siculus, Bibliotheca historica, books 11–17 and 18–20 (Greek, ed. Bekker, Dindorf and Fischer, Teubner; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0060/tlg001"
+    },
+    "Pliny": {
+      "label": "Pliny the Elder, Naturalis historia (Latin, ed. K. Mayhoff, Teubner; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0978/phi001"
+    },
+    "Pleiades": {
+      "label": "Pleiades gazetteer of ancient places (place and name records, via isawnyu/pleiades.datasets)",
+      "url": "https://pleiades.stoa.org/"
+    }
+  },
+  "steps": [
+    {
+      "kind": "brief",
+      "id": "b1",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b1-1",
+          "text": "Samnium, 305 BC. Since the battle of the gilded shields Q. Fabius has beaten your army twice; the second time near Allifae, where the Samnites in the surrounded camp surrendered and were sent under the yoke.",
+          "cites": [
+            "Livy 9.41.1–4",
+            "Livy 9.42.6–7"
+          ],
+          "confidence": "attested",
+          "note": "Years are the conventional ones; see the card Two missing years."
+        },
+        {
+          "id": "b1-2",
+          "text": "Last year your people stormed Sora and Calatia and their Roman garrisons. Then both consuls beat you, Rome required three months' grain, a year's pay and a tunic for each soldier, and your envoys went to the Senate to ask for peace.",
+          "cites": [
+            "Livy 9.43.1",
+            "Livy 9.43.10–21",
+            "Diodorus 20.80.1"
+          ],
+          "confidence": "attested",
+          "note": "Diodorus also has the Samnites take Sora and Calatia in this year, and says they enslaved the people."
+        },
+        {
+          "id": "b1-3",
+          "text": "Livy does not report the Senate's answer. This year's consuls at Rome are L. Postumius and Ti. Minucius.",
+          "cites": [
+            "Livy 9.43.21–26",
+            "Livy 9.44.1–3",
+            "Diodorus 20.81.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-4",
+          "text": "The game seats you among the elders of the touto, whose counsel the commander asks.",
+          "cites": [],
+          "confidence": "counterfactual"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d1",
+      "prompt": "Where should the army strike this year?",
+      "map": {
+        "id": "samnium",
+        "places": [
+          {
+            "id": "campania",
+            "label": "The Campanian plain: campus Stellas and ager Falernus",
+            "at": [
+              32,
+              61
+            ],
+            "box": [
+              24,
+              23
+            ],
+            "pleiades": 432747,
+            "pleiades_also": [
+              432828
+            ]
+          },
+          {
+            "id": "bovianum",
+            "label": "Bovianum",
+            "lon": 14.473913,
+            "lat": 41.48673,
+            "pleiades": 432725
+          }
+        ],
+        "caption": {
+          "id": "d1-map",
+          "text": "The campus Stellas, the ager Falernus and Bovianum are placed from the Pleiades gazetteer. Pleiades describes the campus Stellas as the region of Campania that adjoined the ager Falernus. Bovianum stands for keeping the army in Samnium; no source places such a plan there.",
+          "cites": [
+            "Pleiades 432747",
+            "Pleiades 432828",
+            "Pleiades 432725"
+          ],
+          "confidence": "attested"
+        }
+      },
+      "options": [
+        {
+          "id": "stellas",
+          "label": "Raid the campus Stellas, in the Campanian plain.",
+          "kind": "historical",
+          "place": "campania",
+          "kind_note": "The Samnite decision in Livy (9.44.5)",
+          "consequence": [
+            {
+              "id": "d1-stellas-1",
+              "text": "This is what your people did, in Livy's account.",
+              "cites": [
+                "Livy 9.44.5"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "eodem anno in campum Stellatem agri Campani Samnitium incursiones factae.",
+                "en": "In the same year the Samnites made raids into the Stellate plain of the Campanian territory.",
+                "en_src": "ours",
+                "it": "Nello stesso anno i Sanniti fecero scorrerie nel campo Stellate dell'agro campano.",
+                "it_src": "ours",
+                "cite": "Livy 9.44.5"
+              },
+              "note": "Roberts has 'the district of Stellae in Campania'; the English is ours."
+            },
+            {
+              "id": "d1-stellas-2",
+              "text": "Rome answered by sending both consuls into Samnium. They took separate roads: Postumius made for Tifernum, Minucius for Bovianum.",
+              "cites": [
+                "Livy 9.44.6"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "falernus",
+          "label": "Raid the Falernian land, under Mons Massicus.",
+          "kind": "historical",
+          "place": "campania",
+          "kind_note": "Diodorus' account of this year (20.90.3). Livy names the campus Stellas instead.",
+          "consequence": [
+            {
+              "id": "d1-falernus-1",
+              "text": "Diodorus says the Romans first beat the Paeligni, took their land and gave citizenship to some who had favoured Rome. Then the Samnites plundered the Falernian territory.",
+              "cites": [
+                "Diodorus 20.90.3"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "μετὰ δὲ ταῦτα Σαμνιτῶν τὴν Φαλερνῖτιν πορθούντων ἀνέζευξαν ἐπʼ αὐτοὺς οἱ ὕπατοι καὶ γενομένης παρατάξεως προετέρησαν οἱ Ῥωμαῖοι.",
+                "lang": "grc",
+                "en": "After this, when the Samnites were plundering the Falernian territory, the consuls marched against them, and in the pitched battle that followed the Romans had the better.",
+                "en_src": "ours",
+                "it": "Dopo ciò, mentre i Sanniti saccheggiavano il territorio falerno, i consoli marciarono contro di loro e, venuti a battaglia campale, i Romani ebbero la meglio.",
+                "it_src": "ours",
+                "cite": "Diodorus 20.90.3"
+              }
+            },
+            {
+              "id": "d1-falernus-2",
+              "text": "Diodorus adds that the Romans took twenty standards and more than two thousand prisoners.",
+              "cites": [
+                "Diodorus 20.90.4"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-falernus-3",
+              "text": "The two authors put the raid in neighbouring districts. Pleiades describes the ager Falernus as the northern part of Campania from the Massican hills to the Volturnus, and the campus Stellas as the region next to it.",
+              "cites": [
+                "Pleiades 432828",
+                "Pleiades 432747",
+                "Livy 9.44.5",
+                "Diodorus 20.90.3"
+              ],
+              "confidence": "inferred"
+            },
+            {
+              "id": "d1-falernus-photo",
+              "text": "Monte Massico seen across the plain near Cancello ed Arnone, photographed in 2024; the foreground is motion-blurred.",
+              "cites": [
+                "Wikimedia Commons file record (Bellviure 2024)",
+                "Pleiades 432828"
+              ],
+              "confidence": "attested",
+              "note": "The file's description also names this spot as the site of a battle of 217 BC; that claim is not used.",
+              "figure": {
+                "kind": "photo",
+                "src": "art/photos/massico-from-plain.jpg",
+                "alt": "Flat farmland with a field of maize under a grey sky, and a long low mountain ridge on the horizon; the foreground is blurred by motion.",
+                "credit": "Photo: Joel Bellviure, CC BY-SA 4.0, via Wikimedia Commons; resized.",
+                "credit_url": "https://commons.wikimedia.org/wiki/File:Ager_Falernus_and_Monte_Massico,_2024.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "home",
+          "label": "Keep the army in Samnium. Hold the roads and the passes, and let the consuls come to us, as we did last year.",
+          "kind": "counterfactual",
+          "place": "bovianum",
+          "kind_note": "No Samnite is recorded proposing this in 305. It rests on what the Samnites did against Cornelius the year before (Livy 9.43.8–9).",
+          "consequence": [
+            {
+              "id": "d1-home-1",
+              "text": "Last year your people had done just this against the consul Cornelius. They blocked every road and held the passes so that no supplies could reach him, and would not be drawn into battle. Livy says it was plain that the Samnites could not bear an immediate fight, nor the Romans a long war.",
+              "cites": [
+                "Livy 9.43.2",
+                "Livy 9.43.8–9"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-home-2",
+              "text": "It ended when the second consul, Marcius, came to join his colleague. Fearing the two armies together, your people attacked Marcius on the march and were beaten.",
+              "cites": [
+                "Livy 9.43.10–17"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-home-3",
+              "text": "Whether the same plan would have held in 305, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d1-outcome",
+        "text": "The Samnites raided the Campanian plain: the campus Stellas in Livy, the Falernian land in Diodorus. Livy has both consuls sent into Samnium in reply.",
+        "cites": [
+          "Livy 9.44.5–6",
+          "Diodorus 20.90.3"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r1",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r1-1",
+          "text": "Postumius met your army first, at Tifernum. Livy found two accounts of that battle.",
+          "cites": [
+            "Livy 9.44.6"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "alii haud dubie Samnites victos ac viginti milia hominum capta tradunt, alii Marte aequo discessum",
+            "en": "Some report that the Samnites were beaten beyond doubt and twenty thousand men taken; others that the two sides parted on equal terms.",
+            "en_src": "ours",
+            "it": "Alcuni tramandano che i Sanniti furono vinti senza alcun dubbio e che furono presi ventimila uomini, altri che ci si separò ad armi pari.",
+            "it_src": "ours",
+            "cite": "Livy 9.44.6"
+          },
+          "note": "Roberts (his 9.44.7) gives 24,000 prisoners; the Latin has viginti milia, twenty thousand, in all three Perseus texts."
+        },
+        {
+          "id": "r1-2",
+          "text": "In the second account Postumius then feigned fear and led his army secretly by night into the mountains.",
+          "cites": [
+            "Livy 9.44.6–7"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-3",
+          "text": "Your commander that year was Statius Gellius, whom Livy calls imperator Samnitium. A second Samnite army was encamped against Minucius, who had marched on Bovianum.",
+          "cites": [
+            "Livy 9.44.12",
+            "Livy 9.44.6",
+            "Livy 9.44.9"
+          ],
+          "confidence": "attested",
+          "note": "Livy names Gellius only at his capture (9.44.12)."
+        },
+        {
+          "id": "r1-4",
+          "text": "Diodorus does not name Tifernum. He has a Roman victory over the raiders, then a second battle after the consuls took a town he calls Bola.",
+          "cites": [
+            "Diodorus 20.90.3–4"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d2",
+      "prompt": "Postumius has slipped away by night into the mountains, as if afraid of you. Minucius, who marched on Bovianum, is encamped against your other army. What should Statius Gellius do?",
+      "options": [
+        {
+          "id": "follow",
+          "label": "Follow Postumius into the mountains and dig in close by.",
+          "kind": "historical",
+          "kind_note": "What the Samnites did in Livy's second account (9.44.7)",
+          "consequence": [
+            {
+              "id": "d2-follow-1",
+              "text": "This is what your people did, in the second account Livy reports.",
+              "cites": [
+                "Livy 9.44.7"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "Postumium metum simulantem nocturno itinere clam in montes copias abduxisse, hostes secutos duo milia inde locis munitis et ipsos consedisse.",
+                "en": "Postumius, in order to create an impression that he was afraid of the enemy, withdrew by night into the mountains, whither the enemy followed him and took up an entrenched position two miles away from him.",
+                "en_src": "Roberts 1912",
+                "it": "Che Postumio, simulando paura, avesse condotto di nascosto le truppe di notte sui monti; che i nemici lo avessero seguito e si fossero accampati anch'essi in posizioni fortificate a due miglia di distanza.",
+                "it_src": "ours",
+                "cite": "Livy 9.44.7"
+              },
+              "note": "Roberts numbers this 9.44.8. His English leaves out 'clam', secretly."
+            },
+            {
+              "id": "d2-follow-2",
+              "text": "Postumius fortified his camp and stocked it, so that it would look as though he meant to stay. Livy adds that it was in fact a safe and well-supplied position.",
+              "cites": [
+                "Livy 9.44.8"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-follow-photo",
+              "text": "The Matese seen from the summit of Monte Miletto, photographed in 2020. Pleiades identifies the Tifernus mons, where Livy says a Samnite army was routed in the next war, with the central Matese. Livy does not name the mountains to which Postumius withdrew, and the site of Tifernum is uncertain: the Barrington Atlas lists it as unlocated and suggests S. Pasquale di Faicchio with a query, where Pleiades plots it.",
+              "cites": [
+                "Wikimedia Commons file record (Vignone 2020)",
+                "Pleiades 433155",
+                "Pleiades 438852",
+                "Livy 10.30.7",
+                "Livy 9.44.6–7"
+              ],
+              "confidence": "attested",
+              "figure": {
+                "kind": "photo",
+                "src": "art/photos/matese-from-miletto.jpg",
+                "alt": "A stony summit with a tall metal cross; below, green mountain ridges and a long lake in a high valley, with hazy lowlands beyond.",
+                "credit": "Photo: Oscar Vignone, CC BY-SA 4.0, via Wikimedia Commons; resized.",
+                "credit_url": "https://commons.wikimedia.org/wiki/File:Il_Matese_da_Monte_Miletto.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "relieve",
+          "label": "Bring the army against the consuls once they have taken a town.",
+          "kind": "historical",
+          "kind_note": "Diodorus' account of this year (20.90.4): after the consuls had taken Bola, Gellius came up with 6,000 men. Diodorus' account has no withdrawal into the mountains; this is his version of the year's second battle.",
+          "consequence": [
+            {
+              "id": "d2-relieve-1",
+              "text": "In Diodorus the consuls at once took a town he calls Bola, and the Samnite leader came up to fight them.",
+              "cites": [
+                "Diodorus 20.90.4"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "τῶν δʼ ὑπάτων εὐθὺς ἑλόντων πόλιν Βῶλαν Γέλλιος Γάιος ὁ τῶν Σαμνιτῶν ἡγεμὼν ἐφάνη μετὰ στρατιωτῶν ἑξακισχιλίων.",
+                "lang": "grc",
+                "en": "When the consuls had at once taken the town of Bola, Gellius Gaius, the leader of the Samnites, appeared with six thousand soldiers.",
+                "en_src": "ours",
+                "it": "Appena i consoli ebbero preso la città di Bola, comparve Gellio Gaio, il comandante dei Sanniti, con seimila soldati.",
+                "it_src": "ours",
+                "cite": "Diodorus 20.90.4"
+              }
+            },
+            {
+              "id": "d2-relieve-2",
+              "text": "There was a hard battle. Gellius himself was taken; most of his men were cut down and some captured alive.",
+              "cites": [
+                "Diodorus 20.90.4"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "join",
+          "label": "Let him sit on his hill. Leave a screen to watch his camp and take the army to join ours against Minucius.",
+          "kind": "counterfactual",
+          "kind_note": "No source has the Samnites try this. It is the move Postumius himself made, in the other direction (Livy 9.44.8–9).",
+          "consequence": [
+            {
+              "id": "d2-join-1",
+              "text": "This is what Postumius did. He left a strong garrison in his camp and at the third watch led his legions, lightly equipped, by the shortest way to his colleague.",
+              "cites": [
+                "Livy 9.44.8–9"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-join-2",
+              "text": "Whether your army could have made the same march unseen, and in time, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d2-outcome",
+        "text": "In Livy's second account the Samnites followed Postumius and camped two miles from him; he slipped away to Minucius, and the two consuls beat both Samnite armies one after the other and took Gellius. In Diodorus, Gellius came up with 6,000 men after the consuls took Bola, and was captured.",
+        "cites": [
+          "Livy 9.44.7–12",
+          "Diodorus 20.90.4"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r2",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r2-1",
+          "text": "On Postumius' advice Minucius engaged the army facing him. The fight was undecided through much of the day, until Postumius fell on your tired line with fresh legions. Too worn by fatigue and wounds even to flee, the Samnites were cut down to a man. Twenty-one standards were taken.",
+          "cites": [
+            "Livy 9.44.10–11"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-2",
+          "text": "Both Roman armies then went to Postumius' camp and routed the Samnites there, already shaken by the news.",
+          "cites": [
+            "Livy 9.44.11–12"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "signa militaria sex et viginti capta et imperator Samnitium Statius Gellius multique alii mortales et castra utraque capta.",
+            "en": "Twenty-six military standards were taken, and with them the Samnite commander Statius Gellius and many other men, and both camps.",
+            "en_src": "ours",
+            "it": "Furono prese ventisei insegne militari, e catturati il comandante dei Sanniti Stazio Gellio e molti altri uomini, ed entrambi gli accampamenti.",
+            "it_src": "ours",
+            "cite": "Livy 9.44.12"
+          },
+          "note": "Roberts (his 9.44.13) has 'captain-general' for imperator. The manuscripts read Cellius; see the card Gellius."
+        },
+        {
+          "id": "r2-3",
+          "text": "Bovianum was attacked the next day and soon taken, and the consuls triumphed. Some authorities, Livy adds, say that Minucius was carried back to camp badly wounded and died, that M. Fulvius was made consul in his place, and that it was Fulvius who took Bovianum.",
+          "cites": [
+            "Livy 9.44.13–14"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-4",
+          "text": "In the same year Rome recovered Sora, Arpinum and Cesennia from you. Diodorus' list is Sora, Arpina and Serennia.",
+          "cites": [
+            "Livy 9.44.15",
+            "Diodorus 20.90.4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-photo",
+          "text": "Boiano seen from Civita Superiore, photographed in 2008. Pleiades places Bovianum, the chief town of the Pentri, at Boiano. Livy called it the head of the Pentrian Samnites when Rome took it in 311.",
+          "cites": [
+            "Wikimedia Commons file record (Guybrush Threepwood 2008)",
+            "Pleiades 432725",
+            "Livy 9.30.1",
+            "Livy 9.31.4–5"
+          ],
+          "confidence": "attested",
+          "note": "Pliny knew two communities called Bovianum; see the card Which Bovianum.",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/bojano-from-civita.jpg",
+            "alt": "A modern town spread across a valley floor, seen from a wooded height; fields and a long ridge of mountains beyond.",
+            "credit": "Photo: Guybrush Threepwood, CC BY-SA 3.0, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Bojano_panorama.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "brief",
+      "id": "b2",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b2-1",
+          "text": "Samnium, 304 BC. Two of your armies have been beaten and both camps taken; your commander is a prisoner; Bovianum has fallen.",
+          "cites": [
+            "Livy 9.44.11–13"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-2",
+          "text": "The new consuls are P. Sulpicius Saverrio and P. Sempronius Sophus.",
+          "cites": [
+            "Livy 9.45.1",
+            "Diodorus 20.91.1"
+          ],
+          "confidence": "attested",
+          "note": "The main manuscripts read 'Averrione'; the Oxford text prints Sigonius' 'Saverrione', and its apparatus cites Livy 10.9.14 and the Fasti (CIL I² p. 45, not opened) for it."
+        },
+        {
+          "id": "b2-3",
+          "text": "Rome has dealt with other beaten enemies lately. The Etruscans asked for a treaty and got only a one-year truce, which they paid for. The Hernici bought a thirty-day truce to send envoys, and were then taken into surrender.",
+          "cites": [
+            "Livy 9.41.6–7",
+            "Livy 9.43.6–7"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d3",
+      "prompt": "What should the touto do now?",
+      "options": [
+        {
+          "id": "end",
+          "label": "Send envoys to Rome and ask for peace.",
+          "kind": "historical",
+          "kind_note": "What the Samnites did (Livy 9.45.1). Livy does not say whether they wanted an end to the war or only a delay.",
+          "consequence": [
+            {
+              "id": "d3-end-1",
+              "text": "Your people sent envoys to Rome. Livy leaves their purpose open: an end of the war, or only its postponement.",
+              "cites": [
+                "Livy 9.45.1"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "Samnites, seu finem seu dilationem belli quaerentes, legatos de pace Romam misere.",
+                "en": "The Samnites, seeking either an end of the war or a postponement of it, sent envoys to Rome to treat for peace.",
+                "en_src": "ours",
+                "it": "I Sanniti, cercando o la fine o un rinvio della guerra, mandarono ambasciatori a Roma a trattare la pace.",
+                "it_src": "ours",
+                "cite": "Livy 9.45.1"
+              },
+              "note": "Roberts adds 'at least' before the second aim; the English is ours."
+            },
+            {
+              "id": "d3-delay-1",
+              "text": "He gives no reason to prefer either.",
+              "cites": [
+                "Livy 9.45.1"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d3-end-2",
+              "text": "Diodorus says only that the Romans and the Samnites exchanged embassies and made peace.",
+              "cites": [
+                "Diodorus 20.101.5"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "fight",
+          "label": "No envoys. Raise new men and fight on from the mountains and the towns.",
+          "kind": "counterfactual",
+          "kind_note": "No Samnite is recorded proposing this in 304.",
+          "consequence": [
+            {
+              "id": "d3-fight-1",
+              "text": "In this same year the Aequi refused Rome. Their army, with no fixed leaders, broke up so that each man could defend his own town. Livy says Rome took thirty-one towns in fifty days; Diodorus says forty towns in fifty days.",
+              "cites": [
+                "Livy 9.45.5–17",
+                "Diodorus 20.101.5"
+              ],
+              "confidence": "attested",
+              "note": "The Teubner text prints Αἰκλῶν, taken here as the Aequi."
+            },
+            {
+              "id": "d3-fight-2",
+              "text": "Whether Samnium could have held out where the Aequi did not, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d3-outcome",
+        "text": "The Samnites sent envoys to Rome to ask for peace; Livy leaves open whether they wanted an end or a delay. After the consul Sempronius had marched through Samnium and found it quiet, the old treaty was restored.",
+        "cites": [
+          "Livy 9.45.1–4",
+          "Diodorus 20.101.5"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r3",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r3-1",
+          "text": "Your envoys pleaded humbly. They were answered:",
+          "cites": [
+            "Livy 9.45.2"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "nisi saepe bellum parantes pacem petissent Samnites, oratione ultro citro habita de pace transigi potuisse; nunc, quando verba vana ad id locorum fuerint, rebus standum esse.",
+            "en": "Had the Samnites not often sought peace while preparing for war, peace could have been settled by talk on both sides; now, since words had so far proved empty, the matter must rest on deeds.",
+            "en_src": "ours",
+            "it": "Se i Sanniti non avessero spesso chiesto la pace mentre preparavano la guerra, si sarebbe potuto concludere la pace discutendone tra le parti; ora, poiché fino a quel momento le parole erano state vane, bisognava attenersi ai fatti.",
+            "it_src": "ours",
+            "cite": "Livy 9.45.2"
+          }
+        },
+        {
+          "id": "r3-2",
+          "text": "The consul Sempronius would soon be in Samnium with his army. He could not be deceived about whether you leaned to war or to peace; he would report to the Senate, and your envoys were to follow him when he left Samnium.",
+          "cites": [
+            "Livy 9.45.3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r3-3",
+          "text": "Sempronius found Samnium at peace and was freely supplied, and the old treaty was given back to you. Livy adds that the treaty was struck at Rome.",
+          "cites": [
+            "Livy 9.45.4",
+            "Livy 9.45.6"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "eo anno cum pacatum Samnium exercitus Romanus benigne praebito commeatu peragrasset, foedus antiquum Samnitibus redditum.",
+            "en": "That year, when the Roman army had marched through Samnium, finding it at peace and being generously supplied, the old treaty was restored to the Samnites.",
+            "en_src": "ours",
+            "it": "In quell'anno, dopo che l'esercito romano ebbe percorso il Sannio pacificato ricevendo con larghezza i rifornimenti, l'antico trattato fu restituito ai Sanniti.",
+            "it_src": "ours",
+            "cite": "Livy 9.45.4"
+          },
+          "note": "Roberts (his 9.45.5) says the treaty was 'therefore' restored; the cum-clause need not be causal, so the English is ours."
+        },
+        {
+          "id": "r3-4",
+          "text": "Diodorus gives the length of the war.",
+          "cites": [
+            "Diodorus 20.101.5"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Ῥωμαῖοι μὲν καὶ Σαμνῖται διαπρεσβευσάμενοι πρὸς ἀλλήλους εἰρήνην συνέθεντο, πολεμήσαντες ἔτη εἴκοσι δύο καὶ μῆνας ἕξ",
+            "lang": "grc",
+            "en": "The Romans and the Samnites exchanged embassies and made peace, after a war of twenty-two years and six months.",
+            "en_src": "ours",
+            "it": "Romani e Sanniti, scambiatisi ambascerie, conclusero la pace, dopo aver combattuto per ventidue anni e sei mesi.",
+            "it_src": "ours",
+            "cite": "Diodorus 20.101.5"
+          }
+        },
+        {
+          "id": "r3-5",
+          "text": "Rome then turned on the Aequi and broke them. After that the Marrucini, Marsi, Paeligni and Frentani sent to Rome asking for peace and friendship, and were given treaties. Diodorus names the Marsi, Paeligni and Marrucini.",
+          "cites": [
+            "Livy 9.45.5–18",
+            "Diodorus 20.101.5"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "cards",
+      "id": "c1",
+      "title": "The deeper cut",
+      "cards": [
+        "card-gellius",
+        "card-two-years",
+        "card-which-bovianum",
+        "card-old-treaty",
+        "card-truce-price",
+        "card-diodorus-306-304",
+        "card-places",
+        "card-aequi",
+        "card-next-war"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-gellius",
+      "title": "Gellius",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-gellius-1",
+          "text": "The manuscripts of Livy call the captured Samnite commander Cellius. The Oxford text prints Gellius, Sigonius' correction, and its apparatus gives the reason: Diodorus names him Γέλλιος Γάιος.",
+          "cites": [
+            "Livy 9.44.12 (Conway–Walters apparatus)",
+            "Diodorus 20.90.4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-gellius-2",
+          "text": "With Sigonius' correction the two authors agree on Gellius; the other name differs: Statius in Livy, Gaius in Diodorus.",
+          "cites": [
+            "Livy 9.44.12",
+            "Diodorus 20.90.4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-gellius-3",
+          "text": "In the next war Livy's Samnite leader is Gellius Egnatius, with Gellius in first place. When he falls at Sentinum Livy calls him imperator Samnitium, the title he gives Statius Gellius.",
+          "cites": [
+            "Livy 10.18.1",
+            "Livy 10.19.14",
+            "Livy 10.27.1",
+            "Livy 10.29.16",
+            "Livy 9.44.12"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-gellius-4",
+          "text": "The first name Statius recurs. In the next war a Samnite general was seized by the captives his raiding army was driving home from Campania; the Oxford text prints his name Staius Minatius, Weissenborn–Müller and Roberts Statius Minacius. In the Hannibalic war Livy names Statius Metius, sent by Cn. Magius of Atella, who that year was medix tuticus.",
+          "cites": [
+            "Livy 10.20.1",
+            "Livy 10.20.4–6",
+            "Livy 10.20.11–13",
+            "Livy 10.20.13 (Weissenborn–Müller)",
+            "Livy 24.19.2"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-two-years",
+      "title": "Two missing years",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-two-years-1",
+          "text": "Livy himself flags a gap in his sources at this point. The annalist Piso put Postumius and Minucius straight after Fabius and Decius.",
+          "cites": [
+            "Livy 9.44.3–4"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "hos consules Piso Q. Fabio et P. Decio suggerit biennio exempto quo Claudium Volumniumque et Cornelium cum Marcio consules factos tradidimus. memoriane fugerit in annalibus digerendis, an consulto binos consules, falsos ratus, transcenderit, incertum est.",
+            "en": "Piso places these consuls directly after Q. Fabius and P. Decius, leaving out the two years in which we have recorded Claudius and Volumnius, and Cornelius with Marcius, as consuls. Whether this slipped his memory as he arranged his annals, or he passed over the two pairs on purpose, thinking them false, is uncertain.",
+            "en_src": "ours",
+            "it": "Pisone colloca questi consoli subito dopo Q. Fabio e P. Decio, omettendo i due anni in cui abbiamo riferito consoli Claudio e Volumnio, e Cornelio con Marcio. Se gli sia sfuggito nel disporre gli annali, o se abbia saltato di proposito le due coppie, ritenendole false, è incerto.",
+            "it_src": "ours",
+            "cite": "Livy 9.44.3–4"
+          },
+          "note": "All three Perseus texts print the OCR error 'transcendent'; corrected to 'transcenderit'. Roberts has 'I have inserted' for 'tradidimus'; the English is ours."
+        },
+        {
+          "id": "card-two-years-2",
+          "text": "Diodorus has all four pairs: Decius and Fabius, Claudius and Volumnius, Marcius and Cornelius, Postumius and Minucius. On this point he stands with Livy against Piso.",
+          "cites": [
+            "Diodorus 20.37.1",
+            "Diodorus 20.45.1",
+            "Diodorus 20.73.1",
+            "Diodorus 20.81.1",
+            "Livy 9.41.1",
+            "Livy 9.42.2",
+            "Livy 9.42.10"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-two-years-3",
+          "text": "Where the Oxford text prints Minucius' praenomen Ti., the manuscripts have t, et, or nothing. Ti. is Sigonius' reading; the apparatus cites Diodorus and the Fasti (CIL I² p. 132) for it, and Diodorus does call him Tiberius.",
+          "cites": [
+            "Livy 9.44.3 (Conway–Walters apparatus)",
+            "Diodorus 20.81.1"
+          ],
+          "confidence": "attested",
+          "note": "We have not opened the Fasti; the reference to CIL is as the apparatus gives it."
+        },
+        {
+          "id": "card-two-years-4",
+          "text": "Livy also has a dictator in the year before, P. Cornelius Scipio with P. Decius Mus as master of horse, named to hold the elections because neither consul could leave the war. Diodorus' chapters for that year mention no dictator.",
+          "cites": [
+            "Livy 9.44.1–2",
+            "Diodorus 20.73.1",
+            "Diodorus 20.80.1–4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-two-years-5",
+          "text": "The Oxford text prints years from the founding of the city in its margin: 449 in the margin of 9.44 and 450 at 9.45.1. The years BC in this scene are the conventional equivalents. We have opened no edition of the Fasti and no modern study of this chronology.",
+          "cites": [
+            "Livy 9.44.1–7 (Conway–Walters margin)",
+            "Livy 9.45.1 (Conway–Walters margin)"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-which-bovianum",
+      "title": "Which Bovianum",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-which-bovianum-1",
+          "text": "Livy calls Bovianum the head of the Pentrian Samnites when Rome took it in 311.",
+          "cites": [
+            "Livy 9.31.4"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "caput hoc erat Pentrorum Samnitium, longe ditissimum atque opulentissimum armis virisque.",
+            "en": "This was the head of the Pentrian Samnites, by far the richest and the best furnished with arms and men.",
+            "en_src": "ours",
+            "it": "Era questa la capitale dei Sanniti Pentri, di gran lunga la più ricca e la meglio fornita di armi e di uomini.",
+            "it_src": "ours",
+            "cite": "Livy 9.31.4"
+          },
+          "note": "Roberts leaves out 'virisque', and men; the English is ours."
+        },
+        {
+          "id": "card-which-bovianum-2",
+          "text": "Pliny, listing the communities of the fourth region, knew two of the name.",
+          "cites": [
+            "Pliny, Natural History 3.107"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Samnitium, quos Sabellos et Graeci Saunitas dixere, coloniae Bovianum Vetus et alterum cognomine Undecumanorum",
+            "en": "Of the Samnites, whom men have called Sabelli and the Greeks Saunitae: the colonies Bovianum Vetus and the other, surnamed of the Undecimani.",
+            "en_src": "ours",
+            "it": "Dei Sanniti, che furono chiamati Sabelli e dai Greci Sauniti: le colonie Boviano Vecchio e l'altra, soprannominata degli Undecimani.",
+            "it_src": "ours",
+            "cite": "Pliny, Natural History 3.107"
+          },
+          "note": "Mayhoff prints Mommsen's 'coloniae' for the manuscripts' 'colonia'."
+        },
+        {
+          "id": "card-which-bovianum-3",
+          "text": "Pleiades has a single Bovianum, at Boiano. It describes it as the capital of the Pentri, later occupied by veterans of the eleventh legion as colonia Bovianum Undecumanorum. We found no separate Pleiades entry for Bovianum Vetus.",
+          "cites": [
+            "Pleiades 432725"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-which-bovianum-4",
+          "text": "Which of Pliny's two places Livy's Bovianum was is a question for the topographers. We have opened no study of it, so the scene follows Pleiades.",
+          "cites": [
+            "Pliny, Natural History 3.107",
+            "Pleiades 432725"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-which-bovianum-5",
+          "text": "Bovianum stays in the story. In the next war Cn. Fulvius won near it and then attacked it; after Aquilonia the Samnite nobles and horsemen fled there. After Cannae, Livy says, the Samnites went over to Hannibal, all but the Pentri.",
+          "cites": [
+            "Livy 10.12.9",
+            "Livy 10.41.11",
+            "Livy 22.61.11–12"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-old-treaty",
+      "title": "The old treaty",
+      "tier": 1,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-old-treaty-1",
+          "text": "Livy records a Roman treaty with the Samnites in the year Rome executed the noblest of its Tarquinian prisoners in the Forum. Impressed by Roman success, the Samnites asked for friendship.",
+          "cites": [
+            "Livy 7.19.2–4"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "res bello bene gestae ut Samnites quoque amicitiam peterent effecerunt. legatis eorum comiter ab senatu responsum; foedere in societatem accepti.",
+            "en": "These successes in war induced the Samnites to ask for a league of friendship. Their envoys received a favourable reply from the senate and a treaty of alliance was concluded with them.",
+            "en_src": "Roberts 1912",
+            "it": "I successi in guerra fecero sì che anche i Sanniti chiedessero amicizia. Ai loro ambasciatori il senato rispose con cortesia; furono accolti in alleanza con un trattato.",
+            "it_src": "ours",
+            "cite": "Livy 7.19.4"
+          },
+          "note": "Roberts numbers this 7.19.3–4."
+        },
+        {
+          "id": "card-old-treaty-2",
+          "text": "Diodorus puts a treaty with the Samnites in the same notice as the Tarquinian executions. His number of Tarquinians is 260; Livy's is 358.",
+          "cites": [
+            "Diodorus 16.45.8",
+            "Livy 7.19.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-old-treaty-3",
+          "text": "When the Samnites next sought peace, under the consuls C. Plautius and L. Aemilius Mamercus, the Senate voted to give the treaty back, with the same verb Livy uses in 304.",
+          "cites": [
+            "Livy 8.1.1",
+            "Livy 8.1.7–10",
+            "Livy 8.2.1",
+            "Livy 9.45.4"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "cum de postulatis Samnitium T. Aemilius praetor senatum consuluisset reddendumque iis foedus patres censuissent",
+            "en": "When the praetor T. Aemilius had consulted the Senate on the Samnites' demands, and the Fathers had voted that the treaty be given back to them.",
+            "en_src": "ours",
+            "it": "Quando il pretore T. Emilio ebbe consultato il senato sulle richieste dei Sanniti e i senatori ebbero deciso di restituire loro il trattato.",
+            "it_src": "ours",
+            "cite": "Livy 8.2.1"
+          },
+          "note": "The Oxford text prints the consul of 8.1.1 as L. Aemilius from a few manuscripts; the rest read 'titus' or 't.'; the praetor at 8.2.1 is T. Aemilius. Roberts renders 8.2.1 'the former treaty should be renewed', which adds 'former' and loses 'give back'; the English here is ours."
+        },
+        {
+          "id": "card-old-treaty-4",
+          "text": "Livy does not say which treaty the foedus antiquum of 304 was. That it is the treaty of 7.19, renewed at 8.2, is our reading of his words.",
+          "cites": [
+            "Livy 9.45.4",
+            "Livy 7.19.4",
+            "Livy 8.2.1"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-truce-price",
+      "title": "The price of a truce",
+      "tier": 1,
+      "lens": "econ",
+      "blocks": [
+        {
+          "id": "card-truce-price-1",
+          "text": "Livy records truces bought from a Roman consul with pay and supplies for his army. The Samnites under the consuls Plautius and Aemilius: a year's pay and three months' grain, which the consul had stipulated for a truce until their envoys returned from Rome.",
+          "cites": [
+            "Livy 8.1.1",
+            "Livy 8.2.4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-truce-price-2",
+          "text": "The Etruscans under the consuls Fabius and Decius: a year's pay for the Roman army and two tunics for each soldier, for a one-year truce. Livy calls it the price of the truce.",
+          "cites": [
+            "Livy 9.41.1",
+            "Livy 9.41.6–7"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "stipendium exercitu Romano ab hoste in eum annum pensum et binae tunicae in militem exactae; ea merces indutiarum fuit.",
+            "en": "The enemy paid the Roman army's pay for that year, and two tunics were exacted for each soldier; that was the price of the truce.",
+            "en_src": "ours",
+            "it": "Il nemico pagò lo stipendio dell'esercito romano per quell'anno e furono pretese due tuniche per ogni soldato; quello fu il prezzo della tregua.",
+            "it_src": "ours",
+            "cite": "Livy 9.41.7"
+          }
+        },
+        {
+          "id": "card-truce-price-3",
+          "text": "The Hernici in 306: two months' pay, grain, and one tunic each, for thirty days.",
+          "cites": [
+            "Livy 9.43.6–7"
+          ],
+          "confidence": "attested",
+          "note": "Roberts (his 9.43.6) has 'six months' pay'; the Latin is 'bimestri stipendio', two months'."
+        },
+        {
+          "id": "card-truce-price-4",
+          "text": "The Samnites in 306: three months' grain, a year's pay and a tunic for each soldier, before their envoys went to the Senate. Livy does not call this a truce.",
+          "cites": [
+            "Livy 9.43.21"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-truce-price-5",
+          "text": "Livy gives no sums of money for any of these. Nor does he report a payment in 304, when Sempronius' army was supplied as it marched.",
+          "cites": [
+            "Livy 9.45.4"
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-diodorus-306-304",
+      "title": "Diodorus' three years",
+      "tier": 1,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-diodorus-306-304-1",
+          "text": "In 306 Diodorus has no battle in Samnium. The Samnites take Sora and Calatia and enslave the people. The consuls invade Iapygia and take Silvium, held by a Samnite garrison, with more than five thousand prisoners, then spend five months cutting down trees and burning farms in Samnium.",
+          "cites": [
+            "Diodorus 20.80.1–4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-diodorus-306-304-2",
+          "text": "He gives the reason: after so many years of war for the leadership, the Romans hoped that stripping the Samnites of what they owned in the countryside would force them to yield.",
+          "cites": [
+            "Diodorus 20.80.3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-diodorus-306-304-3",
+          "text": "Pleiades places Silvium at Gravina in Puglia, outside the map of this campaign.",
+          "cites": [
+            "Pleiades 442796"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-diodorus-306-304-4",
+          "text": "In 305: the Paeligni beaten, a victory over the raiders of the Falernian land with 20 standards and over 2,000 prisoners, Bola taken, Gellius Gaius, who came up with 6,000 men, beaten and captured, Sora, Arpina and Serennia recovered. Livy has 21 and 26 standards in two battles and, in one account, 20,000 prisoners at Tifernum.",
+          "cites": [
+            "Diodorus 20.90.3–4",
+            "Livy 9.44.6",
+            "Livy 9.44.11–12"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-diodorus-306-304-5",
+          "text": "Pleiades knows a Bola only in Latium, as the town of the Bolani. It lists Serennia as unlocated and refers it to Censennia, which it calls a Samnite settlement named by Livy; the texts of Livy we opened print Cesennia. We have opened no study that identifies Diodorus' Bola.",
+          "cites": [
+            "Pleiades 438696",
+            "Pleiades 438832",
+            "Pleiades 438713",
+            "Livy 9.44.15"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-diodorus-306-304-6",
+          "text": "In 304: peace by exchange of embassies after twenty-two years and six months of war; Sempronius takes forty Aequian towns in fifty days and triumphs; Rome makes an alliance with the Marsi, Paeligni and Marrucini.",
+          "cites": [
+            "Diodorus 20.101.5"
+          ],
+          "confidence": "attested",
+          "note": "The Teubner text prints Αἰκλῶν, taken here as the Aequi. Diodorus credits Sempronius alone with the Aequian campaign; Livy (9.45.9) sends both consuls."
+        }
+      ]
+    },
+    {
+      "id": "card-places",
+      "title": "Tifernum and the Stellate plain",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-places-1",
+          "text": "The site of Tifernum is uncertain. The Barrington Atlas lists it as unlocated and suggests, with a question mark, S. Pasquale di Faicchio, where Pleiades plots it.",
+          "cites": [
+            "Pleiades 438852"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-places-2",
+          "text": "Pleiades also has a Tifernus mountain, the central part of the Matese, and a Tifernus river, the Biferno, which flows from near Boiano to the Adriatic. Livy names Tifernum at 9.44.6 and 10.14.6 without saying whether he means a town; the mountain is at 10.30.7.",
+          "cites": [
+            "Pleiades 433155",
+            "Pleiades 433154",
+            "Livy 9.44.6",
+            "Livy 10.14.6",
+            "Livy 10.30.7"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-places-3",
+          "text": "The plain recurs. In the next war Samnite armies again crossed into Campania and the Falernian land for plunder; later Samnite legions gathered in the ager Stellas; and Livy, summing up, counts the Stellate plains among the four places where the Samnites were beaten in a single year.",
+          "cites": [
+            "Livy 10.20.1",
+            "Livy 10.31.5",
+            "Livy 10.31.12"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-places-4",
+          "text": "In 217 Hannibal, misled by a guide who heard Casilinum for Casinum, came down through the lands of Allifae, Caiatia and Cales into the campus Stellas.",
+          "cites": [
+            "Livy 22.13.6"
+          ],
+          "confidence": "attested",
+          "note": "Roberts gives 'Callifae' for 'Caiatinum'."
+        }
+      ]
+    },
+    {
+      "id": "card-aequi",
+      "title": "The Aequi decide",
+      "tier": 1,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-aequi-1",
+          "text": "In the same year the Aequi were divided. Some said go out and fight, others hold the camp; most feared for their fields and their lightly held towns.",
+          "cites": [
+            "Livy 9.45.10–11"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-aequi-2",
+          "text": "One opinion won, which turned each man from the common cause to his own: leave camp at the first watch, carry everything off and defend the towns from the walls. All agreed to it with loud approval.",
+          "cites": [
+            "Livy 9.45.12–13"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-aequi-3",
+          "text": "The Romans found the camp empty and took the towns one by one. Livy gives thirty-one towns in fifty days, Diodorus forty in fifty days.",
+          "cites": [
+            "Livy 9.45.14–17",
+            "Diodorus 20.101.5"
+          ],
+          "confidence": "attested",
+          "note": "Roberts (his 9.45.17) has 'within a fortnight'; the Latin is 'intra dies quinquaginta', within fifty days. The Teubner text prints Αἰκλῶν, taken here as the Aequi."
+        },
+        {
+          "id": "card-aequi-4",
+          "text": "The manuscripts of Livy name the last of the four peoples who then sought treaties as Feretani or Feretrani, and Roberts prints Feretrani. The Oxford text prints Sigonius' Frentani.",
+          "cites": [
+            "Livy 9.45.18 (Conway–Walters apparatus)",
+            "Livy 9.45.18 (Roberts 1912)"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-next-war",
+      "title": "The next war",
+      "tier": 1,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "d3-delay-2",
+          "text": "Later, under the consuls L. Cornelius Scipio and Cn. Fulvius, the Lucanians complained at Rome that a Samnite army was ravaging their land. Rome made a treaty with them and sent fetiales to order the Samnites out. Samnite envoys met the fetiales and warned them that if they went to any council in Samnium they would not leave it unharmed. Rome voted war. Livy does not say whether this proves the embassy of 304 was meant only as a delay.",
+          "cites": [
+            "Livy 10.11.10–13",
+            "Livy 10.12.1–3"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    }
+  ]
+}
