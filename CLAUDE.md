@@ -31,6 +31,8 @@ Run locally: `python3 -m http.server 8000` from the repo root, then open http://
 - Latin terms he would know stay in Latin without gloss (sponsio, fetiales, consilium).
 - No "it's not X, it's Y" constructions. No exclamation marks. No cute narration.
 - Counterfactual consequences are short, plausible, and say plainly that no source tests them.
+- Voice: briefs, decision prompts and option consequences are told in the scene's own voice, in the moment ("The Romans are content with the skirmishes. Your leaders are not."), not as "Livy says…". The source sits behind the † (the block's `cites`). Name an author only where accounts disagree, and then in the reveal ("What happened") or a Codex card, as named positions. Where dropping the author would make a claim sound firmer than the source (a figure, a rumour, a motive the source only guesses at), keep the hedge in the scene's voice ("It is said…", "Some say…"). Option `kind_note`s are short tags: "What the Samnites did", "Diodorus' version", "No Samnite is recorded proposing this".
+- Keep the text between decisions short: 3–5 short paragraphs per brief or reveal step. Detail goes into Codex cards, but anything a decision or quotation depends on stays in the scene.
 
 ## Workflow for new content
 
