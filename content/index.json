@@ -37,20 +37,33 @@
               "id": "samnites-01-caudine-forks",
               "file": "scenes/samnites/caudine-forks.json",
               "title": "The Caudine Forks",
-              "date": "321–320 BC"
+              "date": "321–320 BC",
+              "site": {
+                "label": "Furculae Caudinae",
+                "lon": 14.538246,
+                "lat": 41.031362,
+                "pleiades": 432856
+              }
             },
             {
               "id": "samnites-02-lautulae",
               "file": "scenes/samnites/lautulae.json",
               "title": "Lautulae",
-              "date": "316–314 BC"
+              "date": "316–314 BC",
+              "site": {
+                "label": "Lautulae",
+                "lon": 13.264,
+                "lat": 41.324,
+                "pleiades": 432903
+              }
             },
             {
               "id": "samnites-03",
               "title": "In preparation",
               "planned": true
             }
-          ]
+          ],
+          "map": "samnium"
         }
       ]
     },
@@ -206,5 +219,18 @@
       "id": "law",
       "title": "Law and religion"
     }
-  ]
+  ],
+  "maps": {
+    "samnium": {
+      "src": "art/scenes/samnite-campaign.svg",
+      "bounds": [
+        13.05,
+        15.55,
+        40.72,
+        41.85
+      ],
+      "alt": "Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; Capua, Saticula, Caudium and the Caudine Forks in the centre; Maleventum and Luceria to the east. Plistica is marked only as unlocated, near Saticula.",
+      "credit": "Sites from the Pleiades gazetteer (CC BY): Sora 433126, Lautulae 432903, Tarracina 433143, Capua 432754, Saticula 433105, Caudium 432773, Furculae Caudinae 432856, Maleventum 432721, Luceria 442640; Plistica, Pleiades 438810, has no recorded position. Coastline: Natural Earth (public domain)."
+    }
+  }
 }

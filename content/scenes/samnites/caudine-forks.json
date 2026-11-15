@@ -14,8 +14,8 @@
   "status": "checked",
   "verified": {
     "by": "checker agent, two passes",
-    "date": "2026-11-13",
-    "notes": "First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only. Figures (roads map, trap diagram, yoke, Cicero photo) checked in two further passes: Beneventum relabelled Maleventum (Livy 9.27.14); no road drawn beyond the Forks; rear barrier drawn generically per 9.2.10; Cicero date follows the museum (mid-1st c. BC), CC0 photo licence confirmed via a Commons mirror. Photo pass (13 Nov 2026, two checker passes): Nola-Cimitile painting, Getty cuirass 96.AC.232.b, Daniele 1778 plan and Tav. II, Arpaia photo, and Cicero now served from art/photos/. Checked against Carroll 2025 (pp. 136, 140–147), the Getty linked-data record, Livy 8.22.8, 8.23.1, 9.2.2–8, 9.4.3, 9.5.12–13, 9.42.6–7, the plate legends and the Commons licence pages. Fixed: Palaepolis garrison 327 not 326; Carroll's p. 147 reading of 'singulis vestimentis' replaces a comparison wrongly called ours; Symes not called a dealer; Pietrabbondante 'some of the pieces'; de Laurentiis credited as a Commons attribution (plate unsigned). Nola inventory given as 9363 on Matthew's decision (Wikidata and Commons categories 9363, one Commons filename 9364; MANN catalogue not reachable). Daniele's title and date rest on Commons metadata; the Heidelberg copy was not reachable. Cicero licence now confirmed on Commons directly."
+    "date": "2026-11-15",
+    "notes": "Restructure pass (15 Nov 2026, checker agent, three passes): trimmed for play; moved verbatim into new cards card-nola-tomb, card-roman-camp, card-pontius-precedents (b1-nola, r1-3, r1-6, r2-2), b1-map into card-where; reworded b1-2, r1-3 ('Pontius's terms'), r2-1 (release, Livy 9.11.13), r2-2 ('Pontius listed'); new decision outcomes d1-outcome, d2-outcome. Checker found the trim had removed the sponsio (r1-4, restored to r1) and the release of the sponsors (restored in r2-1); all fixes confirmed against Livy lat3. First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only. Figures (roads map, trap diagram, yoke, Cicero photo) checked in two further passes: Beneventum relabelled Maleventum (Livy 9.27.14); no road drawn beyond the Forks; rear barrier drawn generically per 9.2.10; Cicero date follows the museum (mid-1st c. BC), CC0 photo licence confirmed via a Commons mirror. Photo pass (13 Nov 2026, two checker passes): Nola-Cimitile painting, Getty cuirass 96.AC.232.b, Daniele 1778 plan and Tav. II, Arpaia photo, and Cicero now served from art/photos/. Checked against Carroll 2025 (pp. 136, 140–147), the Getty linked-data record, Livy 8.22.8, 8.23.1, 9.2.2–8, 9.4.3, 9.5.12–13, 9.42.6–7, the plate legends and the Commons licence pages. Fixed: Palaepolis garrison 327 not 326; Carroll's p. 147 reading of 'singulis vestimentis' replaces a comparison wrongly called ours; Symes not called a dealer; Pietrabbondante 'some of the pieces'; de Laurentiis credited as a Commons attribution (plate unsigned). Nola inventory given as 9363 on Matthew's decision (Wikidata and Commons categories 9363, one Commons filename 9364; MANN catalogue not reachable). Daniele's title and date rest on Commons metadata; the Heidelberg copy was not reachable. Cicero licence now confirmed on Commons directly."
   },
   "sources": {
     "Livy": {
@@ -70,25 +70,8 @@
           "confidence": "attested"
         },
         {
-          "id": "b1-nola",
-          "text": "Victors coming home, painted in a tomb at Nola about 330–320 BC, the years of Caudium. The leader carries a dead enemy's tunic on his spear. Nola sided with the Samnites: Livy has 2,000 Nolans let into Palaepolis with 4,000 Samnites in 327, at Nola's insistence.",
-          "cites": [
-            "Carroll 2025, 136 fig. 4, 143",
-            "Livy 8.22.8",
-            "Livy 8.23.1"
-          ],
-          "confidence": "inferred",
-          "figure": {
-            "kind": "photo",
-            "src": "art/photos/nola-cimitile-warriors.jpg",
-            "alt": "Wall painting with rosette and meander borders above and a wave border below. From left: a figure in a long robe holding out a bowl; a warrior in a helmet with two tall curving plumes, cuirass and bronze belt with a white, red and blue patterned tunic hung from his spear; a warrior in a plumed helmet resting his hand on a round shield; a helmeted horseman; a man in a white cloak.",
-            "credit": "Naples, Museo Archeologico Nazionale, inv. 9363. Photo: Shonagon, 2022, public domain (PD-Art), via Wikimedia Commons; resized.",
-            "credit_url": "https://commons.wikimedia.org/wiki/File:Sc%C3%A8ne_du_retour_du_guerrier_-_Carafa_di_Noja,_Nola_-_Mus%C3%A9e_arch%C3%A9ologique_national_de_Naples_-_inv_9364.jpg"
-          }
-        },
-        {
           "id": "b1-2",
-          "text": "Rome accepted only the prisoners and whatever booty it could recognise, and your envoys came home without peace. Your son hid the army near Caudium and sent ten soldiers dressed as shepherds to graze flocks close to the Roman posts at Calatia. Taken prisoner, each told the same story: the Samnite legions were in Apulia, besieging Luceria.",
+          "text": "Rome sent your envoys home without peace. Your son hid the army near Caudium and sent ten soldiers dressed as shepherds to graze flocks close to the Roman posts at Calatia. Taken prisoner, each told the same story: the Samnite legions were in Apulia, besieging Luceria.",
           "cites": [
             "Livy 8.39.14–15",
             "Livy 9.1.3",
@@ -105,22 +88,6 @@
             "Livy 9.2.9"
           ],
           "confidence": "attested"
-        },
-        {
-          "id": "b1-map",
-          "text": "Calatia, the Forks and Luceria. Livy names only the short road through the Forks and the long one by the Adriatic coast, and traces neither, so the onward road is shown as a direction. The town later called Beneventum was still Maleventum (Livy 9.27.14). Sites placed from the Pleiades gazetteer.",
-          "cites": [
-            "Livy 9.2.6",
-            "Livy 9.27.14",
-            "Pleiades 432754, 432738, 432856, 432773, 432721, 442640"
-          ],
-          "confidence": "reconstructed",
-          "figure": {
-            "src": "art/scenes/caudine-roads.svg",
-            "alt": "Map of Campania, Samnium and Apulia: Capua and Calatia, the Caudine Forks near Caudium, Maleventum, Luceria, an arrow for the short road on to Luceria, and a note on the longer road by the Adriatic coast.",
-            "credit": "Coastline: Natural Earth. Sites: Pleiades (CC BY).",
-            "credit_url": "https://pleiades.stoa.org/"
-          }
         },
         {
           "id": "b1-4",
@@ -295,7 +262,17 @@
             }
           ]
         }
-      ]
+      ],
+      "outcome": {
+        "id": "d1-outcome",
+        "text": "Pontius took neither of his father's answers. He spared the Romans, dictated terms and sent them under the yoke.",
+        "cites": [
+          "Livy 9.3.12",
+          "Livy 9.4.1–5",
+          "Livy 9.6.1–2"
+        ],
+        "confidence": "attested"
+      }
     },
     {
       "kind": "reveal",
@@ -327,14 +304,6 @@
           "confidence": "attested"
         },
         {
-          "id": "r1-3",
-          "text": "L. Lentulus, the senior legate, persuaded the consuls to accept. His father, he said, had been the only man on the Capitol who would not advise ransoming the city from the Gauls with gold; but here the army was all of Rome that could be saved.",
-          "cites": [
-            "Livy 9.4.7–16"
-          ],
-          "confidence": "attested"
-        },
-        {
           "id": "r1-4",
           "text": "The consuls told Pontius that no foedus could be made without the people's order and the fetiales. So the consuls, legates, quaestors and military tribunes gave a sponsio, and 600 equites were demanded as hostages and handed over first.",
           "cites": [
@@ -350,16 +319,6 @@
             "Livy 9.5.12–9.6.2"
           ],
           "confidence": "attested"
-        },
-        {
-          "id": "r1-6",
-          "text": "Capua sent the consuls their own insignia of office, and the soldiers arms, horses, clothing and provisions. At Rome, without any public order, the city went into mourning: the shops round the Forum shut, business in the Forum stopped before it was proclaimed, and the broad stripe and gold rings were laid aside.",
-          "cites": [
-            "Livy 9.6.6",
-            "Livy 9.7.7–8"
-          ],
-          "confidence": "attested",
-          "note": "Livy 9.6.6 is uncertain here. The manuscripts read 'fasces lictores' (fasces, lictors), which Roberts translates; Weissenborn–Müller print 'fasces lictoribus'; Conway–Walters, following Hertz, delete the words."
         }
       ]
     },
@@ -469,7 +428,15 @@
             }
           ]
         }
-      ]
+      ],
+      "outcome": {
+        "id": "d2-outcome",
+        "text": "Pontius refused the surrender and had the sponsors untied and let go.",
+        "cites": [
+          "Livy 9.11.1–13"
+        ],
+        "confidence": "attested"
+      }
     },
     {
       "kind": "reveal",
@@ -478,9 +445,10 @@
       "blocks": [
         {
           "id": "r2-1",
-          "text": "Pontius refused the surrender. Either Rome put the legions back between the passes, or it kept its word.",
+          "text": "Pontius refused the surrender. Either Rome put the legions back between the passes, or it kept its word. He had the sponsors untied and let go.",
           "cites": [
-            "Livy 9.11.1–5"
+            "Livy 9.11.1–5",
+            "Livy 9.11.13"
           ],
           "confidence": "attested",
           "quote": {
@@ -491,15 +459,6 @@
             "it_src": "ours",
             "cite": "Livy 9.11.1"
           }
-        },
-        {
-          "id": "r2-2",
-          "text": "He listed Rome's habit of finding a legal pretext after defeat: hostages given to Porsenna and stolen back, the Gauls cut down while they were still taking the gold. Then he had the lictor untie the Romans and let them go.",
-          "cites": [
-            "Livy 9.11.6–7",
-            "Livy 9.11.13"
-          ],
-          "confidence": "attested"
         },
         {
           "id": "r2-3",
@@ -540,7 +499,10 @@
         "card-livy-doubts",
         "card-where",
         "card-yoke",
-        "card-trophies"
+        "card-trophies",
+        "card-nola-tomb",
+        "card-roman-camp",
+        "card-pontius-precedents"
       ]
     }
   ],
@@ -680,6 +642,22 @@
       "tier": 3,
       "lens": "war",
       "blocks": [
+        {
+          "id": "b1-map",
+          "text": "Calatia, the Forks and Luceria. Livy names only the short road through the Forks and the long one by the Adriatic coast, and traces neither, so the onward road is shown as a direction. The town later called Beneventum was still Maleventum (Livy 9.27.14). Sites placed from the Pleiades gazetteer.",
+          "cites": [
+            "Livy 9.2.6",
+            "Livy 9.27.14",
+            "Pleiades 432754, 432738, 432856, 432773, 432721, 442640"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "src": "art/scenes/caudine-roads.svg",
+            "alt": "Map of Campania, Samnium and Apulia: Capua and Calatia, the Caudine Forks near Caudium, Maleventum, Luceria, an arrow for the short road on to Luceria, and a note on the longer road by the Adriatic coast.",
+            "credit": "Coastline: Natural Earth. Sites: Pleiades (CC BY).",
+            "credit_url": "https://pleiades.stoa.org/"
+          }
+        },
         {
           "id": "card-where-1",
           "text": "Nicholas Horsfall argued that the site itself is not seriously in doubt; the doubt lies in Livy's account, whose tactical moves do not fit the ground. He read the narrative as formulaic, shaped to minimise the defeat and perhaps coloured by accounts of Alexander's campaigns.",
@@ -829,6 +807,74 @@
             "Carroll 2025, 147"
           ],
           "confidence": "inferred"
+        }
+      ]
+    },
+    {
+      "id": "card-nola-tomb",
+      "title": "Victors coming home",
+      "tier": 3,
+      "lens": "arms",
+      "blocks": [
+        {
+          "id": "b1-nola",
+          "text": "Victors coming home, painted in a tomb at Nola about 330–320 BC, the years of Caudium. The leader carries a dead enemy's tunic on his spear. Nola sided with the Samnites: Livy has 2,000 Nolans let into Palaepolis with 4,000 Samnites in 327, at Nola's insistence.",
+          "cites": [
+            "Carroll 2025, 136 fig. 4, 143",
+            "Livy 8.22.8",
+            "Livy 8.23.1"
+          ],
+          "confidence": "inferred",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/nola-cimitile-warriors.jpg",
+            "alt": "Wall painting with rosette and meander borders above and a wave border below. From left: a figure in a long robe holding out a bowl; a warrior in a helmet with two tall curving plumes, cuirass and bronze belt with a white, red and blue patterned tunic hung from his spear; a warrior in a plumed helmet resting his hand on a round shield; a helmeted horseman; a man in a white cloak.",
+            "credit": "Naples, Museo Archeologico Nazionale, inv. 9363. Photo: Shonagon, 2022, public domain (PD-Art), via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Sc%C3%A8ne_du_retour_du_guerrier_-_Carafa_di_Noja,_Nola_-_Mus%C3%A9e_arch%C3%A9ologique_national_de_Naples_-_inv_9364.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "card-roman-camp",
+      "title": "Lentulus, and a city in mourning",
+      "tier": 1,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "r1-3",
+          "text": "L. Lentulus, the senior legate, persuaded the consuls to accept Pontius's terms. His father, he said, had been the only man on the Capitol who would not advise ransoming the city from the Gauls with gold; but here the army was all of Rome that could be saved.",
+          "cites": [
+            "Livy 9.4.7–16"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-6",
+          "text": "Capua sent the consuls their own insignia of office, and the soldiers arms, horses, clothing and provisions. At Rome, without any public order, the city went into mourning: the shops round the Forum shut, business in the Forum stopped before it was proclaimed, and the broad stripe and gold rings were laid aside.",
+          "cites": [
+            "Livy 9.6.6",
+            "Livy 9.7.7–8"
+          ],
+          "confidence": "attested",
+          "note": "Livy 9.6.6 is uncertain here. The manuscripts read 'fasces lictores' (fasces, lictors), which Roberts translates; Weissenborn–Müller print 'fasces lictoribus'; Conway–Walters, following Hertz, delete the words."
+        }
+      ]
+    },
+    {
+      "id": "card-pontius-precedents",
+      "title": "Pontius on Roman bad faith",
+      "tier": 1,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "r2-2",
+          "text": "Pontius listed Rome's habit of finding a legal pretext after defeat: hostages given to Porsenna and stolen back, the Gauls cut down while they were still taking the gold. Then he had the lictor untie the Romans and let them go.",
+          "cites": [
+            "Livy 9.11.6–7",
+            "Livy 9.11.13"
+          ],
+          "confidence": "attested"
         }
       ]
     }

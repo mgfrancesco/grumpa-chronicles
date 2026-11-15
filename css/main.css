@@ -43,7 +43,7 @@ h2 { font-size: 1.15em; margin: 1.6em 0 .5em; font-variant: small-caps; letter-s
 .page { max-width: 760px; margin: 0 auto; padding: 16px 20px 72px; }
 
 /* Buttons: every tap target is at least 48px */
-.btn, .option, .about, .link-btn, .back, .q-btn {
+.btn, .option, .link-btn, .back, .q-btn {
   font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent;
 }
 .btn {
@@ -113,15 +113,20 @@ h2 { font-size: 1.15em; margin: 1.6em 0 .5em; font-variant: small-caps; letter-s
 .block .note { font-size: .82em; color: var(--ink-soft); font-style: italic; }
 .block.counterfactual { border-left: 4px solid var(--cf); padding-left: 12px; }
 .cf-tag { display: inline-block; font-size: .7em; letter-spacing: .1em; text-transform: uppercase; color: var(--cf); margin-bottom: 2px; }
-.about {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 8px; width: 100%; text-align: left;
-  min-height: 48px; padding: 4px 0; background: none; border: none; border-bottom: 1px dotted var(--rule);
-  color: var(--ink-soft); font-size: .78em;
-}
-.about span:first-child { text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
 .mark { font-size: .9em; padding: 1px 8px; border-radius: 999px; background: var(--paper-2); }
-.mark-new { color: var(--accent); }
-.mark-dispute { color: #8a1c1c; background: #f6dede; }
+
+/* The source tap target: a small dagger after each passage, 48px to the finger, small to the eye.
+   Negative vertical margins keep it from opening up the line spacing. */
+.src {
+  display: inline-flex; align-items: center; justify-content: center; vertical-align: middle;
+  width: 40px; height: 48px; margin: -14px -8px -14px -4px; padding: 0;
+  background: none; border: none; color: var(--ink-soft); opacity: .7;
+  font: inherit; font-size: .82em; line-height: 1; cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.src:hover, .src:focus-visible { opacity: 1; color: var(--accent); }
+.src.mark-new { color: var(--accent); opacity: 1; }
+.src.mark-knew { color: #5f6d2e; opacity: 1; }
+.src.mark-dispute { color: #8a1c1c; opacity: 1; font-weight: 700; }
 
 .quote { margin: 10px 0 6px; padding: 10px 14px; background: var(--paper-2); border-radius: 8px; }
 .quote blockquote { margin: 0; font-style: italic; font-size: 1.04em; }
@@ -164,6 +169,49 @@ h2 { font-size: 1.15em; margin: 1.6em 0 .5em; font-variant: small-caps; letter-s
 .viewer { position: fixed; inset: 0; z-index: 20; background: rgba(20,14,10,.92); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 12px; }
 .viewer img { max-width: 100%; max-height: 82vh; object-fit: contain; background: var(--paper); border-radius: 6px; }
 .viewer .quiet { color: #d9c9ab; }
+
+/* Maps with tappable places */
+.map-wrap { position: relative; margin: 8px 0 4px; }
+.map-wrap .map-img { display: block; width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--rule); cursor: zoom-in; }
+.pin {
+  position: absolute; transform: translate(-50%, -50%); width: 48px; height: 48px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; padding: 0; cursor: pointer;
+  -webkit-tap-highlight-color: transparent; text-decoration: none; font: inherit;
+}
+.scene-pin { background: none; border: none; }
+.scene-pin .dot {
+  width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  background: var(--paper); border: 2px solid var(--accent); color: var(--accent); font-weight: 700; font-size: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.scene-pin.next .dot { background: var(--accent); color: var(--accent-ink); }
+.scene-pin.done .dot { background: #f3df97; border-color: #9a7a1e; box-shadow: 0 0 0 4px rgba(243,223,151,.7), 0 1px 3px rgba(0,0,0,.3); }
+.scene-pin.done svg { display: block; width: 18px; height: auto; }
+.place-pin { background: rgba(255,255,255,.12); border: 3px solid var(--accent); }
+.place-pin.box { border-radius: 10px; border-style: dashed; }
+.place-pin.on { background: rgba(126,52,32,.28); box-shadow: 0 0 0 4px rgba(126,52,32,.25); }
+span.place-pin { cursor: default; }
+.map-hint { font-size: .85em; color: var(--ink-soft); margin: 4px 0 8px; }
+.map-credit { font-size: .8em; color: var(--ink-soft); margin: 0 0 12px; }
+.map-credit summary { display: flex; align-items: center; min-height: 48px; cursor: pointer; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+.map-credit p { margin: 0 0 8px; font-size: .9em; }
+.decision-map .block p { font-size: .88em; color: var(--ink-soft); }
+.option[hidden], .link-btn[hidden] { display: none; }
+
+/* The record of counsel */
+.rec-scene { border-top: 1px solid var(--rule); padding-top: 10px; margin-top: 14px; }
+.rec-scene h3 { margin: 0 0 6px; font-size: 1.05em; }
+.rec-scene h3 .dates { color: var(--ink-soft); font-weight: 400; font-size: .8em; }
+.rec-row { margin: 0 0 14px; }
+.rec-q { margin: 0 0 6px; font-style: italic; color: var(--ink-soft); font-size: .9em; }
+.rec-pair { display: grid; grid-template-columns: 1fr; gap: 8px; }
+@media (min-width: 640px) { .rec-pair { grid-template-columns: 1fr 1fr; } }
+.rec-you, .rec-hist { background: var(--paper-2); border-radius: 10px; padding: 8px 12px; }
+.rec-hist { background: #fffaf0; border: 1px solid var(--rule); }
+.rec-you p, .rec-hist p { margin: 2px 0; }
+.rec-hist .block { margin: 0; }
+.rec-tag { font-size: .78em; color: var(--ink-soft); }
+.rec-tag.same { color: #5f6d2e; }
 
 /* Sheet */
 .sheet-wrap { position: fixed; inset: 0; background: rgba(20,14,10,.45); display: flex; align-items: flex-end; justify-content: center; z-index: 10; }

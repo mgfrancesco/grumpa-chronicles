@@ -32,6 +32,14 @@ All content is JSON under `content/`. The engine reads `content/index.json`, the
 
 A scene with `"planned": true` and no `file` shows as "in preparation".
 
+Maps that the engine draws tappable places on are listed once under `maps`, with the same bounds the drawing script used (`[lon0, lon1, lat0, lat1]`, equirectangular, as in `tools/maps/*.py`):
+
+```json
+"maps": { "samnium": { "src": "art/scenes/samnite-campaign.svg", "bounds": [13.05, 15.55, 40.72, 41.85], "alt": "…", "credit": "Pleiades ids, coastline source" } }
+```
+
+A campaign with `"map": "samnium"` gets a campaign screen (`#/campaign/<id>`): the map with a marker for each scene that has a `site` (`{"label", "lon", "lat", "pleiades"}`, lit when the scene is finished), the scene list, and the record of Grumpa's counsel beside each decision's `outcome`.
+
 ## Scene file
 
 ```json
@@ -59,7 +67,7 @@ A scene with `"planned": true` and no `file` shows as "in preparation".
 Played in order. Kinds:
 
 - `{"kind": "brief", "id", "speaker", "blocks": [<block>…]}` — narration or a character speaking.
-- `{"kind": "decision", "id", "prompt", "options": [<option>…]}` — Grumpa chooses; the chosen option's consequence is shown, and the choice is saved.
+- `{"kind": "decision", "id", "prompt", "options": [<option>…], "outcome": <block>, "map"?: {…}}` — Grumpa chooses; the chosen option's consequence is shown, and the choice is saved. `outcome` is one short block saying what was actually done; the campaign screen shows it beside his counsel. Optional `map` makes the decision answerable from a map: `{"id": "samnium", "places": [{"id", "label", "lon", "lat", "pleiades"}…], "caption": <block>}`; each option with a `place` is shown when that place is tapped. A place with no known site has no lon/lat: give `"unlocated": true`, the position of its drawn label box as `"at": [x%, y%]` and its size as `"box": [w%, h%]`, and never draw it as a point.
 - `{"kind": "reveal", "id", "title", "blocks": [<block>…]}` — what happened, with sources.
 - `{"kind": "cards", "id", "title", "cards": ["card-id", …]}` — the deeper cut; these cards unlock in the Codex.
 
@@ -74,6 +82,8 @@ Played in order. Kinds:
   "quote": { "la": "Latin", "en": "English", "en_src": "Roberts 1912 | ours", "it": "Italiano", "it_src": "ours", "cite": "Livy 9.3.12" }
 }
 ```
+
+Only the Counterfactual tag shows on the page; the confidence label, cites and `note` open from the small † after each passage.
 
 `quote` is optional and is shown in the original first, with English and Italian on tap. The original goes in `la`; for Greek add `"lang": "grc"`.
 
@@ -98,6 +108,7 @@ Drawings and maps live in `art/` as SVG; keep labels at 19 px or more in a 760-w
   "id": "release",
   "label": "What Grumpa can say, first person, short.",
   "kind": "historical | attested-advice | counterfactual",
+  "place": "optional: the id of a place on the decision's map",
   "kind_note": "Shown after choosing, e.g. 'Herennius's first answer (Livy 9.3.6)'.",
   "consequence": [<block>…]
 }

@@ -9,6 +9,7 @@ const fresh = () => ({
   progress: {},   // sceneId -> { step, choices: {decisionId: optionId}, done }
   laurels: [],    // sceneIds completed
   cards: {},      // cardId -> { at }
+  counsel: {},    // sceneId -> { decisionId: optionId }, the latest counsel, kept across replays
   marks: {},      // ref -> 'knew' | 'new'
   disputes: [],   // { id, sceneId, ref, excerpt, note, at, sent }
   notes: [],      // { id, text, at }

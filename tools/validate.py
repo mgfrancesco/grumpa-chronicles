@@ -3,10 +3,14 @@ import json, sys, pathlib
 root = pathlib.Path(__file__).resolve().parent.parent / 'content'
 idx = json.load(open(root / 'index.json'))
 problems = []
+for mid, mp in idx.get('maps', {}).items():
+    if not (root.parent / mp['src']).exists(): problems.append(f"map {mid}: missing file {mp['src']}")
 CONF = {'attested', 'inferred', 'reconstructed', 'counterfactual'}
 for w in idx['wings']:
     for c in w['campaigns']:
+        if c.get('map') and c['map'] not in idx.get('maps', {}): problems.append(f"campaign {c['id']}: missing map {c['map']}")
         for s in c['scenes']:
+            if s.get('site') and not s['site'].get('pleiades'): problems.append(f"{s['id']}: site without Pleiades id")
             if not s.get('file'):
                 continue
             sc = json.load(open(root / s['file']))
@@ -25,6 +29,21 @@ for w in idx['wings']:
             card_ids = {c['id'] for c in sc.get('cards', [])}
             for st in sc['steps']:
                 for b in st.get('blocks', []): check(b, st['id'])
+                if st.get('kind') == 'decision':
+                    if st.get('outcome'): check(st['outcome'], st['id'])
+                    else: problems.append(f"{sc['id']}: decision {st['id']} has no outcome (needed for the campaign record)")
+                    if not any(o.get('kind') == 'historical' for o in st['options']): problems.append(f"{sc['id']}: decision {st['id']} has no historical option")
+                if st.get('map'):
+                    mp = idx.get('maps', {}).get(st['map']['id'])
+                    if not mp: problems.append(f"{sc['id']}: step {st['id']} names missing map {st['map']['id']}")
+                    pids = {p['id'] for p in st['map']['places']}
+                    for p in st['map']['places']:
+                        if not p.get('pleiades'): problems.append(f"{sc['id']}: map place {p['id']} without Pleiades id")
+                        if mp and 'lon' in p and not (mp['bounds'][0] <= p['lon'] <= mp['bounds'][1] and mp['bounds'][2] <= p['lat'] <= mp['bounds'][3]): problems.append(f"{sc['id']}: map place {p['id']} outside the map")
+                    for o in st['options']:
+                        if o.get('place') and o['place'] not in pids: problems.append(f"{sc['id']}: option {o['id']} names missing place {o['place']}")
+                    if st['map'].get('caption'): check(st['map']['caption'], st['id'])
+                    else: problems.append(f"{sc['id']}: map in {st['id']} has no caption")
                 for o in st.get('options', []):
                     for b in o['consequence']: check(b, o['id'])
                 for cid in st.get('cards', []):

@@ -53,6 +53,7 @@ async function route() {
   window.scrollTo(0, 0);
   try {
     if (view === 'wing') return renderWing(id);
+    if (view === 'campaign') return await renderCampaign(id);
     if (view === 'scene') return await renderScene(id);
     if (view === 'codex') return await renderCodex(id);
     if (view === 'notebook') return renderNotebook();
@@ -124,6 +125,7 @@ function renderWing(id) {
     ${w.campaigns.map((c) => `
       <section class="campaign">
         <h2>${esc(c.title)}</h2>
+        ${c.map ? `<a class="btn primary" href="#/campaign/${c.id}">Open the campaign map</a>` : ''}
         <ol class="scenes">
           ${c.scenes.map((s) => s.file
             ? `<li><a class="scene-link" href="#/scene/${s.id}"><span><strong>${esc(s.title)}</strong><span class="dates">${esc(s.date || '')}</span></span>${st.laurels.includes(s.id) ? laurel(30) : '<span class="go">Begin ›</span>'}</a></li>`
@@ -131,6 +133,89 @@ function renderWing(id) {
         </ol>
       </section>`).join('')}
   </main>`;
+}
+
+// ---------- campaign screen: map, scenes, and the record of counsel ----------
+
+function findCampaign(id) {
+  for (const w of INDEX.wings) for (const c of w.campaigns) if (c.id === id) return { w, c };
+  return {};
+}
+
+// Equirectangular projection matching tools/maps/*.py: bounds = [lon0, lon1, lat0, lat1].
+function project(map, p) {
+  if (p.at) return p.at;
+  const [lon0, lon1, lat0, lat1] = map.bounds;
+  return [((p.lon - lon0) / (lon1 - lon0)) * 100, ((lat1 - p.lat) / (lat1 - lat0)) * 100];
+}
+
+function renderMap(map, pins) {
+  return `<div class="map-wrap">
+    <img src="${esc(map.src)}" alt="${esc(map.alt)}" class="map-img">
+    ${pins.join('')}
+  </div>`;
+}
+
+async function renderCampaign(id) {
+  const { w, c } = findCampaign(id);
+  if (!c) return renderHome();
+  document.body.dataset.palette = w.palette;
+  const st = getState();
+  const map = INDEX.maps[c.map];
+  const playable = c.scenes.filter((s) => s.file);
+  const nextUp = playable.find((s) => !st.laurels.includes(s.id));
+  const pins = playable.filter((s) => s.site).map((s, i) => {
+    const [x, y] = project(map, s.site);
+    const done = st.laurels.includes(s.id);
+    return `<a class="pin scene-pin ${done ? 'done' : ''} ${s === nextUp ? 'next' : ''}" href="#/scene/${s.id}" style="left:${x}%;top:${y}%"
+      aria-label="${esc(s.title)}${done ? ', finished' : ''}"><span class="dot">${done ? laurel(18) : c.scenes.indexOf(s) + 1}</span></a>`;
+  });
+
+  // The record: Grumpa's counsel beside what happened, decision by decision.
+  const record = [];
+  for (const s of playable) {
+    const counsel = (st.counsel || {})[s.id] || {};
+    if (!Object.keys(counsel).length) continue;
+    const sc = await scene(s.id);
+    const rows = sc.steps.filter((x) => x.kind === 'decision' && counsel[x.id]).map((d) => {
+      const o = d.options.find((x) => x.id === counsel[d.id]);
+      if (!o) return '';
+      return `<div class="rec-row">
+        <p class="rec-q">${esc(d.prompt)}</p>
+        <div class="rec-pair">
+          <div class="rec-you"><span class="eyebrow">Your counsel</span><p>${esc(o.label)}</p>
+            ${o.kind === 'historical' ? '<p class="rec-tag same">What was done</p>' : o.kind === 'counterfactual' ? '<p class="rec-tag"><span class="cf-tag">Counterfactual</span></p>' : '<p class="rec-tag">Advice on record, not taken</p>'}</div>
+          <div class="rec-hist"><span class="eyebrow">What happened</span>${d.outcome ? renderBlock(sc, d.outcome) : ''}</div>
+        </div></div>`;
+    }).join('');
+    record.push(`<section class="rec-scene"><h3>${esc(s.title)} <span class="dates">${esc(s.date || '')}</span></h3>${rows}</section>`);
+    SCENES[s.id] = sc;
+  }
+
+  app.innerHTML = `
+  <main class="page campaign-page">
+    ${backLink(`#/wing/${w.id}`, w.title)}
+    <h1>${esc(c.title)}</h1>
+    <p class="sub">${esc(w.title)}</p>
+    ${map ? renderMap(map, pins) : ''}
+    ${map && map.credit ? `<details class="map-credit"><summary>Where the places come from</summary><p>${esc(map.credit)}</p></details>` : ''}
+    <ol class="scenes">
+      ${c.scenes.map((s, i) => s.file
+        ? `<li><a class="scene-link" href="#/scene/${s.id}"><span><strong>${i + 1}. ${esc(s.title)}</strong><span class="dates">${esc(s.date || '')}</span></span>${st.laurels.includes(s.id) ? laurel(30) : '<span class="go">Begin ›</span>'}</a></li>`
+        : `<li class="planned">More scenes in preparation</li>`).join('')}
+    </ol>
+    <h2>Your counsel and what happened</h2>
+    ${record.length ? record.join('') : '<p class="quiet">Your answers will be kept here, scene by scene, beside what the sources say was done.</p>'}
+  </main>`;
+  bindRecord();
+}
+
+function bindRecord() {
+  app.querySelectorAll('[data-about]').forEach((btn) => btn.addEventListener('click', () => {
+    const sc = SCENES[btn.closest('[data-scene]')?.dataset.scene] || Object.values(SCENES).find((x) => findBlock(x, btn.dataset.about));
+    openAbout(sc, findBlock(sc, btn.dataset.about));
+  }));
+  app.querySelectorAll('.map-img').forEach((img) => img.addEventListener('click', () => openFigure(img)));
 }
 
 // ---------- scene player ----------
@@ -145,7 +230,7 @@ async function renderScene(id) {
 
   app.innerHTML = `
   <main class="page scene">
-    ${backLink(`#/wing/${sc.wing}`, w ? w.title : 'Back')}
+    ${campaignBack(sc, w)}
     <header class="scene-head">
       <div class="portrait small">${grumpa(sc.outfit || 'study', { size: 84 })}</div>
       <div>
@@ -161,7 +246,11 @@ async function renderScene(id) {
   bindBlocks(sc);
   app.querySelectorAll('[data-choose]').forEach((b) => b.addEventListener('click', () => {
     const [dec, opt] = b.dataset.choose.split(':');
-    update((s) => { s.progress[id].choices[dec] = opt; });
+    update((s) => {
+      s.progress[id].choices[dec] = opt;
+      s.counsel = s.counsel || {};
+      (s.counsel[id] = s.counsel[id] || {})[dec] = opt;
+    });
     renderScene(id).then(() => document.getElementById(`step-${dec}`)?.scrollIntoView({ block: 'start' }));
   }));
   app.querySelectorAll('[data-reconsider]').forEach((b) => b.addEventListener('click', () => {
@@ -169,6 +258,22 @@ async function renderScene(id) {
     const idx = sc.steps.findIndex((s) => s.id === dec);
     update((s) => { delete s.progress[id].choices[dec]; s.progress[id].step = idx; });
     renderScene(id).then(() => document.getElementById(`step-${dec}`)?.scrollIntoView({ block: 'start' }));
+  }));
+  app.querySelectorAll('[data-place]').forEach((pin) => pin.addEventListener('click', () => {
+    const sec = pin.closest('.decision');
+    const on = !pin.classList.contains('on');
+    sec.querySelectorAll('[data-place]').forEach((p) => p.classList.remove('on'));
+    pin.classList.toggle('on', on);
+    sec.querySelectorAll('.option').forEach((o) => { o.hidden = on && o.dataset.at !== pin.dataset.place; });
+    const all = sec.querySelector('[data-allopts]');
+    all.hidden = !on;
+    if (on) sec.querySelector('.option:not([hidden])')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }));
+  app.querySelectorAll('[data-allopts]').forEach((b) => b.addEventListener('click', () => {
+    const sec = b.closest('.decision');
+    sec.querySelectorAll('[data-place]').forEach((p) => p.classList.remove('on'));
+    sec.querySelectorAll('.option').forEach((o) => { o.hidden = false; });
+    b.hidden = true;
   }));
   const next = app.querySelector('[data-next]');
   if (next) next.addEventListener('click', () => {
@@ -192,13 +297,18 @@ async function renderScene(id) {
   });
 }
 
+function campaignBack(sc, w) {
+  const { c } = findCampaign(sc.campaign);
+  return c && c.map ? backLink(`#/campaign/${c.id}`, c.title) : backLink(`#/wing/${sc.wing}`, w ? w.title : 'Back');
+}
+
 function sceneFooter(sc, prog) {
   const step = sc.steps[prog.step];
   if (step.kind === 'decision' && !prog.choices[step.id]) return '';
   if (prog.step < sc.steps.length - 1) return `<button class="btn primary" data-next>Continue</button>`;
   if (!prog.done) return `<button class="btn primary" data-finish>Close the scene</button>`;
   return `<div class="done">${laurel(40)}<p>Scene complete. Its cards are in your Codex.</p>
-    <a class="btn" href="#/wing/${sc.wing}">Back to the era</a> <button class="btn quiet-btn" data-replay>Play again</button></div>`;
+    <a class="btn" href="${findCampaign(sc.campaign).c?.map ? `#/campaign/${sc.campaign}` : `#/wing/${sc.wing}`}">${findCampaign(sc.campaign).c?.map ? 'Back to the campaign' : 'Back to the era'}</a> <button class="btn quiet-btn" data-replay>Play again</button></div>`;
 }
 
 function renderStep(sc, s, prog) {
@@ -211,12 +321,26 @@ function renderStep(sc, s, prog) {
       ${s.cards.map((cid) => renderCard(sc, sc.cards.find((c) => c.id === cid))).join('')}</section>`;
   if (s.kind === 'decision') {
     const chosen = prog.choices[s.id];
+    const map = s.map && INDEX.maps[s.map.id];
+    const o = chosen && s.options.find((x) => x.id === chosen);
+    const pins = map ? s.map.places.map((p) => {
+      const [x, y] = project(map, p);
+      const box = p.box ? `width:${p.box[0]}%;height:${p.box[1]}%;` : '';
+      const sel = o && o.place === p.id ? 'on' : '';
+      return chosen
+        ? `<span class="pin place-pin ${p.box ? 'box' : ''} ${sel}" style="left:${x}%;top:${y}%;${box}" aria-hidden="true"></span>`
+        : `<button class="pin place-pin ${p.box ? 'box' : ''}" data-place="${p.id}" style="left:${x}%;top:${y}%;${box}" aria-label="${esc(p.label)}"></button>`;
+    }) : [];
+    const mapHtml = map ? `<div class="decision-map">${renderMap(map, pins)}
+        <p class="map-hint">${chosen ? 'The place of your counsel is marked.' : 'Tap a place on the map to see the counsel that concerns it, or choose below.'}${s.map.caption ? `&nbsp;${srcButton(s.map.caption)}` : ''}</p></div>` : '';
     if (!chosen) return `<section class="step decision" id="step-${s.id}">
         <h3 class="prompt">${esc(s.prompt)}</h3>
-        ${s.options.map((o) => `<button class="option" data-choose="${s.id}:${o.id}">${esc(o.label)}</button>`).join('')}</section>`;
-    const o = s.options.find((x) => x.id === chosen);
+        ${mapHtml}
+        ${s.options.map((op) => `<button class="option" data-choose="${s.id}:${op.id}" ${op.place ? `data-at="${op.place}"` : ''}>${esc(op.label)}</button>`).join('')}
+        <button class="link-btn" data-allopts hidden>Show all the counsel</button></section>`;
     return `<section class="step decision chosen" id="step-${s.id}">
         <h3 class="prompt">${esc(s.prompt)}</h3>
+        ${mapHtml}
         <div class="your-choice"><span class="eyebrow">Your counsel</span><p>${esc(o.label)}</p>
         <p class="kind kind-${o.kind}">${o.kind === 'counterfactual' ? '<span class="cf-tag">Counterfactual</span> ' : ''}${esc(o.kind_note || '')}</p></div>
         ${o.consequence.map((b) => renderBlock(sc, b)).join('')}
@@ -225,22 +349,22 @@ function renderStep(sc, s, prog) {
   return '';
 }
 
-function renderBlock(sc, b) {
+// Each passage ends in a small dagger: tap it for the sources and Grumpa's verdict.
+function srcButton(b) {
   const st = getState();
-  const mark = st.marks[b.id];
+  const disputed = st.disputes.some((d) => d.ref === b.id);
+  const mark = disputed ? 'dispute' : st.marks[b.id];
+  const label = `Sources${(b.cites || []).length ? `: ${b.cites.join('; ')}` : ''}`;
+  return `<button class="src ${mark ? `mark-${mark}` : ''}" data-about="${b.id}" aria-label="${esc(label)}" title="${esc(label)}">†</button>`;
+}
+
+function renderBlock(sc, b) {
   const cf = b.confidence === 'counterfactual';
-  const cites = (b.cites || []).join('; ');
-  return `<div class="block ${cf ? 'counterfactual' : ''}" data-block="${b.id}">
+  return `<div class="block ${cf ? 'counterfactual' : ''}" data-block="${b.id}" data-scene="${sc.id}">
     ${cf ? '<span class="cf-tag">Counterfactual</span>' : ''}
     ${b.figure ? renderFigure(b.figure) : ''}
-    <p class="${b.figure ? 'caption' : ''}">${esc(b.text)}</p>
+    <p class="${b.figure ? 'caption' : ''}">${esc(b.text)}&nbsp;${srcButton(b)}</p>
     ${b.quote ? renderQuote(b.quote) : ''}
-    ${b.note ? `<p class="note">${esc(b.note)}</p>` : ''}
-    <button class="about" data-about="${b.id}">
-      <span>${esc(CONF_LABEL[b.confidence] || '')}${cites ? ` · ${esc(cites)}` : ''}</span>
-      ${mark ? `<span class="mark mark-${mark}">${mark === 'knew' ? 'Knew it' : 'New to me'}</span>` : ''}
-      ${st.disputes.some((d) => d.ref === b.id) ? '<span class="mark mark-dispute">Disputed</span>' : ''}
-    </button>
   </div>`;
 }
 
@@ -285,6 +409,8 @@ function findBlock(sc, id) {
   const walk = (blocks) => blocks.find((b) => b.id === id);
   for (const s of sc.steps) {
     if (s.blocks) { const b = walk(s.blocks); if (b) return b; }
+    if (s.outcome && s.outcome.id === id) return s.outcome;
+    if (s.map && s.map.caption && s.map.caption.id === id) return s.map.caption;
     if (s.options) for (const o of s.options) { const b = walk(o.consequence); if (b) return b; }
   }
   for (const c of sc.cards || []) { const b = walk(c.blocks); if (b) return b; }
@@ -322,6 +448,7 @@ function openAbout(sc, b) {
     <p class="excerpt">${esc(b.text)}</p>
     ${srcLinks ? `<h4>Sources</h4><ul class="sources">${srcLinks}</ul>` : '<p class="quiet">No source: this line is the game\'s own.</p>'}
     ${b.note ? `<p class="note">${esc(b.note)}</p>` : ''}
+    ${st.disputes.some((d) => d.ref === b.id) ? '<p class="quiet">You have disputed this passage; it is in your Notebook.</p>' : ''}
     <div class="verdicts">
       <button class="btn ${st.marks[b.id] === 'knew' ? 'on' : ''}" data-mark="knew">Knew it</button>
       <button class="btn ${st.marks[b.id] === 'new' ? 'on' : ''}" data-mark="new">New to me</button>
@@ -360,7 +487,8 @@ function openAbout(sc, b) {
 function renderSceneOrStay(sc) {
   const y = window.scrollY;
   const [, view] = (location.hash || '#/').split('/');
-  const p = view === 'scene' ? renderScene(sc.id) : view === 'codex' ? renderCodex((location.hash.split('/')[2])) : null;
+  const arg = location.hash.split('/')[2];
+  const p = view === 'scene' ? renderScene(sc.id) : view === 'codex' ? renderCodex(arg) : view === 'campaign' ? renderCampaign(arg) : null;
   Promise.resolve(p).then(() => window.scrollTo(0, y));
 }
 
@@ -404,7 +532,7 @@ function renderNotebook() {
     <h2>Disputes</h2>
     ${st.disputes.length ? `<ul class="nb-list">${st.disputes.slice().reverse().map((d) => `<li>
       <p class="excerpt">“${esc(d.excerpt)}”</p><p>${esc(d.note)}</p>
-      <p class="quiet">${new Date(d.at).toLocaleDateString()} · ${esc(sceneTitle(d.sceneId))} · ${d.sent ? 'sent to Matthew' : 'saved on this device'}</p></li>`).join('')}</ul>` : '<p class="quiet">None yet. Tap the source line under any passage to dispute it.</p>'}
+      <p class="quiet">${new Date(d.at).toLocaleDateString()} · ${esc(sceneTitle(d.sceneId))} · ${d.sent ? 'sent to Matthew' : 'saved on this device'}</p></li>`).join('')}</ul>` : '<p class="quiet">None yet. Tap the † at the end of any passage to see its sources or dispute it.</p>'}
     <h2>New to me</h2>
     ${newOnes.length ? `<p>${newOnes.length} passage${newOnes.length > 1 ? 's' : ''} marked.</p>` : '<p class="quiet">Passages you mark “New to me” are counted here.</p>'}
     <h2>Notes</h2>
