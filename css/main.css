@@ -67,6 +67,10 @@ h2 { font-size: 1.15em; margin: 1.6em 0 .5em; font-variant: small-caps; letter-s
 .btn.on { background: var(--accent); color: var(--accent-ink); }
 .quiet-btn { border-color: var(--rule); color: var(--ink-soft); }
 .back { display: inline-flex; align-items: center; min-height: 48px; text-decoration: none; color: var(--ink-soft); font-size: .9em; }
+.topnav { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.topnav .home-link { flex: none; padding-left: 12px; }
+.restart { margin-top: 18px; border-top: 1px dotted var(--rule); padding-top: 6px; }
+.restart .confirm p { margin: 6px 0; }
 .link-btn { background: none; border: none; color: var(--ink-soft); text-decoration: underline; min-height: 48px; padding: 0; font-size: .85em; }
 
 /* Home: the study */

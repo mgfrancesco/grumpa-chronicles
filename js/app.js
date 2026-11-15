@@ -64,7 +64,8 @@ async function route() {
   }
 }
 
-const backLink = (href = '#/', label = 'The study') => `<a class="back" href="${href}">‹ ${label}</a>`;
+// Up one level, plus a direct way home from anywhere deeper than the study's own pages.
+const backLink = (href = '#/', label = 'The study') => `<nav class="topnav"><a class="back" href="${href}">‹ ${esc(label)}</a>${href === '#/' ? '' : '<a class="back home-link" href="#/">The study</a>'}</nav>`;
 
 // ---------- home: Grumpa's study ----------
 
@@ -290,6 +291,16 @@ async function renderScene(id) {
     update((s) => { s.progress[id].done = true; if (!s.laurels.includes(id)) s.laurels.push(id); });
     renderScene(id);
   });
+  const rs = app.querySelector('[data-restart]');
+  if (rs) {
+    const box = app.querySelector('.restart .confirm');
+    rs.addEventListener('click', () => { box.hidden = false; rs.hidden = true; box.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); });
+    app.querySelector('[data-restart-no]').addEventListener('click', () => { box.hidden = true; rs.hidden = false; });
+    app.querySelector('[data-restart-yes]').addEventListener('click', () => {
+      update((s) => { s.progress[id] = { step: 0, choices: {}, done: false }; });
+      renderScene(id);
+    });
+  }
   const again = app.querySelector('[data-replay]');
   if (again) again.addEventListener('click', () => {
     update((s) => { s.progress[id] = { step: 0, choices: {}, done: false }; });
@@ -299,14 +310,20 @@ async function renderScene(id) {
 
 function campaignBack(sc, w) {
   const { c } = findCampaign(sc.campaign);
-  return c && c.map ? backLink(`#/campaign/${c.id}`, c.title) : backLink(`#/wing/${sc.wing}`, w ? w.title : 'Back');
+  return c && c.map ? backLink(`#/campaign/${c.id}`, 'The campaign map') : backLink(`#/wing/${sc.wing}`, w ? w.title : 'Back');
 }
 
 function sceneFooter(sc, prog) {
   const step = sc.steps[prog.step];
-  if (step.kind === 'decision' && !prog.choices[step.id]) return '';
-  if (prog.step < sc.steps.length - 1) return `<button class="btn primary" data-next>Continue</button>`;
-  if (!prog.done) return `<button class="btn primary" data-finish>Close the scene</button>`;
+  const started = prog.step > 0 || Object.keys(prog.choices).length > 0;
+  const restart = started && !prog.done ? `<div class="restart">
+      <button class="link-btn" data-restart>Start this scene again</button>
+      <div class="confirm" hidden><p>Start this scene again from the beginning? Your answers so far stay in the campaign record.</p>
+        <button class="btn primary" data-restart-yes>Yes, start again</button> <button class="btn" data-restart-no>Keep my place</button></div>
+    </div>` : '';
+  if (step.kind === 'decision' && !prog.choices[step.id]) return restart;
+  if (prog.step < sc.steps.length - 1) return `<button class="btn primary" data-next>Continue</button>${restart}`;
+  if (!prog.done) return `<button class="btn primary" data-finish>Close the scene</button>${restart}`;
   return `<div class="done">${laurel(40)}<p>Scene complete. Its cards are in your Codex.</p>
     <a class="btn" href="${findCampaign(sc.campaign).c?.map ? `#/campaign/${sc.campaign}` : `#/wing/${sc.wing}`}">${findCampaign(sc.campaign).c?.map ? 'Back to the campaign' : 'Back to the era'}</a> <button class="btn quiet-btn" data-replay>Play again</button></div>`;
 }
