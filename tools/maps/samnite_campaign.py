@@ -40,6 +40,7 @@ PLACES = {
     'Tarracina': (433143, 13.248850, 41.291169),
     'Lautulae': (432903, 13.264, 41.324),
     'Furculae Caudinae': (432856, 14.538246, 41.031362),
+    'Aufidena': (432709, 14.108223, 41.784299),
 }
 
 land = json.load(open(sys.argv[1]))
@@ -111,7 +112,7 @@ plistica = (f'<g><path d="M{px+60:.1f} {py+14:.1f}L{sx-4:.1f} {sy-16:.1f}" strok
 km50 = 50 / 111 * KY
 bx, by = W - 30 - round(km50), H - 22
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; Capua, Saticula, Caudium and the Caudine Forks in the centre; Luceria in Apulia">
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; Aufidena in the north; Capua, Saticula, Caudium and the Caudine Forks in the centre; Luceria in Apulia">
 <rect width="{W}" height="{H}" fill="{SEA}"/>
 <path d="{land_d}" fill="{LAND}" stroke="#7a5a3a" stroke-width="1.3" fill-rule="evenodd"/>
 {''.join(glyphs)}
@@ -122,6 +123,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 {label(13.08, 41.78, 'LATIVM', 20, 'normal', RED, 'start', spacing='.3em')}
 {plistica}
 {town('Sora', 10, -6)}
+{town('Aufidena', 10, 24)}
 {town('Tarracina', 2, 28, 'start')}
 {cross('Lautulae', 22, -12, 'start', 'Lautulae')}
 {town('Capua', -8, 26, 'end')}
