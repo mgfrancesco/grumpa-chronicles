@@ -63,7 +63,7 @@
       "blocks": [
         {
           "id": "b1-1",
-          "text": "Samnium, 310 BC. Four years ago your army was beaten in the Campanian plain and the consuls marched on Bovianum. Since then Rome has retaken Fregellae and taken Nola, and last year Cluviae and Bovianum itself, which Livy calls the chief town of the Pentri.",
+          "text": "Samnium, 310 BC. Four years ago your army was beaten in the Campanian plain and the consuls marched on Bovianum. Since then Rome has retaken Fregellae and taken Nola, and last year Cluviae and Bovianum itself, the chief town of the Pentri.",
           "cites": [
             "Livy 9.27.4–14",
             "Livy 9.28.1–5",
@@ -102,7 +102,7 @@
         },
         {
           "id": "b1-4",
-          "text": "Livy says the joy was mixed with envy: fortune had turned the glory of the Roman war away from the Samnites to the Etruscans.",
+          "text": "The joy is mixed with a certain envy: fortune has turned the glory of the Roman war away from the Samnites to the Etruscans.",
           "cites": [
             "Livy 9.38.6"
           ],
@@ -125,11 +125,11 @@
           "id": "crush",
           "label": "Gather every man and every weapon, and crush Marcius here.",
           "kind": "historical",
-          "kind_note": "The Samnite decision in Livy (9.38.6)",
+          "kind_note": "What the Samnites did, in Livy's version",
           "consequence": [
             {
               "id": "d1-crush-1",
-              "text": "This is what your people did. They gathered their arms and men to overwhelm the consul, and Marcius came out to meet them.",
+              "text": "Your people gather their arms and men to overwhelm the consul, and Marcius comes out to meet them.",
               "cites": [
                 "Livy 9.38.6"
               ],
@@ -138,7 +138,7 @@
             },
             {
               "id": "d1-crush-2",
-              "text": "The battle was savage on both sides and its result uncertain. Neither side clearly lost more, but the Romans lost men of equestrian rank, military tribunes and a legate, and the consul himself was wounded. At Rome it was reported as a defeat.",
+              "text": "The battle is savage on both sides and its result uncertain. Neither side clearly loses more, but the Romans lose men of equestrian rank, military tribunes and a legate, and the consul himself is wounded. At Rome it is reported as a defeat.",
               "cites": [
                 "Livy 9.38.7–8"
               ],
@@ -150,11 +150,11 @@
           "id": "etruria",
           "label": "If Marcius will not fight, march north through the Marsi and the Sabines and join the Etruscans.",
           "kind": "attested-advice",
-          "kind_note": "The Samnites' second plan, if Marcius refused battle (Livy 9.38.6). He did not refuse, so it was not tried this year.",
+          "kind_note": "The Samnites' plan if Marcius refused battle",
           "consequence": [
             {
               "id": "d1-etruria-1",
-              "text": "Livy gives this as the plan if Marcius would not give battle. Marcius came out to meet you, so the march never began.",
+              "text": "This is the plan if Marcius will not give battle. He comes out to meet you, so the march never begins.",
               "cites": [
                 "Livy 9.38.6"
               ],
@@ -183,11 +183,11 @@
           "id": "allies",
           "label": "Strike Rome's friends among the Iapygians while the consuls are far away.",
           "kind": "historical",
-          "kind_note": "Diodorus' account of this year (20.35.2): in his order this came before Marcius marched south. Livy does not report it.",
+          "kind_note": "Diodorus' version. Livy does not report it.",
           "consequence": [
             {
               "id": "d1-allies-1",
-              "text": "Diodorus says the Samnites did this: with the Roman forces far away, they ravaged without fear those Iapygians who sided with Rome. The consuls had to divide their forces. Fabius stayed in Etruria; Marcius marched against the Samnites, took Allifae by storm and rescued the allies under siege.",
+              "text": "In this account your people have already done it. With the Roman forces far away, they ravaged without fear those Iapygians who sided with Rome. The consuls had to divide their forces: Fabius stayed in Etruria, and Marcius marched against the Samnites, took Allifae by storm and rescued the allies under siege.",
               "cites": [
                 "Diodorus 20.35.2"
               ],
@@ -204,7 +204,7 @@
             },
             {
               "id": "d1-allies-2",
-              "text": "Diodorus has no battle with Marcius, no wounded consul and no dictator in this year.",
+              "text": "This account has no battle with Marcius, no wounded consul and no dictator in this year.",
               "cites": [
                 "Diodorus 20.27.1",
                 "Diodorus 20.35.1–5"
@@ -289,7 +289,7 @@
       "blocks": [
         {
           "id": "b2-1",
-          "text": "The dictator facing you is the man Livy calls the first soldier of his day. He held his fifth consulship in 313.",
+          "text": "The dictator facing you is the man reckoned the first soldier of his day. He held his fifth consulship in 313.",
           "cites": [
             "Livy 9.38.8",
             "Livy 9.28.2"
@@ -298,7 +298,7 @@
         },
         {
           "id": "b2-2",
-          "text": "For some time the two camps have stayed quiet. Livy says neither side distrusted its own strength or despised the enemy.",
+          "text": "For some time the two camps have stayed quiet, neither side distrusting its own strength or despising the enemy.",
           "cites": [
             "Livy 9.39.2–3"
           ],
@@ -306,7 +306,7 @@
         },
         {
           "id": "b2-3",
-          "text": "In Etruria, Livy says, the Etruscans raised an army under a lex sacrata, each man choosing another, fought Rome harder than ever before, and lost. The manuscripts put the battle at Lake Vadimo; the Oxford text removes the place-name as a gloss.",
+          "text": "In Etruria the Etruscans have raised an army under a lex sacrata, each man choosing another, fought Rome harder than ever before, and lost. The manuscripts put the battle at Lake Vadimo; the Oxford text removes the place-name as a gloss.",
           "cites": [
             "Livy 9.39.4–10"
           ],
@@ -315,7 +315,7 @@
         },
         {
           "id": "b2-photo",
-          "text": "A horseman in a plumed helmet and a three-disc cuirass, with a garment hung from his spears, is met by a woman holding a cup and a small jug. A tomb painting now in the museum at Paestum. Strabo says the Lucanians took the town, Poseidonia, which he says is now called Paestus, from its Greek founders before Rome took it from them, and that the Lucanians are Samnite by descent. We have opened no study that dates this painting.",
+          "text": "A horseman in a plumed helmet and a three-disc cuirass, with a garment hung from his spears, is met by a woman holding a cup and a small jug. A tomb painting now in the museum at Paestum. The Lucanians, a people of Samnite descent, took the town, Poseidonia, from its Greek founders before Rome took it from them. We have opened no study that dates this painting.",
           "cites": [
             "Wikimedia Commons file record (Raddato 2014)",
             "Strabo 5.4.13",
@@ -343,11 +343,11 @@
           "id": "splendour",
           "label": "Arm two armies, one with gilded shields and one with silvered, and set the sworn men in white on the right. Let the line shine.",
           "kind": "historical",
-          "kind_note": "What the Samnites did (Livy 9.40.1–3, 9.40.9)",
+          "kind_note": "What the Samnites did",
           "consequence": [
             {
               "id": "d2-splendour-1",
-              "text": "This is what your people did. Besides their other preparations, Livy says, they made new arms so that their line would glitter. There were two armies; one had its shields chased with gold, the other with silver.",
+              "text": "Besides their other preparations, your people make new arms so that their line will glitter. There are two armies; one has its shields chased with gold, the other with silver.",
               "cites": [
                 "Livy 9.40.1–2"
               ],
@@ -363,7 +363,7 @@
             },
             {
               "id": "d2-splendour-2",
-              "text": "The gilded men wore tunics of many colours, the silvered men white linen. The silvered took the right wing, the gilded the left.",
+              "text": "The gilded men wear tunics of many colours, the silvered men white linen. The silvered take the right wing, the gilded the left.",
               "cites": [
                 "Livy 9.40.3"
               ],
@@ -380,7 +380,7 @@
             },
             {
               "id": "d2-splendour-3",
-              "text": "On your right stood men sworn after the Samnite custom, sacrati, conspicuous in white clothing and arms of matching brightness.",
+              "text": "On your right stand men sworn after the Samnite custom, sacrati, conspicuous in white clothing and arms of matching brightness.",
               "cites": [
                 "Livy 9.40.9"
               ],
@@ -408,11 +408,11 @@
           "id": "plain",
           "label": "Leave the gold at home. A soldier should look rough and trust to iron and courage; gilding only makes him worth robbing.",
           "kind": "counterfactual",
-          "kind_note": "No Samnite is recorded proposing this. Livy gives the argument to the Roman commanders, speaking to their own men before this battle (9.40.4–6).",
+          "kind_note": "No Samnite is recorded proposing this. It is the Roman generals' argument.",
           "consequence": [
             {
               "id": "d2-plain-1",
-              "text": "Livy puts this argument in the mouths of the Roman generals. The Romans already knew of your new arms. Their commanders told them such things were booty more than armour, bright before the fight and ugly among blood and wounds; that courage is a soldier's ornament; and that a rich enemy is the prize of the victor, however poor.",
+              "text": "The Romans already know of your new arms. Their commanders tell them such things are booty more than armour, bright before the fight and ugly among blood and wounds; that courage is a soldier's ornament; and that a rich enemy is the prize of the victor, however poor.",
               "cites": [
                 "Livy 9.40.4–6"
               ],
@@ -456,7 +456,7 @@
           "id": "wait",
           "label": "Keep to the camp and refuse battle. A dictator holds office for six months; let his time run out.",
           "kind": "counterfactual",
-          "kind_note": "No source has the Samnites try this. It rests on the six-month limit of the dictatorship.",
+          "kind_note": "No source has the Samnites try this",
           "consequence": [
             {
               "id": "d2-wait-1",
@@ -477,7 +477,7 @@
             },
             {
               "id": "d2-wait-2",
-              "text": "Livy says the two armies had already sat quiet in their standing camps for some time.",
+              "text": "The two armies have already sat quiet in their standing camps for some time.",
               "cites": [
                 "Livy 9.39.2–3"
               ],
