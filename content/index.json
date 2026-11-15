@@ -82,9 +82,16 @@
               }
             },
             {
-              "id": "samnites-05",
-              "title": "In preparation",
-              "planned": true
+              "id": "samnites-05-barbatus",
+              "file": "scenes/samnites/scipio-barbatus.json",
+              "title": "The Lucanian appeal",
+              "date": "298 BC",
+              "site": {
+                "label": "Aufidena",
+                "lon": 14.108223,
+                "lat": 41.784299,
+                "pleiades": 432709
+              }
             }
           ],
           "map": "samnium"

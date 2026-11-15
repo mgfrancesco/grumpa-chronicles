@@ -1,0 +1,869 @@
+{
+  "id": "samnites-05-barbatus",
+  "wing": "samnites",
+  "campaign": "caudium-sentinum",
+  "title": "The Lucanian appeal",
+  "place": "Samnium and Lucania",
+  "date": "298 BC",
+  "role": "an elder of the touto",
+  "outfit": "samnite-elder",
+  "lenses": [
+    "war",
+    "law"
+  ],
+  "status": "draft",
+  "verified": {
+    "by": "not yet checked",
+    "date": "",
+    "notes": "Researcher's draft notes (2026-11-15). Not yet checked. Livy cited by the Conway–Walters (OCT) section numbers in Perseus lat3 (books 1–10), checked against lat4 (same text and apparatus for book 10) and Weissenborn–Müller (lat2); book 40 only in lat2 (Weissenborn–Müller). Roberts 1912 (Perseus eng3) numbers 10.11–10.12 one section later than the OCT (his 10.11.10 begins with the consuls' election, OCT 10.11.10; his 10.12.2–3 = OCT 10.12.2; his 10.12.9 = OCT 10.12.8 end and 10.12.9). Roberts is not quoted anywhere in this scene: at 10.12.2 he renders 'haud inviolatos abituros' as 'their inviolability would be no longer respected' and 'in Samnio concilium' as 'any of the Samnite councils'; at 10.12.9 he has Fulvius 'sought a brilliant action' (for 'clara pugna … fuit') and 'carried Bovianum by storm' (the Latin has only 'Bovianum inde adgressus'); at 10.13.3 he adds 'only' and renders magistratus as 'government'; at 40.38.2 he prints 'Taurania' for 'Taurasinorum' and adds 'Anidus' at 40.38.3; at 40.38.6 he adds 'denarii'; at his 10.11.13 the OCR has 'it' for 'if'. English is therefore ours throughout. Perseus OCR and layout fixes: lat3 interleaves the OCT margin 'A.U.C. 456' in 10.12.2 and the apparatus note 'increpari s: increpare W.' in 10.13.3, both removed; lat3 'Cn . Fulvi' (10.12.9) closed up; lat2 'f/terat' for 'fuerat' (40.38.3); lat3 'haud baud' (8.39.12, 10.16.5; not quoted). Dionysius, Roman Antiquities, from Perseus grc2 (ed. K. Jacoby, Teubner 1885–1905): the excerpts are numbered there 17/18.1.1–3.1, with the alternative numbering 16.11–16.14 given as milestones; the file marks their source 'Ursin.'. ⟨τὴν⟩ in 17/18.3.1 is printed in the file as an editorial addition. No Dionysius translation was used; English and Italian ours. That the Dionysius excerpt concerns 298 is our inference (the excerpt has no date; see r1-3). Epitaph text from J. E. Sandys' facsimile ('Epigraphy', in A Companion to Latin Studies, 1913) as reproduced on Wikimedia Commons (File:Sepolcro scipioni, iscrizione A, scipione barbato.gif, public domain; viewed at 500 px), checked against the capital text printed from Orelli no. 550 in Smith's Dictionary (Perseus, 1873 printing). Both read LOVCANA without final M and agree letter for letter; punctuation in our 'la' is editorial and the stone's four-line division is given in the note. CIL numbers are those listed on the Commons category record for the sarcophagus (CIL VI 1284, 1285, 31587, 31588, 37039a; AE 1991, 71; AE 1997, 129); we did not open CIL, ILS or ILLRP, so we do not say which number is the lid and which the chest, and the CIL I², ILS and ILLRP numbers are not given. The Commons photograph of the inscription was too small to read the letters, so the text rests on the two printed copies. Photo: File:Cornelii-scipiois-vatikan-f.JPG, Bahnmoeller, 18 Feb 2009, CC BY-SA 3.0 (or GFDL 1.2), licence confirmed on the File: page; resized from the 1920 px rendering to 1600×1200. Pleiades from isawnyu/pleiades.datasets data/gis/places.csv (ids 432709 Aufidena, 432725 Bovianum, 438849 Taurasia, 438716 Cisauna, 433144 'Taurasinus? Ager', 403292 Volaterrae); pleiades.stoa.org not opened. No decision uses the map: d1 is not geographic, and in d2 only one option has a place on the samnium map (Lucania lies south of its bounds). Not reachable this session, so not used or cited: attalus.org, LacusCurtius (Cassius Dio and Zonaras), Wikipedia, EDCS, EDR, Vatican Museums, the Köln server (Rheinisches Museum), JSTOR, Persée, archive.org, livius.org. Oakley vol. IV, Salmon 1967, Coarelli, Wachter, Flower and Van Sickle not opened; the only modern discussion cited is Smith's Dictionary, and Niebuhr only as Smith reports him. Years BC are the conventional ones; Livy's sequence of consular years (298 Scipio–Fulvius, 297 Fabius–Decius, 296 Claudius–Volumnius) is the basis for 'last year' and 'two years later'. Decisions: d1 has Livy's version, Dionysius' version and one counterfactual; d2 has the historical choice (as the reproach reported at Rome gives it), one attested-advice option built on that reproach, and one counterfactual."
+  },
+  "sources": {
+    "Livy": {
+      "label": "Livy, Ab urbe condita (Latin, Conway–Walters and Weissenborn–Müller; Roberts 1912 English; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0914/phi001"
+    },
+    "Dionysius": {
+      "label": "Dionysius of Halicarnassus, Roman Antiquities, excerpts of books 17–18 (Greek, ed. K. Jacoby, Teubner 1885–1905; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0081/tlg001"
+    },
+    "Pliny": {
+      "label": "Pliny the Elder, Naturalis historia (Latin, ed. K. Mayhoff, Teubner; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0978/phi001"
+    },
+    "Epitaph": {
+      "label": "Epitaph of L. Cornelius Scipio Barbatus: facsimile after J. E. Sandys, A Companion to Latin Studies (1913), on Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Sepolcro_scipioni,_iscrizione_A,_scipione_barbato.gif"
+    },
+    "Commons category": {
+      "label": "Wikimedia Commons, Category: Sarcophagus of Lucius Cornelius Scipio Barbatus (description and corpus references)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Sarcophagus_of_Lucius_Cornelius_Scipio_Barbatus"
+    },
+    "Smith": {
+      "label": "W. Smith (ed.), A Dictionary of Greek and Roman Biography and Mythology, s.v. Scipio no. 5 (Perseus text of the 1873 printing)",
+      "url": "https://github.com/PerseusDL/canonical-pdlrefwk/tree/master/data/viaf88890045/003"
+    },
+    "Pleiades": {
+      "label": "Pleiades gazetteer of ancient places (place records, via isawnyu/pleiades.datasets)",
+      "url": "https://pleiades.stoa.org/"
+    }
+  },
+  "steps": [
+    {
+      "kind": "brief",
+      "id": "b1",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b1-1",
+          "text": "Samnium, 298 BC. Your army is in Lucania, laying the land waste.",
+          "cites": [
+            "Livy 10.11.11",
+            "Dionysius, Roman Antiquities 17/18.1.1–2"
+          ],
+          "confidence": "attested",
+          "note": "In Livy this comes in the Lucanian envoys' complaint at Rome. Dionysius' excerpt, which has no date, has the Samnites invade Lucania and win every battle; see the card Dionysius' excerpt."
+        },
+        {
+          "id": "b1-2",
+          "text": "Rome is at war in Etruria. Last year the Picentes, Rome's new allies, told Rome that the Samnites were looking to arms and a new war, and had sounded them out.",
+          "cites": [
+            "Livy 10.11.1–8"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-3",
+          "text": "Lucanian envoys have been at Rome. They complained that you had tried to draw them into an alliance in arms on your terms and, when they would not come, had invaded their land to force them by war into war. They asked to be taken under Rome's protection and offered hostages. The Senate's debate was short: a treaty with the Lucanians, and restitution to be demanded of the Samnites.",
+          "cites": [
+            "Livy 10.11.11–13",
+            "Livy 10.12.1–2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-4",
+          "text": "Now fetiales are on the road, sent to order you out of the land of Rome's allies and to take your army out of Lucanian territory.",
+          "cites": [
+            "Livy 10.12.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-5",
+          "text": "The game seats you among the elders of the touto, whose counsel the magistrates ask.",
+          "cites": [],
+          "confidence": "counterfactual"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d1",
+      "prompt": "Roman fetiales are coming to order your army out of Lucania. What answer should they get?",
+      "options": [
+        {
+          "id": "warn",
+          "label": "Send men to meet them on the road. Tell them that if they come to any council in Samnium, they will not leave it unharmed.",
+          "kind": "historical",
+          "kind_note": "What the Samnites did, in Livy's version",
+          "consequence": [
+            {
+              "id": "d1-warn-1",
+              "text": "Men go out to meet the fetiales on the way, with just that warning.",
+              "cites": [
+                "Livy 10.12.2"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "fetiales missi, qui Samnitem decedere agro sociorum ac deducere exercitum finibus Lucanis iuberent; quibus obviam missi ab Samnitibus, qui denuntiarent, si quod adissent in Samnio concilium, haud inviolatos abituros.",
+                "en": "Fetiales were sent to order the Samnites to leave the land of Rome's allies and to take their army out of Lucanian territory. Men sent by the Samnites met them, to give them notice that if they came to any council in Samnium they would not go away inviolate.",
+                "en_src": "ours",
+                "it": "Furono mandati i feziali a intimare ai Sanniti di lasciare il territorio degli alleati e di ritirare l'esercito dai confini lucani; andarono loro incontro inviati dei Sanniti, a dichiarare che, se si fossero presentati a una qualunque assemblea nel Sannio, non se ne sarebbero andati inviolati.",
+                "it_src": "ours",
+                "cite": "Livy 10.12.2"
+              },
+              "note": "Roberts (his 10.12.2–3) has 'any of the Samnite councils' and 'their inviolability would be no longer respected'; the English is ours. Livy writes 'Samnitem', the Samnite, as a collective singular."
+            },
+            {
+              "id": "d1-warn-2",
+              "text": "When this is heard at Rome, the Senate votes for war on the Samnites and the people order it.",
+              "cites": [
+                "Livy 10.12.3"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "Let them come before the common assembly, and answer them there: no treaty of ours binds us to take our friends and enemies at Rome's bidding.",
+          "kind": "historical",
+          "kind_note": "Dionysius' version",
+          "consequence": [
+            {
+              "id": "d1-council-1",
+              "text": "In this account the Romans who come are not fetiales but envoys, the oldest and most honoured men of Rome, sent to the common assembly of the Samnites. They declare the Lucanians friends and allies of Rome, and ask you to give back the land you have taken from them and to commit no further act of war.",
+              "cites": [
+                "Dionysius, Roman Antiquities 17/18.1.4"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-council-2",
+              "text": "Your people hear them with anger and make their defence.",
+              "cites": [
+                "Dionysius, Roman Antiquities 17/18.2.1"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "οἱ δὲ Σαυνῖται τῶν πρέσβεων ἀκούσαντες ἠγανάκτουν τε καὶ ἀπελογοῦντο πρῶτον μὲν οὐκ ἐπὶ τούτῳ πεποιῆσθαι λέγοντες τὰς περὶ τῆς εἰρήνης ὁμολογίας, ἐπὶ τῷ μηδένα μήτε φίλον ἴδιον ἡγήσασθαι μήτʼ ἐχθρόν, ἐὰν μὴ Ῥωμαῖοι κελεύωσιν",
+                "lang": "grc",
+                "en": "The Samnites, when they had heard the envoys, were indignant and made their defence, saying first that they had not made the peace agreement on condition that they should count no one their own friend or enemy unless the Romans bade them.",
+                "en_src": "ours",
+                "it": "I Sanniti, uditi gli ambasciatori, si indignarono e si difesero, dicendo anzitutto di non aver concluso gli accordi di pace a condizione di non ritenere nessuno amico o nemico proprio, se non per ordine dei Romani.",
+                "it_src": "ours",
+                "cite": "Dionysius, Roman Antiquities 17/18.2.1"
+              }
+            },
+            {
+              "id": "d1-council-3",
+              "text": "They add that Rome made the Lucanians its friends only lately, when they were already your enemies, and so contrived a pretext neither just nor decent for breaking the treaty.",
+              "cites": [
+                "Dionysius, Roman Antiquities 17/18.2.1–2"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-council-4",
+              "text": "The envoys reply that subjects who have agreed to follow, and ended the war on those terms, must obey in everything those who hold the leadership, and they threaten war if you will not do as you are told. Your people find the arrogance of Rome past bearing. They order the envoys to leave at once and vote to make ready for war, in common and city by city.",
+              "cites": [
+                "Dionysius, Roman Antiquities 17/18.2.2–3"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "comply",
+          "label": "Hear them, and do what they ask. Bring the army home from Lucania and give back what it has taken.",
+          "kind": "counterfactual",
+          "kind_note": "No Samnite is recorded proposing this in 298",
+          "consequence": [
+            {
+              "id": "d1-comply-1",
+              "text": "It has been tried before. In the last war, the year before the Caudine Forks, your praetores decreed that Brutulus Papius, who had beyond doubt broken the last truce, be handed over to Rome with all the Roman booty and the prisoners, and that whatever the fetiales had demanded under the treaty be restored.",
+              "cites": [
+                "Livy 8.39.12–13",
+                "Livy 9.1.1"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-comply-2",
+              "text": "Brutulus took his own life. Fetiales took his body to Rome, with his goods.",
+              "cites": [
+                "Livy 8.39.14–15"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-comply-3",
+              "text": "Rome kept only the prisoners and whatever of the booty it recognised.",
+              "cites": [
+                "Livy 8.39.15"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "nihil tamen earum rerum praeter captivos ac si qua cognita ex praeda sunt acceptum est; ceterarum rerum inrita fuit deditio.",
+                "en": "Yet of all this nothing was accepted except the prisoners and whatever of the booty was recognised; for the rest, the surrender was void.",
+                "en_src": "ours",
+                "it": "Tuttavia di tutto ciò non fu accettato nulla, tranne i prigionieri e quanto del bottino fu riconosciuto; per il resto la consegna fu vana.",
+                "it_src": "ours",
+                "cite": "Livy 8.39.15"
+              },
+              "note": "Roberts adds 'by the Romans' and 'by the owners'; the English is ours."
+            },
+            {
+              "id": "d1-comply-4",
+              "text": "Whether Rome would have taken the army's withdrawal as enough in 298, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d1-outcome",
+        "text": "In Livy, Samnite envoys met the fetiales on the road and warned them away from any council in Samnium, and Rome voted war. In Dionysius, Roman envoys were heard by the common assembly of the Samnites, answered and sent away, and the Samnites voted to make ready for war.",
+        "cites": [
+          "Livy 10.12.2–3",
+          "Dionysius, Roman Antiquities 17/18.1.4–2.3"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r1",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r1-1",
+          "text": "Rome voted war on the Samnites: the Senate voted for it and the people ordered it. The consuls divided the commands between them: Etruria fell to L. Cornelius Scipio, the Samnites to Cn. Fulvius, and each set out for his own war.",
+          "cites": [
+            "Livy 10.12.3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-2",
+          "text": "Livy and Dionysius differ on who came and how far they got. Livy's fetiales are warned off on the road, before any council. Dionysius' envoys, the senior men of Rome, are heard by the common assembly of the Samnites and sent away.",
+          "cites": [
+            "Livy 10.12.2",
+            "Dionysius, Roman Antiquities 17/18.1.4–2.3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-3",
+          "text": "Dionysius' excerpt has no date. That it tells of this year is our inference from its matter: a Samnite war renewed after a treaty, the Lucanians beaten and sending hostages to Rome, and an excerpt after it on the consul Postumius, already twice consul, quarrelling with Fabius as proconsul.",
+          "cites": [
+            "Dionysius, Roman Antiquities 17/18.1.1–3",
+            "Dionysius, Roman Antiquities 17/18.4.1–4",
+            "Livy 10.11.13"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "r1-4",
+          "text": "Dionysius reckoned help for the Lucanians only the open pretext, one decent to give out to all. The hidden cause, in his judgement, was the power of the Samnites: great already, and expected to grow if the Lucanians were subdued and their neighbours followed.",
+          "cites": [
+            "Dionysius, Roman Antiquities 17/18.3.1"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "brief",
+      "id": "b2",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b2-1",
+          "text": "War is voted. Scipio has gone to Etruria. Fulvius is coming into Samnium.",
+          "cites": [
+            "Livy 10.12.3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-2",
+          "text": "Your army in the field is the one that was sent into Lucania.",
+          "cites": [
+            "Livy 10.12.2",
+            "Livy 10.13.3"
+          ],
+          "confidence": "attested",
+          "note": "Later in the year rumour at Rome speaks of it as an army raised against the Lucanians (Livy 10.13.3); see d2."
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d2",
+      "prompt": "The consul Fulvius is coming. What should the magistrates do with the army that went into Lucania?",
+      "options": [
+        {
+          "id": "fight",
+          "label": "Turn it on the consul now, and meet him in Samnium.",
+          "kind": "historical",
+          "kind_note": "What the magistrates did, as the reproach reported at Rome has it",
+          "consequence": [
+            {
+              "id": "d2-fight-1",
+              "text": "Your army meets Fulvius near Bovianum and is beaten. The consul then attacks Bovianum, and not long after takes Aufidena by storm.",
+              "cites": [
+                "Livy 10.12.9"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "Cn. Fulvi consulis clara pugna in Samnio ad Bovianum haudquaquam ambiguae victoriae fuit. Bovianum inde adgressus nec ita multo post Aufidenam vi cepit.",
+                "en": "The consul Cn. Fulvius fought a famous battle in Samnium near Bovianum, and the victory was in no way doubtful. He then attacked Bovianum, and not long after took Aufidena by storm.",
+                "en_src": "ours",
+                "it": "Il console Cn. Fulvio combatté nel Sannio presso Boviano una battaglia famosa, di vittoria per nulla incerta. Poi, attaccata Boviano, non molto tempo dopo prese d'assalto Aufidena.",
+                "it_src": "ours",
+                "cite": "Livy 10.12.9"
+              },
+              "note": "Roberts (his 10.12.9) has Fulvius 'sought a brilliant action' and 'carried Bovianum by storm'. The Latin says he attacked Bovianum ('adgressus') and took Aufidena by force; whether Bovianum fell is left to inference. The English is ours."
+            },
+            {
+              "id": "d2-fight-2",
+              "text": "Fulvius triumphs over the Samnites. Later in the year rumour reaches Rome that your magistrates are being reproached at home.",
+              "cites": [
+                "Livy 10.13.2–3"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "increpari magistratus Samnitium, quod exercitum adversus Lucanum hostem comparatum obiecerint Romanis",
+                "en": "that the Samnite magistrates were being reproached for having thrown against the Romans an army raised against the Lucanian enemy",
+                "en_src": "ours",
+                "it": "che i magistrati sanniti venivano rimproverati per aver gettato contro i Romani un esercito allestito contro il nemico lucano",
+                "it_src": "ours",
+                "cite": "Livy 10.13.3"
+              },
+              "note": "Reported as rumour ('fama exorta', 10.13.2). The Oxford text prints 'increpari', a correction recorded in its apparatus against the manuscripts' 'increpare'. Roberts adds 'only' and has 'government' for magistratus; the English is ours."
+            }
+          ]
+        },
+        {
+          "id": "muster",
+          "label": "Do not throw an army raised for Lucania at Rome. Raise the whole strength of Samnium, and of our friends, first.",
+          "kind": "attested-advice",
+          "kind_note": "The reproach later made against the magistrates, as rumour reported it at Rome",
+          "consequence": [
+            {
+              "id": "d2-muster-1",
+              "text": "Later in the year, it is reported at Rome, this is the reproach against your magistrates. Rumour has the Etruscans and the Samnites enrolling huge armies, and the enemy rising to war with their own strength and their allies'.",
+              "cites": [
+                "Livy 10.13.2–4"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-muster-2",
+              "text": "Two years later a Samnite army, driven out of its own land, marches into Etruria and demands a council of the Etruscan leaders. The argument given to the Samnites there: they had tried everything to bear the war with their own strength, and had tried the help of neighbouring peoples, which was of little weight.",
+              "cites": [
+                "Livy 10.16.2–5"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-muster-3",
+              "text": "Whether a larger army in 298 would have stopped Fulvius, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        },
+        {
+          "id": "lucania",
+          "label": "Keep the army in Lucania and finish that war. Let the towns of Samnium hold the consul.",
+          "kind": "counterfactual",
+          "kind_note": "No Samnite is recorded proposing this",
+          "consequence": [
+            {
+              "id": "d2-lucania-1",
+              "text": "In one account your army has been winning there: the Lucanians have lost every battle and many places, and fear for all the rest of their land.",
+              "cites": [
+                "Dionysius, Roman Antiquities 17/18.1.2"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-lucania-2",
+              "text": "Two years later there are risings in Lucania, led by plebeian and needy leaders. Q. Fabius is sent there as proconsul with his old army and puts them down, with the full goodwill of the optimates.",
+              "cites": [
+                "Livy 10.18.8"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-lucania-3",
+              "text": "Whether the towns of Samnium could have held without the army, or Lucania been won back, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d2-outcome",
+        "text": "In Livy the Samnites met Fulvius near Bovianum and were clearly beaten; he attacked Bovianum, took Aufidena by storm and triumphed over the Samnites. Later that year rumour at Rome had the Samnite magistrates blamed for throwing at Rome an army raised against the Lucanians.",
+        "cites": [
+          "Livy 10.12.9",
+          "Livy 10.13.2–3"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r2",
+      "title": "What happened, and an epitaph",
+      "blocks": [
+        {
+          "id": "r2-1",
+          "text": "In Etruria, Scipio met the enemy drawn up for battle near Volaterrae. They fought most of the day with heavy losses on both sides; in the night the Etruscans left their camp, and he took it. He then laid their land waste with fire and sword, but left alone the cities in which they had taken refuge.",
+          "cites": [
+            "Livy 10.12.4–8"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-2",
+          "text": "That is Livy's year. Scipio's own epitaph, cut on the front of his sarcophagus in the tomb of the Scipios, tells another story.",
+          "cites": [
+            "Epitaph of Scipio Barbatus (CIL VI 1284–1285)",
+            "Wikimedia Commons category record (Sarcophagus of Lucius Cornelius Scipio Barbatus)"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Cornelius Lucius Scipio Barbatus, Gnaivod patre prognatus, fortis vir sapiensque, quoius forma virtutei parisuma fuit, consol, censor, aidilis quei fuit apud vos, Taurasia Cisauna Samnio cepit, subigit omne Loucana opsidesque abdoucit.",
+            "en": "Cornelius Lucius Scipio Barbatus, son of his father Gnaeus, a brave man and a wise, whose looks were the full match of his virtue; who was consul, censor and aedile among you. He took Taurasia and Cisauna in Samnium; he subdued all Lucania and led away hostages.",
+            "en_src": "ours",
+            "it": "Cornelio Lucio Scipione Barbato, nato dal padre Gneo, uomo forte e saggio, il cui aspetto fu in tutto pari al suo valore; fu presso di voi console, censore ed edile. Prese Taurasia e Cisauna nel Sannio; sottomise tutta la Lucania e ne portò via ostaggi.",
+            "it_src": "ours",
+            "cite": "Epitaph of Scipio Barbatus (CIL VI 1284–1285)"
+          },
+          "note": "Text as inscribed, from Sandys' facsimile (1913) and the copy from Orelli no. 550 printed in Smith's Dictionary, which agree; punctuation ours. On the stone the text runs in four lines, ending PATRE, PARISVMA, CISAVNA and ABDOVCIT. 'In Samnium' follows Smith's reading of Samnio; see the card The epitaph."
+        },
+        {
+          "id": "r2-3",
+          "text": "Both cannot be the whole story. Livy puts Scipio in Etruria and Fulvius in Samnium, gives Fulvius the victory near Bovianum, Aufidena and the triumph over the Samnites, and has the Lucanians offer hostages of their own accord. The epitaph gives no year, says nothing of Etruria, and credits Scipio with two Samnite towns that Livy's account of these years does not name, with all Lucania, and with hostages led away.",
+          "cites": [
+            "Livy 10.11.13",
+            "Livy 10.12.3–9",
+            "Livy 10.13.2",
+            "Epitaph of Scipio Barbatus (CIL VI 1284–1285)"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-4",
+          "text": "Smith's Dictionary set the two side by side and reported Niebuhr's view: the conquests in Samnium belong to 297, when Livy has a Scipio serving in Samnium as Fabius' legate. We have opened no modern study of the conflict.",
+          "cites": [
+            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Scipio no. 5",
+            "Livy 10.14.14"
+          ],
+          "confidence": "attested",
+          "note": "Smith writes 'Samnium and Apulia'; the epitaph names Lucania. Niebuhr's History of Rome, which Smith cites as vol. iii pp. 363–366 and 378, was not opened."
+        },
+        {
+          "id": "r2-photo",
+          "text": "The sarcophagus of L. Cornelius Scipio Barbatus, from the tomb of the Scipios on the Via Appia, now in the Vatican Museums (Museo Pio-Clementino), photographed in 2009. The epitaph runs across the front of the chest below the frieze.",
+          "cites": [
+            "Wikimedia Commons file record (Bahnmoeller 2009)",
+            "Wikimedia Commons category record (Sarcophagus of Lucius Cornelius Scipio Barbatus)"
+          ],
+          "confidence": "attested",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/scipio-barbatus-sarcophagus.jpg",
+            "alt": "A long grey stone chest against a red wall. Its lid ends in a large volute at each end; below a row of dentils runs a frieze of fluted panels and rosettes, and under it four faint lines of inscription cross the front. The chest stands on a base of squared blocks with a one-line inscription, and an inscribed slab hangs on the wall above.",
+            "credit": "Photo: Bahnmoeller, CC BY-SA 3.0, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Cornelii-scipiois-vatikan-f.JPG"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "cards",
+      "id": "c1",
+      "title": "The deeper cut",
+      "cards": [
+        "card-epitaph",
+        "card-livy-and-epitaph",
+        "card-taurasini",
+        "card-dionysius",
+        "card-treaty-terms",
+        "card-fetiales",
+        "card-lucanian-hostages"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-epitaph",
+      "title": "The epitaph",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-epitaph-1",
+          "text": "The sarcophagus comes from the tomb of the Scipios on the Via Appia and is now in the Vatican Museums. The Commons record of it notes a painted inscription on the lid as well as the one cut in archaic Latin on the chest, and lists it under CIL VI 1284 and 1285. Smith printed the chest's text from Orelli's collection, no. 550.",
+          "cites": [
+            "Wikimedia Commons category record (Sarcophagus of Lucius Cornelius Scipio Barbatus)",
+            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Scipio no. 5"
+          ],
+          "confidence": "attested",
+          "note": "We have not opened CIL, ILS or ILLRP, so we do not say which CIL number is the lid and which the chest."
+        },
+        {
+          "id": "card-epitaph-2",
+          "text": "The spelling is old. Smith's normalised text sets the stone's Gnaivod, quoius, virtutei, aidilis, quei, opsides and abdoucit beside Cnaeo, cujus, virtuti, aedilis, qui, obsides and abducit, and the stone's Loucana beside Lucaniam.",
+          "cites": [
+            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Scipio no. 5",
+            "Epitaph of Scipio Barbatus (CIL VI 1284–1285)"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-epitaph-3",
+          "text": "Final m is not written in Taurasia, Cisauna, omne or Loucana; Smith restores it in each and reads Samnio as '(in) Samnio', in Samnium. Since the stone drops final m elsewhere, Samnio could also be read as an accusative, so that he 'took Taurasia, Cisauna, Samnium'. We have opened no edition that argues either reading.",
+          "cites": [
+            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Scipio no. 5",
+            "Epitaph of Scipio Barbatus (CIL VI 1284–1285)"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-epitaph-4",
+          "text": "The epitaph names its man with the family name first, Cornelius Lucius. In Sandys' facsimile the first line alone is set in from the left.",
+          "cites": [
+            "Epitaph of Scipio Barbatus (CIL VI 1284–1285)",
+            "Sandys, 'Epigraphy', in A Companion to Latin Studies (1913), facsimile on Wikimedia Commons"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-livy-and-epitaph",
+      "title": "Livy's Scipio and the epitaph's",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-livy-and-epitaph-1",
+          "text": "Livy's L. Cornelius Scipio, consul in 298, fights in Etruria, near Volaterrae and then in Etruscan land; Livy gives the Samnite command and the triumph over the Samnites to his colleague Fulvius.",
+          "cites": [
+            "Livy 10.11.10",
+            "Livy 10.12.3–9",
+            "Livy 10.13.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-livy-and-epitaph-2",
+          "text": "Livy names a Scipio again in later years without the cognomen Barbatus: in 297 a legate Scipio, ordered to lead the hastati of the first legion round, unseen, onto the nearest hills and show himself in the enemy's rear; in 295 L. Scipio as propraetor in command of the camp at Clusium; and in 293 an L. Scipio commanding the left wing at Aquilonia, who led the storm of the town gate with his shield held over his head.",
+          "cites": [
+            "Livy 10.14.14",
+            "Livy 10.25.11",
+            "Livy 10.26.7–12",
+            "Livy 10.40.7",
+            "Livy 10.41.12–14"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-livy-and-epitaph-3",
+          "text": "Smith's Dictionary takes all of these to be Barbatus, the consul of 298. Livy himself does not say so.",
+          "cites": [
+            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Scipio no. 5"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-livy-and-epitaph-4",
+          "text": "Named positions we have opened: Livy, who gives Scipio Etruria in 298; the epitaph, which gives him two Samnite towns, all Lucania and hostages, with no year; and Niebuhr as Smith reports him, who put the Samnite conquests in 297, when Scipio was Fabius' legate.",
+          "cites": [
+            "Livy 10.12.3",
+            "Epitaph of Scipio Barbatus (CIL VI 1284–1285)",
+            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Scipio no. 5"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-livy-and-epitaph-5",
+          "text": "Livy's Lucanians give hostages of their own accord at the start of 298, and two years later Rome sends Q. Fabius to put down risings in Lucania. Neither passage names Scipio. We have opened no study that dates the epitaph's subjection of Lucania.",
+          "cites": [
+            "Livy 10.11.13",
+            "Livy 10.18.8"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-taurasini",
+      "title": "Taurasia, Cisauna and the land of the Taurasini",
+      "tier": 2,
+      "lens": "econ",
+      "blocks": [
+        {
+          "id": "card-taurasini-1",
+          "text": "Neither town has a known site. Pleiades lists Taurasia as unlocated in the Barrington Atlas, and describes Cisauna only as a site in Samnium taken by Scipio Barbatus, with no position.",
+          "cites": [
+            "Pleiades 438849",
+            "Pleiades 438716"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-taurasini-2",
+          "text": "Much later, in the year of the consuls A. Postumius and C. Calpurnius, the former consuls P. Cornelius and M. Baebius moved the Ligures Apuani down from their mountains. Livy says where they were sent.",
+          "cites": [
+            "Livy 40.37.9",
+            "Livy 40.38.1–3",
+            "Livy 40.35.1"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ager publicus populi Romani erat in Samnitibus, qui Taurasinorum fuerat.",
+            "en": "There was public land of the Roman people among the Samnites, which had belonged to the Taurasini.",
+            "en_src": "ours",
+            "it": "C'era nel Sannio un agro pubblico del popolo romano, che era appartenuto ai Taurasini.",
+            "it_src": "ours",
+            "cite": "Livy 40.38.2–3"
+          },
+          "note": "Weissenborn–Müller text (Perseus lat2), whose OCR has 'f/terat' for 'fuerat'. Roberts prints 'Taurania'; the English is ours."
+        },
+        {
+          "id": "card-taurasini-3",
+          "text": "Livy gives about forty thousand free persons, with women and children, moved at public cost, and 150,000 of silver to equip their new homes; he does not name the unit.",
+          "cites": [
+            "Livy 40.38.6"
+          ],
+          "confidence": "attested",
+          "note": "Roberts adds 'denarii'."
+        },
+        {
+          "id": "card-taurasini-4",
+          "text": "Pliny lists Ligures called Corneliani and Baebiani among the inland communities of the second region, with the Hirpini.",
+          "cites": [
+            "Pliny, Natural History 3.105"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-taurasini-5",
+          "text": "Pleiades records the Barrington Atlas placing an ager Taurasinus, with a query. Whether Livy's Taurasini were the people of the epitaph's Taurasia, and whether their land became Rome's through Scipio, Livy does not say.",
+          "cites": [
+            "Pleiades 433144",
+            "Livy 40.38.2–3",
+            "Epitaph of Scipio Barbatus (CIL VI 1284–1285)"
+          ],
+          "confidence": "inferred"
+        },
+        {
+          "id": "card-taurasini-6",
+          "text": "Aufidena, which Livy has Fulvius take by storm, is placed by Pleiades; Pliny lists the Aufidenates among the Samnites of the fourth region.",
+          "cites": [
+            "Pleiades 432709",
+            "Livy 10.12.9",
+            "Pliny, Natural History 3.107"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-dionysius",
+      "title": "Dionysius' excerpt",
+      "tier": 2,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-dionysius-1",
+          "text": "This passage survives as an excerpt, without a date. It tells how the Samnite war flared up again: soon after their treaty with Rome, the Samnites marched on the Lucanians, their neighbours, out of an old enmity.",
+          "cites": [
+            "Dionysius, Roman Antiquities 17/18.1.1"
+          ],
+          "confidence": "attested",
+          "note": "Jacoby's numbering; the Perseus file also gives an alternative numbering, 16.11–16.14, for 17/18.1.1–3.1, and marks the source of the excerpts 'Ursin.'."
+        },
+        {
+          "id": "card-dionysius-2",
+          "text": "The two accounts give different motives for the invasion. Livy's Lucanian envoys say the Samnites invaded to force them into the war; Dionysius gives old enmity.",
+          "cites": [
+            "Livy 10.11.11",
+            "Dionysius, Roman Antiquities 17/18.1.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-dionysius-3",
+          "text": "In Dionysius the Lucanians lost every battle and many places, and feared for all the rest of their land. Knowing they had broken their earlier agreements of friendship and alliance with Rome, they sent the noblest children from every city as hostages with their envoys. The Senate accepted the hostages and the friendship, and the people confirmed it.",
+          "cites": [
+            "Dionysius, Roman Antiquities 17/18.1.2–4"
+          ],
+          "confidence": "attested",
+          "note": "Jacoby deletes τῆς before πόλεως (17/18.1.2), giving 'from every city'."
+        },
+        {
+          "id": "card-dionysius-4",
+          "text": "His verdict on the war's causes:",
+          "cites": [
+            "Dionysius, Roman Antiquities 17/18.3.1"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "ἡ μὲν δὴ φανερὰ τοῦ Σαυνιτικοῦ πολέμου πρόφασις καὶ πρὸς ἅπαντας εὐπρεπὴς λέγεσθαι ἡ Λευκανῶν ἐγένετο βοήθεια τῶν καταφυγόντων ἐπʼ αὐτούς … ἡ δʼ ἀφανὴς καὶ μᾶλλον αὐτοὺς ἀναγκάζουσα διαλύεσθαι ⟨τὴν⟩ φιλίαν ἡ τῶν Σαυνιτῶν ἰσχὺς πολλή τʼ ἤδη γεγονυῖα καὶ ἔτι πλείων γενήσεσθαι νομιζομένη",
+            "lang": "grc",
+            "en": "The open pretext for the Samnite war, and one decent to give out to all, was help for the Lucanians, who had fled to them for refuge … The hidden cause, and the one that did more to compel them to dissolve the friendship, was the power of the Samnites, already great and thought likely to grow greater still.",
+            "en_src": "ours",
+            "it": "Il pretesto palese della guerra sannitica, e decoroso da dichiarare a tutti, fu l'aiuto ai Lucani, che si erano rifugiati presso di loro … La causa nascosta, e quella che più li costringeva a sciogliere l'amicizia, fu la potenza dei Sanniti, già grande e che si riteneva sarebbe cresciuta ancora.",
+            "it_src": "ours",
+            "cite": "Dionysius, Roman Antiquities 17/18.3.1"
+          },
+          "note": "⟨τὴν⟩ is an editorial addition in the Perseus text of Jacoby. The omitted words say this was treated as a common, ancestral custom of Rome: to help those who are wronged and take refuge with it."
+        },
+        {
+          "id": "card-dionysius-5",
+          "text": "He ends: the treaty was broken as soon as the envoys arrived, and two armies were enrolled. The excerpt does not say whose.",
+          "cites": [
+            "Dionysius, Roman Antiquities 17/18.3.1"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-treaty-terms",
+      "title": "What the treaty allowed",
+      "tier": 1,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-treaty-terms-1",
+          "text": "Livy records that the old treaty was given back to the Samnites at the end of the last war. He does not give its terms.",
+          "cites": [
+            "Livy 9.45.4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-treaty-terms-2",
+          "text": "In Dionysius the two sides read the peace differently. The Samnites say they never agreed to count no one friend or enemy except at Rome's order. Rome's envoys answer that the Samnites are subjects who agreed to follow, ended the war on those terms, and must obey in everything those who hold the leadership.",
+          "cites": [
+            "Dionysius, Roman Antiquities 17/18.2.1–2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-treaty-terms-3",
+          "text": "Livy's Samnites, two years later in Etruria, put it in their own words, as the argument is given to them: they had sued for peace when they could not bear the war, and taken up war again because peace with servitude was heavier than war with freedom.",
+          "cites": [
+            "Livy 10.16.5"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-fetiales",
+      "title": "Fetiales",
+      "tier": 1,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-fetiales-1",
+          "text": "Livy describes the rite for demanding redress. The envoy, his head veiled, states Rome's demands at the enemy's border, then again to the first man he meets, again entering the gate, and again entering the forum.",
+          "cites": [
+            "Livy 1.32.6–8"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-fetiales-2",
+          "text": "If what is demanded is not handed over in thirty-three days, the envoy declares the people unjust and returns to Rome. Once war is voted, a fetialis carries a spear to the enemy's border and throws it into their land before at least three grown men.",
+          "cites": [
+            "Livy 1.32.9–14"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-fetiales-3",
+          "text": "For 298 Livy reports only the order the fetiales were sent to give, the Samnite warning, and the votes of the Senate and the people. He says nothing of thirty-three days or a spear, and does not say whether the fetiales spoke their demand.",
+          "cites": [
+            "Livy 10.12.2–3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-fetiales-4",
+          "text": "Livy gives the Samnites fetiales of their own. In the last war, the year before the Caudine Forks, it was fetiales sent by the Samnite decree who carried the body of Brutulus Papius to Rome.",
+          "cites": [
+            "Livy 8.39.13–14",
+            "Livy 9.1.1"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-lucanian-hostages",
+      "title": "Lucanian hostages",
+      "tier": 1,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-lucanian-hostages-1",
+          "text": "Livy's Lucanians first made a treaty with Rome in the opening year of the last war, together with the Apuli.",
+          "cites": [
+            "Livy 8.25.2–3",
+            "Livy 8.27.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-lucanian-hostages-2",
+          "text": "Soon after, roused by young men who showed themselves beaten with rods and claimed the Roman consuls had done it, the Lucanians renewed their alliance with the Samnites. The Samnites made them give hostages and take Samnite garrisons. The authors of the false charge then moved to Tarentum, and Livy puts the plot down to the Tarentines.",
+          "cites": [
+            "Livy 8.27.2–11"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-lucanian-hostages-3",
+          "text": "In 298 the Lucanians, saying they had once erred enough and more, offered Rome hostages. In Dionysius they were the noblest children from every city, and the Senate accepted them.",
+          "cites": [
+            "Livy 10.11.12–13",
+            "Dionysius, Roman Antiquities 17/18.1.2–3"
+          ],
+          "confidence": "attested",
+          "note": "Jacoby deletes τῆς before πόλεως in Dionysius 17/18.1.2, giving 'from every city'; with it the words would mean 'from the whole city'."
+        },
+        {
+          "id": "card-lucanian-hostages-4",
+          "text": "The epitaph has Scipio subdue all Lucania and lead hostages away. It does not say from whom, or when.",
+          "cites": [
+            "Epitaph of Scipio Barbatus (CIL VI 1284–1285)"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    }
+  ]
+}
