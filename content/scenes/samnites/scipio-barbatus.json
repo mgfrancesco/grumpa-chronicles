@@ -808,6 +808,20 @@
           "confidence": "attested"
         },
         {
+          "id": "card-fetiales-fig",
+          "text": "The rite as Livy sets it out under Ancus Marcius: the demand spoken at the border, on crossing it, to the first man met, at the gate and in the forum; thirty-three days; the envoy's return to Rome and the king's question to the patres; then the spear, 'ferratam aut praeustam sanguineam', thrown into their land before at least three grown men. A diagram of his words. Ours: the figures, the town and the layout; of the envoy's dress Livy gives only the woollen fillet covering his head. He tells it as the form first used against the Latins. For 298 he reports only the demand, the Samnite warning and the votes, so this is not a picture of that embassy.",
+          "cites": [
+            "Livy 1.32.1–14",
+            "Livy 10.12.1–3"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "kind": "drawing",
+            "src": "art/cards/fetial-rite.svg",
+            "alt": "Diagram in seven numbered stations. One to four: an envoy with covered head speaks at a border line, to the first man he meets, at a town gate and in the forum. Five: a row of thirty-three strokes for thirty-three days. Six: a king puts the question to a row of senators in order. Seven: a fetialis throws a spear across a border line while three men look on; below, two spears, one iron-tipped and one with a fire-hardened point. Latin labels quote Livy at each station."
+          }
+        },
+        {
           "id": "card-fetiales-3",
           "text": "For 298 Livy reports only the Senate's vote that restitution be demanded, the order the fetiales were sent to give, the Samnite warning, and the votes of the Senate and the people. He says nothing of thirty-three days or a spear, and does not say whether the fetiales spoke their demand.",
           "cites": [

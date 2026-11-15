@@ -70,8 +70,8 @@
   <path d="M20 420H740" stroke="#b98a3e" stroke-width="1.5"/>
   <g font-size="20" fill="#3a2a1e">
     <circle cx="36" cy="451" r="14" fill="#9b2d20"/><text x="36" y="458" text-anchor="middle" font-weight="700" fill="#f6efe0">1</text>
-    <text x="62" y="458">By night, feigning fear, Postumius slips into the</text>
-    <text x="62" y="484">mountains. The Samnites follow and dig in two miles off.</text>
+    <text x="62" y="458">By night, feigning fear, Postumius slips into the mountains.</text>
+    <text x="62" y="484">The Samnites follow and dig in two miles off.</text>
 
     <circle cx="36" cy="517" r="14" fill="#9b2d20"/><text x="36" y="524" text-anchor="middle" font-weight="700" fill="#f6efe0">2</text>
     <text x="62" y="524">He fortifies and stocks his camp as if to stay, leaves</text>

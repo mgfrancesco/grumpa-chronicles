@@ -507,6 +507,19 @@
       "title": "What happened",
       "blocks": [
         {
+          "id": "r2-soldier",
+          "text": "The new arms as Livy describes them: the shield broad and level at the top, where it covers chest and shoulders, and narrowing to a wedge below for ease of movement; a spongia over the chest; a greave on the left leg; a crested helmet. The gilded men wore tunics of many colours, the silvered men white linen. A diagram of his words. Ours: the colours and stripes, the shape of the helmet and of the spongia, the stance and the proportions. Livy names no weapon, so none is drawn.",
+          "cites": [
+            "Livy 9.40.2–3"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "kind": "drawing",
+            "src": "art/scenes/samnite-soldier.svg",
+            "alt": "Diagram of two Samnite soldiers side by side. Each wears a crested helmet and a greave on the left leg only. The first holds a gilded shield in front of him, broad and level at the top and tapering to a narrow foot, over a striped tunic of many colours. The second, in a white linen tunic with a plain patch, the spongia, on his chest, holds a silvered shield of the same shape at his side. Latin labels name each part."
+          }
+        },
+        {
           "id": "r2-1",
           "text": "Papirius took the right wing and gave the left to his master of horse, C. Iunius. Iunius moved first, against your right, where the sacrati stood in white.",
           "cites": [
@@ -539,6 +552,20 @@
             "cite": "Livy 9.40.13"
           },
           "note": "Roberts numbers the quotation 9.40.14."
+        },
+        {
+          "id": "r2-order",
+          "text": "The battle in the order Livy gives it. Iunius, on the Roman left, moved first against your right, the silvered wing, where the sacrati stood in white. The dictator then drove on his own wing against the gilded. The legates M. Valerius, from the right, and P. Decius, from the left, rode out to the horse on the wings and took it into both your flanks; the legions pressed on with a fresh shout and the line broke. A diagram of his words. Ours: the Romans drawn below, the spacing and the size of the blocks. Livy gives no ground, numbers or distances.",
+          "cites": [
+            "Livy 9.40.3",
+            "Livy 9.40.7–13"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "kind": "drawing",
+            "src": "art/scenes/shields-battle.svg",
+            "alt": "Diagram of the battle order. Above, the Samnites: on their right the silvered men and the sacrati in white, on their left the gilded men in tunics of many colours. Below, the Romans: C. Iunius, master of horse, on the left wing facing the Samnite right; L. Papirius, dictator, on the right wing; horse on both wings under P. Decius on the left and M. Valerius on the right. Numbered arrows: first Iunius advances, second the dictator, third the horse round both flanks."
+          }
         },
         {
           "id": "r2-3",

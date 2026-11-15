@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1210" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Diagram of the fetial rite as Livy gives it at 1.32.6–14, in seven numbered stations: the demand at the border, to the first man met, at the gate and in the forum; thirty-three days; the king consulting the patres at Rome; a fetialis throwing a spear into the other people's land before three grown men">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1320" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Diagram of the fetial rite as Livy gives it at 1.32.6–14, in seven numbered stations: the demand at the border, to the first man met, at the gate and in the forum; thirty-three days; the king consulting the patres at Rome; a fetialis throwing a spear into the other people's land before three grown men">
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9b2d20"/></marker>
     <!-- a plain standing figure; dress is ours, Livy describes none -->
@@ -10,12 +10,11 @@
     <g id="envoy">
       <path d="M-12 -57 Q0 -61 12 -57 L18 0 H-18 Z" fill="#6b5440"/>
       <circle cx="0" cy="-70" r="11" fill="#6b5440"/>
-      <path d="M-13 -60 Q-17 -86 0 -86 Q15 -86 14 -72 Q6 -78 -3 -74 Q-6 -66 -5 -56 Z" fill="#efe4c8" stroke="#b98a3e" stroke-width="2"/>
-      <path d="M-11 -66 Q-9 -80 2 -82 M-8 -62 Q-6 -76 6 -80" fill="none" stroke="#b98a3e" stroke-width="1.2"/>
+      <path d="M11 -75 Q11 -87 0 -87 Q-14 -87 -15 -72 L-17 -55 Q-2 -60 12 -57 L9 -64 Q12 -69 11 -75 Z" fill="#efe4c8" stroke="#b98a3e" stroke-width="2"/>
+      <path d="M-13 -66 Q-1 -70 10 -67 M-14 -76 Q-2 -81 10 -78" fill="none" stroke="#b98a3e" stroke-width="1.4"/>
     </g>
-    <g id="badge-shape"><circle r="17" fill="#9b2d20"/></g>
   </defs>
-  <rect width="760" height="1210" fill="#f1e7cf"/>
+  <rect width="760" height="1320" fill="#f1e7cf"/>
 
   <!-- ============ 1–4: the demand (1.32.6–8) ============ -->
   <text x="24" y="44" font-size="26" font-style="italic" fill="#3a2a1e">res repetuntur</text>
@@ -38,11 +37,11 @@
   <path d="M120 216 H592" fill="none" stroke="#9b2d20" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ah)"/>
 
   <use href="#envoy" x="98" y="226"/>
-  <use href="#man" x="300" y="226"/>
+  <use href="#man" x="280" y="226"/>
 
   <g font-size="20" font-weight="bold" fill="#f1e7cf" text-anchor="middle">
     <circle cx="98" cy="122" r="17" fill="#9b2d20"/><text x="98" y="129">1</text>
-    <circle cx="300" cy="122" r="17" fill="#9b2d20"/><text x="300" y="129">2</text>
+    <circle cx="280" cy="122" r="17" fill="#9b2d20"/><text x="280" y="129">2</text>
     <circle cx="470" cy="216" r="17" fill="#9b2d20"/><text x="470" y="223">3</text>
     <circle cx="664" cy="210" r="17" fill="#9b2d20"/><text x="664" y="217">4</text>
   </g>
@@ -50,7 +49,7 @@
   <g font-size="21" font-style="italic" fill="#3a2a1e" text-anchor="middle">
     <text x="98" y="334">ad fines</text>
     <text x="98" y="360">fines suprascandit</text>
-    <text x="300" y="334">primus uir obuius</text>
+    <text x="270" y="334">primus uir obuius</text>
     <text x="470" y="334">portam ingrediens</text>
     <text x="664" y="334">forum ingressus</text>
   </g>
@@ -97,35 +96,37 @@
   <text x="40" y="939" text-anchor="middle" font-size="20" font-weight="bold" fill="#f1e7cf">7</text>
   <text x="70" y="941" font-size="26" font-style="italic" fill="#3a2a1e">hastam in fines eorum emittebat</text>
 
-  <path d="M0 1052 H760 V1076 H0 Z" fill="#d9c08f"/>
-  <path d="M440 968 V1076" stroke="#9b2d20" stroke-width="3" stroke-dasharray="10 7"/>
-  <text x="452" y="990" font-size="21" font-style="italic" fill="#9b2d20">fines eorum</text>
+  <path d="M0 1080 H760 V1104 H0 Z" fill="#d9c08f"/>
+  <path d="M440 996 V1104" stroke="#9b2d20" stroke-width="3" stroke-dasharray="10 7"/>
 
   <!-- three grown men present; where they stood is ours -->
-  <use href="#man" x="70" y="1054"/><use href="#man" x="120" y="1054"/><use href="#man" x="170" y="1054"/>
+  <use href="#man" x="70" y="1082"/><use href="#man" x="120" y="1082"/><use href="#man" x="170" y="1082"/>
 
   <!-- the fetialis, arm raised -->
-  <use href="#man" x="320" y="1054"/>
-  <path d="M328 1000 L346 970" stroke="#6b5440" stroke-width="7" stroke-linecap="round"/>
+  <use href="#man" x="320" y="1082"/>
+  <path d="M328 1028 L346 998" stroke="#6b5440" stroke-width="7" stroke-linecap="round"/>
   <!-- the throw, and the spear standing in their ground -->
-  <path d="M350 962 Q470 900 586 1040" fill="none" stroke="#9b2d20" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ah)"/>
-  <path d="M600 1060 L560 978" stroke="#6b4a2e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M352 990 Q470 930 584 1066" fill="none" stroke="#9b2d20" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ah)"/>
+  <path d="M600 1088 L560 1006" stroke="#6b4a2e" stroke-width="5" stroke-linecap="round"/>
+  <text x="740" y="1060" text-anchor="end" font-size="21" font-style="italic" fill="#9b2d20">fines eorum</text>
 
   <g font-size="21" font-style="italic" fill="#3a2a1e">
-    <text x="24" y="1104">non minus tribus</text>
-    <text x="24" y="1130">puberibus praesentibus</text>
-    <text x="320" y="1104" text-anchor="middle">fetialis</text>
+    <text x="24" y="1134">non minus tribus</text>
+    <text x="24" y="1160">puberibus praesentibus</text>
+    <text x="320" y="1134" text-anchor="middle">fetialis</text>
   </g>
 
-  <!-- the two kinds of spear Livy allows -->
-  <g font-size="21" font-style="italic" fill="#3a2a1e">
-    <text x="470" y="1102">hastam ferratam</text>
-    <text x="470" y="1150">aut praeustam sanguineam</text>
+  <!-- the spear as Livy allows it: iron-tipped, or fire-hardened -->
+  <text x="380" y="1204" text-anchor="middle" font-size="21" font-style="italic" fill="#3a2a1e">hastam ferratam aut praeustam sanguineam</text>
+  <path d="M120 1230 H310" stroke="#6b4a2e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M308 1230 L326 1223 L352 1230 L326 1237 Z" fill="#5d6166" stroke="#3a3d40" stroke-width="1.5"/>
+  <path d="M420 1230 H600" stroke="#6b4a2e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M598 1227.5 L644 1230 L598 1232.5 Z" fill="#2e241c" stroke="#2e241c" stroke-width="1"/>
+  <path d="M580 1227.5 H600 V1232.5 H580 Z" fill="#2e241c"/>
+  <g font-size="21" font-style="italic" fill="#3a2a1e" text-anchor="middle">
+    <text x="236" y="1262">ferratam</text>
+    <text x="532" y="1262">aut praeustam</text>
   </g>
-  <path d="M470 1118 H690" stroke="#6b4a2e" stroke-width="5" stroke-linecap="round"/>
-  <path d="M688 1118 L708 1111 L736 1118 L708 1125 Z" fill="#5d6166" stroke="#3a3d40" stroke-width="1.5"/>
-  <path d="M470 1166 H700" stroke="#6b4a2e" stroke-width="5" stroke-linecap="round"/>
-  <path d="M684 1162 L700 1166 L736 1166 L700 1170 L684 1170 Z" fill="#2e241c"/>
 
-  <text x="380" y="1198" text-anchor="middle" font-size="19" font-style="italic" fill="#5b5047">A diagram of Livy 1.32.6–14, not of any one embassy.</text>
+  <text x="380" y="1300" text-anchor="middle" font-size="19" font-style="italic" fill="#5b5047">A diagram of Livy 1.32.6–14, not of any one embassy.</text>
 </svg>

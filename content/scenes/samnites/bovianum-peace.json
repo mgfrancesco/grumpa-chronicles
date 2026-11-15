@@ -468,6 +468,20 @@
           "note": "Roberts (his 9.44.13) has 'captain-general' for imperator. The manuscripts read Cellius; see the card Gellius."
         },
         {
+          "id": "r2-march",
+          "text": "The manoeuvre in Livy's second account, step by step: the night withdrawal into the mountains and the Samnite camp two miles off; the stocked camp left under a strong garrison and the march at the third watch to Minucius; the fresh legions on your tired line; both armies back at Postumius' camp. A diagram of his words, not a map. Ours: every direction and distance except the two miles, which is Livy's figure, as are the 21 and the 26 standards. He names no ground beyond 'in montes'. Diodorus' account has no withdrawal into the mountains.",
+          "cites": [
+            "Livy 9.44.6–12",
+            "Diodorus 20.90.3–4"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "kind": "drawing",
+            "src": "art/scenes/postumius-march.svg",
+            "alt": "Diagram in four numbered steps. One: Postumius' camp in the mountains, with the Samnite camp two miles from it. Two: an arrow from Postumius' camp to Minucius, who faces a second Samnite army. Three: Postumius joins the battle between Minucius and that army. Four: arrows from the battlefield back to the Samnite camp beside Postumius' camp. A numbered key below tells each step in words."
+          }
+        },
+        {
           "id": "r2-3",
           "text": "Bovianum was attacked the next day and soon taken, and the consuls triumphed. Some authorities, Livy adds, say that Minucius was carried back to camp badly wounded and died, that M. Fulvius was made consul in his place, and that it was Fulvius who took Bovianum.",
           "cites": [
