@@ -1,0 +1,805 @@
+{
+  "id": "samnites-06-egnatius",
+  "wing": "samnites",
+  "campaign": "caudium-sentinum",
+  "title": "Gellius Egnatius in Etruria",
+  "place": "Samnium, Etruria and Campania",
+  "date": "296 BC",
+  "role": "an elder of the touto",
+  "outfit": "samnite-elder",
+  "lenses": [
+    "war",
+    "econ",
+    "law"
+  ],
+  "status": "draft",
+  "verified": {
+    "by": "not yet checked",
+    "date": "",
+    "notes": "Researcher's draft notes (2026-11-16). Not yet checked. Livy cited by the Conway–Walters (OCT) section numbers in Perseus lat3; Weissenborn–Müller (lat2) was not compared for this scene. Roberts 1912 (Perseus eng3) numbers several sections differently in 10.16–10.21 (his 10.16.2 runs into OCT 10.16.3; his 10.18.2 = OCT 10.18.1 end and 10.18.2; his 10.18.6–7 = OCT 10.18.6–7; his 10.19.16–17 = OCT 10.19.16–17 shifted by a clause; his 10.20.8–9 = OCT 10.20.8). Roberts is quoted once, at 10.20.8 (first sentence), where he is accurate; elsewhere the English is ours because he is loose: 'some annalists' for 'in trinis annalibus' (10.18.7), 'a peace which reduced them to slavery … a war in which they could fight as free men' (10.16.5), 'a war chest' for 'stipendio' (10.16.8), 'the country round Capua' for 'in Campaniam' and 'feudatories of Rome' for 'imperii Romani fines' (10.20.1), 'Menturna' (10.21.8), 'Statius Minacius' (10.20.13), and 6,900 dead at 10.19.22 where the Oxford text prints 'septem milia octingenti'. Perseus lat3 layout and OCR fixes in passages quoted: the OCT margin 'A.U.C. 458' interleaved in 10.16.3 and 10.19.17 removed; 'Bellona , si' closed up (10.19.17); the apparatus notes at 10.18.7 removed from the quotation and reported in card-letter. Not quoted but seen: 'donec done' (10.16.2), 'haud baud' (10.16.5, 10.17.6), 'opulentissimam oppulentissimam' (10.16.6), 'Samnitibus Sannitibus' and 'tusci' (10.18.1–2), 'huc hue' (10.18.13), 'tumultu tunultu' (10.20.11). Ovid, Fasti, from Perseus lat2 (ed. J. G. Frazer); lines 6.199–208 read; we did not work out the calendar day from the preceding lines, so the card says only 'on this day' and that the passage stands in the book for June. Pliny, Natural History 35.12, from Perseus lat2 (ed. K. Mayhoff): the square brackets round 'qui consul … CCLVIIII' are in the file, with an apparatus note 'uncos posuit U cum Gesnero' and a marginal 'cfr. Liv. X 19, 17'; we did not open Mayhoff's list of sigla, so 'U' is not expanded. The elogium of Appius Claudius Caecus (the Arretium copy) could not be opened in any edition or database, so neither its text nor a corpus number is given; the only trace used is Smith's reference 'Orelli, Inscr. No. 539', cited as Smith's. Pleiades from isawnyu/pleiades.datasets data/gis/places.csv (ids 423025 Roma, 413096 Clusium, 413248 Perusia, 413060 Camerinum, 413312 Sentinum, 432739 Cales (Campania), 432940 Minturnae, 432828 Falernus Ager, 433211 Volturnus (river), 413122 Etruria/Tuscia, 413360 Umbria, 433078 Samnium; unlocated: 438790 Murgantia, 438820 and 446286 Romulea, 438734 Ferentinum); pleiades.stoa.org not opened. No Pleiades record for the town of Sinuessa was found in the copy of places.csv used (only 432689 Aquae Sinuessanae), so Sinuessa is not on the map. Map: tools/maps/coalition_map.py, bounds [10.75, 15.55, 40.85, 43.75], Natural Earth 10 m coastline; rendered with Playwright and looked at once at 760 px; not yet seen in an iPhone screenshot of the scene. Camerinum is on the map at the coordinator's request for the Sentinum scene; no passage naming it in these years was opened by this researcher. Neither decision uses the engine's tappable map: the coalition map is not registered under 'maps' in index.json. Each decision has one historical option and two counterfactuals (no alternative advice is recorded for either). Years BC are the conventional ones; 'last year' rests on Livy's sequence of consular years (297 Fabius–Decius, 296 Volumnius–Claudius). Not opened: Oakley's commentary, Salmon 1967, any modern study; EDCS, EDR, Wikimedia Commons search (one attempt, no result). The story stops at Volumnius' recall for the elections (10.21.13); the consuls of 295 are left to scene 7."
+  },
+  "sources": {
+    "Livy": {
+      "label": "Livy, Ab urbe condita (Latin, Conway–Walters, Oxford; Roberts 1912 English; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0914/phi001"
+    },
+    "Ovid": {
+      "label": "Ovid, Fasti (Latin, ed. J. G. Frazer; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0959/phi007"
+    },
+    "Pliny": {
+      "label": "Pliny the Elder, Naturalis historia (Latin, ed. K. Mayhoff, Teubner; Perseus Digital Library)",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0978/phi001"
+    },
+    "Smith": {
+      "label": "W. Smith (ed.), A Dictionary of Greek and Roman Biography and Mythology, s.v. Claudius no. 11, App. Claudius Caecus (Perseus text of the 1873 printing)",
+      "url": "https://github.com/PerseusDL/canonical-pdlrefwk/tree/master/data/viaf88890045/003"
+    },
+    "Pleiades": {
+      "label": "Pleiades gazetteer of ancient places (place records, via isawnyu/pleiades.datasets)",
+      "url": "https://pleiades.stoa.org/"
+    }
+  },
+  "steps": [
+    {
+      "kind": "brief",
+      "id": "b1",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b1-1",
+          "text": "Samnium, 296 BC. Last year two consular armies ranged through Samnium by different ways for five months and laid everything waste. Forty-five places are counted where Decius pitched camp, eighty-six for Fabius.",
+          "cites": [
+            "Livy 10.15.3–4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-2",
+          "text": "This year the new consuls at Rome are L. Volumnius and Ap. Claudius. The old ones have been kept in command for six months to carry on the war in Samnium. P. Decius, now proconsul, has not stopped wasting your fields. Your army has nowhere trusted itself to a battle.",
+          "cites": [
+            "Livy 10.16.1–2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-3",
+          "text": "Your envoys have often tried the Etruscans, and always in vain. Last year men from Sutrium, Nepete and Falerii reported at Rome that the peoples of Etruria were holding councils about asking for peace.",
+          "cites": [
+            "Livy 10.16.3",
+            "Livy 10.14.3"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b1-4",
+          "text": "The game seats you among the elders of the touto, whose counsel the commanders ask.",
+          "cites": [],
+          "confidence": "counterfactual"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d1",
+      "prompt": "Decius is pressing the army out of Samnium. It has refused battle all year. Where should it go?",
+      "options": [
+        {
+          "id": "etruria",
+          "label": "To Etruria, the whole army. Ask in arms for what our envoys asked in vain.",
+          "kind": "historical",
+          "kind_note": "What the Samnites did",
+          "consequence": [
+            {
+              "id": "d1-etruria-1",
+              "text": "Driven from its own land, the army makes for Etruria and demands a council of the Etruscan leaders. A column of armed men this size, it reckons, will do more than embassies did, with menace mixed into the asking.",
+              "cites": [
+                "Livy 10.16.3"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "Etruriam pulsi petierunt, et quod legationibus nequiquam saepe temptaverant, id se tanto agmine armatorum mixtis terrore precibus acturos efficacius rati, postulaverunt principum Etruriae concilium.",
+                "en": "Driven out, they made for Etruria; and reckoning that what they had often tried in vain by embassies they would bring about more effectively with so great a column of armed men, mixing menace with entreaty, they demanded a council of the leading men of Etruria.",
+                "en_src": "ours",
+                "it": "Scacciati, si diressero in Etruria; e ritenendo che ciò che avevano spesso tentato invano con le ambascerie l'avrebbero ottenuto più efficacemente con una così grande colonna di armati, mescolando il terrore alle preghiere, chiesero un'assemblea dei capi dell'Etruria.",
+                "it_src": "ours",
+                "cite": "Livy 10.16.3"
+              },
+              "note": "The Perseus text interleaves the OCT margin 'A.U.C. 458' in this sentence; removed. Roberts divides the sentence between his 10.16.2 and 10.16.3; the English is ours."
+            },
+            {
+              "id": "d1-etruria-2",
+              "text": "Behind you, Decius learns from his scouts that the army has gone. He stops raiding farms and turns on the towns.",
+              "cites": [
+                "Livy 10.17.1–3"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "stay",
+          "label": "Nowhere. Stay in Samnium, keep refusing battle, and keep the army between Decius and the towns.",
+          "kind": "counterfactual",
+          "kind_note": "No Samnite is recorded proposing this",
+          "consequence": [
+            {
+              "id": "d1-stay-1",
+              "text": "It is what the army has been doing, and it has ended with the army pushed over its own border.",
+              "cites": [
+                "Livy 10.16.2"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-stay-2",
+              "text": "Once the army is gone, the Roman commander says what its presence was worth.",
+              "cites": [
+                "Livy 10.17.2"
+              ],
+              "confidence": "attested",
+              "quote": {
+                "la": "quid per agros inquit vagamur vicatim circumferentes bellum? quin urbes et moenia adgredimur? nullus iam exercitus Samnio praesidet",
+                "en": "'Why', he said, 'do we wander through the fields, carrying the war round village by village? Why do we not attack cities and walls? No army now guards Samnium.'",
+                "en_src": "ours",
+                "it": "«Perché», disse, «vaghiamo per i campi portando la guerra di villaggio in villaggio? Perché non assaliamo città e mura? Nessun esercito ormai presidia il Sannio.»",
+                "it_src": "ours",
+                "cite": "Livy 10.17.2"
+              },
+              "note": "A speech composed for Decius. Roberts has 'making war only upon the villages' and 'the walled cities'; the English is ours."
+            },
+            {
+              "id": "d1-stay-3",
+              "text": "Whether an army that would not fight could have stayed in Samnium, or kept the towns by staying, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        },
+        {
+          "id": "campania",
+          "label": "Down into Campania, through the land of the Vescini, for plunder.",
+          "kind": "counterfactual",
+          "kind_note": "What new Samnite armies did later this year; not proposed for this army",
+          "consequence": [
+            {
+              "id": "d1-campania-1",
+              "text": "Later this year new armies raised in Samnium do exactly this, while both consuls are in Etruria. They take great plunder, and are caught with it on the Volturnus.",
+              "cites": [
+                "Livy 10.20.1–15"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d1-campania-2",
+              "text": "Whether the main army would have fared better there, with Decius behind it, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d1-outcome",
+        "text": "The Samnite army, driven out of Samnium by the proconsul Decius, went to Etruria and demanded a council of the Etruscan leaders. Livy names no route and no meeting place.",
+        "cites": [
+          "Livy 10.16.2–3"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r1",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r1-1",
+          "text": "Before the Etruscan council the Samnites set out how many years they had fought Rome for their freedom. The argument Livy gives them: they had tried everything to carry the war on their own strength; the help of neighbouring peoples had counted for little; their one hope left was the Etruscans, the richest people of Italy in arms, men and money, with the Gauls for neighbours.",
+          "cites": [
+            "Livy 10.16.4–6"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "petisse pacem a populo Romano, cum bellum tolerare non possent; rebellasse, quod pax servientibus gravior quam liberis bellum esset.",
+            "en": "They had sought peace from the Roman people when they could not bear the war; they had gone to war again because peace was heavier for men in servitude than war for free men.",
+            "en_src": "ours",
+            "it": "Avevano chiesto la pace al popolo romano, non potendo sostenere la guerra; avevano ripreso le armi perché la pace era più gravosa per chi serve che la guerra per chi è libero.",
+            "it_src": "ours",
+            "cite": "Livy 10.16.5"
+          },
+          "note": "Reported speech, composed by Livy. Roberts expands: 'a peace which reduced them to slavery … a war in which they could fight as free men'; the English is ours."
+        },
+        {
+          "id": "r1-2",
+          "text": "They offered an army ready, armed and bringing its own pay, which would follow the Etruscans at once, even to an attack on Rome itself. Livy does not report the council's answer. He next says that a huge war was being raised against Rome in Etruria from many peoples, and names its author: Gellius Egnatius, of the Samnites. Nearly all the Etruscans had resolved on war, the nearest peoples of Umbria were drawn in, Gallic auxiliaries were being sought for hire, and the whole multitude gathered at the Samnite camp.",
+          "cites": [
+            "Livy 10.16.8",
+            "Livy 10.18.1–2"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Samnitem illis exercitum paratum, instructum armis, stipendio venisse, et confestim secuturos, vel si ad ipsam Romanam urbem oppugnandam ducant.",
+            "en": "A Samnite army had come to them ready, furnished with arms and with pay, and they would follow at once, even if the Etruscans led them to attack the city of Rome itself.",
+            "en_src": "ours",
+            "it": "Un esercito sannita era venuto da loro pronto, provvisto di armi e di paga, e li avrebbero seguiti subito, anche se li avessero condotti ad assalire la stessa città di Roma.",
+            "it_src": "ours",
+            "cite": "Livy 10.16.8"
+          },
+          "note": "Roberts has 'a war chest' for stipendio; the English is ours."
+        },
+        {
+          "id": "r1-map",
+          "text": "Central Italy in 296 BC, from Samnium to Etruria and Umbria. A map of what Livy names for this year, not of a march: he gives no route to Etruria, so none is drawn, and no place for the Etruscan council or the Samnite camp, so they are a box, not a point. Murgantia, Romulea and Ferentinum, the towns stormed in Samnium, have no known sites and share a second box. Rome, Cales, Minturnae, the ager Falernus and the Volturnus are placed from Pleiades; the region names stand on its points for Etruria, Umbria and Samnium. In grey, for the year that follows: Clusium, Perusia and the land of Sentinum, which Livy names in the next campaign, and Camerinum. Ours: the positions of the two boxes, the grey towns, the sea names and the scale bar.",
+          "cites": [
+            "Livy 10.16.2–3",
+            "Livy 10.17.3–10",
+            "Livy 10.18.1–2",
+            "Livy 10.20.1–6",
+            "Livy 10.21.7–8",
+            "Livy 10.25.11",
+            "Livy 10.27.1",
+            "Livy 10.30.2",
+            "Pleiades 423025",
+            "Pleiades 432739",
+            "Pleiades 432940",
+            "Pleiades 432828",
+            "Pleiades 433211",
+            "Pleiades 413122",
+            "Pleiades 413360",
+            "Pleiades 433078",
+            "Pleiades 413096",
+            "Pleiades 413248",
+            "Pleiades 413312",
+            "Pleiades 413060",
+            "Pleiades 438790",
+            "Pleiades 438820",
+            "Pleiades 438734"
+          ],
+          "confidence": "reconstructed",
+          "figure": {
+            "kind": "map",
+            "src": "art/scenes/coalition-map.svg",
+            "alt": "Map of central Italy. Samnium is lettered in the south-east, with Cales, the ager Falernus, the river Volturnus and Minturnae near the west coast below it. Rome stands in the middle of the west coast. Etruria and Umbria are lettered to the north, with Clusium, Perusia, Camerinum and Sentinum in grey. A dashed box in Etruria reads: Etruscan council and Samnite camp, 296, place not given. A second dashed box in Samnium reads: Murgantia, Romulea, Ferentinum, sites unknown. No route is drawn.",
+            "credit": "Sites from the Pleiades gazetteer (CC BY); coastline Natural Earth (public domain)."
+          },
+          "note": "Drawn by tools/maps/coalition_map.py. Pleiades has no position for Murgantia (438790) or for the Ferentinum of this passage (438734), and calls Romulea unlocated (438820, 446286). The Pleiades record for Sinuessa was not found, so the second colony is not drawn."
+        },
+        {
+          "id": "r1-3",
+          "text": "In Samnium Decius stormed Murgantia in a single day, then Romulea by escalade, then Ferentinum, which cost more. Livy's figures: 2,100 taken at Murgantia; some 2,300 killed and 6,000 taken at Romulea; some 3,000 killed round the walls of Ferentinum. He adds that some annals give most of this to Fabius, and others to the new consuls, or to Volumnius alone.",
+          "cites": [
+            "Livy 10.17.3–12"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r1-4",
+          "text": "When the news from Etruria reached Rome, Volumnius had already left for Samnium with the second and third legions and fifteen thousand allies. Ap. Claudius was sent to Etruria at once, with the first and fourth legions and twelve thousand allies, and camped not far from the enemy. In Livy's judgement his early arrival checked some Etruscan peoples already looking to arms; his generalship did little. He fought many actions at the wrong place and time, and the enemy grew more formidable by the day.",
+          "cites": [
+            "Livy 10.18.3–6"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "brief",
+      "id": "b2",
+      "speaker": "Narrator",
+      "blocks": [
+        {
+          "id": "b2-1",
+          "text": "Later in 296. Volumnius has left Samnium, where he had taken three strongholds, and marched to join his colleague in Etruria. Decius is left to waste your fields.",
+          "cites": [
+            "Livy 10.18.8–9"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-2",
+          "text": "In Etruria the two consuls have fought together. Gellius Egnatius was away foraging with a few cohorts when the battle began, and the men went into it on their own impulse, with no one in command. The Etruscans met Volumnius; the Samnites, after hesitating because their leader was absent, met Appius. Gellius came up with his Sabellian cohorts when the line had been driven back to the camp, and the fight flared again briefly. The camp was stormed and plundered.",
+          "cites": [
+            "Livy 10.19.14–22"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "b2-3",
+          "text": "Now both consuls and the whole strength of Rome lean toward the Etruscan war. In Samnium new armies have been raised.",
+          "cites": [
+            "Livy 10.20.1"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "id": "d2",
+      "prompt": "Both consuls are in Etruria. New armies have been raised at home. What should they do?",
+      "options": [
+        {
+          "id": "raid",
+          "label": "Cross through the Vescini into Campania and the Falernian land, and plunder Rome's territory.",
+          "kind": "historical",
+          "kind_note": "What the Samnites did",
+          "consequence": [
+            {
+              "id": "d2-raid-1",
+              "text": "The armies cross through the Vescini into Campania and the Falernian land and take huge plunder.",
+              "cites": [
+                "Livy 10.20.1"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-raid-2",
+              "text": "Volumnius is already marching back to Samnium by forced marches, since the extended commands of Fabius and Decius are running out. Word of the raid turns him aside to protect the allies. In the land of Cales he sees the fresh damage himself, and the people of Cales tell him that the raiders are dragging so much plunder they can hardly form their column.",
+              "cites": [
+                "Livy 10.20.2–3"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-raid-3",
+              "text": "Your leaders, they say, now talk openly: go back to Samnium at once, leave the plunder there, come back for another raid, and do not risk so loaded a column in a fight.",
+              "cites": [
+                "Livy 10.20.3–4"
+              ],
+              "confidence": "attested"
+            }
+          ]
+        },
+        {
+          "id": "north",
+          "label": "Send them north to Gellius Egnatius. The war will be decided in Etruria.",
+          "kind": "counterfactual",
+          "kind_note": "No Samnite is recorded proposing this",
+          "consequence": [
+            {
+              "id": "d2-north-1",
+              "text": "After Volumnius takes his army out of Etruria, the report at Rome is that Etruria is roused to arms again, that Gellius Egnatius and the Umbrians are being called to revolt, and that the Gauls are being sought at a huge price.",
+              "cites": [
+                "Livy 10.21.2"
+              ],
+              "confidence": "attested",
+              "note": "The Latin sets 'Gellium Egnatium, Samnitium ducem, et Umbros' together as objects of 'ad defectionem vocari'; Roberts has the country rising 'in concert with' him."
+            },
+            {
+              "id": "d2-north-2",
+              "text": "Later Appius writes that four peoples are joining arms, Etruscans, Samnites, Umbrians and Gauls, and that they have already made two camps, since one place cannot hold such a multitude.",
+              "cites": [
+                "Livy 10.21.11–12"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-north-3",
+              "text": "Whether more Samnites in those camps would have changed anything, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        },
+        {
+          "id": "decius",
+          "label": "Keep them in Samnium and turn them on Decius, who has been left there.",
+          "kind": "counterfactual",
+          "kind_note": "No Samnite is recorded proposing this",
+          "consequence": [
+            {
+              "id": "d2-decius-1",
+              "text": "Decius has been left in Samnium to waste the fields. The extended commands of Fabius and Decius are close to their end.",
+              "cites": [
+                "Livy 10.18.9",
+                "Livy 10.20.2"
+              ],
+              "confidence": "attested"
+            },
+            {
+              "id": "d2-decius-2",
+              "text": "Whether new levies could have beaten the army that had driven the old one out of Samnium, no source can tell us.",
+              "cites": [],
+              "confidence": "counterfactual"
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "id": "d2-outcome",
+        "text": "New Samnite armies crossed through the Vescini into Campania and the Falernian land and took great plunder. Volumnius, on his way back from Etruria, caught them leaving their camp on the Volturnus.",
+        "cites": [
+          "Livy 10.20.1–9"
+        ],
+        "confidence": "attested"
+      }
+    },
+    {
+      "kind": "reveal",
+      "id": "r2",
+      "title": "What happened",
+      "blocks": [
+        {
+          "id": "r2-1",
+          "text": "From stragglers picked up by his cavalry Volumnius learned that the raiders sat on the Volturnus and would move at the third watch, for Samnium. He camped far enough off not to be noticed and came up to their camp before dawn.",
+          "cites": [
+            "Livy 10.20.5–8"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "aliquanto ante lucem ad castra accessit gnarosque Oscae linguae exploratum quid agatur mittit.",
+            "en": "Some time before daylight he approached their camp and sent some men familiar with the Oscan language to find out what was going on.",
+            "en_src": "Roberts 1912",
+            "it": "Alquanto prima dell'alba si avvicinò al campo e mandò uomini che conoscevano la lingua osca a esplorare che cosa si facesse.",
+            "it_src": "ours",
+            "cite": "Livy 10.20.8"
+          }
+        },
+        {
+          "id": "r2-2",
+          "text": "Mixed in with the enemy in the confusion of the night, they found the standards gone out with few armed men about them, the plunder and its guards on the way out, the column stuck, each man busy with his own, and no firm command. Volumnius attacked at first light. The prisoners in the column broke loose, armed themselves from the baggage, seized the Samnite commander Staius Minatius on his horse and carried him to the consul.",
+          "cites": [
+            "Livy 10.20.8–13"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-3",
+          "text": "Livy's figures: about 6,000 killed and 2,500 captured, four military tribunes among them; thirty standards; 7,400 captives recovered, with a great mass of the allies' property, which the owners were summoned by edict to identify.",
+          "cites": [
+            "Livy 10.20.15"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-4",
+          "text": "The raid had caused great alarm at Rome, and in the same days came the report from Etruria that the war was rising again. The Senate ordered a iustitium and a levy of every kind of man: cohorts of older men were formed and freedmen enrolled in centuries, and the praetor P. Sempronius had charge of the city. Volumnius' letter lifted part of the fear; the iustitium had lasted eighteen days. The Senate then resolved on two colonies for the wasted district, Minturnae and Sinuessa.",
+          "cites": [
+            "Livy 10.21.1–8"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "r2-5",
+          "text": "Appius kept writing from Etruria: four peoples were joining arms, Etruscans, Samnites, Umbrians and Gauls, and they had already made two camps. Volumnius was called back to Rome for the elections. The scene stops there.",
+          "cites": [
+            "Livy 10.21.11–13"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "kind": "cards",
+      "id": "c1",
+      "title": "The deeper cut",
+      "cards": [
+        "card-bellona",
+        "card-letter",
+        "card-three-towns",
+        "card-numbers-296",
+        "card-egnatius",
+        "card-stations"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-bellona",
+      "title": "Bellona",
+      "tier": 2,
+      "lens": "law",
+      "blocks": [
+        {
+          "id": "card-bellona-1",
+          "text": "At the crisis of the battle in Etruria Appius is said to have raised his hands to the sky among the front standards, where he could be seen, and prayed.",
+          "cites": [
+            "Livy 10.19.17"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Bellona, si hodie nobis victoriam duis, ast ego tibi templum voveo.",
+            "en": "Bellona, if today you give us victory, then I vow you a temple.",
+            "en_src": "ours",
+            "it": "Bellona, se oggi ci dai la vittoria, io ti voto un tempio.",
+            "it_src": "ours",
+            "cite": "Livy 10.19.17"
+          },
+          "note": "Livy reports the prayer with 'dicitur'. The Perseus text interleaves the OCT margin 'A.U.C. 458' and prints 'Bellona , si'; tidied. Roberts adds 'in return'; the English is ours."
+        },
+        {
+          "id": "card-bellona-2",
+          "text": "Ovid, in the book of his Fasti for June, has the same founder and the same war.",
+          "cites": [
+            "Ovid, Fasti 6.201–204"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "hac sacrata die Tusco Bellona duello / dicitur et Latio prospera semper adest. / Appius est auctor, Pyrrho qui pace negata / multum animo vidit, lumine captus erat.",
+            "en": "On this day, it is said, Bellona was consecrated in the Etruscan war, and she is always favourable to Latium. Her founder is Appius, who, when peace was refused to Pyrrhus, saw much with his mind, though he had lost his sight.",
+            "en_src": "ours",
+            "it": "In questo giorno, si dice, fu consacrata Bellona nella guerra etrusca, ed è sempre propizia al Lazio. Ne è autore Appio, che, negata la pace a Pirro, molto vide con l'animo, privo com'era della vista.",
+            "it_src": "ours",
+            "cite": "Ovid, Fasti 6.201–204"
+          },
+          "note": "Ovid too writes 'dicitur'. He calls the war Etruscan and does not name the Samnites."
+        },
+        {
+          "id": "card-bellona-3",
+          "text": "Ovid adds that a small open space before the temple looks toward the top of the Circus, and that a small column stands there, from which the spear that announces war is thrown when arms are to be taken up against a king and peoples.",
+          "cites": [
+            "Ovid, Fasti 6.205–208"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-bellona-4",
+          "text": "Pliny found a record that an Appius Claudius was the first to dedicate shields privately in a sacred or public place: he set up his ancestors in the temple of Bellona, to be seen on high and the inscriptions of their offices read.",
+          "cites": [
+            "Pliny, Natural History 35.12"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "Verum clupeos in sacro vel publico dicare privatim primus instituit, ut reperio, Appius Claudius [qui consul cum P. Servilio fuit anno urbis CCLVIIII]. posuit enim in Bellonae aede maiores suos",
+            "en": "But the first to begin dedicating shields in a sacred or public place on his own account was, as I find, Appius Claudius [who was consul with P. Servilius in the 259th year of the city]. For he set up his ancestors in the temple of Bellona",
+            "en_src": "ours",
+            "it": "Ma il primo a dedicare scudi a titolo privato in luogo sacro o pubblico fu, a quanto trovo, Appio Claudio [che fu console con P. Servilio nell'anno 259 della città]. Pose infatti i suoi antenati nel tempio di Bellona",
+            "it_src": "ours",
+            "cite": "Pliny, Natural History 35.12"
+          }
+        },
+        {
+          "id": "card-bellona-5",
+          "text": "The words in brackets make this Appius a consul of the city's 259th year, about two centuries before the year the Oxford margin gives for the vow, A.U.C. 458. Mayhoff's text prints them in square brackets, and a note of his refers to Livy 10.19.17. Which Appius Claudius hung the shields is not settled by anything we have opened.",
+          "cites": [
+            "Pliny, Natural History 35.12 (Mayhoff, text and apparatus)",
+            "Livy 10.19.17 (Conway–Walters margin)"
+          ],
+          "confidence": "inferred",
+          "note": "Mayhoff's note on the brackets reads 'uncos posuit U cum Gesnero'; we have not opened his list of sigla."
+        }
+      ]
+    },
+    {
+      "id": "card-letter",
+      "title": "The letter",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-letter-1",
+          "text": "Did Appius write to call Volumnius out of Samnium? Livy found the letter in three annals and still would not vouch for it.",
+          "cites": [
+            "Livy 10.18.7"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "litteras ad collegam accersendum ex Samnio missas in trinis annalibus invenio; piget tamen in certo ponere, cum ea ipsa inter consules populi Romani, iam iterum eodem honore fungentes, disceptatio fuerit, Appio abnuente missas, Volumnio adfirmante Appi se litteris accitum.",
+            "en": "I find in three annals that a letter was sent to summon his colleague from Samnium; yet I am loath to set it down as certain, since this very point was in dispute between consuls of the Roman people, now holding the same office for the second time, Appius denying that it was sent, Volumnius affirming that he had been summoned by Appius' letter.",
+            "en_src": "ours",
+            "it": "Trovo in tre annali che fu mandata una lettera per chiamare il collega dal Sannio; mi rincresce tuttavia darlo per certo, poiché proprio questo fu oggetto di disputa tra i consoli del popolo romano, che ricoprivano ormai per la seconda volta la stessa carica: Appio negava che fosse stata mandata, Volumnio affermava di essere stato chiamato da una lettera di Appio.",
+            "it_src": "ours",
+            "cite": "Livy 10.18.7"
+          },
+          "note": "Roberts has 'some annalists' for 'in trinis annalibus'; the English is ours."
+        },
+        {
+          "id": "card-letter-2",
+          "text": "'In certo' is Walters' reading. The Oxford apparatus gives the manuscripts' reading as 'incertum' and records another conjecture, 'id certum'. For 'disceptatio' it reports that most manuscripts have 'discrepatio'.",
+          "cites": [
+            "Livy 10.18.7 (Conway–Walters apparatus)"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-letter-3",
+          "text": "Livy then gives his own guess, marked as one: Appius' temper came from his conscience. He was justly angry if he had written nothing; if he had needed the help, he was hiding it in a mean and ungrateful spirit.",
+          "cites": [
+            "Livy 10.18.10"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-letter-4",
+          "text": "As Livy tells the meeting, Appius asked what had brought Volumnius out of his province. Volumnius answered that things in Samnium went well and that he had come at Appius' letter; if it was false he would turn his standards about at once. The legates and tribunes of Appius' army stopped him, and the soldiers shouted for both consuls to fight the Etruscan war together.",
+          "cites": [
+            "Livy 10.18.11–14",
+            "Livy 10.19.1–10"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-three-towns",
+      "title": "Murgantia, Romulea, Ferentinum",
+      "tier": 2,
+      "lens": "econ",
+      "blocks": [
+        {
+          "id": "card-three-towns-1",
+          "text": "None of the three towns has a known site. Pleiades calls Murgantia strongly fortified, taken by Decius, and now unlocated; it lists Romulea as unlocated; and it has an unlocated Ferentinum from sheet 44 of the Barrington Atlas, separate from the Hernican Ferentinum on the Via Latina.",
+          "cites": [
+            "Pleiades 438790",
+            "Pleiades 438820",
+            "Pleiades 446286",
+            "Pleiades 438734",
+            "Pleiades 432830"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-three-towns-2",
+          "text": "Livy makes the plunder the method. After Murgantia Decius has the booty sold, so that the column is not loaded with baggage, and tells the men to draw the trader after the army with the profit: he will keep them supplied with things to sell. The same is done after Romulea.",
+          "cites": [
+            "Livy 10.17.4–9"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-three-towns-3",
+          "text": "Livy did not know who commanded. In some annals most of the credit goes to Fabius: Murgantia to Decius, Ferentinum and Romulea to Fabius. Others give it to the new consuls, and some to one of them only, L. Volumnius, to whom they say Samnium had fallen as his province. Livy moves on with the words 'under whoever's command and auspices'.",
+          "cites": [
+            "Livy 10.17.11–12",
+            "Livy 10.18.1"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-three-towns-4",
+          "text": "The praenomen L. is Sigonius' correction; the Oxford apparatus gives the manuscripts' reading as p. and refers to the Fasti (CIL I² p. 132).",
+          "cites": [
+            "Livy 10.17.12 (Conway–Walters apparatus)"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-three-towns-5",
+          "text": "Smith's Dictionary has Appius himself command 'at first in Samnium with some success' in this consulship, citing Livy 10.17 and an inscription, Orelli no. 539. We could not open that inscription in any edition, so its words are not given here.",
+          "cites": [
+            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Claudius no. 11"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-numbers-296",
+      "title": "Livy's numbers for 296",
+      "tier": 2,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-numbers-296-1",
+          "text": "Livy numbers the legions of the year: the second and third with Volumnius, with fifteen thousand allies; the first and fourth with Appius, with twelve thousand.",
+          "cites": [
+            "Livy 10.18.3–4"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-numbers-296-2",
+          "text": "For the battle in Etruria the Oxford text prints 7,800 enemy dead and 2,120 prisoners. Its apparatus marks 'octingenti' as the editors' reading and gives the manuscripts as 'accc' or 'acccc'. Roberts' translation has 6,900 killed.",
+          "cites": [
+            "Livy 10.19.22 (Conway–Walters apparatus)",
+            "Livy 10.19.22 (Roberts 1912)"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-numbers-296-3",
+          "text": "In Samnium before he left, Volumnius took three strongholds, with about 3,000 killed and about half as many captured, on Livy's figures.",
+          "cites": [
+            "Livy 10.18.8"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-numbers-296-4",
+          "text": "On the Volturnus: about 6,000 killed, 2,500 captured, thirty standards, 7,400 captives recovered. Whatever found no owner by the day set was given to the soldiers, who were made to sell it, so that their minds should be on nothing but their arms.",
+          "cites": [
+            "Livy 10.20.15–16"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-egnatius",
+      "title": "Gellius Egnatius",
+      "tier": 1,
+      "lens": "war",
+      "blocks": [
+        {
+          "id": "card-egnatius-1",
+          "text": "Livy first names him as the author of the war in Etruria, 'ex Samnitibus'. He does not say that Egnatius led the march from Samnium, or that he spoke before the Etruscan council.",
+          "cites": [
+            "Livy 10.18.1",
+            "Livy 10.16.3–8"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-egnatius-2",
+          "text": "In the battle against the two consuls he is 'Samnitium dux', away foraging with a few cohorts when it began; he came up with 'Sabellian cohorts' when the line had been driven to the camp. In the report that reached Rome later in the year he is again 'Samnitium dux'.",
+          "cites": [
+            "Livy 10.19.14",
+            "Livy 10.19.20",
+            "Livy 10.21.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-egnatius-3",
+          "text": "Money runs through Livy's account of the coalition. The Samnite army came with its pay; the Gallic auxiliaries were sought 'mercede', for hire, and later 'pretio ingenti', at a huge price. He names no sums.",
+          "cites": [
+            "Livy 10.16.8",
+            "Livy 10.18.2",
+            "Livy 10.21.2"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-egnatius-4",
+          "text": "The commander taken on the Volturnus is printed Staius Minatius in the Oxford text. Roberts' translation has Statius Minacius.",
+          "cites": [
+            "Livy 10.20.13",
+            "Livy 10.20.13 (Roberts 1912)"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    },
+    {
+      "id": "card-stations",
+      "title": "Minturnae and Sinuessa",
+      "tier": 1,
+      "lens": "econ",
+      "blocks": [
+        {
+          "id": "card-stations-1",
+          "text": "After the raid the Senate resolved on two colonies about the Vescine and Falernian land: one at the mouth of the Liris, called Minturnae; the other in the saltus Vescinus where it touches the Falernian land, where a Greek city Sinope is said to have stood, named Sinuessa by the Roman colonists.",
+          "cites": [
+            "Livy 10.21.7–8"
+          ],
+          "confidence": "attested",
+          "note": "The Oxford text prints Sigonius' 'Vescinos' at 10.20.1 for the manuscripts' 'uestinos', and 'Vescinum' and 'Vescino' here on the same ground."
+        },
+        {
+          "id": "card-stations-2",
+          "text": "The tribunes of the plebs were charged with a plebiscite ordering the praetor P. Sempronius to appoint three commissioners to lead the colonists out. Volunteers were hard to find.",
+          "cites": [
+            "Livy 10.21.9–10"
+          ],
+          "confidence": "attested",
+          "quote": {
+            "la": "nec qui nomina darent facile inveniebantur, quia in stationem se prope perpetuam infestae regionis, non in agros mitti rebantur.",
+            "en": "Nor were men easily found to give in their names, because they reckoned they were being sent to an all but permanent outpost in a hostile region, not onto land.",
+            "en_src": "ours",
+            "it": "Né si trovava facilmente chi desse il proprio nome, perché ritenevano di essere mandati a un presidio quasi perpetuo in una regione infestata dai nemici, non nei campi.",
+            "it_src": "ours",
+            "cite": "Livy 10.21.10"
+          },
+          "note": "The English is ours."
+        },
+        {
+          "id": "card-stations-3",
+          "text": "Pleiades places Minturnae on the Garigliano, the ancient Liris, and dates the colony to 296 BC.",
+          "cites": [
+            "Pleiades 432940"
+          ],
+          "confidence": "attested"
+        },
+        {
+          "id": "card-stations-4",
+          "text": "The district stays a target. In the next year, on Livy's account, Samnites again came down to plunder the Vescine and Formian land, and elsewhere the land of Aesernia and along the Volturnus.",
+          "cites": [
+            "Livy 10.31.2"
+          ],
+          "confidence": "attested"
+        }
+      ]
+    }
+  ]
+}
