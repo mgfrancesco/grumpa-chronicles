@@ -45,7 +45,7 @@
   </g>
   <text x="380" y="482" text-anchor="middle" font-size="23" fill="#3a2a1e">Romani</text>
 
-  <!-- 1: Iunius moves first against the Samnite right (9.40.9) -->
+  <!-- 1: Iunius first to shake the Samnite right (9.40.9) -->
   <path d="M255 334 V166" stroke="#9b2d20" stroke-width="5" marker-end="url(#ah)"/>
   <!-- 2: the dictator drives on his own wing (9.40.10–11) -->
   <path d="M505 334 V166" stroke="#9b2d20" stroke-width="5" stroke-dasharray="12 7" marker-end="url(#ah)"/>
@@ -61,7 +61,7 @@
   </g>
 
   <g font-size="20" fill="#3a2a1e">
-    <text x="30" y="522">1  Iunius moves first and drives in the Samnite right.</text>
+    <text x="30" y="522">1  Iunius is the first to shake the enemy: his left drives in the Samnite right.</text>
     <text x="30" y="548">2  The dictator drives on his own wing.</text>
     <text x="30" y="574">3  Decius and Valerius take the horse into both flanks.</text>
     <text x="30" y="600">4  The legions press on with a fresh shout; the Samnites break.</text>

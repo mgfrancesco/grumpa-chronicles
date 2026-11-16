@@ -14,7 +14,6 @@
     <path d="M250 340 V462 H266 V340Z" fill="#e2bf98"/>
     <path d="M274 340 V462 H290 V340Z" fill="#e2bf98"/>
     <path d="M271 392 H293 V458 H271Z" fill="#8c6a3c"/>
-    <path d="M244 462 H268 V470 H244Z M272 462 H296 V470 H272Z" fill="#5b3d24"/>
     <!-- right arm, hanging empty: Livy names no weapon -->
     <path d="M224 168 L208 296 L222 298 L238 176Z" fill="#e2bf98"/>
     <circle cx="214" cy="302" r="8" fill="#e2bf98"/>
@@ -26,7 +25,7 @@
     <path d="M247 128 Q247 100 270 100 Q293 100 293 128 Z" fill="#8c6a3c"/>
     <path d="M263 102 Q257 74 270 52 Q283 74 277 102 Z" fill="#5b3d24"/>
     <!-- the shield: broad and level at the top over chest and shoulders, narrowing below -->
-    <path d="M212 160 H328 L296 376 H244 Z" fill="#d6aa45" stroke="#6b4a1e" stroke-width="3"/>
+    <path d="M212 160 H328 L298 326 H242 Z" fill="#d6aa45" stroke="#6b4a1e" stroke-width="3"/>
   </g>
 
   <!-- ===== the silvered soldier (argentati), shield held aside ===== -->
@@ -34,7 +33,6 @@
     <path d="M480 340 V462 H496 V340Z" fill="#e2bf98"/>
     <path d="M504 340 V462 H520 V340Z" fill="#e2bf98"/>
     <path d="M501 392 H523 V458 H501Z" fill="#8c6a3c"/>
-    <path d="M474 462 H498 V470 H474Z M502 462 H526 V470 H502Z" fill="#5b3d24"/>
     <path d="M454 168 L440 296 L454 298 L468 176Z" fill="#e2bf98"/>
     <circle cx="446" cy="302" r="8" fill="#e2bf98"/>
     <!-- left arm reaching out to the shield -->
@@ -54,7 +52,7 @@
   <g stroke="#3a2a1e" stroke-width="1.4" fill="none">
     <path d="M160 82 L258 72"/>
     <path d="M170 156 L212 161"/>
-    <path d="M196 352 L240 352"/>
+    <path d="M112 318 L240 318"/>
     <path d="M412 206 L480 206"/>
     <path d="M600 482 L524 430"/>
   </g>
@@ -66,8 +64,8 @@
     <text x="16" y="88" font-style="italic">galea cristata</text>
     <text x="16" y="150" font-style="italic">summum latius,</text>
     <text x="16" y="175" font-style="italic">fastigio aequali</text>
-    <text x="16" y="358" font-style="italic">ad imum</text>
-    <text x="16" y="383" font-style="italic">cuneatior</text>
+    <text x="16" y="312" font-style="italic">ad imum</text>
+    <text x="16" y="337" font-style="italic">cuneatior</text>
     <text x="340" y="213" font-style="italic">spongia</text>
     <text x="604" y="490" font-style="italic">ocrea,</text>
     <text x="604" y="515" font-style="italic">sinistrum crus</text>

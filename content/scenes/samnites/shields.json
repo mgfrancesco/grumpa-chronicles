@@ -15,7 +15,7 @@
   "verified": {
     "by": "checker agent, three passes",
     "date": "2026-11-15",
-    "notes": "Voice pass (15 Nov 2026, checker agent, two passes): briefs, consequences and kind_notes rewritten in the scene's voice per CLAUDE.md; ids, cites and confidence unchanged. Checker compared old and new wording for claims made stronger than the source. Hedges kept in the scene's voice: Papirius 'reckoned' the first soldier (9.38.8 in quo tum summa rei bellicae ponebatur); the Samnites' envy 'a certain envy' (invidia quadam) and its reason as the Samnites saw it (quod… avertisset, subjunctive), since the rumour was false; the Roman generals' speech 'it is said' (9.40.4–6, Livy's indirect speech); Diodorus' Iapygian raids kept in the past, before Marcius took Allifae (20.35.2 διόπερ ἠναγκάσθησαν); Strabo's Lucanian genealogy 'said to be'. Fixed after the first pass: b1-4, d2-plain-1 and its tag; tightened b2-3 ('Livy's manuscripts'), b2-photo (from 'the Greeks who held it', Strabo 6.1.1; Poseidonia/Paestum, 5.4.13), splendour tag. Second pass confirmed all. Checked 15 Nov 2026 (checker agent, three passes). First pass found five errors (Lake Vadimo deleted as a gloss in the OCT; 'later in the war' for 296; the belt's date gap; Ovius Paccius' role; the tribune's question at 9.34.12), a mislabelled option ('plain' is counterfactual: no Samnite proposed it), a misleading Diodorus label, file-title dates on the Paestum photos, and an unsourced hint at the dictator year; all fixed. Second and third passes confirmed the fixes; Strabo 5.4.13 added for Poseidonia = Paestus. The Varronian dictator year (309) is not asserted: the Fasti and Broughton were not opened. d2 has two counterfactual options beside the historical one, as in Lautulae d2. Researcher's draft notes (2026-11-15). Livy cited by the Conway–Walters (OCT, vol. II, 1919) section numbers in Perseus lat3, checked against lat4 (same text) and Weissenborn–Müller (lat2). Section numbers differ in 9.38–9.40: W–M and Roberts number Fabius' nomination of Papirius 9.38.14 (OCT 9.38.12), the Faucian curia 9.38.15–16 (OCT 9.38.13–14), the triumph 9.40.15 (OCT 9.40.14), the argentariae 9.40.16 (OCT 9.40.15) and the Campanian gladiators 9.40.17 (OCT 9.40.16); Roberts also renumbers 9.39 and 9.40.4–14. Quotations are attributed by OCT numbers. OCT 9.40.3 includes the words 'his vaginae argenteae, baltea argentea: auratae vaginae, aurea baltea illis erant, et equorum inaurata tapeta', which are not in the manuscripts (see card-lost-sentence); W–M and Roberts omit them. W–M read 'caelaverant' at 9.40.2, OCT 'caelaverunt'. Consul's name: OCT 'Rutulus' (Conway), W–M and Roberts 'Rutilus'. Perseus OCR errors ignored: lat3/lat4 'multitude' (9.38.3), 'earn' (9.38.14), 'tune' (9.39.9), 'cetoros' (9.40.1), 'speeiem' (9.40.3), 'lunius' (9.40.9), 'triumph' doubled (9.40.14), 'reliqniis' (9.40.17), 'baud' (9.32.5, 10.16.5), 'done' (10.16.2), 'oppulentissimam' (10.16.6), 'eventurn' (10.39.11); the marginal 'A.U.C. 464' at 9.40.6 is garbled and not used; lat2 'silvanr' (9.38.4), 'turn' (9.38.9, 9.40.13), 'certamiine' (9.39.6), 'incipereret' (9.40.8). Silius (Perseus lat2, Summers) prints 'exhilar<ar>e' with the added syllable marked and uses u for consonantal v; normalised to v here. Strabo 5.4.13 (Perseus grc2, Meineke 1877): Meineke deletes 'συν' in 'συνδείπνων', so the quotation stops before that clause. Roberts' English is not used where it misleads: 'at midnight' for 'nocte silentio' (9.38.12), 'coats of chain armour' for 'spongia' (9.40.3), 'silversmiths' shops' and the expanded tensae gloss (9.40.15), 'inspire dread' for 'horridum' (9.40.4); our English is used there. Years BC are conventional, counted by consular years from the one Roberts prints near here (312 at 9.29.5); no modern chronological study and no edition of the Fasti were opened. Oakley's commentary, Northwood's 1996 CQ article on Livy 9.40 and the Walters–Conway CQ 1918 article were not opened (Cambridge Core unreachable in this session); the 1918 article is cited only as the OCT apparatus cites it. Photos: Met 08.3a has a full museum record via its Commons file page; the dates in the two Paestum file titles (Carole Raddato's Flickr uploads) are not used; no source opened dates the paintings."
+    "notes": "Final review (16 Nov 2026, checker agent on Fable, 66 blocks and both new drawings, sources reopened): fixed r2-1, r2-order and the battle diagram, which had Iunius 'move first' where Livy has the lines meet together and Iunius happen to be the first to shake the enemy (9.40.8–9 simul est concursum… prior forte Iunius commovit hostem); r1-2 (both clauses hang on satis fidebant, 9.38.9); d2-plain-2 hedged as a composed speech (10.39.11); card-shields-forum-2 (Cicero has one shield); Italian of 9.40.4; b2-3 no longer names Livy's manuscripts in a brief (the Vadimo point stays in its note). Drawings art/scenes/samnite-soldier.svg (9.40.2–3) and art/scenes/shields-battle.svg (9.40.3, 9.40.7–13) checked element by element: shoes removed, gilded shield shortened to show the tunic, legend line 1 corrected. Voice pass (15 Nov 2026, checker agent, two passes): briefs, consequences and kind_notes rewritten in the scene's voice per CLAUDE.md; ids, cites and confidence unchanged. Checker compared old and new wording for claims made stronger than the source. Hedges kept in the scene's voice: Papirius 'reckoned' the first soldier (9.38.8 in quo tum summa rei bellicae ponebatur); the Samnites' envy 'a certain envy' (invidia quadam) and its reason as the Samnites saw it (quod… avertisset, subjunctive), since the rumour was false; the Roman generals' speech 'it is said' (9.40.4–6, Livy's indirect speech); Diodorus' Iapygian raids kept in the past, before Marcius took Allifae (20.35.2 διόπερ ἠναγκάσθησαν); Strabo's Lucanian genealogy 'said to be'. Fixed after the first pass: b1-4, d2-plain-1 and its tag; tightened b2-3 ('Livy's manuscripts'), b2-photo (from 'the Greeks who held it', Strabo 6.1.1; Poseidonia/Paestum, 5.4.13), splendour tag. Second pass confirmed all. Checked 15 Nov 2026 (checker agent, three passes). First pass found five errors (Lake Vadimo deleted as a gloss in the OCT; 'later in the war' for 296; the belt's date gap; Ovius Paccius' role; the tribune's question at 9.34.12), a mislabelled option ('plain' is counterfactual: no Samnite proposed it), a misleading Diodorus label, file-title dates on the Paestum photos, and an unsourced hint at the dictator year; all fixed. Second and third passes confirmed the fixes; Strabo 5.4.13 added for Poseidonia = Paestus. The Varronian dictator year (309) is not asserted: the Fasti and Broughton were not opened. d2 has two counterfactual options beside the historical one, as in Lautulae d2. Researcher's draft notes (2026-11-15). Livy cited by the Conway–Walters (OCT, vol. II, 1919) section numbers in Perseus lat3, checked against lat4 (same text) and Weissenborn–Müller (lat2). Section numbers differ in 9.38–9.40: W–M and Roberts number Fabius' nomination of Papirius 9.38.14 (OCT 9.38.12), the Faucian curia 9.38.15–16 (OCT 9.38.13–14), the triumph 9.40.15 (OCT 9.40.14), the argentariae 9.40.16 (OCT 9.40.15) and the Campanian gladiators 9.40.17 (OCT 9.40.16); Roberts also renumbers 9.39 and 9.40.4–14. Quotations are attributed by OCT numbers. OCT 9.40.3 includes the words 'his vaginae argenteae, baltea argentea: auratae vaginae, aurea baltea illis erant, et equorum inaurata tapeta', which are not in the manuscripts (see card-lost-sentence); W–M and Roberts omit them. W–M read 'caelaverant' at 9.40.2, OCT 'caelaverunt'. Consul's name: OCT 'Rutulus' (Conway), W–M and Roberts 'Rutilus'. Perseus OCR errors ignored: lat3/lat4 'multitude' (9.38.3), 'earn' (9.38.14), 'tune' (9.39.9), 'cetoros' (9.40.1), 'speeiem' (9.40.3), 'lunius' (9.40.9), 'triumph' doubled (9.40.14), 'reliqniis' (9.40.17), 'baud' (9.32.5, 10.16.5), 'done' (10.16.2), 'oppulentissimam' (10.16.6), 'eventurn' (10.39.11); the marginal 'A.U.C. 464' at 9.40.6 is garbled and not used; lat2 'silvanr' (9.38.4), 'turn' (9.38.9, 9.40.13), 'certamiine' (9.39.6), 'incipereret' (9.40.8). Silius (Perseus lat2, Summers) prints 'exhilar<ar>e' with the added syllable marked and uses u for consonantal v; normalised to v here. Strabo 5.4.13 (Perseus grc2, Meineke 1877): Meineke deletes 'συν' in 'συνδείπνων', so the quotation stops before that clause. Roberts' English is not used where it misleads: 'at midnight' for 'nocte silentio' (9.38.12), 'coats of chain armour' for 'spongia' (9.40.3), 'silversmiths' shops' and the expanded tensae gloss (9.40.15), 'inspire dread' for 'horridum' (9.40.4); our English is used there. Years BC are conventional, counted by consular years from the one Roberts prints near here (312 at 9.29.5); no modern chronological study and no edition of the Fasti were opened. Oakley's commentary, Northwood's 1996 CQ article on Livy 9.40 and the Walters–Conway CQ 1918 article were not opened (Cambridge Core unreachable in this session); the 1918 article is cited only as the OCT apparatus cites it. Photos: Met 08.3a has a full museum record via its Commons file page; the dates in the two Paestum file titles (Carole Raddato's Flickr uploads) are not used; no source opened dates the paintings."
   },
   "sources": {
     "Livy": {
@@ -248,7 +248,7 @@
         },
         {
           "id": "r1-2",
-          "text": "At Rome the senators wanted a dictator, and no one doubted it should be L. Papirius Cursor. But no messenger could safely reach Samnium, and no one was sure Marcius was alive. The other consul, Fabius, was Papirius' private enemy. The Senate sent former consuls to ask him to put the feud aside. He heard them with his eyes on the ground and withdrew without a word.",
+          "text": "At Rome the senators wanted a dictator, and no one doubted it should be L. Papirius Cursor. But no one trusted that a messenger could get through to Samnium safely, or that Marcius was alive. The other consul, Fabius, was Papirius' private enemy. The Senate sent former consuls to ask him to put the feud aside. He heard them with his eyes on the ground and withdrew without a word.",
           "cites": [
             "Livy 9.38.8–12"
           ],
@@ -306,7 +306,7 @@
         },
         {
           "id": "b2-3",
-          "text": "In Etruria the Etruscans have raised an army under a lex sacrata, each man choosing another, fought Rome harder than ever before, and lost. Livy's manuscripts put the battle at Lake Vadimo; the Oxford text removes the place-name as a gloss.",
+          "text": "In Etruria the Etruscans have raised an army under a lex sacrata, each man choosing another, fought Rome harder than ever before, and lost.",
           "cites": [
             "Livy 9.39.4–10"
           ],
@@ -421,7 +421,7 @@
                 "la": "horridum militem esse debere, non caelatum auro et argento sed ferro et animis fretum",
                 "en": "That a soldier ought to be rough, not chased with gold and silver, but relying on iron and on courage.",
                 "en_src": "ours",
-                "it": "Che il soldato dev'essere ispido, non cesellato d'oro e d'argento, ma fidando nel ferro e nel coraggio.",
+                "it": "Che il soldato dev'essere ispido, non cesellato d'oro e d'argento, ma fiducioso nel ferro e nel coraggio.",
                 "it_src": "ours",
                 "cite": "Livy 9.40.4"
               },
@@ -429,7 +429,7 @@
             },
             {
               "id": "d2-plain-2",
-              "text": "Years later the dictator's son, as consul, said the same to his army before facing another splendid Samnite army, and pointed to this battle.",
+              "text": "Years later the dictator's son, as consul, is said to have told his army the same before facing another splendid Samnite army, pointing to this battle.",
               "cites": [
                 "Livy 10.39.11–13"
               ],
@@ -508,7 +508,7 @@
       "blocks": [
         {
           "id": "r2-soldier",
-          "text": "The new arms as Livy describes them: the shield broad and level at the top, where it covers chest and shoulders, and narrowing to a wedge below for ease of movement; a spongia over the chest; a greave on the left leg; a crested helmet. The gilded men wore tunics of many colours, the silvered men white linen. A diagram of his words. Ours: the colours and stripes, the shape of the helmet and of the spongia, the stance and the proportions. Livy names no weapon, so none is drawn.",
+          "text": "The new arms as Livy describes them: the shield broad and level at the top, where it covers chest and shoulders, and narrowing to a wedge below for ease of movement; a spongia over the chest; a greave on the left leg; a crested helmet. The gilded men wore tunics of many colours, the silvered men white linen. A diagram of his words. The men face you, so the left leg is on your right. Ours: the colours and stripes, the shape of the helmet and of the spongia, the stance and the proportions. Livy's manuscripts name no weapon, so none is drawn; the scabbards and belts of the sentence quoted by Nonius are left out too (see the card A sentence from Nonius).",
           "cites": [
             "Livy 9.40.2–3"
           ],
@@ -521,7 +521,7 @@
         },
         {
           "id": "r2-1",
-          "text": "Papirius took the right wing and gave the left to his master of horse, C. Iunius. Iunius moved first, against your right, where the sacrati stood in white.",
+          "text": "Papirius took the right wing and gave the left to his master of horse, C. Iunius. The lines met together. Iunius, as it happened, was the first to shake yours: his left drove in your right, where the sacrati stood in white.",
           "cites": [
             "Livy 9.40.7–9"
           ],
@@ -538,7 +538,7 @@
         },
         {
           "id": "r2-2",
-          "text": "Unwilling to let the victory begin on the left, the dictator drove on his own wing. His legates, M. Valerius and P. Decius, both former consuls, rode to the horsemen on the wings and charged your flanks. The legions raised the shout again and your line broke. The camp was taken, plundered and burned before nightfall.",
+          "text": "Unwilling to let the victory begin on the left, the dictator drove on his own wing. His legates, M. Valerius from the right wing and P. Decius from the left, both former consuls, rode out to the horsemen on the wings and charged your flanks. The legions raised the shout again and your line broke. The camp was taken, plundered and burned before nightfall.",
           "cites": [
             "Livy 9.40.10–13"
           ],
@@ -555,7 +555,7 @@
         },
         {
           "id": "r2-order",
-          "text": "The battle in the order Livy gives it. Iunius, on the Roman left, moved first against your right, the silvered wing, where the sacrati stood in white. The dictator then drove on his own wing against the gilded. The legates M. Valerius, from the right, and P. Decius, from the left, rode out to the horse on the wings and took it into both your flanks; the legions pressed on with a fresh shout and the line broke. A diagram of his words. Ours: the Romans drawn below, the spacing and the size of the blocks. Livy gives no ground, numbers or distances.",
+          "text": "The battle in the order Livy gives it, numbered as in the account above. A diagram of his words. Ours: the Romans drawn below, the spacing and the size of the blocks. Livy gives no ground, numbers or distances.",
           "cites": [
             "Livy 9.40.3",
             "Livy 9.40.7–13"
@@ -564,7 +564,7 @@
           "figure": {
             "kind": "drawing",
             "src": "art/scenes/shields-battle.svg",
-            "alt": "Diagram of the battle order. Above, the Samnites: on their right the silvered men and the sacrati in white, on their left the gilded men in tunics of many colours. Below, the Romans: C. Iunius, master of horse, on the left wing facing the Samnite right; L. Papirius, dictator, on the right wing; horse on both wings under P. Decius on the left and M. Valerius on the right. Numbered arrows: first Iunius advances, second the dictator, third the horse round both flanks."
+            "alt": "Diagram of the battle order. Above, the Samnites: on their right the silvered men and the sacrati in white, on their left the gilded men in tunics of many colours. Below, the Romans: C. Iunius, master of horse, on the left wing facing the Samnite right; L. Papirius, dictator, on the right wing; horse on both wings, to which the legates P. Decius, on the left, and M. Valerius, on the right, ride out. Numbered arrows: first Iunius drives in the Samnite right, second the dictator urges on his own wing, third the horse round both flanks. A fourth line of the key: the legions press on and the Samnites break."
           }
         },
         {
@@ -772,7 +772,7 @@
         },
         {
           "id": "card-shields-forum-2",
-          "text": "Shields still hung by the Forum shops in Marius' time. In Cicero's dialogue C. Iulius tells how he pointed at a Gaul painted on a Cimbric shield of Marius below the New Shops, to show the man he was mocking what he looked like.",
+          "text": "A shield hung by the Forum shops in Marius' time. In Cicero's dialogue C. Iulius tells how he pointed at a Gaul painted on a Cimbric shield of Marius below the New Shops, to show the man he was mocking what he looked like.",
           "cites": [
             "Cicero, De oratore 2.266",
             "Quintilian 6.3.38"
