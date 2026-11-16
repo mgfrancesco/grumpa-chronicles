@@ -2,7 +2,7 @@
 
 Modelled on tools/maps/samnite_campaign.py (same style, same sources). It shows only places
 Livy names in 10.16-10.21 (296 BC) and, in grey lettering, three he names in the next year's
-narrative (Clusium 10.25.11, ager Sentinas 10.27.1, Perusia 10.30.2) plus Camerinum, so the
+narrative (Clusium 10.25.11, ager Sentinas 10.27.1, Perusia 10.30.2), so the
 Sentinum scene can reuse the map. Livy gives no route for the Samnite march to Etruria in 296,
 and no place for the Etruscan council or the allied camp: no route is drawn, and the camp is a
 labelled box, never a point. Murgantia, Romulea and Ferentinum have no known sites (Pleiades
@@ -30,7 +30,6 @@ PLACES = {
     'Roma': (423025, 12.491258, 41.889977),
     'Clusium': (413096, 11.947736, 43.016515),
     'Perusia': (413248, 12.389909, 43.111192),
-    'Camerinum': (413060, 13.068764, 43.140369),
     'Sentinum': (413312, 12.855963, 43.427013),
     'Cales': (432739, 14.132125, 41.199961),
     'Minturnae': (432940, 13.768418, 41.242153),
@@ -94,14 +93,14 @@ def note_box(cx, cy, w, lines):
 # Unlocated: label boxes only. Positions are label positions, not sites.
 cx1, cy1 = xy(11.62, 43.38)
 camp = note_box(cx1, cy1, 252, [('Etruscan council and', True), ('Samnite camp, 296', True), ('place not given', False)])
-cx2, cy2 = xy(14.52, 42.02)
-towns = note_box(cx2, cy2, 268, [('Murgantia, Romulea,', True), ('Ferentinum', True), ('sites unknown', False)])
+cx2, cy2 = xy(14.01, 41.95)
+towns = note_box(cx2, cy2, 216, [('Murgantia, Romulea,', True), ('Ferentinum', True), ('sites unknown', False)])
 
 vx, vy = xy(*PLACES['Volturnus'][1:])
 km50 = 50 / 111 * KY
 bx, by = 26, H - 22
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Map of central Italy in 296 BC: Samnium in the south-east; Cales, the ager Falernus, the Volturnus and Minturnae in Campania; Rome; Etruria and Umbria to the north, with Clusium, Perusia, Camerinum and Sentinum. The Samnite camp in Etruria and the towns Murgantia, Romulea and Ferentinum are labelled boxes without a site. No route is drawn.">
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Map of central Italy in 296 BC: Samnium in the south-east; Cales, the ager Falernus, the Volturnus and Minturnae near the west coast; Rome; Etruria and Umbria to the north, with Clusium, Perusia and Sentinum. The Samnite camp in Etruria and the towns Murgantia, Romulea and Ferentinum are labelled boxes without a site. No route is drawn.">
 <rect width="{W}" height="{H}" fill="{SEA}"/>
 <path d="{land_d}" fill="{LAND}" stroke="#7a5a3a" stroke-width="1.3" fill-rule="evenodd"/>
 {label(*SEAS['MARE INFERVM'], 'MARE INFERVM', 19)}
@@ -114,7 +113,6 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 {town('Roma', 12, 4, 'start', 23)}
 {town('Clusium', -10, 22, 'end', 20, GREY, GREY)}
 {town('Perusia', 6, 26, 'start', 20, GREY, GREY)}
-{town('Camerinum', 12, 4, 'start', 20, GREY, GREY)}
 {town('Sentinum', 12, -4, 'start', 20, GREY, GREY)}
 {town('Minturnae', -10, -8, 'end')}
 {town('Cales', 12, 2, 'start')}

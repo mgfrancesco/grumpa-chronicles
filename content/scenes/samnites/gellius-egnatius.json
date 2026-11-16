@@ -12,11 +12,11 @@
     "econ",
     "law"
   ],
-  "status": "draft",
+  "status": "checked",
   "verified": {
-    "by": "not yet checked",
-    "date": "",
-    "notes": "Researcher's draft notes (2026-11-16). Not yet checked. Livy cited by the Conway–Walters (OCT) section numbers in Perseus lat3; Weissenborn–Müller (lat2) was not compared for this scene. Roberts 1912 (Perseus eng3) numbers several sections differently in 10.16–10.21 (his 10.16.2 runs into OCT 10.16.3; his 10.18.2 = OCT 10.18.1 end and 10.18.2; his 10.18.6–7 = OCT 10.18.6–7; his 10.19.16–17 = OCT 10.19.16–17 shifted by a clause; his 10.20.8–9 = OCT 10.20.8). Roberts is quoted once, at 10.20.8 (first sentence), where he is accurate; elsewhere the English is ours because he is loose: 'some annalists' for 'in trinis annalibus' (10.18.7), 'a peace which reduced them to slavery … a war in which they could fight as free men' (10.16.5), 'a war chest' for 'stipendio' (10.16.8), 'the country round Capua' for 'in Campaniam' and 'feudatories of Rome' for 'imperii Romani fines' (10.20.1), 'Menturna' (10.21.8), 'Statius Minacius' (10.20.13), and 6,900 dead at 10.19.22 where the Oxford text prints 'septem milia octingenti'. Perseus lat3 layout and OCR fixes in passages quoted: the OCT margin 'A.U.C. 458' interleaved in 10.16.3 and 10.19.17 removed; 'Bellona , si' closed up (10.19.17); the apparatus notes at 10.18.7 removed from the quotation and reported in card-letter. Not quoted but seen: 'donec done' (10.16.2), 'haud baud' (10.16.5, 10.17.6), 'opulentissimam oppulentissimam' (10.16.6), 'Samnitibus Sannitibus' and 'tusci' (10.18.1–2), 'huc hue' (10.18.13), 'tumultu tunultu' (10.20.11). Ovid, Fasti, from Perseus lat2 (ed. J. G. Frazer); lines 6.199–208 read; we did not work out the calendar day from the preceding lines, so the card says only 'on this day' and that the passage stands in the book for June. Pliny, Natural History 35.12, from Perseus lat2 (ed. K. Mayhoff): the square brackets round 'qui consul … CCLVIIII' are in the file, with an apparatus note 'uncos posuit U cum Gesnero' and a marginal 'cfr. Liv. X 19, 17'; we did not open Mayhoff's list of sigla, so 'U' is not expanded. The elogium of Appius Claudius Caecus (the Arretium copy) could not be opened in any edition or database, so neither its text nor a corpus number is given; the only trace used is Smith's reference 'Orelli, Inscr. No. 539', cited as Smith's. Pleiades from isawnyu/pleiades.datasets data/gis/places.csv (ids 423025 Roma, 413096 Clusium, 413248 Perusia, 413060 Camerinum, 413312 Sentinum, 432739 Cales (Campania), 432940 Minturnae, 432828 Falernus Ager, 433211 Volturnus (river), 413122 Etruria/Tuscia, 413360 Umbria, 433078 Samnium; unlocated: 438790 Murgantia, 438820 and 446286 Romulea, 438734 Ferentinum); pleiades.stoa.org not opened. No Pleiades record for the town of Sinuessa was found in the copy of places.csv used (only 432689 Aquae Sinuessanae), so Sinuessa is not on the map. Map: tools/maps/coalition_map.py, bounds [10.75, 15.55, 40.85, 43.75], Natural Earth 10 m coastline; rendered with Playwright and looked at once at 760 px; not yet seen in an iPhone screenshot of the scene. Camerinum is on the map at the coordinator's request for the Sentinum scene; no passage naming it in these years was opened by this researcher. Neither decision uses the engine's tappable map: the coalition map is not registered under 'maps' in index.json. Each decision has one historical option and two counterfactuals (no alternative advice is recorded for either). Years BC are the conventional ones; 'last year' rests on Livy's sequence of consular years (297 Fabius–Decius, 296 Volumnius–Claudius). Not opened: Oakley's commentary, Salmon 1967, any modern study; EDCS, EDR, Wikimedia Commons search (one attempt, no result). The story stops at Volumnius' recall for the elections (10.21.13); the consuls of 295 are left to scene 7."
+    "by": "checker agent on Fable, one full pass",
+    "date": "2026-11-16",
+    "notes": "Checked 16 Nov 2026 (checker agent on Fable; 60 blocks, prompts, options and 18 map elements; Livy lat3, lat2 at 10.19.22, Roberts, Ovid, Pliny, Smith and Pleiades opened). All nine Latin quotations, every figure and every Livy locator matched. Fixed 3 errors and 18 lesser points with the checker's wording, without a second pass: Smith's entry is no. 10 (the '11' was a Perseus file id); Camerinum removed from the map (no passage in Livy 10.16–31 names it); the caption no longer says Umbria's lettering stands on its Pleiades point; the unlocated-towns box moved off the sea; 'all year', 'again' and 'by different ways' cut where the Latin lacks them. The elogium of Appius Claudius could not be opened in any edition and is not quoted. Researcher's draft notes (2026-11-16). Livy cited by the Conway–Walters (OCT) section numbers in Perseus lat3; Weissenborn–Müller (lat2) compared at 10.19.22 only. Roberts 1912 (Perseus eng3) numbers several sections differently in 10.16–10.21 (his 10.16.2 runs into OCT 10.16.3; his 10.18.2 = OCT 10.18.1 end and 10.18.2; his 10.18.1–2: OCT 10.18.1 ends inside his 10.18.2; his 10.18.6 runs on through OCT 10.18.7 as far as 'fungentes', his 10.18.7 is the rest; his 10.19.14–15 = OCT 10.19.14; his 10.19.21 begins at OCT 10.19.20 'ibi interventu Gelli'; his 10.19.22 begins at OCT 10.19.21 'per vallum'; his 10.19.16–17 = OCT 10.19.16–17 shifted by a clause; his 10.20.8–9 = OCT 10.20.8). Roberts is quoted once, at 10.20.8 (first sentence), where he is accurate; elsewhere the English is ours because he is loose: 'some annalists' for 'in trinis annalibus' (10.18.7), 'a peace which reduced them to slavery … a war in which they could fight as free men' (10.16.5), 'a war chest' for 'stipendio' (10.16.8), 'the country round Capua' for 'in Campaniam' and 'feudatories of Rome' for 'imperii Romani fines' (10.20.1), 'Menturna' (10.21.8), 'Statius Minacius' (10.20.13), and 6,900 dead at 10.19.22 where the Oxford text prints 'septem milia octingenti'. Perseus lat3 layout and OCR fixes in passages quoted: the OCT margin 'A.U.C. 458' interleaved in 10.16.3 and 10.19.17 removed; 'Bellona , si' closed up (10.19.17); the apparatus notes at 10.18.7 removed from the quotation and reported in card-letter. Not quoted but seen: 'donec done' (10.16.2), 'haud baud' (10.16.5, 10.17.6), 'opulentissimam oppulentissimam' (10.16.6), 'Samnitibus Sannitibus' and 'tusci' (10.18.1–2), 'huc hue' (10.18.13), 'tumultu tunultu' (10.20.11). Ovid, Fasti, from Perseus lat2 (ed. J. G. Frazer); lines 6.199–208 read; we did not work out the calendar day from the preceding lines, so the card says only 'on this day' and that the passage stands in the book for June. Pliny, Natural History 35.12, from Perseus lat2 (ed. K. Mayhoff): the square brackets round 'qui consul … CCLVIIII' are in the file, with an apparatus note 'uncos posuit U cum Gesnero' and a marginal 'cfr. Liv. X 19, 17'; we did not open Mayhoff's list of sigla, so 'U' is not expanded. The elogium of Appius Claudius Caecus (the Arretium copy) could not be opened in any edition or database, so neither its text nor a corpus number is given; the only trace used is Smith's reference 'Orelli, Inscr. No. 539', cited as Smith's. Pleiades from isawnyu/pleiades.datasets data/gis/places.csv (ids 423025 Roma, 413096 Clusium, 413248 Perusia, 413312 Sentinum, 432739 Cales (Campania), 432940 Minturnae, 432828 Falernus Ager, 433211 Volturnus (river), 413122 Etruria/Tuscia, 413360 Umbria, 433078 Samnium; unlocated: 438790 Murgantia, 438820 and 446286 Romulea, 438734 Ferentinum); pleiades.stoa.org not opened. No Pleiades record for the town of Sinuessa was found in the copy of places.csv used (only 432689 Aquae Sinuessanae), so Sinuessa is not on the map. Map: tools/maps/coalition_map.py, bounds [10.75, 15.55, 40.85, 43.75], Natural Earth 10 m coastline; rendered with Playwright and looked at once at 760 px; not yet seen in an iPhone screenshot of the scene. Neither decision uses the engine's tappable map: the coalition map is not registered under 'maps' in index.json. Each decision has one historical option and two counterfactuals (no alternative advice is recorded for either). Years BC are the conventional ones; 'last year' rests on Livy's sequence of consular years (297 Fabius–Decius, 296 Volumnius–Claudius). Not opened: Oakley's commentary, Salmon 1967, any modern study; EDCS, EDR, Wikimedia Commons search (one attempt, no result). The story stops at Volumnius' recall for the elections (10.21.13); the consuls of 295 are left to scene 7."
   },
   "sources": {
     "Livy": {
@@ -32,7 +32,7 @@
       "url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0978/phi001"
     },
     "Smith": {
-      "label": "W. Smith (ed.), A Dictionary of Greek and Roman Biography and Mythology, s.v. Claudius no. 11, App. Claudius Caecus (Perseus text of the 1873 printing)",
+      "label": "W. Smith (ed.), A Dictionary of Greek and Roman Biography and Mythology, s.v. Claudius no. 10, App. Claudius Caecus (Perseus text of the 1873 printing)",
       "url": "https://github.com/PerseusDL/canonical-pdlrefwk/tree/master/data/viaf88890045/003"
     },
     "Pleiades": {
@@ -48,7 +48,7 @@
       "blocks": [
         {
           "id": "b1-1",
-          "text": "Samnium, 296 BC. Last year two consular armies ranged through Samnium by different ways for five months and laid everything waste. Forty-five places are counted where Decius pitched camp, eighty-six for Fabius.",
+          "text": "Samnium, 296 BC. Last year two consular armies ranged over different parts of Samnium for five months and laid everything waste. Forty-five places are counted where Decius pitched camp, eighty-six for Fabius.",
           "cites": [
             "Livy 10.15.3–4"
           ],
@@ -64,7 +64,7 @@
         },
         {
           "id": "b1-3",
-          "text": "Your envoys have often tried the Etruscans, and always in vain. Last year men from Sutrium, Nepete and Falerii reported at Rome that the peoples of Etruria were holding councils about asking for peace.",
+          "text": "Your envoys have often tried the Etruscans, and always in vain. Last year envoys from Sutrium, Nepete and Falerii reported at Rome that the peoples of Etruria were holding councils about asking for peace.",
           "cites": [
             "Livy 10.16.3",
             "Livy 10.14.3"
@@ -82,7 +82,7 @@
     {
       "kind": "decision",
       "id": "d1",
-      "prompt": "Decius is pressing the army out of Samnium. It has refused battle all year. Where should it go?",
+      "prompt": "Decius is driving the army out of Samnium. It has nowhere risked a battle. Where should it go?",
       "options": [
         {
           "id": "etruria",
@@ -119,13 +119,13 @@
         },
         {
           "id": "stay",
-          "label": "Nowhere. Stay in Samnium, keep refusing battle, and keep the army between Decius and the towns.",
+          "label": "Nowhere. Stay in Samnium and keep refusing battle.",
           "kind": "counterfactual",
           "kind_note": "No Samnite is recorded proposing this",
           "consequence": [
             {
               "id": "d1-stay-1",
-              "text": "It is what the army has been doing, and it has ended with the army pushed over its own border.",
+              "text": "Refusing battle is what the army has been doing, and it has ended with the army pushed over its own border.",
               "cites": [
                 "Livy 10.16.2"
               ],
@@ -133,7 +133,7 @@
             },
             {
               "id": "d1-stay-2",
-              "text": "Once the army is gone, the Roman commander says what its presence was worth.",
+              "text": "Once the army is gone, the Roman commander draws his conclusion.",
               "cites": [
                 "Livy 10.17.2"
               ],
@@ -181,7 +181,7 @@
       ],
       "outcome": {
         "id": "d1-outcome",
-        "text": "The Samnite army, driven out of Samnium by the proconsul Decius, went to Etruria and demanded a council of the Etruscan leaders. Livy names no route and no meeting place.",
+        "text": "The Samnite army, driven out of Samnium by the proconsul Decius, went to Etruria and demanded a council of the Etruscan leaders.",
         "cites": [
           "Livy 10.16.2–3"
         ],
@@ -195,7 +195,7 @@
       "blocks": [
         {
           "id": "r1-1",
-          "text": "Before the Etruscan council the Samnites set out how many years they had fought Rome for their freedom. The argument Livy gives them: they had tried everything to carry the war on their own strength; the help of neighbouring peoples had counted for little; their one hope left was the Etruscans, the richest people of Italy in arms, men and money, with the Gauls for neighbours.",
+          "text": "Livy names no route and no meeting place. Before the Etruscan council the Samnites set out how many years they had fought Rome for their freedom. The argument Livy gives them: they had tried everything to carry the war on their own strength; the help of neighbouring peoples had counted for little; their one hope left was the Etruscans, the richest people of Italy in arms, men and money, with the Gauls for neighbours.",
           "cites": [
             "Livy 10.16.4–6"
           ],
@@ -212,7 +212,7 @@
         },
         {
           "id": "r1-2",
-          "text": "They offered an army ready, armed and bringing its own pay, which would follow the Etruscans at once, even to an attack on Rome itself. Livy does not report the council's answer. He next says that a huge war was being raised against Rome in Etruria from many peoples, and names its author: Gellius Egnatius, of the Samnites. Nearly all the Etruscans had resolved on war, the nearest peoples of Umbria were drawn in, Gallic auxiliaries were being sought for hire, and the whole multitude gathered at the Samnite camp.",
+          "text": "They offered an army ready, armed and bringing its own pay, which would follow the Etruscans at once, even to an attack on Rome itself. Livy does not report the council's answer. Later he says that a huge war was being raised against Rome in Etruria from many peoples, and names its author: Gellius Egnatius, of the Samnites. Nearly all the Etruscans had resolved on war, the nearest peoples of Umbria were drawn in, Gallic auxiliaries were being sought for hire, and the whole multitude gathered at the Samnite camp.",
           "cites": [
             "Livy 10.16.8",
             "Livy 10.18.1–2"
@@ -230,7 +230,7 @@
         },
         {
           "id": "r1-map",
-          "text": "Central Italy in 296 BC, from Samnium to Etruria and Umbria. A map of what Livy names for this year, not of a march: he gives no route to Etruria, so none is drawn, and no place for the Etruscan council or the Samnite camp, so they are a box, not a point. Murgantia, Romulea and Ferentinum, the towns stormed in Samnium, have no known sites and share a second box. Rome, Cales, Minturnae, the ager Falernus and the Volturnus are placed from Pleiades; the region names stand on its points for Etruria, Umbria and Samnium. In grey, for the year that follows: Clusium, Perusia and the land of Sentinum, which Livy names in the next campaign, and Camerinum. Ours: the positions of the two boxes, the grey towns, the sea names and the scale bar.",
+          "text": "Central Italy in 296 BC, from Samnium to Etruria and Umbria. A map of what Livy names for this year, not of a march: he gives no route to Etruria, so none is drawn, and no place for the Etruscan council or the Samnite camp, so they are a box, not a point. Murgantia, Romulea and Ferentinum, the towns stormed in Samnium, have no site in Pleiades and share a second box. Rome, Cales, Minturnae and the ager Falernus are placed from Pleiades; the Volturnus is a name only, set on Pleiades' point for the river, and its course is not drawn. The region names stand on its points for Etruria and Samnium; Umbria's is moved south of its point to clear the town names. In grey, for the year that follows: Clusium, Perusia and the land of Sentinum, which Livy names in the next campaign. Ours: the positions of the two boxes, the place of the Umbria lettering, the choice to show next year's places in grey, the sea names and the scale bar.",
           "cites": [
             "Livy 10.16.2–3",
             "Livy 10.17.3–10",
@@ -251,7 +251,6 @@
             "Pleiades 413096",
             "Pleiades 413248",
             "Pleiades 413312",
-            "Pleiades 413060",
             "Pleiades 438790",
             "Pleiades 438820",
             "Pleiades 438734"
@@ -260,10 +259,10 @@
           "figure": {
             "kind": "map",
             "src": "art/scenes/coalition-map.svg",
-            "alt": "Map of central Italy. Samnium is lettered in the south-east, with Cales, the ager Falernus, the river Volturnus and Minturnae near the west coast below it. Rome stands in the middle of the west coast. Etruria and Umbria are lettered to the north, with Clusium, Perusia, Camerinum and Sentinum in grey. A dashed box in Etruria reads: Etruscan council and Samnite camp, 296, place not given. A second dashed box in Samnium reads: Murgantia, Romulea, Ferentinum, sites unknown. No route is drawn.",
+            "alt": "Map of central Italy. Samnium is lettered in the south-east, with Cales, the ager Falernus, the name of the river Volturnus and Minturnae near the west coast below it. Rome stands in the middle of the west coast. Etruria and Umbria are lettered to the north, with Clusium, Perusia and Sentinum in grey. A dashed box in Etruria reads: Etruscan council and Samnite camp, 296, place not given. A second dashed box north of the Samnium lettering reads: Murgantia, Romulea, Ferentinum, sites unknown. No route is drawn.",
             "credit": "Sites from the Pleiades gazetteer (CC BY); coastline Natural Earth (public domain)."
           },
-          "note": "Drawn by tools/maps/coalition_map.py. Pleiades has no position for Murgantia (438790) or for the Ferentinum of this passage (438734), and calls Romulea unlocated (438820, 446286). The Pleiades record for Sinuessa was not found, so the second colony is not drawn."
+          "note": "Drawn by tools/maps/coalition_map.py. Pleiades has no position for Murgantia (438790) or for its unlocated Ferentinum (438734), and calls Romulea unlocated (438820, 446286). The Pleiades record for Sinuessa was not found, so the second colony is not drawn."
         },
         {
           "id": "r1-3",
@@ -359,7 +358,7 @@
           "consequence": [
             {
               "id": "d2-north-1",
-              "text": "After Volumnius takes his army out of Etruria, the report at Rome is that Etruria is roused to arms again, that Gellius Egnatius and the Umbrians are being called to revolt, and that the Gauls are being sought at a huge price.",
+              "text": "After Volumnius takes his army out of Etruria, the report at Rome is that Etruria is roused to arms, that Gellius Egnatius and the Umbrians are being called to revolt, and that the Gauls are being sought at a huge price.",
               "cites": [
                 "Livy 10.21.2"
               ],
@@ -454,7 +453,7 @@
         },
         {
           "id": "r2-4",
-          "text": "The raid had caused great alarm at Rome, and in the same days came the report from Etruria that the war was rising again. The Senate ordered a iustitium and a levy of every kind of man: cohorts of older men were formed and freedmen enrolled in centuries, and the praetor P. Sempronius had charge of the city. Volumnius' letter lifted part of the fear; the iustitium had lasted eighteen days. The Senate then resolved on two colonies for the wasted district, Minturnae and Sinuessa.",
+          "text": "The raid had caused great alarm at Rome, and in the same days came the report from Etruria that the country was up in arms once Volumnius' army had gone. The Senate ordered a iustitium and a levy of every kind of man: cohorts of older men were formed and freedmen enrolled in centuries, and the praetor P. Sempronius had charge of the city. Volumnius' letter lifted part of the fear; the iustitium had lasted eighteen days. The Senate then resolved on two colonies for the wasted district, Minturnae and Sinuessa.",
           "cites": [
             "Livy 10.21.1–8"
           ],
@@ -619,7 +618,7 @@
       "blocks": [
         {
           "id": "card-three-towns-1",
-          "text": "None of the three towns has a known site. Pleiades calls Murgantia strongly fortified, taken by Decius, and now unlocated; it lists Romulea as unlocated; and it has an unlocated Ferentinum from sheet 44 of the Barrington Atlas, separate from the Hernican Ferentinum on the Via Latina.",
+          "text": "Pleiades gives none of the three a site. It calls Murgantia strongly fortified, taken by Decius, and now unlocated; it calls Romulea now unlocated, though it carries a rough point for it; and it has an unlocated Ferentinum from sheet 44 of the Barrington Atlas, separate from the Hernican Ferentinum on the Via Latina.",
           "cites": [
             "Pleiades 438790",
             "Pleiades 438820",
@@ -648,7 +647,7 @@
         },
         {
           "id": "card-three-towns-4",
-          "text": "The praenomen L. is Sigonius' correction; the Oxford apparatus gives the manuscripts' reading as p. and refers to the Fasti (CIL I² p. 132).",
+          "text": "The praenomen L. is Sigonius' correction; the Oxford apparatus gives the manuscripts' reading as p. and refers to CIL I² p. 132.",
           "cites": [
             "Livy 10.17.12 (Conway–Walters apparatus)"
           ],
@@ -658,7 +657,7 @@
           "id": "card-three-towns-5",
           "text": "Smith's Dictionary has Appius himself command 'at first in Samnium with some success' in this consulship, citing Livy 10.17 and an inscription, Orelli no. 539. We could not open that inscription in any edition, so its words are not given here.",
           "cites": [
-            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Claudius no. 11"
+            "Smith, Dictionary of Greek and Roman Biography and Mythology (1873 printing), s.v. Claudius no. 10"
           ],
           "confidence": "attested"
         }
@@ -680,10 +679,11 @@
         },
         {
           "id": "card-numbers-296-2",
-          "text": "For the battle in Etruria the Oxford text prints 7,800 enemy dead and 2,120 prisoners. Its apparatus marks 'octingenti' as the editors' reading and gives the manuscripts as 'accc' or 'acccc'. Roberts' translation has 6,900 killed.",
+          "text": "For the battle in Etruria the Oxford text prints 7,800 enemy dead and 2,120 prisoners. Its apparatus marks 'octingenti' as the editors' reading; the Perseus transcription gives the manuscripts as 'accc' or 'acccc', which we have not checked against the printed page. Weissenborn–Müller prints the same 7,800. Roberts' translation has 6,900 killed.",
           "cites": [
             "Livy 10.19.22 (Conway–Walters apparatus)",
-            "Livy 10.19.22 (Roberts 1912)"
+            "Livy 10.19.22 (Roberts 1912)",
+            "Livy 10.19.22 (Weissenborn–Müller, Perseus lat2)"
           ],
           "confidence": "attested"
         },

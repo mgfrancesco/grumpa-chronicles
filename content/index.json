@@ -94,6 +94,18 @@
               }
             },
             {
+              "id": "samnites-06-egnatius",
+              "file": "scenes/samnites/gellius-egnatius.json",
+              "title": "Gellius Egnatius in Etruria",
+              "date": "296 BC",
+              "site": {
+                "label": "Cales",
+                "lon": 14.132125,
+                "lat": 41.199961,
+                "pleiades": 432739
+              }
+            },
+            {
               "id": "samnites-07-sentinum",
               "file": "scenes/samnites/sentinum.json",
               "title": "Sentinum",
