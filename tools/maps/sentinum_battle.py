@@ -122,7 +122,7 @@ txt(736, 268, 'Campanian horse, about 500', R, 'end'); txt(736, 292, '(Livy’s 
 txt(736, 318, 'principes of legio III follow', R, 'end')
 txt(24, 300, 'Camp taken; the Gauls', INK); txt(24, 326, 'surrounded from behind', INK)
 o.append('</g>')
-o.append(f'<text x="380" y="{H-10}" font-size="18" fill="{GREY}" text-anchor="middle" font-style="italic">A diagram of Livy 10.27.8–10.29.16, not a plan of the field.</text>')
+o.append(f'<text x="380" y="{H-10}" font-size="20" fill="{GREY}" text-anchor="middle" font-style="italic">A diagram of Livy 10.27.8–10.29.16, not a plan of the field.</text>')
 o.append('</svg>')
 out = pathlib.Path(__file__).resolve().parent.parent.parent / 'art' / 'scenes' / 'sentinum-battle.svg'
 out.write_text('\n'.join(o) + '\n', encoding='utf8'); print(out)

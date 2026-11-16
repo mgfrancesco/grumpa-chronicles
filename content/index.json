@@ -92,6 +92,12 @@
                 "lat": 41.784299,
                 "pleiades": 432709
               }
+            },
+            {
+              "id": "samnites-07-sentinum",
+              "file": "scenes/samnites/sentinum.json",
+              "title": "Sentinum",
+              "date": "295 BC"
             }
           ],
           "map": "samnium"
