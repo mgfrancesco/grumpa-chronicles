@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1602" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Diagram in four panels of the battle in the territory of Sentinum in 295 BC as Livy describes it">
+<defs><marker id="ai" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3a2a1e"/></marker><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9b2d20"/></marker><marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f6a5a"/></marker></defs>
+<rect width="760" height="1602" fill="#f1e7cf"/>
+<text x="14" y="36" font-size="23" fill="#3a2a1e" font-weight="bold">1. The lines</text>
+<text x="746" y="36" font-size="20" fill="#5b5047" text-anchor="end">Livy 10.27.8–11</text>
+<g transform="translate(0 48)">
+<rect x="8" y="0" width="744" height="340" rx="6" fill="#e3d2ad" stroke="#d9c08f" stroke-width="2"/>
+<g opacity="1"><rect x="40" y="12" width="76" height="40" fill="#f6efe0" stroke="#9b2d20" stroke-width="2.5"/><path d="M40 32h76M78 12v40" stroke="#9b2d20" stroke-width="1"/></g>
+<text x="128" y="40" font-size="21" fill="#3a2a1e" text-anchor="start">Samnite camp</text>
+<text x="189" y="86" font-size="21" fill="#2f6a5a" text-anchor="middle">Gauls: right wing</text>
+<text x="571" y="86" font-size="21" fill="#9b2d20" text-anchor="middle">Samnites: left wing</text>
+<rect x="50" y="98" width="38" height="16" fill="#2f6a5a"/>
+<rect x="98" y="98" width="38" height="16" fill="#2f6a5a"/>
+<rect x="146" y="98" width="38" height="16" fill="#2f6a5a"/>
+<rect x="194" y="98" width="38" height="16" fill="#2f6a5a"/>
+<rect x="242" y="98" width="38" height="16" fill="#2f6a5a"/>
+<rect x="290" y="98" width="38" height="16" fill="#2f6a5a"/>
+<rect x="432" y="98" width="38" height="16" fill="#9b2d20"/>
+<rect x="480" y="98" width="38" height="16" fill="#9b2d20"/>
+<rect x="528" y="98" width="38" height="16" fill="#9b2d20"/>
+<rect x="576" y="98" width="38" height="16" fill="#9b2d20"/>
+<rect x="624" y="98" width="38" height="16" fill="#9b2d20"/>
+<rect x="672" y="98" width="38" height="16" fill="#9b2d20"/>
+<circle cx="380" cy="152" r="4" fill="#5b5047"/>
+<path d="M374 146 L340 122" fill="none" stroke="#5b5047" stroke-width="2.5" marker-end="url(#ai)"/>
+<path d="M380 160 V200" fill="none" stroke="#5b5047" stroke-width="2.5" marker-end="url(#ai)"/>
+<text x="326" y="158" font-size="20" fill="#5b5047" text-anchor="end" font-style="italic">cerva ad Gallos</text>
+<text x="396" y="176" font-size="20" fill="#5b5047" text-anchor="start" font-style="italic">lupus ad Romanos</text>
+<rect x="50" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="98" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="146" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="194" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="242" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="290" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="432" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="480" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="528" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="576" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="624" y="206" width="38" height="16" fill="#3a2a1e"/>
+<rect x="672" y="206" width="38" height="16" fill="#3a2a1e"/>
+<text x="117" y="248" font-size="21" fill="#3a2a1e" text-anchor="middle">legio V</text>
+<text x="261" y="248" font-size="21" fill="#3a2a1e" text-anchor="middle">legio VI</text>
+<text x="499" y="248" font-size="21" fill="#3a2a1e" text-anchor="middle">legio I</text>
+<text x="643" y="248" font-size="21" fill="#3a2a1e" text-anchor="middle">legio III</text>
+<rect x="470" y="262" width="30" height="12" fill="#3a2a1e"/>
+<rect x="530" y="262" width="30" height="12" fill="#3a2a1e"/>
+<rect x="590" y="262" width="30" height="12" fill="#3a2a1e"/>
+<rect x="650" y="262" width="30" height="12" fill="#3a2a1e"/>
+<text x="189" y="290" font-size="21" fill="#3a2a1e" text-anchor="middle">Decius: left wing</text>
+<text x="571" y="300" font-size="21" fill="#3a2a1e" text-anchor="middle">Fabius: right wing,</text>
+<text x="571" y="324" font-size="21" fill="#3a2a1e" text-anchor="middle">reserves kept back</text>
+</g>
+<text x="14" y="428" font-size="23" fill="#3a2a1e" font-weight="bold">2. Decius’ wing</text>
+<text x="746" y="428" font-size="20" fill="#5b5047" text-anchor="end">Livy 10.28.6–18</text>
+<g transform="translate(0 440)">
+<rect x="8" y="0" width="744" height="340" rx="6" fill="#e3d2ad" stroke="#d9c08f" stroke-width="2"/>
+<rect x="60" y="70" width="38" height="16" fill="#2f6a5a"/>
+<rect x="108" y="70" width="38" height="16" fill="#2f6a5a"/>
+<rect x="156" y="70" width="38" height="16" fill="#2f6a5a"/>
+<rect x="204" y="70" width="38" height="16" fill="#2f6a5a"/>
+<rect x="252" y="70" width="38" height="16" fill="#2f6a5a"/>
+<rect x="300" y="70" width="38" height="16" fill="#2f6a5a"/>
+<rect x="348" y="70" width="38" height="16" fill="#2f6a5a"/>
+<rect x="396" y="70" width="38" height="16" fill="#2f6a5a"/>
+<path d="M90 25L99 34L90 43L81 34Z" fill="#2f6a5a"/>
+<path d="M114 21L123 30L114 39L105 30Z" fill="#2f6a5a"/>
+<path d="M138 27L147 36L138 45L129 36Z" fill="#2f6a5a"/>
+<text x="160" y="42" font-size="21" fill="#2f6a5a" text-anchor="start">Gallic horse, twice driven off</text>
+<path d="M150 103L159 112L150 121L141 112Z" fill="#3a2a1e"/>
+<path d="M176 97L185 106L176 115L167 106Z" fill="#3a2a1e"/>
+<path d="M202 105L211 114L202 123L193 114Z" fill="#3a2a1e"/>
+<path d="M228 99L237 108L228 117L219 108Z" fill="#3a2a1e"/>
+<g><rect x="549" y="79" width="22" height="11" fill="#2f6a5a"/><circle cx="552" cy="93" r="5" fill="#f1e7cf" stroke="#2f6a5a" stroke-width="2.5"/><circle cx="568" cy="93" r="5" fill="#f1e7cf" stroke="#2f6a5a" stroke-width="2.5"/></g>
+<g><rect x="593" y="93" width="22" height="11" fill="#2f6a5a"/><circle cx="596" cy="107" r="5" fill="#f1e7cf" stroke="#2f6a5a" stroke-width="2.5"/><circle cx="612" cy="107" r="5" fill="#f1e7cf" stroke="#2f6a5a" stroke-width="2.5"/></g>
+<g><rect x="637" y="75" width="22" height="11" fill="#2f6a5a"/><circle cx="640" cy="89" r="5" fill="#f1e7cf" stroke="#2f6a5a" stroke-width="2.5"/><circle cx="656" cy="89" r="5" fill="#f1e7cf" stroke="#2f6a5a" stroke-width="2.5"/></g>
+<path d="M540 100 H260" fill="none" stroke="#2f6a5a" stroke-width="3" marker-end="url(#ag)"/>
+<text x="730" y="138" font-size="21" fill="#2f6a5a" text-anchor="end" font-style="italic">essedis carrisque</text>
+<path d="M160 124 Q150 160 120 186" fill="none" stroke="#3a2a1e" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ai)"/>
+<path d="M214 126 Q230 160 262 186" fill="none" stroke="#3a2a1e" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ai)"/>
+<rect x="60" y="200" width="38" height="16" fill="#3a2a1e" transform="rotate(-14 79.0 208.0)"/>
+<rect x="108" y="200" width="38" height="16" fill="#3a2a1e" transform="rotate(10 127.0 208.0)"/>
+<rect x="156" y="200" width="38" height="16" fill="#3a2a1e" transform="rotate(-8 175.0 208.0)"/>
+<rect x="204" y="200" width="38" height="16" fill="#3a2a1e" transform="rotate(16 223.0 208.0)"/>
+<rect x="252" y="200" width="38" height="16" fill="#3a2a1e" transform="rotate(-12 271.0 208.0)"/>
+<rect x="300" y="200" width="38" height="16" fill="#3a2a1e" transform="rotate(6 319.0 208.0)"/>
+<rect x="348" y="200" width="38" height="16" fill="#3a2a1e"/>
+<rect x="396" y="200" width="38" height="16" fill="#3a2a1e"/>
+<circle cx="372" cy="170" r="14" fill="none" stroke="#3a2a1e" stroke-width="2.5"/>
+<path d="M372 161L381 170L372 179L363 170Z" fill="#3a2a1e"/>
+<path d="M372 154 V96" fill="none" stroke="#3a2a1e" stroke-width="3.5" marker-end="url(#ai)"/>
+<text x="396" y="176" font-size="21" fill="#3a2a1e" text-anchor="start">Decius, devotus</text>
+<text x="24" y="252" font-size="21" fill="#3a2a1e" text-anchor="start">The Roman horse is carried in among the foot; chariots</text>
+<text x="24" y="278" font-size="21" fill="#3a2a1e" text-anchor="start">and wagons scatter it and it breaks its own front ranks.</text>
+<text x="24" y="304" font-size="21" fill="#3a2a1e" text-anchor="start">Decius devotes himself and the enemy, rides where</text>
+<text x="24" y="330" font-size="21" fill="#3a2a1e" text-anchor="start">the Gauls are thickest and is killed.</text>
+</g>
+<text x="14" y="820" font-size="23" fill="#3a2a1e" font-weight="bold">3. The shield-wall; Fabius attacks</text>
+<text x="746" y="820" font-size="20" fill="#5b5047" text-anchor="end">Livy 10.29.5–11</text>
+<g transform="translate(0 832)">
+<rect x="8" y="0" width="744" height="340" rx="6" fill="#e3d2ad" stroke="#d9c08f" stroke-width="2"/>
+<g opacity="0.7"><rect x="40" y="12" width="76" height="40" fill="#f6efe0" stroke="#9b2d20" stroke-width="2.5"/><path d="M40 32h76M78 12v40" stroke="#9b2d20" stroke-width="1"/></g>
+<rect x="96" y="112" width="216" height="40" fill="#2f6a5a" stroke="#3a2a1e" stroke-width="3"/>
+<text x="204" y="104" font-size="21" fill="#2f6a5a" text-anchor="middle" font-style="italic">testudo</text>
+<path d="M110 198 V160" fill="none" stroke="#3a2a1e" stroke-width="1.8" marker-end="url(#ai)"/>
+<path d="M150 198 V160" fill="none" stroke="#3a2a1e" stroke-width="1.8" marker-end="url(#ai)"/>
+<path d="M190 198 V160" fill="none" stroke="#3a2a1e" stroke-width="1.8" marker-end="url(#ai)"/>
+<path d="M230 198 V160" fill="none" stroke="#3a2a1e" stroke-width="1.8" marker-end="url(#ai)"/>
+<path d="M270 198 V160" fill="none" stroke="#3a2a1e" stroke-width="1.8" marker-end="url(#ai)"/>
+<path d="M300 198 V160" fill="none" stroke="#3a2a1e" stroke-width="1.8" marker-end="url(#ai)"/>
+<rect x="50" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="98" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="146" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="194" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="242" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="290" y="204" width="38" height="16" fill="#3a2a1e"/>
+<text x="24" y="248" font-size="21" fill="#3a2a1e" text-anchor="start">pila gathered up and thrown</text>
+<path d="M500 264 Q410 276 336 236" fill="none" stroke="#3a2a1e" stroke-width="3" marker-end="url(#ai)"/>
+<text x="24" y="300" font-size="21" fill="#3a2a1e" text-anchor="start">Scipio and Marcius bring reserves</text>
+<text x="24" y="326" font-size="21" fill="#3a2a1e" text-anchor="start">from the rear line</text>
+<rect x="432" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="480" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="528" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="576" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="624" y="204" width="38" height="16" fill="#3a2a1e"/>
+<rect x="672" y="204" width="38" height="16" fill="#3a2a1e"/>
+<path d="M716 181L725 190L716 199L707 190Z" fill="#3a2a1e"/>
+<path d="M728 157L737 166L728 175L719 166Z" fill="#3a2a1e"/>
+<path d="M734 131L743 140L734 149L725 140Z" fill="#3a2a1e"/>
+<path d="M730 124 Q726 108 706 104" fill="none" stroke="#3a2a1e" stroke-width="2.5" marker-end="url(#ai)"/>
+<path d="M500 198 V150" fill="none" stroke="#3a2a1e" stroke-width="3" marker-end="url(#ai)"/>
+<path d="M640 198 V150" fill="none" stroke="#3a2a1e" stroke-width="3" marker-end="url(#ai)"/>
+<rect x="440" y="112" width="38" height="16" fill="#9b2d20" transform="rotate(-16 459.0 120.0)"/>
+<rect x="500" y="112" width="38" height="16" fill="#9b2d20" transform="rotate(12 519.0 120.0)"/>
+<rect x="560" y="112" width="38" height="16" fill="#9b2d20" transform="rotate(-10 579.0 120.0)"/>
+<rect x="620" y="112" width="38" height="16" fill="#9b2d20" transform="rotate(18 639.0 120.0)"/>
+<rect x="668" y="112" width="38" height="16" fill="#9b2d20" transform="rotate(-8 687.0 120.0)"/>
+<path d="M520 100 Q360 40 126 36" fill="none" stroke="#9b2d20" stroke-width="3.5" stroke-dasharray="10 6" marker-end="url(#ar)"/>
+<text x="736" y="60" font-size="21" fill="#9b2d20" text-anchor="end">Samnites flee past the</text>
+<text x="736" y="84" font-size="21" fill="#9b2d20" text-anchor="end">Gallic line to the camp</text>
+<text x="736" y="300" font-size="21" fill="#3a2a1e" text-anchor="end">Fabius: horse to the flank,</text>
+<text x="736" y="326" font-size="21" fill="#3a2a1e" text-anchor="end">then legions and reserves</text>
+</g>
+<text x="14" y="1212" font-size="23" fill="#3a2a1e" font-weight="bold">4. The camp and the Gallic rear</text>
+<text x="746" y="1212" font-size="20" fill="#5b5047" text-anchor="end">Livy 10.29.12–16</text>
+<g transform="translate(0 1224)">
+<rect x="8" y="0" width="744" height="340" rx="6" fill="#e3d2ad" stroke="#d9c08f" stroke-width="2"/>
+<g opacity="1"><rect x="40" y="16" width="76" height="40" fill="#f6efe0" stroke="#9b2d20" stroke-width="2.5"/><path d="M40 36h76M78 16v40" stroke="#9b2d20" stroke-width="1"/></g>
+<rect x="128" y="14" width="34" height="14" fill="#9b2d20" transform="rotate(-18 145.0 21.0)"/>
+<rect x="134" y="40" width="34" height="14" fill="#9b2d20" transform="rotate(12 151.0 47.0)"/>
+<rect x="176" y="22" width="34" height="14" fill="#9b2d20" transform="rotate(-8 193.0 29.0)"/>
+<rect x="182" y="50" width="34" height="14" fill="#9b2d20" transform="rotate(20 199.0 57.0)"/>
+<path d="M124 62l14 14M138 62l-14 14" stroke="#3a2a1e" stroke-width="3.5"/>
+<text x="40" y="100" font-size="21" fill="#9b2d20" text-anchor="start">Gellius Egnatius falls</text>
+<text x="40" y="124" font-size="21" fill="#9b2d20" text-anchor="start">under the rampart</text>
+<rect x="300" y="150" width="216" height="40" fill="#2f6a5a" stroke="#3a2a1e" stroke-width="3"/>
+<text x="288" y="178" font-size="21" fill="#2f6a5a" text-anchor="end">Gauls</text>
+<rect x="300" y="222" width="38" height="16" fill="#3a2a1e"/>
+<rect x="348" y="222" width="38" height="16" fill="#3a2a1e"/>
+<rect x="396" y="222" width="38" height="16" fill="#3a2a1e"/>
+<rect x="444" y="222" width="38" height="16" fill="#3a2a1e"/>
+<path d="M700 150 Q560 14 232 34" fill="none" stroke="#3a2a1e" stroke-width="3.5" marker-end="url(#ai)"/>
+<text x="736" y="44" font-size="21" fill="#3a2a1e" text-anchor="end">Fabius to the camp</text>
+<path d="M566 123L575 132L566 141L557 132Z" fill="#3a2a1e"/>
+<path d="M584 141L593 150L584 159L575 150Z" fill="#3a2a1e"/>
+<path d="M602 159L611 168L602 177L593 168Z" fill="#3a2a1e"/>
+<path d="M556 122 Q520 108 470 140" fill="none" stroke="#3a2a1e" stroke-width="3" marker-end="url(#ai)"/>
+<rect x="620" y="196" width="34" height="14" fill="#3a2a1e"/>
+<rect x="664" y="196" width="34" height="14" fill="#3a2a1e"/>
+<path d="M636 190 Q630 150 600 138" fill="none" stroke="#3a2a1e" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ai)"/>
+<text x="736" y="268" font-size="21" fill="#3a2a1e" text-anchor="end">Campanian horse, about 500</text>
+<text x="736" y="292" font-size="20" fill="#5b5047" text-anchor="end">(Livy’s figure), round to the rear;</text>
+<text x="736" y="318" font-size="21" fill="#3a2a1e" text-anchor="end">principes of legio III follow</text>
+<text x="24" y="300" font-size="21" fill="#3a2a1e" text-anchor="start">Camp taken; the Gauls</text>
+<text x="24" y="326" font-size="21" fill="#3a2a1e" text-anchor="start">surrounded from behind</text>
+</g>
+<text x="380" y="1592" font-size="18" fill="#5b5047" text-anchor="middle" font-style="italic">A diagram of Livy 10.27.8–10.29.16, not a plan of the field.</text>
+</svg>
