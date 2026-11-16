@@ -2,7 +2,7 @@
 <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9b2d20"/></marker><marker id="ai" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3a2a1e"/></marker></defs>
 <rect width="760" height="1202" fill="#f1e7cf"/>
 <text x="14" y="36" font-size="23" fill="#3a2a1e" font-weight="bold">1. The lines</text>
-<text x="746" y="36" font-size="20" fill="#5b5047" text-anchor="end">Livy 9.27.7–8</text>
+<text x="746" y="36" font-size="20" fill="#5b5047" text-anchor="end">Livy 9.27.7–9</text>
 <g transform="translate(0 48)">
 <rect x="8" y="0" width="744" height="330" rx="6" fill="#e3d2ad" stroke="#d9c08f" stroke-width="2"/>
 <!-- Samnite camp behind their line: the horse is to look back to it (respectum castrorum, 9.27.7); its place is ours -->
@@ -74,9 +74,7 @@
 <path d="M46 142L54 150L46 158L38 150Z" fill="#9b2d20"/>
 <path d="M72 142L80 150L72 158L64 150Z" fill="#9b2d20"/>
 <path d="M98 142L106 150L98 158L90 150Z" fill="#9b2d20"/>
-<path d="M124 142L132 150L124 158L116 150Z" fill="#9b2d20"/>
-<path d="M150 142L158 150L150 158L142 150Z" fill="#9b2d20"/>
-<path d="M164 150 H330" fill="none" stroke="#9b2d20" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M112 150 H330" fill="none" stroke="#9b2d20" stroke-width="2.5" marker-end="url(#ar)"/>
 <path d="M28 198L36 206L28 214L20 206Z" fill="#3a2a1e"/>
 <path d="M28 222L36 230L28 238L20 230Z" fill="#3a2a1e"/>
 <path d="M40 204 Q80 186 92 166" fill="none" stroke="#3a2a1e" stroke-width="2.5" marker-end="url(#ai)"/>
@@ -163,5 +161,5 @@
 <text x="30" y="290" font-size="21" fill="#3a2a1e">He finds his own wing driven back. His coming</text>
 <text x="30" y="316" font-size="21" fill="#3a2a1e">changes everything; the whole Roman line wins.</text>
 </g>
-<text x="380" y="1186" font-size="18" fill="#5b5047" text-anchor="middle" font-style="italic">A diagram of Livy 9.27.7–14, not a plan of the field.</text>
+<text x="380" y="1186" font-size="19" fill="#5b5047" text-anchor="middle" font-style="italic">A diagram of Livy 9.27.7–14, not a plan of the field.</text>
 </svg>

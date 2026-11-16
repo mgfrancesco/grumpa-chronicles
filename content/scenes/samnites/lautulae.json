@@ -15,7 +15,7 @@
   "verified": {
     "by": "checker agent, three passes",
     "date": "2026-11-15",
-    "notes": "Voice pass (15 Nov 2026, checker agent, two passes): briefs, consequences and kind_notes rewritten in the scene's voice per CLAUDE.md; ids and confidence unchanged; cites unchanged except Livy 9.22.1–2 added to d1-plistica-1. Checker compared old and new wording for claims made stronger than the source. Fixed: d1-plistica-1 and d1-sora-photo (present tense misplaced timing: Plistica falls a year later, Livy 9.22.1–2, 9.22.10; the Sora path is Livy's 314, not modern Sora); b2-6 hedged on the Calavii's timing (Diodorus 19.76.5 has them handed over and tried); b1-4 garrison marked as one account (Diodorus 19.72.3 only); d1-sora-2 keeps Livy's undated pluperfect defecerat and puts only the move of the war after Saticula (9.23.1 inde). Second pass confirmed all. Photo pass (15 Nov 2026, checker agent): four Commons photos added (b1-krater, d1-relieve-photo, d1-sora-photo, r1-photo); licences, authors and image matches confirmed on the File: pages. Fixed: Sora path cited to Livy 9.24.7 and 9.24.2 rendered as 'either slow or bought at great risk'; krater dated only from its photograph's record (375–350 BC), Trendall dropped from cites as not opened, a 350–340 BC date resting on a file title dropped; temple 'traditionally assigned to Jupiter Anxur', since its dedication is reported as debated (not verified here). Restructure pass (15 Nov 2026, checker agent, three passes): trimmed for play; moved verbatim into new cards card-truce-years, card-no-names, card-after-lautulae, card-ausones, card-capua-inquiry; b2-3 (recapture of Sora) removed, its executions remain in card-two-hundred; reworded b1-1, r1-2, r1-3 (Q. Fabius' later victory), r1-5 (names the commanders, Diodorus 19.72.6–8), b2-1, b2-2, b2-7 (consuls named, Livy 9.24.1), r1-6, r1-7, r2-4, r2-5; new card-after-lautulae-1 (Diodorus 19.72.5–6); d1 map with Pleiades 433105, 433126, 438810 (Plistica unlocated, drawn as a labelled box only); new outcomes d1-outcome, d2-outcome. Campaign map art/scenes/samnite-campaign.svg checked against Pleiades places.csv; Maleventum per Livy 9.27.14. No photographs: Wikimedia was unreachable from this session; a close map of the pass was abandoned because the Natural Earth coastline places Monte Sant'Angelo in the sea at that scale. First pass found 2 factual errors (Livy's era dating; years Livy spans), a mislabelled option, unlabelled counterfactual options, and about 20 details beyond the sources; second pass found 3 more (Roberts prints only 321 and 312 here; Diodorus does mention Sora at 19.72.3; 'wait' is counterfactual, not historical) and 5 minor; third pass confirmed all fixes and removed an uncited 'Varronian' sentence. Checked against Perseus Livy lat2/lat3/lat4 and eng3, Diodorus grc6, Strabo grc2, Pleiades 432903, 433126, 433143. d2 has two counterfactual options (wait, latium), both tagged on screen. Engine now tags counterfactual options and sets lang=grc for Greek quotations. Researcher's notes: Researcher's draft notes (2026-11-14). Livy cited by the Conway–Walters (OCT) section numbers in Perseus lat3, cross-checked against lat4 and Weissenborn–Müller (lat2). Roberts 1912 (Perseus eng3) numbers sections differently in 9.23–9.26 (his 9.23.6 is OCT 9.23.5; his 9.26.7 is OCT 9.26.6); quotations are attributed by OCT numbers. Weissenborn–Müller put Maenius' appointment at 9.26.7 (OCT 9.26.6) and divide 9.25.4–5 at 'docent suos iam'; cites use ranges that cover both. Perseus OCR errors ignored: lat3 'Rornanorum' (9.21.3), 'supplement' (9.22.1), 'multitude' (9.22.7, 9.23.16), 'baud' (9.23.14, 9.26.8), 'piano' for plano (9.26.2), 'hosted' (9.27.9), 'memorial' (9.29.5), 'lunium' (9.29.3), 'eos cos' (10.47.4); lat2 'saltur', 'maria', 'Romanurn' (22.15.11), 'equitur' (9.23.6); lat4 'imminent' for imminet (22.15.11). Orthography follows OCT (cottidie; W–M cotidie at 9.27.6; W–M 'montis' for montes at 7.39.7); 22.15.11 normalised from 'peruenire' to 'pervenire' to match Book 9. Roberts' English corrected where he is wrong: 'Lantulae' for Lautulae (9.23.4, 7.39.7), 'Antium' for Anxur (7.39.7; our own English used there), 'Menturnae' (not quoted). At 9.23.4 Roberts begins 'The consul marched to meet the enemy'; Livy's 'obviam itum hosti' names no one and the commander was the dictator, so the quotation starts at 'ad Lautulas'. Diodorus from Perseus grc6 (Bekker–Dindorf–Fischer, Teubner 1903–06), no apparatus in the file; English and Italian ours. Strabo from Perseus grc2 (Meineke 1877). Greek quotations are stored in the 'la' field with 'lang': 'grc', which the engine sets as the blockquote's lang. Oakley, Commentary on Livy VI–X vol. III (2005), and Salmon, Samnium and the Samnites (1967), could not be opened (BMCR, Cambridge Core, Project MUSE and uhu.es blocked in this session), so neither is cited. Years BC are the conventional ones, counted by consular years from the two Roberts prints in Book 9 (321 at 9.1.1, 312 at 9.29.5); no modern chronological study was opened."
+    "notes": "Final review (16 Nov 2026, checker agent on Fable, 62 blocks, 19 quotations and both drawings, sources reopened): fixed b2-7 (the army had turned towards Apulia, 9.27.1 versos), 'about' 30,000 (9.27.14 ad triginta milia), r2-2 (Sulpicius' ride to the left, 9.27.11), card-two-hundred-3 (Livy records both attributions of Nola, 9.28.5–6), card-ausones (the betrayers' claim as their claim, 9.25.4–5), card-sora-colonists-1 (omnium consensu destinabantur, 9.24.14–15), the harass option's label (no 'last year' or 'every day' in 9.22.2), the latium tag. New diagram art/scenes/campanian-plain-314.svg checked element by element against Livy 9.27.7–14: panel 1 locator corrected to 9.27.7–9; the crossing horse reduced to one wing's. Campaign map sites confirmed against Pleiades. Voice pass (15 Nov 2026, checker agent, two passes): briefs, consequences and kind_notes rewritten in the scene's voice per CLAUDE.md; ids and confidence unchanged; cites unchanged except Livy 9.22.1–2 added to d1-plistica-1. Checker compared old and new wording for claims made stronger than the source. Fixed: d1-plistica-1 and d1-sora-photo (present tense misplaced timing: Plistica falls a year later, Livy 9.22.1–2, 9.22.10; the Sora path is Livy's 314, not modern Sora); b2-6 hedged on the Calavii's timing (Diodorus 19.76.5 has them handed over and tried); b1-4 garrison marked as one account (Diodorus 19.72.3 only); d1-sora-2 keeps Livy's undated pluperfect defecerat and puts only the move of the war after Saticula (9.23.1 inde). Second pass confirmed all. Photo pass (15 Nov 2026, checker agent): four Commons photos added (b1-krater, d1-relieve-photo, d1-sora-photo, r1-photo); licences, authors and image matches confirmed on the File: pages. Fixed: Sora path cited to Livy 9.24.7 and 9.24.2 rendered as 'either slow or bought at great risk'; krater dated only from its photograph's record (375–350 BC), Trendall dropped from cites as not opened, a 350–340 BC date resting on a file title dropped; temple 'traditionally assigned to Jupiter Anxur', since its dedication is reported as debated (not verified here). Restructure pass (15 Nov 2026, checker agent, three passes): trimmed for play; moved verbatim into new cards card-truce-years, card-no-names, card-after-lautulae, card-ausones, card-capua-inquiry; b2-3 (recapture of Sora) removed, its executions remain in card-two-hundred; reworded b1-1, r1-2, r1-3 (Q. Fabius' later victory), r1-5 (names the commanders, Diodorus 19.72.6–8), b2-1, b2-2, b2-7 (consuls named, Livy 9.24.1), r1-6, r1-7, r2-4, r2-5; new card-after-lautulae-1 (Diodorus 19.72.5–6); d1 map with Pleiades 433105, 433126, 438810 (Plistica unlocated, drawn as a labelled box only); new outcomes d1-outcome, d2-outcome. Campaign map art/scenes/samnite-campaign.svg checked against Pleiades places.csv; Maleventum per Livy 9.27.14. No photographs: Wikimedia was unreachable from this session; a close map of the pass was abandoned because the Natural Earth coastline places Monte Sant'Angelo in the sea at that scale. First pass found 2 factual errors (Livy's era dating; years Livy spans), a mislabelled option, unlabelled counterfactual options, and about 20 details beyond the sources; second pass found 3 more (Roberts prints only 321 and 312 here; Diodorus does mention Sora at 19.72.3; 'wait' is counterfactual, not historical) and 5 minor; third pass confirmed all fixes and removed an uncited 'Varronian' sentence. Checked against Perseus Livy lat2/lat3/lat4 and eng3, Diodorus grc6, Strabo grc2, Pleiades 432903, 433126, 433143. d2 has two counterfactual options (wait, latium), both tagged on screen. Engine now tags counterfactual options and sets lang=grc for Greek quotations. Researcher's notes: Researcher's draft notes (2026-11-14). Livy cited by the Conway–Walters (OCT) section numbers in Perseus lat3, cross-checked against lat4 and Weissenborn–Müller (lat2). Roberts 1912 (Perseus eng3) numbers sections differently in 9.23–9.26 (his 9.23.6 is OCT 9.23.5; his 9.26.7 is OCT 9.26.6); quotations are attributed by OCT numbers. Weissenborn–Müller put Maenius' appointment at 9.26.7 (OCT 9.26.6) and divide 9.25.4–5 at 'docent suos iam'; cites use ranges that cover both. Perseus OCR errors ignored: lat3 'Rornanorum' (9.21.3), 'supplement' (9.22.1), 'multitude' (9.22.7, 9.23.16), 'baud' (9.23.14, 9.26.8), 'piano' for plano (9.26.2), 'hosted' (9.27.9), 'memorial' (9.29.5), 'lunium' (9.29.3), 'eos cos' (10.47.4); lat2 'saltur', 'maria', 'Romanurn' (22.15.11), 'equitur' (9.23.6); lat4 'imminent' for imminet (22.15.11). Orthography follows OCT (cottidie; W–M cotidie at 9.27.6; W–M 'montis' for montes at 7.39.7); 22.15.11 normalised from 'peruenire' to 'pervenire' to match Book 9. Roberts' English corrected where he is wrong: 'Lantulae' for Lautulae (9.23.4, 7.39.7), 'Antium' for Anxur (7.39.7; our own English used there), 'Menturnae' (not quoted). At 9.23.4 Roberts begins 'The consul marched to meet the enemy'; Livy's 'obviam itum hosti' names no one and the commander was the dictator, so the quotation starts at 'ad Lautulas'. Diodorus from Perseus grc6 (Bekker–Dindorf–Fischer, Teubner 1903–06), no apparatus in the file; English and Italian ours. Strabo from Perseus grc2 (Meineke 1877). Greek quotations are stored in the 'la' field with 'lang': 'grc', which the engine sets as the blockquote's lang. Oakley, Commentary on Livy VI–X vol. III (2005), and Salmon, Samnium and the Samnites (1967), could not be opened (BMCR, Cambridge Core, Project MUSE and uhu.es blocked in this session), so neither is cited. Years BC are the conventional ones, counted by consular years from the two Roberts prints in Book 9 (321 at 9.1.1, 312 at 9.29.5); no modern chronological study was opened."
   },
   "sources": {
     "Livy": {
@@ -177,7 +177,7 @@
         },
         {
           "id": "harass",
-          "label": "Camp again where we camped last year, and ride at their rampart every day until they give up the siege.",
+          "label": "Camp close to the Romans again, and keep riding at their rampart until they give up the siege.",
           "kind": "historical",
           "kind_note": "What the Samnites did the next year, in Livy's main version",
           "consequence": [
@@ -414,7 +414,7 @@
         },
         {
           "id": "b2-7",
-          "text": "Your army has come back from Apulia to Caudium, close enough to take Capua from Rome if a rising gives the chance. The consuls, M. Poetelius and C. Sulpicius, have come there with a strong army, and your army has come down into the Campanian plain. The camps are in sight of each other, and the horse skirmish more than the foot.",
+          "text": "Your army had turned towards Apulia. It has been called back to Caudium, close enough to take Capua from Rome if a rising gives the chance. The consuls, M. Poetelius and C. Sulpicius, have come there with a strong army, and your army has come down into the Campanian plain. The camps are in sight of each other, and the horse skirmish more than the foot.",
           "cites": [
             "Livy 9.24.1",
             "Livy 9.27.1–5"
@@ -496,7 +496,7 @@
           "id": "latium",
           "label": "Leave the consuls in the plain. Take the army back through the pass at Lautulae and up the coast into Latium.",
           "kind": "counterfactual",
-          "kind_note": "No source has the Samnites try this in these years",
+          "kind_note": "Not recorded for these years in Livy or Diodorus",
           "consequence": [
             {
               "id": "d2-latium-1",
@@ -534,7 +534,7 @@
       ],
       "outcome": {
         "id": "d2-outcome",
-        "text": "The Samnite leaders offered battle in the plain and were beaten. Livy gives 30,000 killed or captured; Diodorus, more than 10,000 killed in the pursuit.",
+        "text": "The Samnite leaders offered battle in the plain and were beaten. Livy gives about 30,000 killed or captured; Diodorus, more than 10,000 killed in the pursuit.",
         "cites": [
           "Livy 9.27.6–14",
           "Diodorus 19.76.1–2"
@@ -557,7 +557,7 @@
         },
         {
           "id": "r2-2",
-          "text": "On the other wing your men were winning until Sulpicius came back with 1,200 men. Then the whole line broke. Those who did not reach Maleventum were killed or taken.",
+          "text": "Sulpicius had ridden over to the shouting on the left before his own wing was engaged. On that wing your men were winning until he came back with 1,200 men. Then the whole line broke. Those who did not reach Maleventum were killed or taken.",
           "cites": [
             "Livy 9.27.11–14"
           ],
@@ -573,9 +573,9 @@
         },
         {
           "id": "r2-battle",
-          "text": "The battle as Livy tells it, in three moments: the lines drawn up, the Roman left, Sulpicius' return. A diagram of his words. Ours: the Romans drawn below facing up, with no compass bearing; your camp's place behind the line; which wing your crossing horse came from and which way it rode; where the Roman horse started; the way the flight to Maleventum ran; all spacing and scale. The 1,200 is Livy's figure. He gives no ground, no distances and no strengths for the lines.",
+          "text": "The battle as Livy tells it, in three moments: the lines drawn up, the Roman left, Sulpicius' return. A diagram of his words. Ours: the Romans drawn below facing up, with no compass bearing; your camp's place behind the line; which wing your crossing horse came from and which way it rode; where the Roman horse started; what the horse on your other wing did (Livy does not say, and it is left out after the first panel); the way the flight to Maleventum ran; all spacing and scale. The 1,200 is Livy's figure. He gives no ground beyond the plain, no distances and no strengths for the lines.",
           "cites": [
-            "Livy 9.27.7–8",
+            "Livy 9.27.7–9",
             "Livy 9.27.9–11",
             "Livy 9.27.12–14"
           ],
@@ -587,7 +587,7 @@
         },
         {
           "id": "r2-3",
-          "text": "Diodorus places the battle near a town he calls Kinna, after the consuls had come out to help allies the Samnites were ravaging. He too has a hard fight and a Roman victory. He gives more than 10,000 killed in a long pursuit; Livy's 30,000 counts the killed and the captured.",
+          "text": "Diodorus places the battle near a town he calls Kinna, after the consuls had come out to help allies the Samnites were ravaging. He too has a hard fight and a Roman victory. He gives more than 10,000 killed in a long pursuit; Livy's figure of about 30,000 counts the killed and the captured.",
           "cites": [
             "Diodorus 19.76.1–2"
           ],
@@ -849,10 +849,10 @@
       "blocks": [
         {
           "id": "card-sora-colonists-1",
-          "text": "Livy says Sora killed Roman colonists, that the army came to recover the colony, and that the 225 men executed at Rome were authors of the massacre of the colonists.",
+          "text": "Livy says Sora killed Roman colonists, that the army came to recover the colony, and that the 225 men executed at Rome were those marked out by general consent as authors of the massacre of the colonists and of the revolt.",
           "cites": [
             "Livy 9.23.2",
-            "Livy 9.24.14"
+            "Livy 9.24.14–15"
           ],
           "confidence": "attested"
         },
@@ -934,7 +934,7 @@
         },
         {
           "id": "card-two-hundred-3",
-          "text": "Livy, for the same consuls: the dictator is C. Poetelius, who recovers Fregellae without a fight and takes Nola; some of his authorities gave Nola, with Atina and Calatia, to the consul C. Iunius instead.",
+          "text": "Livy, for the same consuls: the dictator is C. Poetelius, who recovers Fregellae without a fight and marches on Nola. Nola is taken either by him or by the consul C. Iunius; Livy says both are recorded. Those who give it to the consul add Atina and Calatia, and say Poetelius was named dictator only to drive the nail during a pestilence.",
           "cites": [
             "Livy 9.28.2–6"
           ],
@@ -959,7 +959,7 @@
       "blocks": [
         {
           "id": "b1-2",
-          "text": "Rome used the time. In Apulia, Teanum and Canusium gave hostages and surrendered; the Apulian Teates (Livy's Teates Apuli) got a foedus, but on terms that left it under Rome's authority; Forentum was taken, and in Lucania Nerulum. At the Campanians' own request, as a cure for their civil discord, Capua received laws from the praetor L. Furius and, for the first time, prefects.",
+          "text": "Rome used the time. In Apulia, Teanum and Canusium gave hostages and surrendered; the Apulian Teates (Livy's Teates Apuli) got a foedus, but on terms that left them under Rome's authority; Forentum was taken, and in Lucania Nerulum. At the Campanians' own request, as a cure for their civil discord, Capua received laws from the praetor L. Furius and, for the first time, prefects.",
           "cites": [
             "Livy 9.20.4–9"
           ],
@@ -1034,7 +1034,7 @@
       "blocks": [
         {
           "id": "b2-2",
-          "text": "The Ausones of Ausona, Minturnae and Vescia had long wanted the Samnites to come. Twelve of their young nobles later told the Roman consuls what their towns did when news of Lautulae came.",
+          "text": "Twelve young nobles of Ausona, Minturnae and Vescia came to the Roman consuls to betray their own towns. Their people, they said, had long wanted the Samnites to come; and they told what the towns did when news of Lautulae came.",
           "cites": [
             "Livy 9.25.4–5"
           ],
@@ -1043,7 +1043,7 @@
             "la": "simul ad Lautulas pugnatum audierint, pro victis Romanos habuisse, iuventute armis Samnitem iuvisse",
             "en": "As soon as they heard that a battle had been fought at Lautulae, they had treated the Romans as beaten and had helped the Samnite with their young men and with arms.",
             "en_src": "ours",
-            "it": "Non appena seppero che si era combattuto a Lautule, avevano considerato i Romani come vinti e avevano aiutato il Sannita con i loro giovani e con le armi.",
+            "it": "Non appena avevano saputo che si era combattuto a Lautule, avevano considerato i Romani come vinti e avevano aiutato il Sannita con i loro giovani e con le armi.",
             "it_src": "ours",
             "cite": "Livy 9.25.5"
           },
