@@ -109,10 +109,16 @@
               "id": "samnites-07-sentinum",
               "file": "scenes/samnites/sentinum.json",
               "title": "Sentinum",
-              "date": "295 BC"
+              "date": "295 BC",
+              "site": {
+                "label": "Sentinum",
+                "lon": 12.855963,
+                "lat": 43.427013,
+                "pleiades": 413312
+              }
             }
           ],
-          "map": "samnium"
+          "map": "samnium-north"
         }
       ]
     },
@@ -280,6 +286,17 @@
       ],
       "alt": "Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; the ager Falernus and campus Stellas in the Campanian plain; Capua, Saticula, Caudium and the Caudine Forks in the centre; Allifae, Bovianum and Aufidena in Samnium; Maleventum and Luceria to the east. Plistica is marked only as unlocated.",
       "credit": "Sites from the Pleiades gazetteer (CC BY): Sora 433126, Lautulae 432903, Tarracina 433143, Capua 432754, Saticula 433105, Caudium 432773, Furculae Caudinae 432856, Allifae 432658, Bovianum 432725, Aufidena 432709, campus Stellas 432747, ager Falernus 432828, Maleventum 432721, Luceria 442640; Plistica, Pleiades 438810, has no recorded position. Coastline: Natural Earth (public domain). Mountain symbols are decorative, not surveyed relief."
+    },
+    "samnium-north": {
+      "src": "art/scenes/samnite-campaign-north.svg",
+      "bounds": [
+        12.72,
+        15.22,
+        40.72,
+        43.62
+      ],
+      "alt": "Map of the Samnite campaign, running north to Sentinum: Sora, Lautulae and Tarracina in the west; the ager Falernus, campus Stellas, Cales and Capua in the Campanian plain; Saticula, Caudium and the Caudine Forks; Allifae, Bovianum and Aufidena in Samnium; Maleventum to the east; Sentinum far to the north in Umbria. Plistica is marked only as unlocated.",
+      "credit": "Sites from the Pleiades gazetteer (CC BY): Sora 433126, Lautulae 432903, Tarracina 433143, Capua 432754, Saticula 433105, Caudium 432773, Furculae Caudinae 432856, Allifae 432658, Bovianum 432725, Aufidena 432709, Cales 432739, Sentinum 413312, campus Stellas 432747, ager Falernus 432828, Maleventum 432721; Plistica, Pleiades 438810, has no recorded position. Coastline: Natural Earth (public domain). Mountain symbols are decorative, not surveyed relief."
     }
   }
 }

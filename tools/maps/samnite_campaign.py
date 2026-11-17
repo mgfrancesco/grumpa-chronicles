@@ -15,10 +15,14 @@ import json, math, sys
 from shapely.geometry import shape, box, Point
 from shapely.ops import unary_union
 
-LON0, LON1, LAT0, LAT1 = 13.05, 15.55, 40.72, 41.85   # = maps.samnium.bounds
+# Two frames at one scale. Default: maps.samnium (used inside decisions).
+# 'tall' as a second argument: maps.samnium-north, the campaign screen's map, which runs north to Sentinum
+# and is shifted a third of a degree west to hold it (so Luceria and Apulia fall outside).
+TALL = len(sys.argv) > 2 and sys.argv[2] == 'tall'
+LON0, LON1, LAT0, LAT1 = (12.72, 15.22, 40.72, 43.62) if TALL else (13.05, 15.55, 40.72, 41.85)
 W = 760
 KX = W / (LON1 - LON0)
-KY = KX / math.cos(math.radians((LAT0 + LAT1) / 2))
+KY = KX / math.cos(math.radians((40.72 + 41.85) / 2))   # same scale in both frames
 H = round((LAT1 - LAT0) * KY)
 
 def xy(lon, lat):
@@ -41,6 +45,8 @@ PLACES = {
     'Lautulae': (432903, 13.264, 41.324),
     'Furculae Caudinae': (432856, 14.538246, 41.031362),
     'Aufidena': (432709, 14.108223, 41.784299),
+    'Cales': (432739, 14.132125, 41.199961),
+    'Sentinum': (413312, 12.855963, 43.427013),
 }
 
 land = json.load(open(sys.argv[1]))
@@ -57,7 +63,7 @@ land_d = ' '.join(ring_d(p.exterior.coords) for p in polys if p.area > 0.0003)
 def on_land(lon, lat):
     return geoms.contains(Point(lon, lat))
 
-SEAS = {'MARE INFERVM': (13.7, 40.88)}  # the Adriatic lies north-east of this frame
+SEAS = {'MARE INFERVM': (13.3, 40.98) if TALL else (13.7, 40.88)}  # the Adriatic lies north-east of this frame
 for name, (lon, lat) in SEAS.items():
     assert not on_land(lon, lat), name
 
@@ -112,17 +118,18 @@ plistica = (f'<g><path d="M{px+60:.1f} {py+14:.1f}L{sx-4:.1f} {sy-16:.1f}" strok
 km50 = 50 / 111 * KY
 bx, by = W - 30 - round(km50), H - 22
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; Aufidena in the north; Capua, Saticula, Caudium and the Caudine Forks in the centre; Luceria in Apulia">
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Iowan Old Style, Palatino, Georgia, serif" role="img" aria-label="Map of the Samnite campaign: Sora, Lautulae and Tarracina in the west; Aufidena in the north; Capua, Saticula, Caudium and the Caudine Forks in the centre; Luceria in Apulia{'; Sentinum far to the north' if TALL else ''}">
 <rect width="{W}" height="{H}" fill="{SEA}"/>
 <path d="{land_d}" fill="{LAND}" stroke="#7a5a3a" stroke-width="1.3" fill-rule="evenodd"/>
 {''.join(glyphs)}
 {label(*SEAS['MARE INFERVM'], 'MARE INFERVM', 19)}
 {label(14.86, 41.63, 'SAMNIVM', 25, 'normal', RED, spacing='.35em')}
-{label(15.30, 41.36, 'APVLIA', 21, 'normal', RED, spacing='.3em')}
-{label(14.45, 40.83, 'CAMPANIA', 20, 'normal', RED, spacing='.3em')}
+{'' if TALL else label(15.30, 41.36, 'APVLIA', 21, 'normal', RED, spacing='.3em')}
+{label(14.12 if TALL else 14.45, 40.80 if TALL else 40.83, 'CAMPANIA', 20, 'normal', RED, spacing='.3em')}
 {label(13.08, 41.78, 'LATIVM', 20, 'normal', RED, 'start', spacing='.3em')}
 {plistica}
 {town('Sora', 10, -6)}
+{town('Sentinum', 12, 6) + town('Cales', 10, 24) + label(12.78, 42.92, 'VMBRIA', 23, 'normal', RED, 'start', spacing='.3em') + label(14.45, 43.2, 'MARE SVPERVM', 19) if TALL else ''}
 {town('Aufidena', 10, 24)}
 {town('Tarracina', 2, 28, 'start')}
 {cross('Lautulae', 22, -12, 'start', 'Lautulae')}
@@ -134,11 +141,11 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 {town('Allifae', 22, -6)}
 {town('Caudium', 10, 8, 'start')}
 {town('Maleventum', 10, -8)}
-{town('Luceria', -10, -6, 'end')}
+{'' if TALL else town('Luceria', -10, -6, 'end')}
 {cross('Furculae Caudinae', 6, 38, 'middle', 'Furculae Caudinae')}
 <g><path d="M{bx} {by}h{km50:.1f}" stroke="{INK}" stroke-width="2"/><path d="M{bx} {by-5}v10M{bx+km50:.1f} {by-5}v10" stroke="{INK}" stroke-width="2"/>
 <text x="{bx + km50/2:.1f}" y="{by-9}" text-anchor="middle" font-size="18" fill="{INK}">50 km</text></g>
 </svg>'''
-open('art/scenes/samnite-campaign.svg', 'w').write(svg)
+open('art/scenes/samnite-campaign-north.svg' if TALL else 'art/scenes/samnite-campaign.svg', 'w').write(svg)
 print('wrote', W, H, 'bounds', [LON0, LON1, LAT0, LAT1])
 print('plistica box centre %', round((px + 33) / W * 100, 1), round((py + 2) / H * 100, 1), 'size %', round(210 / W * 100, 1), round(52 / H * 100, 1))
