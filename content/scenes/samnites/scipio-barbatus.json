@@ -496,6 +496,24 @@
             "credit": "Photo: Bahnmoeller, CC BY-SA 3.0, via Wikimedia Commons; resized.",
             "credit_url": "https://commons.wikimedia.org/wiki/File:Cornelii-scipiois-vatikan-f.JPG"
           }
+        },
+        {
+          "id": "r2-tomb-photo",
+          "text": "The way down to the tomb of the Scipios on the Via Appia, near the Porta San Sebastiano, photographed in 2009. Barbatus' sarcophagus came from this tomb. The family went on using it from the third century BC to the first century AD, and the photograph's record does not date the brick walls, steps and doorway it shows; nothing in it is claimed for Barbatus' day.",
+          "cites": [
+            "Wikimedia Commons file record (Pippo-b 2009)",
+            "Pleiades 999196280",
+            "Wikimedia Commons category record (Sarcophagus of Lucius Cornelius Scipio Barbatus)"
+          ],
+          "confidence": "attested",
+          "note": "Pleiades 999196280 (Sep. Scipionum): 'A family tomb of the Cornelii Scipiones near the Porta San Sebastiano in use from the third century B.C. to the first century A.D.', read in isawnyu/pleiades.datasets places.csv; pleiades.stoa.org not opened. The Commons category record says the sarcophagus was found in the tomb in 1614–16 and again about 1782; those dates are not used.",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/scipio-tomb-entrance.jpg",
+            "alt": "A sunken path paved in stone runs between two brick walls to a few steps and a dark arched doorway set in a brick front. Trees and a garden wall stand above, and broken marble slabs lean against the right-hand wall.",
+            "credit": "Photo: Pippo-b, CC BY-SA 3.0, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Sepolcro_degli_Scipioni_001_Entrata.jpg"
+          }
         }
       ]
     },

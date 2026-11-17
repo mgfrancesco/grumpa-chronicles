@@ -47,6 +47,24 @@
           "confidence": "attested"
         },
         {
+          "id": "b1-sentinum-photo",
+          "text": "The excavated area of Sentinum, near Sassoferrato, photographed in 2015. The battle was fought somewhere in the town's territory; no source says where. The photograph's record does not date the remains under the shelters, and nothing in it is claimed for 295.",
+          "cites": [
+            "Wikimedia Commons file record (FAM1885 2015)",
+            "Pleiades 413312",
+            "Livy 10.27.1"
+          ],
+          "confidence": "attested",
+          "note": "Commons description: 'Area archeologica di Sentinum'. Pleiades 413312 places Sentinum near Sassoferrato (read in isawnyu/pleiades.datasets places.csv; pleiades.stoa.org not opened). The Commons original is only 746 × 476 px; the file here is Commons' 500 px rendering, since upload.wikimedia.org refused the original (HTTP 429) this session. Replace with the original when it can be fetched.",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/sentinum-site.jpg",
+            "alt": "Low excavated walls under modern shelters with red roofs, in a grassy field; a few columns stand under the farther shelter. Fields and wooded hills rise behind.",
+            "credit": "Photo: FAM1885, CC BY-SA 4.0, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Sentinum.jpg"
+          }
+        },
+        {
           "id": "b1-2",
           "text": "The consuls Q. Fabius and P. Decius have crossed the Apennines and camped about four miles from you. They bring four legions, a strong Roman cavalry, a thousand picked Campanian horse, and an army of allies and Latins larger than the Roman. Two more Roman armies stand facing Etruria, not far from Rome, in Faliscan and in Vatican land.",
           "cites": [
@@ -258,6 +276,22 @@
             "Livy 10.27.6"
           ],
           "confidence": "attested"
+        },
+        {
+          "id": "b2-helmet-photo",
+          "text": "A bronze helmet of the Montefortino type, in the Metropolitan Museum of Art (2015.758.1). The museum's record calls it Etruscan and dates it to the late fourth or early third century BC, the time of this battle. It gives no findspot.",
+          "cites": [
+            "Wikimedia Commons file record (Metropolitan Museum of Art DP701213)"
+          ],
+          "confidence": "attested",
+          "note": "From the Met's data as mirrored on the Commons file page (title, culture 'Etruscan', date 'late 4th–early 3rd century B.C.', bronze, H. 17.8 cm, accession 2015.758.1, gift of Malcolm H. Wiener, 2015; place of discovery blank). The Met's own object page (metmuseum.org/art/collection/search/684492) could not be opened this session.",
+          "figure": {
+            "kind": "photo",
+            "src": "art/photos/met-montefortino-helmet.jpg",
+            "alt": "A plain bronze helmet, green with corrosion, shaped like a rounded bell with a small knob on top and fine ridges around the lower rim, on a museum stand against a grey background.",
+            "credit": "Photo: Metropolitan Museum of Art, CC0, via Wikimedia Commons; resized.",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Helmet_of_the_Montefortino_Type_MET_DP701213.jpg"
+          }
         },
         {
           "id": "b2-2",
