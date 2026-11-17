@@ -121,7 +121,7 @@ h2 { font-size: 1.15em; margin: 1.6em 0 .5em; font-variant: small-caps; letter-s
 .scene-head { display: flex; gap: 14px; align-items: center; margin: 4px 0 8px; }
 .scene-head .portrait svg { width: 76px; }
 .draft-banner { background: #fff3cd; border: 1px solid #e0c36a; color: #5c4a10; padding: 8px 12px; border-radius: 8px; font-size: .85em; }
-.step { border-top: 1px solid var(--rule); padding-top: 12px; margin-top: 20px; scroll-margin-top: 12px; }
+.step { border-top: 1px solid var(--rule); padding-top: 12px; margin-top: 20px; scroll-margin-top: calc(12px + env(safe-area-inset-top)); }
 .speaker { font-size: .78em; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; font-weight: 600; }
 .block { margin: 0 0 14px; }
 .block p { margin: 0 0 4px; }
