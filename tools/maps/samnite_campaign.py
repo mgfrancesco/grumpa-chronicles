@@ -106,6 +106,46 @@ def label(lon, lat, text, size=19, style='italic', fill=INK, anchor='middle', sp
     x, y = xy(lon, lat)
     return f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" font-size="{size}" font-style="{style}" letter-spacing="{spacing}" fill="{fill}">{text}</text>'
 
+# The tall frame only: neighbours of the campaign, in grey, so the stretch north of Samnium is not blank.
+# Towns and peoples from Pleiades (id, lon, lat); a people's name stands beside its Pleiades point, offset to clear towns.
+NORTH_TOWNS = {
+    'Alba Fucens': (413005, 13.411179, 42.079904, 10, -8, 'start'),
+    'Carsioli': (432760, 13.065479, 42.089047, 0, 28, 'middle'),
+    'Corfinium': (413105, 13.839047, 42.121989, 10, 22, 'start'),
+    'Teate': (413333, 14.165974, 42.344653, 10, -6, 'start'),
+    'Histonium': (413171, 14.709616, 42.112716, -10, -8, 'end'),
+    'Amiternum': (413013, 13.306221, 42.400467, 10, -8, 'start'),
+    'Reate': (413283, 12.861183, 42.403067, 10, 22, 'start'),
+    'Nursia': (413229, 13.096435, 42.794246, 10, -8, 'start'),
+    'Spoletium': (413320, 12.73839, 42.745301, 10, 24, 'start'),
+    'Asculum': (413036, 13.574951, 42.855397, 10, -8, 'start'),
+    'Camerinum': (413060, 13.068764, 43.140369, 10, -8, 'start'),
+}
+NORTH_PEOPLES = {
+    'AEQVI': (422822, 13.16497, 42.021593, 0, -34),
+    'MARSI': (413191, 13.54271, 41.949408, 0, 22),
+    'PAELIGNI': (413240, 13.857403, 42.150432, 30, 62),
+    'VESTINI': (413376, 13.716327, 42.33789, 0, 0),
+    'MARRVCINI': (413190, 14.107789, 42.287881, 40, 36),
+    'FRENTANI': (432849, 14.689598, 42.011917, -40, 44),
+    'PRAETVTTII': (413273, 13.798163, 42.780847, -10, 44),
+    'PICENVM': (413253, 13.508103, 43.331304, 0, 0),
+}
+GREY = '#7a6a58'
+def north():
+    out = []
+    for lon, lat in ((13.3, 43.0), (13.42, 42.62), (13.62, 42.52), (13.3, 41.85), (12.95, 42.6)):
+        for dlon, dlat in ((0, 0), (0.07, 0.025), (-0.06, 0.03)):
+            if on_land(lon + dlon, lat + dlat): out.append(mountain(lon + dlon, lat + dlat, 1.1))
+    for name, (_, lon, lat, dx, dy, anchor) in NORTH_TOWNS.items():
+        x, y = xy(lon, lat)
+        out.append(f'<g><rect x="{x-4:.1f}" y="{y-4:.1f}" width="8" height="8" fill="{GREY}"/>'
+                   f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" text-anchor="{anchor}" font-size="19" fill="{GREY}">{name}</text></g>')
+    for name, (_, lon, lat, dx, dy) in NORTH_PEOPLES.items():
+        x, y = xy(lon, lat)
+        out.append(f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" text-anchor="middle" font-size="19" letter-spacing=".22em" fill="#b06a55">{name}</text>')
+    return ''.join(out)
+
 # Plistica: unlocated. A dashed box with a dashed leader towards Saticula, never a point.
 sx, sy = xy(*PLACES['Saticula'][1:])
 PLISTICA_BOX = (13.86, 41.47)   # label position only; Plistica has no known site
@@ -129,7 +169,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 {label(13.08, 41.78, 'LATIVM', 20, 'normal', RED, 'start', spacing='.3em')}
 {plistica}
 {town('Sora', 10, -6)}
-{town('Sentinum', 12, 6) + town('Cales', 10, 24) + label(12.78, 42.92, 'VMBRIA', 23, 'normal', RED, 'start', spacing='.3em') + label(14.45, 43.2, 'MARE SVPERVM', 19) if TALL else ''}
+{north() + town('Sentinum', 12, 6) + town('Cales', 10, 24) + label(12.78, 42.92, 'VMBRIA', 23, 'normal', RED, 'start', spacing='.3em') + label(14.45, 43.2, 'MARE SVPERVM', 19) if TALL else ''}
 {town('Aufidena', 10, 24)}
 {town('Tarracina', 2, 28, 'start')}
 {cross('Lautulae', 22, -12, 'start', 'Lautulae')}
