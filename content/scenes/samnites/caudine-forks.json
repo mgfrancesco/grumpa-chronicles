@@ -15,7 +15,7 @@
   "verified": {
     "by": "checker agent, two passes",
     "date": "2026-11-15",
-    "notes": "Voice pass (15 Nov 2026, checker agent, three passes): briefs, consequences and kind_notes rewritten in the scene's voice per CLAUDE.md; ids and confidence unchanged; cites unchanged except Livy 9.9.14 added to d1-envoys-1. Checker compared old and new wording for claims made stronger than the source, and checked Appian, Samn. 4 (Perseus grc2, Mendelssohn) as the other full narrative; Dio and Zonaras could not be opened. Hedges kept in the scene's voice: Herennius' reasons and the council's rejection of the middle course 'it is said', after Livy 9.3.8 dicitur advectus… ita ferme locutus, and placed later, at the camp, not at the letter (d1-yoke-1 was wrong on this in the first draft); r1-1 'it is said' restored for the wagon; b3-4 'the account says nothing of you at this tribunal'. d1-envoys-1 now gives Postumius' next sentence (9.9.14 neque vos tulissetis nec nos spopondissemus: the Senate would not have let it pass, nor would he and the other sponsors have pledged it), so d1-envoys-2 no longer says no source answers. New card card-appian-herennius gives Appian's version as a named position: no letters, the consuls already surrendered (4.2), both counsels given at once with release preferred (4.3), the middle course the son's own with equites held as hostages until the people ratifies (4.4), the old man weeping and driving home (4.5); Appian does not name him. Greek quotation from Mendelssohn, English and Italian ours. Final pass confirmed all. Restructure pass (15 Nov 2026, checker agent, three passes): trimmed for play; moved verbatim into new cards card-nola-tomb, card-roman-camp, card-pontius-precedents (b1-nola, r1-3, r1-6, r2-2), b1-map into card-where; reworded b1-2, r1-3 ('Pontius's terms'), r2-1 (release, Livy 9.11.13), r2-2 ('Pontius listed'); new decision outcomes d1-outcome, d2-outcome. Checker found the trim had removed the sponsio (r1-4, restored to r1) and the release of the sponsors (restored in r2-1); all fixes confirmed against Livy lat3. First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only. Figures (roads map, trap diagram, yoke, Cicero photo) checked in two further passes: Beneventum relabelled Maleventum (Livy 9.27.14); no road drawn beyond the Forks; rear barrier drawn generically per 9.2.10; Cicero date follows the museum (mid-1st c. BC), CC0 photo licence confirmed via a Commons mirror. Photo pass (13 Nov 2026, two checker passes): Nola-Cimitile painting, Getty cuirass 96.AC.232.b, Daniele 1778 plan and Tav. II, Arpaia photo, and Cicero now served from art/photos/. Checked against Carroll 2025 (pp. 136, 140–147), the Getty linked-data record, Livy 8.22.8, 8.23.1, 9.2.2–8, 9.4.3, 9.5.12–13, 9.42.6–7, the plate legends and the Commons licence pages. Fixed: Palaepolis garrison 327 not 326; Carroll's p. 147 reading of 'singulis vestimentis' replaces a comparison wrongly called ours; Symes not called a dealer; Pietrabbondante 'some of the pieces'; de Laurentiis credited as a Commons attribution (plate unsigned). Nola inventory given as 9363 on Matthew's decision (Wikidata and Commons categories 9363, one Commons filename 9364; MANN catalogue not reachable). Daniele's title and date rest on Commons metadata; the Heidelberg copy was not reachable. Cicero licence now confirmed on Commons directly."
+    "notes": "Final review (17 Nov 2026, checker agent on Fable, 62 blocks, 3 drawings and 9 quotations, sources reopened): no errors; eight small fixes (d1-outcome's cite, 'by now' for iam at 9.3.5, the 600 equites marked as Livy's figure, Cicero's 'people and Senate', the envoys tag narrowed to Livy and Appian, b1-1 reworded, drawing footers to 19 px). Perseus lat3 numbers 9.3.4–13 one low; the scene follows Weissenborn–Müller. Not reopened: Salmon 1929, Horsfall 1982, Carroll 2025, museum records and photo licences. Voice pass (15 Nov 2026, checker agent, three passes): briefs, consequences and kind_notes rewritten in the scene's voice per CLAUDE.md; ids and confidence unchanged; cites unchanged except Livy 9.9.14 added to d1-envoys-1. Checker compared old and new wording for claims made stronger than the source, and checked Appian, Samn. 4 (Perseus grc2, Mendelssohn) as the other full narrative; Dio and Zonaras could not be opened. Hedges kept in the scene's voice: Herennius' reasons and the council's rejection of the middle course 'it is said', after Livy 9.3.9 dicitur advectus… ita ferme locutus, and placed later, at the camp, not at the letter (d1-yoke-1 was wrong on this in the first draft); r1-1 'it is said' restored for the wagon; b3-4 'the account says nothing of you at this tribunal'. d1-envoys-1 now gives Postumius' next sentence (9.9.14 neque vos tulissetis nec nos spopondissemus: the Senate would not have let it pass, nor would he and the other sponsors have pledged it), so d1-envoys-2 no longer says no source answers. New card card-appian-herennius gives Appian's version as a named position: no letters, the consuls already surrendered (4.2), both counsels given at once with release preferred (4.3), the middle course the son's own with equites held as hostages until the people ratifies (4.4), the old man weeping and driving home (4.5); Appian does not name him. Greek quotation from Mendelssohn, English and Italian ours. Final pass confirmed all. Restructure pass (15 Nov 2026, checker agent, three passes): trimmed for play; moved verbatim into new cards card-nola-tomb, card-roman-camp, card-pontius-precedents (b1-nola, r1-3, r1-6, r2-2), b1-map into card-where; reworded b1-2, r1-3 ('Pontius's terms'), r2-1 (release, Livy 9.11.13), r2-2 ('Pontius listed'); new decision outcomes d1-outcome, d2-outcome. Checker found the trim had removed the sponsio (r1-4, restored to r1) and the release of the sponsors (restored in r2-1); all fixes confirmed against Livy lat3. First pass found 12 errors and 2 incomplete blocks; second pass confirmed the fixes and corrected the 9.6.6 textual note. Latin checked against Perseus lat2 (Weissenborn–Müller), lat3 (Conway–Walters) and lat4; OCR typos ignored. Livy 9.6.6: manuscripts 'fasces lictores' (Roberts), Weissenborn–Müller 'fasces lictoribus', Conway–Walters after Hertz delete; the scene avoids the disputed words. Cicero Off. 3.109: Perseus prints 'Nurnicius', an OCR error; Miller's Loeb reads Numicius. Roberts 1912 prints 'Claudium' for Caudium at 9.5.2; corrected in our English, and his sentence is truncated after 'sponsio'. Salmon 1929 and Horsfall 1982 read through their visible abstracts and footnotes only. Figures (roads map, trap diagram, yoke, Cicero photo) checked in two further passes: Beneventum relabelled Maleventum (Livy 9.27.14); no road drawn beyond the Forks; rear barrier drawn generically per 9.2.10; Cicero date follows the museum (mid-1st c. BC), CC0 photo licence confirmed via a Commons mirror. Photo pass (13 Nov 2026, two checker passes): Nola-Cimitile painting, Getty cuirass 96.AC.232.b, Daniele 1778 plan and Tav. II, Arpaia photo, and Cicero now served from art/photos/. Checked against Carroll 2025 (pp. 136, 140–147), the Getty linked-data record, Livy 8.22.8, 8.23.1, 9.2.2–8, 9.4.3, 9.5.12–13, 9.42.6–7, the plate legends and the Commons licence pages. Fixed: Palaepolis garrison 327 not 326; Carroll's p. 147 reading of 'singulis vestimentis' replaces a comparison wrongly called ours; Symes not called a dealer; Pietrabbondante 'some of the pieces'; de Laurentiis credited as a Commons attribution (plate unsigned). Nola inventory given as 9363 on Matthew's decision (Wikidata and Commons categories 9363, one Commons filename 9364; MANN catalogue not reachable). Daniele's title and date rest on Commons metadata; the Heidelberg copy was not reachable. Cicero licence now confirmed on Commons directly."
   },
   "sources": {
     "Livy": {
@@ -67,7 +67,7 @@
       "blocks": [
         {
           "id": "b1-1",
-          "text": "Samnium, 321 BC. Your son, C. Pontius, commands the Samnite army this year. He is the son of by far the wisest of fathers, and himself the foremost soldier and general of his people.",
+          "text": "Samnium, 321 BC. Your son, C. Pontius, commands the Samnite army this year. You are held to be by far the wisest man of your people; he is their foremost soldier and general.",
           "cites": [
             "Livy 9.1.2"
           ],
@@ -131,7 +131,7 @@
         },
         {
           "id": "b2-2",
-          "text": "You have long since withdrawn from military and civil office. Age has weakened your body, but not the force of your mind and judgement.",
+          "text": "You have by now withdrawn from military and civil office. Age has weakened your body, but not the force of your mind and judgement.",
           "cites": [
             "Livy 9.3.5"
           ],
@@ -248,7 +248,7 @@
           "id": "envoys",
           "label": "Hold them in the valley under truce, and send envoys to Rome to make a treaty with the Senate and people.",
           "kind": "counterfactual",
-          "kind_note": "No one at Caudium is recorded proposing this",
+          "kind_note": "Neither Livy nor Appian has anyone at Caudium propose this",
           "consequence": [
             {
               "id": "d1-envoys-1",
@@ -272,7 +272,6 @@
         "id": "d1-outcome",
         "text": "Pontius took neither of his father's answers. He spared the Romans, dictated terms and sent them under the yoke.",
         "cites": [
-          "Livy 9.3.12",
           "Livy 9.4.1–5",
           "Livy 9.6.1–2"
         ],
@@ -310,7 +309,7 @@
         },
         {
           "id": "r1-4",
-          "text": "The consuls told Pontius that no foedus could be made without the people's order and the fetiales. So the consuls, legates, quaestors and military tribunes gave a sponsio, and 600 equites were demanded as hostages and handed over first.",
+          "text": "The consuls told Pontius that no foedus could be made without the people's order and the fetiales. So the consuls, legates, quaestors and military tribunes gave a sponsio, and equites, 600 by Livy's count, were demanded as hostages and handed over first.",
           "cites": [
             "Livy 9.5.1–5",
             "Livy 9.5.12"
@@ -568,7 +567,7 @@
         },
         {
           "id": "card-cicero-version-1",
-          "text": "Cicero tells the story as a case of duty against expediency. He says the consuls were surrendered because they had made the peace without the people's order, and names the tribunes of the plebs surrendered with them, on whose authority the peace was made, as Ti. Numicius and Q. Maelius. In Livy the tribunes are L. Livius and Q. Maelius; they first protest that they cannot be surrendered, then resign office and are handed over with the rest.",
+          "text": "Cicero tells the story as a case of duty against expediency. He says the consuls were surrendered because they had made the peace without the order of the people and the Senate, and names the tribunes of the plebs surrendered with them, on whose authority the peace was made, as Ti. Numicius and Q. Maelius. In Livy the tribunes are L. Livius and Q. Maelius; they first protest that they cannot be surrendered, then resign office and are handed over with the rest.",
           "cites": [
             "Cicero, De officiis 3.109",
             "Livy 9.8.13–15",

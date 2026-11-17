@@ -114,7 +114,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-fam
 {label(15.08, 41.34, 'the short road,', 21, 'italic', RED, 'start', '0')}
 {label(15.08, 41.34, 'on to Luceria', 21, 'italic', RED, 'start', '0').replace('y="', 'dy="24" y="')}
 <g><path d="M{sx} {sy}h{km50:.1f}" stroke="{INK}" stroke-width="2"/><path d="M{sx} {sy-5}v10M{sx+km50:.1f} {sy-5}v10" stroke="{INK}" stroke-width="2"/>
-<text x="{sx + km50/2:.1f}" y="{sy-9}" text-anchor="middle" font-size="18" fill="{INK}">50 km</text></g>
+<text x="{sx + km50/2:.1f}" y="{sy-9}" text-anchor="middle" font-size="19" fill="{INK}">50 km</text></g>
 </svg>'''
 open('art/scenes/caudine-roads.svg', 'w').write(svg)
 print('wrote', W, H)
